@@ -1,0 +1,51 @@
+{
+  "pdf_path": "pdfs\\10026227_20251212_121917_nicholas diabetes.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 94.19135284423828,
+      "y_max": 101.7913818359375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sep",
+          "Oct",
+          "Sale",
+          "Other.",
+          "BAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8536363636363636
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=9 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=9 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

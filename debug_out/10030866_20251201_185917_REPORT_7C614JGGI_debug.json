@@ -1,0 +1,175 @@
+{
+  "pdf_path": "pdfs\\10030866_20251201_185917_REPORT_7C614JGGI.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.5760066666666667,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.7833333333333333,
+      "data_validation_score": 0.7466999999999999,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5817333333333334,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.6920000000000001,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "DESCRIPTION",
+    "Op",
+    "RECEIPT",
+    "ISSUE",
+    "Closing"
+  ],
+  "confidence": 0.8317333333333333,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.7916666666666666,
+    "data_validation_score": 0.6920000000000001,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing"
+    ],
+    "per_page": [
+      [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS",
+        "ANALYSIS"
+      ],
+      [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.75936
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7260066666666667
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7817333333333334
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=10 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=7 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing"
+    ],
+    "data_column_count_detected": 7,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

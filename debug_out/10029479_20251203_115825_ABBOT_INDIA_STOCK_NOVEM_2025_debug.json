@@ -1,0 +1,208 @@
+{
+  "pdf_path": "pdfs\\10029479_20251203_115825_ABBOT INDIA STOCK NOVEM 2025.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 217.62669372558594,
+      "y_max": 229.63270568847656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 153.56370544433594,
+      "y_max": 165.56971740722656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 153.56370544433594,
+      "y_max": 165.56971740722656,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=10"
+    },
+    {
+      "page_no": 3,
+      "y_min": 89.21727752685547,
+      "y_max": 101.22327423095703,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "GRAND",
+        "Tot"
+      ],
+      "combined_confidence": 0.275,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "GRAND",
+    "Tot"
+  ],
+  "confidence": 0.275,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.7749999999999999,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "GRAND",
+      "TOTAL"
+    ],
+    "normalized": [
+      "GRAND",
+      "Tot"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "274139",
+      "317778",
+      "591917",
+      "443477",
+      "0",
+      "189603",
+      "6709"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.275,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 0.16000000000000003,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.42400000000000004,
+      "evidence_before_penalties": 0.42400000000000004
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Shortage",
+          "Closing",
+          "Near"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7918666666666667
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Shortage",
+          "Closing",
+          "Near"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7991354838709679
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Shortage",
+          "Closing",
+          "Near"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.7868437500000001
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "GRAND",
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.675
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=10 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=15 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=10 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=3 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=3 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "GRAND",
+      "Tot"
+    ]
+  }
+}

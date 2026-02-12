@@ -1,0 +1,128 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                                               ) Tj
+T* (                                TIRUPATHI PHARMA                                                                     ) Tj
+T* (                                                                                                                               ) Tj
+T* (                              6384346356 - 605013                                                                    ) Tj
+T* (                                                                                                                               ) Tj
+T* (Stock & Sales Report From 01/12/2025 To 31/12/2025                                                                  ) Tj
+T* (Company Name : ABBOTT -SPECTRA DIV - VADAPERUMPAKKAM, NO.68/2, GROUND FLOOR,                                                   ) Tj
+T* (===============================================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur PFree      Sale     SFree SRet    Repl CurStk    StkVal OrdQt    SalVal ) Tj
+T* (===============================================================================================================================) Tj
+T* (1   CLOZAM-10 TAB             10`S        0        10     -         -         -    -       -     10    720.70     -      0.00 ) Tj
+T* (2   CLOZAM-5MG TAB            10`S        0        10     -         -         -    -       -     10    419.60     -      0.00 ) Tj
+T* (3   EPILEX CHRONO-200 TAB     15`S        0        10     -         -         -    -       -     10    990.50     -      0.00 ) Tj
+T* (4   EPILEX CHRONO-300 TAB     15`S       20        60     -         4         -    -       -     76   5074.52     -    281.05 ) Tj
+T* (5   EPILEX CHRONO-500 TAB     15`S       10         -     -         2         -    -       -      8    801.76     -    213.81 ) Tj
+T* (6   EPILEX ORAL SOLN          200`ML     19        90     -         2         -    -       -    107  10144.80     -    199.68 ) Tj
+T* (7   LIBRIUM-10 MG             15`S      385       490     -       350         -    -       -    525  57619.10     -  32885.58 ) Tj
+T* (8   LIBRIUM-25 MG             15`S      208       150     -       180         -    -       -    178  29499.30    92  25831.03 ) Tj
+T* (9   MAZETOL SR-200 TAB        15`S      100       100     -         -         -    -       -    200   5226.00     -      0.00 ) Tj
+T* (10  MAZETOL-200 MG            10`S      168         -     -        27         -    -       -    141   1593.30     -    323.17 ) Tj
+T* (11  RIVMD SMART-0.25MG--30`S  30`S        0        30     -         -         -    -       -     30   1325.10     -      0.00 ) Tj
+T* (12  RIVMD SMART-0.5MG---30`S  30`S        0        30     -         -         -    -       -     30   2274.30     -      0.00 ) Tj
+T* (13  RIVOTRIL TAB---0.25 TAB   1`S         0         -     -         -         -    -       -      0         -     -      0.00 ) Tj
+T* (14  RIVOTRIL TAB---0.5 TAB    15`S        0         -     -         -         -    -       -      0         -     -      0.00 ) Tj
+T* (15  RIVOTRIL-2MG TAB          15`S        0         -     -         -         -    -       -      0         -     -      0.00 ) Tj
+T* (16  SZETALO PLUS MD           10`S       20         -     -         4         -    -       -     16   2183.20     -    563.99 ) Tj
+T* (17  SZETALO PLUS TAB          15`S       20       110     -         -         -    -       -    130  33338.90     -      0.00 ) Tj
+T* (18  SZETALO PLUS-5 TAB--15`S  15`S        0        20     -         -         -    -       -     20   1465.20     -      0.00 ) Tj
+T* (19  SZETALO-10MG TAB--15`S    15`S        0        50     -         -         -    -       -     50   4944.50     -      0.00 ) Tj
+T* (20  SZETALO-5MG TAB--15`S     15`S        0        50     -         -         -    -       -     50   2757.50     -      0.00 ) Tj
+T* (-------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                               950      1210     -       569         -    -       -   1591         -     -         - ) Tj
+T* (-------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:    91587.70 Purc.Value: :   138041.80 Sales Value::    60298.31                                                   ) Tj
+T* (Cl.Stk Val:    160378.28 Pur.RetVal ::        0.00 SalRet Val: :        0.00                                                   ) Tj
+T* (Nov Sal:          568.00 Oct Sal:    :     2014.00 NetSal\(GVal\):    60298.31                                                 ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:        0.00                                                   ) Tj
+T* (                                                                                                                               ) Tj
+T* (                                       *** END OF REPORT ***                                                                   ) Tj
+T* (                                                                                                                               ) Tj
+ET
+endstream
+endobj
+9 0 obj
+3645
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 750 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000004211 00000 n
+0000004290 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000004188 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+4383
+%%EOF

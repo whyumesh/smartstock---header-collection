@@ -1,0 +1,54 @@
+{
+  "pdf_path": "pdfs\\10001902_20260102_205851_abbott asha div.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.35065460205078,
+      "y_max": 67.53007507324219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From",
+          "Sales",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8583726273726273
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=8 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=8 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

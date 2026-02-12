@@ -1,0 +1,131 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                           ) Tj
+T* (                                  KENT PHARMA                                                    ) Tj
+T* (                                                                                                           ) Tj
+T* (                                CHENNAI. - 600003                                                ) Tj
+T* (                                                                                                           ) Tj
+T* (Stock & Sales Report From 01/12/2025 To 31/12/2025                                              ) Tj
+T* (Company Name : ABBOTT DUPHALAC - .                                                                         ) Tj
+T* (===========================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur PFree  PurRet      Sale     SFree OthFr SRet CurStk ) Tj
+T* (===========================================================================================================) Tj
+T* (1   DIRIFA 200MG              10`S        9         -     -       -         9         -     -    -      0 ) Tj
+T* (2   DIRIFA 550MG              10`S        0       100    50       -         -         -     -    -    150 ) Tj
+T* (3   DUPHALAC 150ML BOTTLE     150 ML    493       500     -       -       639         3     -    -    351 ) Tj
+T* (4   DUPHALAC 250 ML           250 ML     42         -     -       -        17         -     -    -     25 ) Tj
+T* (5   DUPHALAC 450ML            450ML       9         -     -       -         5         -     -    -      4 ) Tj
+T* (6   DUPHALAC BULK 160ML       1 BOT      10         -     -       -         3         -     -    -      7 ) Tj
+T* (7   DUPHALAC RAPID 275ML      275ML      68        60     -       -        68         -     -    -     60 ) Tj
+T* (8   ELDICET 50MG              15`S      174       200    20       -       160        16     -    -    221 ) Tj
+T* (9   ELDICET TAB               10          4         -     -       -         -         -     -    -      4 ) Tj
+T* (10  GANATON 50MG              1X10`S    183       120     -       -       132         -     -    -    171 ) Tj
+T* (11  GANATON OD -150MG         1X10`S     19         -     -       -         -         -     -    4     23 ) Tj
+T* (12  GANATON TOTAL             1X10`S     73        60     -       -        88         -     -   31     76 ) Tj
+T* (-----------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                              1084      1040    70       -      1121        19     -   35   1092 ) Tj
+T* (-----------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:   219263.86 Purc.Value: :   239026.58 Sales Value::   237674.33                               ) Tj
+T* (Cl.Stk Val:    246833.50 Pur.RetVal ::        0.00 SalRet Val: :    11844.41                               ) Tj
+T* (                                     :             NetSal\(GVal\):   225829.92                             ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:        0.00                               ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (Non Moving items Report Non Move Days > 90                                                                 ) Tj
+T* (========================================================================================                   ) Tj
+T* (Prod.Name                 Packing    Batch      Qty       Days                                             ) Tj
+T* (========================================================================================                   ) Tj
+T* (Company Name : ABBOTT DUPHALAC                                                                             ) Tj
+T* (DIRIFA 550MG              10`S       UC01359    100       306                                              ) Tj
+T* (----------------------------------------------------------------------------------------                   ) Tj
+T* (                                                                                                           ) Tj
+T* (                                       *** END OF REPORT ***                                               ) Tj
+T* (                                                                                                           ) Tj
+ET
+endstream
+endobj
+9 0 obj
+3915
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 750 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000004481 00000 n
+0000004560 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000004458 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+4653
+%%EOF

@@ -1,0 +1,180 @@
+{
+  "pdf_path": "pdfs\\10035025_20260101_114803_ABBOTT NOVO NORDISK.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.82671356201172,
+      "y_max": 105.66633605957031,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 20.63658905029297,
+      "y_max": 28.476213455200195,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "OctIIL",
+        "NovILa",
+        "Sales",
+        "CurStk",
+        "Sale",
+        "Age",
+        "Stock",
+        "Sales"
+      ],
+      "combined_confidence": 0.43333766233766235,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.7416883116883117,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "OctIIL",
+    "NovILa",
+    "Sales",
+    "CurStk",
+    "Sale",
+    "Age",
+    "Stock",
+    "Sales"
+  ],
+  "confidence": 0.43333766233766235,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.85,
+    "data_validation_score": 0.7416883116883117,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ProductName",
+      "Pack",
+      "Opstk",
+      "Pur",
+      "OctIIL",
+      "NovILa",
+      "Sales",
+      "CurStk",
+      "SaleVa",
+      "Age",
+      "StockVal",
+      "Sales"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "OctIIL",
+      "NovILa",
+      "Sales",
+      "CurStk",
+      "Sale",
+      "Age",
+      "Stock",
+      "Sales"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=12"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.43333766233766235,
+      "evidence_scores": {
+        "keyword_score": 0.7692307692307693,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7416883116883117,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.8277297702297702,
+      "evidence_before_penalties": 0.8277297702297702
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "OctIIL",
+          "NovILa",
+          "Sales",
+          "CurStk",
+          "Sale",
+          "Age",
+          "Stock",
+          "Sales"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8333376623376624
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GRN",
+          "Date",
+          "GRN",
+          "Batch No",
+          "Invoice No",
+          "Invoice Date",
+          "Invoice No"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7973809523809525
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=7 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=5 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "OctIIL",
+      "NovILa",
+      "Sales",
+      "CurStk",
+      "Sale",
+      "Age",
+      "Stock",
+      "Sales"
+    ]
+  }
+}

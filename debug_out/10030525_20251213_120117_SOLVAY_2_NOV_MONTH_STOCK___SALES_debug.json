@@ -1,0 +1,76 @@
+{
+  "pdf_path": "pdfs\\10030525_20251213_120117_SOLVAY 2 NOV MONTH STOCK & SALES.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=18"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "14912.82",
+          "14912.82",
+          "12521.08",
+          "12521.08",
+          "42813.00",
+          "42813.00",
+          "12114.48",
+          "12114.48",
+          "5632.00",
+          "5632.00",
+          "87993.38",
+          "87993.38",
+          "61287.06",
+          "61287.06",
+          "25703.20",
+          "25703.20",
+          "28313.60",
+          "28313.60",
+          "4753.54",
+          "4753.54",
+          "2031.48",
+          "2031.48",
+          "34397.79",
+          "34397.79",
+          "13240.80",
+          "13240.80",
+          "77499.15",
+          "77499.15",
+          "9883.62",
+          "9883.62",
+          "31544.52",
+          "31544.52"
+        ],
+        "data_column_count_detected": 23,
+        "combined_confidence": 0.7603236227824464
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=36 data=23 diff=13",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=36 data=23 diff=13"
+          }
+        }
+      }
+    ]
+  }
+}

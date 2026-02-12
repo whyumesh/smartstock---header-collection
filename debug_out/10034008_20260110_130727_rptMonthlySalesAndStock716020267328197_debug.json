@@ -1,0 +1,144 @@
+{
+  "pdf_path": "pdfs\\10034008_20260110_130727_rptMonthlySalesAndStock716020267328197.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 280.0,
+      "y_max": 306.67999267578125,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Closing",
+        "PTR",
+        "8151.00",
+        "66301.56",
+        "66301.56"
+      ],
+      "combined_confidence": 0.5012516108452951,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7999999999999999,
+      "semantic_score": 0.76,
+      "data_validation_score": 0.6212580542264753,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "Closing",
+    "PTR",
+    "8151.00",
+    "66301.56",
+    "66301.56"
+  ],
+  "confidence": 0.5012516108452951,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.7999999999999999,
+    "semantic_score": 0.76,
+    "data_validation_score": 0.6212580542264753,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Closing",
+      "(PTR)",
+      "8151.00",
+      "66301.56",
+      "66301.56"
+    ],
+    "normalized": [
+      "Closing",
+      "PTR",
+      "8151.00",
+      "66301.56",
+      "66301.56"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 5,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=5"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.5012516108452951,
+      "evidence_scores": {
+        "keyword_score": 0.4,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6212580542264753,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7053145135566189,
+      "evidence_before_penalties": 0.7053145135566189
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Amount",
+          "Amount",
+          "5763.28",
+          "5763.28",
+          "6251.29",
+          "6251.29",
+          "1356.66",
+          "1356.66",
+          "3681.62",
+          "3681.62",
+          "91.61"
+        ],
+        "data_column_count_detected": 28,
+        "combined_confidence": 0.7054283272283273
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Closing",
+          "PTR",
+          "8151.00",
+          "66301.56",
+          "66301.56"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7012516108452951
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=28 diff=15",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=28 diff=15"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Closing",
+      "PTR",
+      "8151.00",
+      "66301.56",
+      "66301.56"
+    ]
+  }
+}

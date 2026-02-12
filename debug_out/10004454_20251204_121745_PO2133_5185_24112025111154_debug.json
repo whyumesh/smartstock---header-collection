@@ -1,0 +1,74 @@
+{
+  "pdf_path": "pdfs\\10004454_20251204_121745_PO2133_5185_24112025111154.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 171.00250244140625,
+      "y_max": 181.05551147460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 111.7511978149414,
+      "y_max": 124.04000854492188,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=4"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "S.No",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Scheme",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8408571428571429
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Order",
+          "Order",
+          "No"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6945943104514534
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=7 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=5 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=3 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=7 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

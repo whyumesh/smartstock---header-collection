@@ -1,0 +1,183 @@
+{
+  "pdf_path": "pdfs\\10034008_20260110_130727_rptMonthlySalesAndStock7160202673324383.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Closing",
+        "Closing",
+        "PTR",
+        "76266.91",
+        "76266.91",
+        "76266.91"
+      ],
+      "combined_confidence": 0.549463492063492,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.7999999999999999,
+      "data_validation_score": 0.5723174603174603,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Closing",
+    "Closing",
+    "PTR",
+    "76266.91",
+    "76266.91",
+    "76266.91"
+  ],
+  "confidence": 0.549463492063492,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.7999999999999999,
+    "data_validation_score": 0.5723174603174603,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Closing",
+      "Closing",
+      "(PTR)",
+      "76266.91",
+      "76266.91",
+      "76266.91"
+    ],
+    "normalized": [
+      "Closing",
+      "Closing",
+      "PTR",
+      "76266.91",
+      "76266.91",
+      "76266.91"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Closing",
+        "into": "Closing",
+        "interval_idx": 1
+      },
+      {
+        "split": "Closing",
+        "into": "Closing",
+        "interval_idx": 2
+      },
+      {
+        "split": "76266.91",
+        "into": "76266.91",
+        "interval_idx": 4
+      },
+      {
+        "split": "76266.91",
+        "into": "76266.91",
+        "interval_idx": 5
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=6"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.549463492063492,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.5723174603174603,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7180793650793652,
+      "evidence_before_penalties": 0.7180793650793652
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "19221.80",
+          "19221.80",
+          "9758.76",
+          "9758.76",
+          "4170.00",
+          "4170.00",
+          "10382.12",
+          "10382.12",
+          "5528.74",
+          "5528.74",
+          "5439.92",
+          "5439.92",
+          "5420.36",
+          "5420.36",
+          "3536.10",
+          "3536.10",
+          "2375.60",
+          "2375.60",
+          "6049.96",
+          "6049.96",
+          "3149.85"
+        ],
+        "data_column_count_detected": 27,
+        "combined_confidence": 0.7200092165898617
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "76266.91",
+          "76266.91",
+          "76266.91"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.749463492063492
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=25 data=27 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=25 data=27 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Closing",
+      "Closing",
+      "PTR",
+      "76266.91",
+      "76266.91",
+      "76266.91"
+    ]
+  }
+}

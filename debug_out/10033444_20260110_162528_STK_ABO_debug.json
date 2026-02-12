@@ -1,0 +1,134 @@
+{
+  "pdf_path": "pdfs\\10033444_20260110_162528_STK_ABO.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 112.21143341064453,
+      "y_max": 122.80498504638672,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Particulars",
+        "Pkg.",
+        "Op",
+        "Purchase",
+        "Sales",
+        "Sales",
+        "Misc.",
+        "Cl",
+        "Closing",
+        "Sales"
+      ],
+      "combined_confidence": 0.8771082706766917,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.7605413533834586,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Particulars",
+    "Pkg.",
+    "Op",
+    "Purchase",
+    "Sales",
+    "Sales",
+    "Misc.",
+    "Cl",
+    "Closing",
+    "Sales"
+  ],
+  "confidence": 0.8771082706766917,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.85,
+    "data_validation_score": 0.7605413533834586,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Particulars",
+      "Pkg.",
+      "Open.",
+      "Purch.",
+      "Sales",
+      "Sales",
+      "Misc.",
+      "Cls.",
+      "Closing",
+      "Sales"
+    ],
+    "normalized": [
+      "Particulars",
+      "Pkg.",
+      "Op",
+      "Purchase",
+      "Sales",
+      "Sales",
+      "Misc.",
+      "Cl",
+      "Closing",
+      "Sales"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=10"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.8771082706766917,
+      "evidence_scores": {
+        "keyword_score": 0.7,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7605413533834586,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8651353383458646,
+      "evidence_before_penalties": 0.8651353383458646
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particulars",
+          "Pkg.",
+          "Op",
+          "Purchase",
+          "Sales",
+          "Sales",
+          "Misc.",
+          "Cl",
+          "Closing",
+          "Sales"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8771082706766917
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Particulars",
+      "Pkg.",
+      "Op",
+      "Purchase",
+      "Sales",
+      "Sales",
+      "Misc.",
+      "Cl",
+      "Closing",
+      "Sales"
+    ]
+  }
+}

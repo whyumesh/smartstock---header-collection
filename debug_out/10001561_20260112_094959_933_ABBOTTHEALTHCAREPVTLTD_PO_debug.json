@@ -1,0 +1,110 @@
+{
+  "pdf_path": "pdfs\\10001561_20260112_094959_933_ABBOTTHEALTHCAREPVTLTD_PO.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 114.71966552734375,
+      "y_max": 123.66966247558594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "C-208-209",
+        "&",
+        "Tot",
+        "C-309",
+        "KANCHAN"
+      ],
+      "combined_confidence": 0.3563714285714286,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.62,
+      "data_validation_score": 0.7118571428571429,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "C-208-209",
+    "&",
+    "Tot",
+    "C-309",
+    "KANCHAN"
+  ],
+  "confidence": 0.3563714285714286,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.62,
+    "data_validation_score": 0.7118571428571429,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "C-208-209",
+      "&",
+      "TO",
+      "C-309",
+      "KANCHAN"
+    ],
+    "normalized": [
+      "C-208-209",
+      "&",
+      "Tot",
+      "C-309",
+      "KANCHAN"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "C",
+      "803"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.3563714285714286,
+      "evidence_scores": {
+        "keyword_score": 0.25,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7118571428571429,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.6419642857142857,
+      "evidence_before_penalties": 0.6419642857142857
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "C-208-209",
+          "&",
+          "Tot",
+          "C-309",
+          "KANCHAN"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8063714285714286
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "C-208-209",
+      "&",
+      "Tot",
+      "C-309",
+      "KANCHAN"
+    ]
+  }
+}

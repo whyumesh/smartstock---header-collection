@@ -1,0 +1,154 @@
+{
+  "pdf_path": "pdfs\\10034008_20260110_130727_rptMonthlySalesAndStock7160202673140781.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 1,
+      "y_min": 280.0,
+      "y_max": 310.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Sale",
+        "Amount",
+        "48072.22",
+        "48072.22"
+      ],
+      "combined_confidence": 0.5001269230769232,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.8,
+      "data_validation_score": 0.6006346153846154,
+      "data_column_count_detected": 4
+    }
+  ],
+  "final_selected_header": [
+    "Sale",
+    "Amount",
+    "48072.22",
+    "48072.22"
+  ],
+  "confidence": 0.5001269230769232,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.8,
+    "data_validation_score": 0.6006346153846154,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Sale",
+      "Value",
+      "48072.22",
+      "48072.22"
+    ],
+    "normalized": [
+      "Sale",
+      "Amount",
+      "48072.22",
+      "48072.22"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 4,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=4 data=4"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.5001269230769232,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6006346153846154,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.725158653846154,
+      "evidence_before_penalties": 0.725158653846154
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "11045.70",
+          "11045.70",
+          "4605.30",
+          "4605.30",
+          "34211.66",
+          "34211.66",
+          "21594.00",
+          "21594.00",
+          "14588.60",
+          "14588.60",
+          "1577.42",
+          "1577.42",
+          "1657.59",
+          "1657.59",
+          "4947.18",
+          "4947.18",
+          "3895.56",
+          "3895.56",
+          "2204.02",
+          "2204.02",
+          "9295.56",
+          "9295.56",
+          "5554.80",
+          "5554.80",
+          "4528.00"
+        ],
+        "data_column_count_detected": 26,
+        "combined_confidence": 0.7286354679802955
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sale",
+          "Amount",
+          "48072.22",
+          "48072.22"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7001269230769231
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=29 data=26 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=29 data=26 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Sale",
+      "Amount",
+      "48072.22",
+      "48072.22"
+    ]
+  }
+}

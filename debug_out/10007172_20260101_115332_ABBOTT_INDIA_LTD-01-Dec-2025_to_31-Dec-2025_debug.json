@@ -1,0 +1,149 @@
+{
+  "pdf_path": "pdfs\\10007172_20260101_115332_ABBOTT INDIA LTD-01-Dec-2025 to 31-Dec-2025.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 134.71397399902344,
+      "y_max": 143.56997680664062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 49.67498016357422,
+      "y_max": 58.53097915649414,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "SL.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECEIVE",
+        "Sale",
+        "Closing"
+      ],
+      "combined_confidence": 0.25028571428571433,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8714285714285713,
+      "data_validation_score": 0.6799999999999999,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "SL.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECEIVE",
+        "Sale",
+        "Closing"
+      ],
+      "combined_confidence": 0.3992967032967033,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8714285714285713,
+      "data_validation_score": 0.675054945054945,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "SL.",
+    "Product Name",
+    "Pack",
+    "Op",
+    "RECEIVE",
+    "Sale",
+    "Closing"
+  ],
+  "confidence": 0.8492967032967033,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8714285714285713,
+    "data_validation_score": 0.675054945054945,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "SL.",
+      "Product Name",
+      "Pack",
+      "Op",
+      "RECEIVE",
+      "Sale",
+      "Closing"
+    ],
+    "per_page": [
+      [
+        "SL.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECEIVE",
+        "Sale",
+        "Closing"
+      ],
+      [
+        "SL.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECEIVE",
+        "Sale",
+        "Closing"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SL.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "RECEIVE",
+          "Sale",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8002857142857144
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "SL.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "RECEIVE",
+          "Sale",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7992967032967033
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "SL.",
+      "Product Name",
+      "Pack",
+      "Op",
+      "RECEIVE",
+      "Sale",
+      "Closing"
+    ],
+    "data_column_count_detected": 6,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

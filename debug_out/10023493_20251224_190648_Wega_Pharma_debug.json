@@ -1,0 +1,11 @@
+{
+  "pdf_path": "pdfs\\10023493_20251224_190648_Wega Pharma.pdf",
+  "header_zone_detected": null,
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_words"
+  }
+}

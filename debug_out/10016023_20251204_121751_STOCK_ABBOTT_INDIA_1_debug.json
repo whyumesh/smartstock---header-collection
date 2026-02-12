@@ -1,0 +1,89 @@
+{
+  "pdf_path": "pdfs\\10016023_20251204_121751_STOCK ABBOTT INDIA_1.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8445735294117647
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GANATON",
+          "OD",
+          "1*10",
+          "4428.06",
+          "-",
+          "0.00",
+          "677.65",
+          "3746.82"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6930629856254857
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

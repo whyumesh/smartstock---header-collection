@@ -1,0 +1,199 @@
+{
+  "pdf_path": "pdfs\\10021062_20251213_102141_C17010013Report.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 166.61199951171875,
+      "y_max": 177.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "No",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Free Quantity",
+        "Purchase",
+        "Oct",
+        "Nov",
+        "Sale",
+        "Free Quantity",
+        "CurStk",
+        "Stk.Value",
+        "OrdQt",
+        "Order",
+        "Exp",
+        "Age",
+        "Last",
+        "Date"
+      ],
+      "combined_confidence": 0.32967464114832523,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.8184210526315789,
+      "data_validation_score": 0.6799521531100479,
+      "data_column_count_detected": 18
+    }
+  ],
+  "final_selected_header": [
+    "No",
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Free Quantity",
+    "Purchase",
+    "Oct",
+    "Nov",
+    "Sale",
+    "Free Quantity",
+    "CurStk",
+    "Stk.Value",
+    "OrdQt",
+    "Order",
+    "Exp",
+    "Age",
+    "Last",
+    "Date"
+  ],
+  "confidence": 0.32967464114832523,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.8184210526315789,
+    "data_validation_score": 0.6799521531100479,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Opstk",
+      "Pur",
+      "PFree",
+      "PurRet",
+      "Oct",
+      "Nov",
+      "Sale",
+      "SFree",
+      "CurStk",
+      "StkVal",
+      "OrdQt",
+      "OrdFr",
+      "Exp",
+      "Age",
+      "Last",
+      "PDate"
+    ],
+    "normalized": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Free Quantity",
+      "Purchase",
+      "Oct",
+      "Nov",
+      "Sale",
+      "Free Quantity",
+      "CurStk",
+      "Stk.Value",
+      "OrdQt",
+      "Order",
+      "Exp",
+      "Age",
+      "Last",
+      "Date"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "Name"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 18,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=19 data=18"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.32967464114832523,
+      "evidence_scores": {
+        "keyword_score": 0.5909090909090909,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6799521531100479,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7552153110047847,
+      "evidence_before_penalties": 0.7552153110047847
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "No",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Free Quantity",
+          "Purchase",
+          "Oct",
+          "Nov",
+          "Sale",
+          "Free Quantity",
+          "CurStk",
+          "Stk.Value",
+          "OrdQt",
+          "Order",
+          "Exp",
+          "Age",
+          "Last",
+          "Date"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8796746411483253
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Free Quantity",
+      "Purchase",
+      "Oct",
+      "Nov",
+      "Sale",
+      "Free Quantity",
+      "CurStk",
+      "Stk.Value",
+      "OrdQt",
+      "Order",
+      "Exp",
+      "Age",
+      "Last",
+      "Date"
+    ]
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "pdf_path": "pdfs\\10007267_20251204_121751_ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 109.22897338867188,
+      "y_max": 118.56697845458984,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 55.22897720336914,
+      "y_max": 64.56697845458984,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 55.22897720336914,
+      "y_max": 64.56697845458984,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 55.22897720336914,
+      "y_max": 64.56697845458984,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 55.22897720336914,
+      "y_max": 64.56697845458984,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.6171111111111112,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.7355555555555555,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.40466666666666673,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.6733333333333333,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.6159797979797981,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.7298989898989899,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.6164722222222223,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.7323611111111111,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.6228028673835126,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.7640143369175627,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Receipt",
+    "Tot",
+    "Issue",
+    "Closing",
+    "Closing",
+    "Bala"
+  ],
+  "confidence": 0.8728028673835125,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.85,
+    "data_validation_score": 0.7640143369175627,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Tot",
+      "Issue",
+      "Closing",
+      "Closing",
+      "Bala"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Closing",
+        "Bala"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8171111111111111
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8046666666666668
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.815979797979798
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8164722222222223
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8228028673835126
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Tot",
+      "Issue",
+      "Closing",
+      "Closing",
+      "Bala"
+    ],
+    "data_column_count_detected": 9,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

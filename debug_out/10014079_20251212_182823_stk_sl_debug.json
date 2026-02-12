@@ -1,0 +1,187 @@
+{
+  "pdf_path": "pdfs\\10014079_20251212_182823_stk&sl.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.71998596191406,
+      "y_max": 125.48998260498047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 1,
+      "y_min": 26.6099853515625,
+      "y_max": 82.73998260498047,
+      "confidence": 0.9672474439895987,
+      "reason": "density=12.0 font_boost=1.0 top_score=0.73; separator_below"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Near",
+        "Expiry Date",
+        "Are",
+        "Product Name",
+        "Exp",
+        "In",
+        "Next",
+        "Days",
+        "Tot",
+        "25,151.30",
+        "1,10,447.95",
+        "89,968.11"
+      ],
+      "combined_confidence": 0.6393118609973997,
+      "visual_score": 0.9672474439895987,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.7875,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Near",
+    "Expiry Date",
+    "Are",
+    "Product Name",
+    "Exp",
+    "In",
+    "Next",
+    "Days",
+    "Tot",
+    "25,151.30",
+    "1,10,447.95",
+    "89,968.11"
+  ],
+  "confidence": 0.6393118609973997,
+  "confidence_breakdown": {
+    "visual_score": 0.9672474439895987,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.7875,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Near",
+      "Expiry",
+      "Are",
+      "Products",
+      "Expiring",
+      "In",
+      "Next",
+      "Days",
+      "Total",
+      "25,151.30",
+      "1,10,447.95",
+      "89,968.11"
+    ],
+    "normalized": [
+      "Near",
+      "Expiry Date",
+      "Are",
+      "Product Name",
+      "Exp",
+      "In",
+      "Next",
+      "Days",
+      "Tot",
+      "25,151.30",
+      "1,10,447.95",
+      "89,968.11"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "90"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.6393118609973997,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.5750000000000001,
+      "evidence_before_penalties": 0.5750000000000001
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Gd.In",
+          "Tot",
+          "In",
+          "Sale",
+          "Closing",
+          "Purchase",
+          "Sale",
+          "Stock"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8605
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Near",
+          "Expiry Date",
+          "Are",
+          "Product Name",
+          "Exp",
+          "In",
+          "Next",
+          "Days",
+          "Tot",
+          "25,151.30",
+          "1,10,447.95",
+          "89,968.11"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7893118609973997
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=10 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Near",
+      "Expiry Date",
+      "Are",
+      "Product Name",
+      "Exp",
+      "In",
+      "Next",
+      "Days",
+      "Tot",
+      "25,151.30",
+      "1,10,447.95",
+      "89,968.11"
+    ]
+  }
+}

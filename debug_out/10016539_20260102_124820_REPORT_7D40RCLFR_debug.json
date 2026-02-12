@@ -1,0 +1,118 @@
+{
+  "pdf_path": "pdfs\\10016539_20260102_124820_REPORT_7D40RCLFR.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 164.23800659179688,
+      "y_max": 175.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.856625
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "COLOSPA",
+          "10Tab",
+          "4530.96",
+          "0.00",
+          "0.00",
+          "4530.96"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7252543002527965
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "48Mg",
+          "15Tab",
+          "2997.00",
+          "0.00",
+          "0.00",
+          "2997.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7297354118993136
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=6 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

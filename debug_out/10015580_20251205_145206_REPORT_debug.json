@@ -1,0 +1,225 @@
+{
+  "pdf_path": "pdfs\\10015580_20251205_145206_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    },
+    {
+      "page_no": 2,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    },
+    {
+      "page_no": 3,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 4,
+      "y_min": 279.7380065917969,
+      "y_max": 291.4380187988281,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "Stock",
+          "Purchase",
+          "Purchase",
+          "RETURN",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Sales",
+          "Sales",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Rate"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8113611111111112
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Amount",
+          "in",
+          "Rs.",
+          "Rs."
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7413333333333334
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Amount",
+          "in",
+          "Rs.",
+          "Rs."
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7456888888888891
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Stock",
+          "Stock",
+          "Purchase",
+          "Purchase",
+          "RETURN",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Sales",
+          "RETURN",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Rate"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8070773109243697
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Sale",
+          "Sale",
+          "REPL./",
+          "REPL./",
+          "Tot",
+          "Tot",
+          "Purchase",
+          "Purchase",
+          "REPL./",
+          "REPL./",
+          "Closing",
+          "Closing"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.783178352235203
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "RILIGOL",
+          "INJECTION",
+          "5X1Ml",
+          "PCS",
+          "1603.93"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7168057142857144
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=4 data=13 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=13 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=4 data=13 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=13 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=5 data=13 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=13 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

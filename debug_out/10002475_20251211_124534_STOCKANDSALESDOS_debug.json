@@ -1,0 +1,257 @@
+{
+  "pdf_path": "pdfs\\10002475_20251211_124534_STOCKANDSALESDOS.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 99.46495056152344,
+      "y_max": 107.86495208740234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 99.46495056152344,
+      "y_max": 107.86495208740234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 99.46495056152344,
+      "y_max": 107.86495208740234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "S.RETURN",
+        "OTHERS",
+        "SUB",
+        "Tot",
+        "Sale",
+        "P.RETURN",
+        "OTHERS",
+        "Closing"
+      ],
+      "combined_confidence": 0.47861904761904767,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7472619047619048,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "S.RETURN",
+        "OTHERS",
+        "SUB",
+        "Tot",
+        "Sale",
+        "P.RETURN",
+        "OTHERS",
+        "Closing"
+      ],
+      "combined_confidence": 0.6283260869565217,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7457971014492754,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "S.RETURN",
+        "OTHERS",
+        "SUB",
+        "Tot",
+        "Sale",
+        "P.RETURN",
+        "OTHERS",
+        "Closing"
+      ],
+      "combined_confidence": 0.4785,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7466666666666667,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "S.RETURN",
+    "OTHERS",
+    "SUB",
+    "Tot",
+    "Sale",
+    "P.RETURN",
+    "OTHERS",
+    "Closing"
+  ],
+  "confidence": 0.8783260869565217,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.8208333333333333,
+    "data_validation_score": 0.7457971014492754,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "S.RETURN",
+      "OTHERS",
+      "SUB",
+      "Tot",
+      "Sale",
+      "P.RETURN",
+      "OTHERS",
+      "Closing"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "S.RETURN",
+        "OTHERS",
+        "SUB",
+        "Tot",
+        "Sale",
+        "P.RETURN",
+        "OTHERS",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "S.RETURN",
+        "OTHERS",
+        "SUB",
+        "Tot",
+        "Sale",
+        "P.RETURN",
+        "OTHERS",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "S.RETURN",
+        "OTHERS",
+        "SUB",
+        "Tot",
+        "Sale",
+        "P.RETURN",
+        "OTHERS",
+        "Closing"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "S.RETURN",
+          "OTHERS",
+          "SUB",
+          "Tot",
+          "Sale",
+          "P.RETURN",
+          "OTHERS",
+          "Closing"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8286190476190477
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "S.RETURN",
+          "OTHERS",
+          "SUB",
+          "Tot",
+          "Sale",
+          "P.RETURN",
+          "OTHERS",
+          "Closing"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8283260869565218
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "S.RETURN",
+          "OTHERS",
+          "SUB",
+          "Tot",
+          "Sale",
+          "P.RETURN",
+          "OTHERS",
+          "Closing"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8285
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "S.RETURN",
+      "OTHERS",
+      "SUB",
+      "Tot",
+      "Sale",
+      "P.RETURN",
+      "OTHERS",
+      "Closing"
+    ],
+    "data_column_count_detected": 11,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

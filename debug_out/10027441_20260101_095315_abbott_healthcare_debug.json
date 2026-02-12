@@ -1,0 +1,124 @@
+{
+  "pdf_path": "pdfs\\10027441_20260101_095315_abbott healthcare.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 80.19998931884766,
+      "y_max": 89.74998474121094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 80.19998931884766,
+      "y_max": 89.74998474121094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 80.19998931884766,
+      "y_max": 89.74998474121094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "PTS",
+          "P.Ret",
+          "Sales",
+          "Free Quantity",
+          "Brk",
+          "Repl",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8373030303030303
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "PTS",
+          "P.Ret",
+          "Sales",
+          "Free Quantity",
+          "Brk",
+          "Repl",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.82632220004095
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "PTS",
+          "P.Ret",
+          "Sales",
+          "Free Quantity",
+          "Brk",
+          "Repl",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8439358974358975
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=4 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=4 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=12 data=7 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=7 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=12 data=4 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=4 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

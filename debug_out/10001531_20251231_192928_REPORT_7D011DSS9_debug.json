@@ -1,0 +1,171 @@
+{
+  "pdf_path": "pdfs\\10001531_20251231_192928_REPORT_7D011DSS9.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "SUPPLIER",
+        "Product Name",
+        "Invoice No",
+        "NO.",
+        "Date",
+        "RECEIVE",
+        "Date",
+        "Amount"
+      ],
+      "combined_confidence": 0.26012500000000005,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.8375,
+      "data_validation_score": 0.738125,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "SUPPLIER",
+    "Product Name",
+    "Invoice No",
+    "NO.",
+    "Date",
+    "RECEIVE",
+    "Date",
+    "Amount"
+  ],
+  "confidence": 0.26012500000000005,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.8375,
+    "data_validation_score": 0.738125,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SUPPLIER",
+      "NAME",
+      "INVOICE",
+      "NO.",
+      "DATE",
+      "RECEIVE",
+      "DATE",
+      "AMOUNT"
+    ],
+    "normalized": [
+      "SUPPLIER",
+      "Product Name",
+      "Invoice No",
+      "NO.",
+      "Date",
+      "RECEIVE",
+      "Date",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.26012500000000005,
+      "evidence_scores": {
+        "keyword_score": 0.4,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.738125,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.6720312500000001,
+      "evidence_before_penalties": 0.6720312500000001
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "Stock",
+          "Purchase",
+          "Purchase",
+          "RETURN",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Sales",
+          "Sales",
+          "RETURN",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Rate",
+          "Rate",
+          "Exp"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8140809523809523
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "SUPPLIER",
+          "Product Name",
+          "Invoice No",
+          "NO.",
+          "Date",
+          "RECEIVE",
+          "Date",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8101250000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=21 data=14 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=14 diff=7"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "SUPPLIER",
+      "Product Name",
+      "Invoice No",
+      "NO.",
+      "Date",
+      "RECEIVE",
+      "Date",
+      "Amount"
+    ]
+  }
+}

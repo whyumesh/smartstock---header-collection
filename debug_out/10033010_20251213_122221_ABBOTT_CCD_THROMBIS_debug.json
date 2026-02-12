@@ -1,0 +1,143 @@
+{
+  "pdf_path": "pdfs\\10033010_20251213_122221_ABBOTT CCD THROMBIS.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 106.26927947998047,
+      "y_max": 114.10890197753906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Rcpt",
+        "PrvSal",
+        "Sale",
+        "R/s",
+        "Cl",
+        "Amount",
+        "Age",
+        "Amount"
+      ],
+      "combined_confidence": 0.27053994490358124,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.8318181818181819,
+      "data_validation_score": 0.7208815426997245,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Rcpt",
+    "PrvSal",
+    "Sale",
+    "R/s",
+    "Cl",
+    "Amount",
+    "Age",
+    "Amount"
+  ],
+  "confidence": 0.27053994490358124,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.8318181818181819,
+    "data_validation_score": 0.7208815426997245,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ProductName",
+      "Pack",
+      "OpStk",
+      "Rcpt",
+      "PrvSal",
+      "Sale",
+      "R/s",
+      "CLStk",
+      "SaleValue",
+      "age",
+      "StockValue"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Rcpt",
+      "PrvSal",
+      "Sale",
+      "R/s",
+      "Cl",
+      "Amount",
+      "Age",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=10"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.27053994490358124,
+      "evidence_scores": {
+        "keyword_score": 0.6666666666666666,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7208815426997245,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7343870523415978,
+      "evidence_before_penalties": 0.7343870523415978
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "PrvSal",
+          "Sale",
+          "R/s",
+          "Cl",
+          "Amount",
+          "Age",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8205399449035813
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Rcpt",
+      "PrvSal",
+      "Sale",
+      "R/s",
+      "Cl",
+      "Amount",
+      "Age",
+      "Amount"
+    ]
+  }
+}

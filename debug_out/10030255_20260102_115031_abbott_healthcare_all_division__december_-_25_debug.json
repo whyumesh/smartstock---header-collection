@@ -1,0 +1,935 @@
+{
+  "pdf_path": "pdfs\\10030255_20260102_115031_abbott healthcare all division  december - 25.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 5,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 6,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 7,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 8,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 9,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 10,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 11,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=17"
+    },
+    {
+      "page_no": 12,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 13,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 14,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 15,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 16,
+      "y_min": 96.11549377441406,
+      "y_max": 103.641357421875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 19,
+        "combined_confidence": 0.7975056818181818
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8102181818181818
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8016121212121212
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.7998977272727272
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.7992606060606061
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8024060606060607
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8058295454545454
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8033577545642763
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "CR",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.7959065264445699
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 19,
+        "combined_confidence": 0.8010397727272728
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8039762845849803
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8010103568639375
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.7973010752688172
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 19,
+        "combined_confidence": 0.8006988636363637
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8070322580645162
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.7934415584415584
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Oct",
+          "Oct",
+          "Op",
+          "Op",
+          "Purchase",
+          "SP",
+          "SP",
+          "Sale",
+          "Sale",
+          "SS",
+          "BT",
+          "BT",
+          "CR",
+          "CR",
+          "DB",
+          "DB",
+          "ADJ.",
+          "ADJ.",
+          "BAL",
+          "BAL",
+          "BVAL",
+          "BVAL",
+          "SVAL",
+          "ORD."
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.7947512487512488
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=32 data=19 diff=13",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=32 data=19 diff=13"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=30 data=18 diff=12",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=30 data=18 diff=12"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=30 data=18 diff=12",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=30 data=18 diff=12"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=32 data=18 diff=14",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=32 data=18 diff=14"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=30 data=18 diff=12",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=30 data=18 diff=12"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=30 data=18 diff=12",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=30 data=18 diff=12"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=32 data=18 diff=14",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=32 data=18 diff=14"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=28 data=18 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=28 data=18 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=28 data=18 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=28 data=18 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=32 data=19 diff=13",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=32 data=19 diff=13"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=31 data=18 diff=13",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=31 data=18 diff=13"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=26 data=18 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=26 data=18 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=31 data=18 diff=13",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=31 data=18 diff=13"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=32 data=19 diff=13",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=32 data=19 diff=13"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=31 data=18 diff=13",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=31 data=18 diff=13"
+          }
+        }
+      },
+      {
+        "page_no": 15,
+        "reason": "column_count_mismatch: header=28 data=18 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=28 data=18 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 16,
+        "reason": "column_count_mismatch: header=28 data=18 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=28 data=18 diff=10"
+          }
+        }
+      }
+    ]
+  }
+}

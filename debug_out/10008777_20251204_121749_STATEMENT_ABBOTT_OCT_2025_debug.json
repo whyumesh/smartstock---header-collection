@@ -1,0 +1,268 @@
+{
+  "pdf_path": "pdfs\\10008777_20251204_121749_STATEMENT ABBOTT OCT 2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 2,
+      "y_min": 184.89398193359375,
+      "y_max": 199.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=9"
+    },
+    {
+      "page_no": 3,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 4,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.798545054945055,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8214285714285714,
+      "data_validation_score": 0.7212967032967033,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.7975285714285715,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8214285714285714,
+      "data_validation_score": 0.7162142857142857,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "FINEC1",
+        "FINECEF",
+        "GM",
+        "VIAL",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.15048083000528645,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.5666666666666667,
+      "data_validation_score": 0.7107374833597659,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "PRO95",
+        "PRO",
+        "VIAL",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.45491729323308266,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7317293233082707,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "VERTO2",
+        "VERTIN",
+        "OD",
+        "7Tab",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.2123636363636363,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.5666666666666667,
+      "data_validation_score": 0.7451515151515151,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Product Code",
+    "Product Name",
+    "DESCRIPTION",
+    "Op",
+    "RECEIPT",
+    "ISSUE",
+    "Closing"
+  ],
+  "confidence": 0.798545054945055,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8214285714285714,
+    "data_validation_score": 0.7212967032967033,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "CODE",
+      "ITEM",
+      "DESCRIPTION",
+      "OPENING",
+      "RECEIPT",
+      "ISSUE",
+      "CLOSING"
+    ],
+    "normalized": [
+      "Product Code",
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.798545054945055,
+      "evidence_scores": {
+        "keyword_score": 0.6666666666666666,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7212967032967033,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.7669908424908425,
+      "evidence_before_penalties": 0.7669908424908425
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.798545054945055
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7975285714285715
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "FINEC1",
+          "FINECEF",
+          "GM",
+          "VIAL",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7004808300052865
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "PRO95",
+          "PRO",
+          "VIAL",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7549172932330827
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "VERTO2",
+          "VERTIN",
+          "OD",
+          "7Tab",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7623636363636364
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Code",
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing"
+    ]
+  }
+}

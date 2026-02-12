@@ -1,0 +1,284 @@
+{
+  "pdf_path": "pdfs\\10016023_20260101_123947_STOCK ABBOTT HEALTHCARE.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "LOBATE",
+        "OINT.",
+        "15Gm",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5783926282051282,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7586298076923077,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "GAROIN",
+        "NEW",
+        "60Mg",
+        "1*100",
+        "1306.37",
+        "-",
+        "0.00",
+        "1313.28",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.24808880825057306,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5727272727272728,
+      "data_validation_score": 0.7177167685255921,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Quantity",
+        "Amount",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity"
+      ],
+      "combined_confidence": 0.46020000000000005,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 1.0,
+      "data_validation_score": 0.826,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "LOBATE",
+    "OINT.",
+    "15Gm",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.5783926282051282,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.5583333333333333,
+    "data_validation_score": 0.7586298076923077,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "LOBATE",
+      "OINT.",
+      "15GM",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "LOBATE",
+      "OINT.",
+      "15Gm",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "M"
+    ],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=12"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5783926282051282,
+      "evidence_scores": {
+        "keyword_score": 0.14285714285714285,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7586298076923077,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.6323717376373627,
+      "evidence_before_penalties": 0.6323717376373627
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8308235294117646
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "LOBATE",
+          "OINT.",
+          "15Gm",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7283926282051282
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "GAROIN",
+          "NEW",
+          "60Mg",
+          "1*100",
+          "1306.37",
+          "-",
+          "0.00",
+          "1313.28",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6980888082505731
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8602000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "LOBATE",
+      "OINT.",
+      "15Gm",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

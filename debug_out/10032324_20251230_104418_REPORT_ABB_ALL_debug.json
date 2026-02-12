@@ -1,0 +1,217 @@
+{
+  "pdf_path": "pdfs\\10032324_20251230_104418_REPORT ABB ALL.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 3,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Op",
+        "NO.6840,",
+        "Purchase",
+        "THANA",
+        "ROAD",
+        "BATHINDA",
+        "-151001"
+      ],
+      "combined_confidence": 0.7789111541519704,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.7,
+      "data_validation_score": 0.7445557707598524,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.573536335209506,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.651015009380863,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "GLUFORMIN",
+        "G2",
+        "1*15Tab",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.2929291719785723,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5599999999999999,
+      "data_validation_score": 0.7046458598928611,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Op",
+    "NO.6840,",
+    "Purchase",
+    "THANA",
+    "ROAD",
+    "BATHINDA",
+    "-151001"
+  ],
+  "confidence": 0.7789111541519704,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.7,
+    "data_validation_score": 0.7445557707598524,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SHOP",
+      "NO.6840,",
+      "PURANA",
+      "THANA",
+      "ROAD",
+      "BATHINDA",
+      "-151001"
+    ],
+    "normalized": [
+      "Op",
+      "NO.6840,",
+      "Purchase",
+      "THANA",
+      "ROAD",
+      "BATHINDA",
+      "-151001"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7789111541519704,
+      "evidence_scores": {
+        "keyword_score": 0.42857142857142855,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7445557707598524,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.7182817998328203,
+      "evidence_before_penalties": 0.7182817998328203
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Op",
+          "NO.6840,",
+          "Purchase",
+          "THANA",
+          "ROAD",
+          "BATHINDA",
+          "-151001"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7789111541519704
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7735363352095059
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "GLUFORMIN",
+          "G2",
+          "1*15Tab",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7429291719785723
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "CREMAFFIN",
+          "PLAIN",
+          "225Ml",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7529571428571429
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=4 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=6 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Op",
+      "NO.6840,",
+      "Purchase",
+      "THANA",
+      "ROAD",
+      "BATHINDA",
+      "-151001"
+    ]
+  }
+}

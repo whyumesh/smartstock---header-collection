@@ -1,0 +1,59 @@
+{
+  "pdf_path": "pdfs\\10000633_20251227_093643_002547_226-126.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 73.15505981445312,
+      "y_max": 81.90505981445312,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Bsc",
+          "Quantity",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal",
+          "SVal",
+          "Order"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8569248120300752
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=8 diff=11",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=8 diff=11"
+          }
+        }
+      }
+    ]
+  }
+}

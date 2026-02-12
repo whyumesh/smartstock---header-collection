@@ -1,0 +1,149 @@
+{
+  "pdf_path": "pdfsamples\\10000029_20251204_121749_ABBOTT GENERAL NOV 2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 146.0669403076172,
+      "y_max": 157.96694946289062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 1,
+      "y_min": 95.09074401855469,
+      "y_max": 106.9907455444336,
+      "confidence": 0.9,
+      "reason": "header_keywords=12 tokens=12"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Unit",
+        "Co Op Qty",
+        "InQty",
+        "OutQty",
+        "Cl Qty",
+        "Cl Val"
+      ],
+      "combined_confidence": 0.42738205980066446,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 1.0,
+      "data_validation_score": 0.6869102990033223,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Unit",
+        "Co Op Qty",
+        "InQty",
+        "OutQty",
+        "Cl Qty",
+        "Cl Val"
+      ],
+      "combined_confidence": 0.47200000000000003,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.84,
+      "semantic_score": 1.0,
+      "data_validation_score": 0.6849999999999999,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Unit",
+    "Co Op Qty",
+    "InQty",
+    "OutQty",
+    "Cl Qty",
+    "Cl Val"
+  ],
+  "confidence": 0.872,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.84,
+    "semantic_score": 1.0,
+    "data_validation_score": 0.6849999999999999,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Unit",
+      "Co Op Qty",
+      "InQty",
+      "OutQty",
+      "Cl Qty",
+      "Cl Val"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Unit",
+        "Co Op Qty",
+        "InQty",
+        "OutQty",
+        "Cl Qty",
+        "Cl Val"
+      ],
+      [
+        "Product Name",
+        "Unit",
+        "Co Op Qty",
+        "InQty",
+        "OutQty",
+        "Cl Qty",
+        "Cl Val"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Co Op Qty",
+          "InQty",
+          "OutQty",
+          "Cl Qty",
+          "Cl Val"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8273820598006645
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Co Op Qty",
+          "InQty",
+          "OutQty",
+          "Cl Qty",
+          "Cl Val"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8220000000000001
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Unit",
+      "Co Op Qty",
+      "InQty",
+      "OutQty",
+      "Cl Qty",
+      "Cl Val"
+    ],
+    "data_column_count_detected": 7,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

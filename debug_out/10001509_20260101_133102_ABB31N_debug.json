@@ -1,0 +1,148 @@
+{
+  "pdf_path": "pdfs\\10001509_20260101_133102_ABB31N.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 64.74647521972656,
+      "y_max": 75.13878631591797,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 223.22047424316406,
+      "y_max": 233.61277770996094,
+      "confidence": 0.9,
+      "reason": "header_keywords=8 tokens=11"
+    },
+    {
+      "page_no": 2,
+      "y_min": 259.7904357910156,
+      "y_max": 270.1827392578125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Sales",
+          "Sales",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8062037993404606
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Sales",
+          "Sales",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.7980913621262459
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Sales",
+          "Sales",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8087373833254232
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=14 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=14 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=20 data=14 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=14 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=21 data=14 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=14 diff=7"
+          }
+        }
+      }
+    ]
+  }
+}

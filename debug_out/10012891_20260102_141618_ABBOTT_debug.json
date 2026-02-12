@@ -1,0 +1,230 @@
+{
+  "pdf_path": "pdfs\\10012891_20260102_141618_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "CremaGel",
+        "-",
+        "30Gram",
+        "1*30G",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.33987870316817687,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5538461538461539,
+      "data_validation_score": 0.7455473619947305,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "CremaGel",
+    "-",
+    "30Gram",
+    "1*30G",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.33987870316817687,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.5538461538461539,
+    "data_validation_score": 0.7455473619947305,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "CremaGel",
+      "-",
+      "30gram",
+      "1*30g",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "CremaGel",
+      "-",
+      "30Gram",
+      "1*30G",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "L",
+      "0"
+    ],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=12"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.33987870316817687,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7455473619947305,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.5212201738320159,
+      "evidence_before_penalties": 0.5212201738320159
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "CHAL"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8332222222222223
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "CremaGel",
+          "-",
+          "30Gram",
+          "1*30G",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7898787031681769
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot",
+          "5968.07",
+          "2067.00",
+          "3231.38",
+          "4978.45"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.6909428571428572
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=10 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "CremaGel",
+      "-",
+      "30Gram",
+      "1*30G",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

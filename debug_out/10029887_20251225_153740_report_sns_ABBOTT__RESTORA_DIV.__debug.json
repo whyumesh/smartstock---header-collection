@@ -1,0 +1,49 @@
+{
+  "pdf_path": "pdfs\\10029887_20251225_153740_report_sns_ABBOTT_(RESTORA_DIV.).pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 160.77867126464844,
+      "y_max": 172.67868041992188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl Val"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8809191919191919
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=9 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=7 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "pdf_path": "pdfs\\10014058_20260110_151210_SUBURBAN DRUG DISTRIBUTOR-AS-927-ABBOTT H. CARE  (RESTORA)-10-Jan-26-1507.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 34.61100387573242,
+      "y_max": 44.574005126953125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Description",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Out.",
+        "Sales",
+        "Stock",
+        "Closing",
+        "Amount",
+        "Amount"
+      ],
+      "combined_confidence": 0.338744337979094,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.9375,
+      "data_validation_score": 0.6812216898954704,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Product Code",
+    "Product Name",
+    "Description",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Out.",
+    "Sales",
+    "Stock",
+    "Closing",
+    "Amount",
+    "Amount"
+  ],
+  "confidence": 0.338744337979094,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.9375,
+    "data_validation_score": 0.6812216898954704,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Code",
+      "Item",
+      "Description",
+      "Packing",
+      "Opening",
+      "Purchase",
+      "Stock-Out",
+      "Sales",
+      "Stock-In",
+      "Closing",
+      "Stock-Value",
+      "Sales-Value"
+    ],
+    "normalized": [
+      "Product Code",
+      "Product Name",
+      "Description",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Out.",
+      "Sales",
+      "Stock",
+      "Closing",
+      "Amount",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=11"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.338744337979094,
+      "evidence_scores": {
+        "keyword_score": 0.9285714285714286,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6812216898954704,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8399482796167248,
+      "evidence_before_penalties": 0.8399482796167248
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Description",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Out.",
+          "Sales",
+          "Stock",
+          "Closing",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.888744337979094
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Code",
+      "Product Name",
+      "Description",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Out.",
+      "Sales",
+      "Stock",
+      "Closing",
+      "Amount",
+      "Amount"
+    ]
+  }
+}

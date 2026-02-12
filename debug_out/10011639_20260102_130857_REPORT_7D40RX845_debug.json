@@ -1,0 +1,187 @@
+{
+  "pdf_path": "pdfs\\10011639_20260102_130857_REPORT_7D40RX845.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 133.21798706054688,
+      "y_max": 141.0179901123047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.718017578125,
+      "y_max": 46.51801681518555,
+      "confidence": 0.46388888704923925,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.87"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Description",
+        "Op",
+        "Sales",
+        "Sale",
+        "Sales",
+        "Sales",
+        "Purchase",
+        "Purchase",
+        "Purchase",
+        "Purchase",
+        "Other",
+        "Closing",
+        "Closing",
+        "Expiry Date",
+        "Expiry Date"
+      ],
+      "combined_confidence": 0.45829235347985353,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.934375,
+      "data_validation_score": 0.7070867673992673,
+      "data_column_count_detected": 16
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Description",
+    "Op",
+    "Sales",
+    "Sale",
+    "Sales",
+    "Sales",
+    "Purchase",
+    "Purchase",
+    "Purchase",
+    "Purchase",
+    "Other",
+    "Closing",
+    "Closing",
+    "Expiry Date",
+    "Expiry Date"
+  ],
+  "confidence": 0.45829235347985353,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.934375,
+    "data_validation_score": 0.7070867673992673,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Item",
+      "Description",
+      "Opening",
+      "Sales",
+      "Sale",
+      "Sales",
+      "Sales",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Other",
+      "Closing",
+      "Closing",
+      "Expiry",
+      "Expiry"
+    ],
+    "normalized": [
+      "Product Name",
+      "Description",
+      "Op",
+      "Sales",
+      "Sale",
+      "Sales",
+      "Sales",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Other",
+      "Closing",
+      "Closing",
+      "Expiry Date",
+      "Expiry Date"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 16,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=16 data=16"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.45829235347985353,
+      "evidence_scores": {
+        "keyword_score": 0.7894736842105263,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7070867673992673,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.8241401129024485,
+      "evidence_before_penalties": 0.8241401129024485
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Description",
+          "Op",
+          "Sales",
+          "Sale",
+          "Sales",
+          "Sales",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Other",
+          "Closing",
+          "Closing",
+          "Expiry Date",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.8582923534798536
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "all_filtered_noise",
+        "noise_removed": [
+          "---------------------------------------------------------------------------- TOTAL 772357.00 ============================================================================"
+        ]
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Description",
+      "Op",
+      "Sales",
+      "Sale",
+      "Sales",
+      "Sales",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Other",
+      "Closing",
+      "Closing",
+      "Expiry Date",
+      "Expiry Date"
+    ]
+  }
+}

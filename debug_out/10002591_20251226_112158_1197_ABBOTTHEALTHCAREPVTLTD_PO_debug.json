@@ -1,0 +1,133 @@
+{
+  "pdf_path": "pdfs\\10002591_20251226_112158_1197_ABBOTTHEALTHCAREPVTLTD_PO.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 192.3662109375,
+      "y_max": 202.1662139892578,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Quantity",
+        "Free Quantity",
+        "Rate",
+        "Amount",
+        "Remarks"
+      ],
+      "combined_confidence": 0.32220454545454535,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.9,
+      "data_validation_score": 0.7360227272727272,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Sr.",
+    "Product Name",
+    "Pack",
+    "Quantity",
+    "Free Quantity",
+    "Rate",
+    "Amount",
+    "Remarks"
+  ],
+  "confidence": 0.32220454545454535,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.9,
+    "data_validation_score": 0.7360227272727272,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Sr.",
+      "Product Name",
+      "Pack",
+      "Qty",
+      "Free",
+      "Rate",
+      "Amount",
+      "Remarks"
+    ],
+    "normalized": [
+      "Sr.",
+      "Product Name",
+      "Pack",
+      "Quantity",
+      "Free Quantity",
+      "Rate",
+      "Amount",
+      "Remarks"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "Name"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.32220454545454535,
+      "evidence_scores": {
+        "keyword_score": 0.7,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7360227272727272,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7965056818181818,
+      "evidence_before_penalties": 0.7965056818181818
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Rate",
+          "Amount",
+          "Remarks"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8722045454545454
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Sr.",
+      "Product Name",
+      "Pack",
+      "Quantity",
+      "Free Quantity",
+      "Rate",
+      "Amount",
+      "Remarks"
+    ]
+  }
+}

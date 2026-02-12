@@ -1,0 +1,347 @@
+{
+  "pdf_path": "pdfs\\10034541_20260101_202434_report_7d317lfks.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 1,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=6"
+    },
+    {
+      "page_no": 3,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 4,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 5,
+      "y_min": 258.39398193359375,
+      "y_max": 272.6939697265625,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=3"
+    },
+    {
+      "page_no": 6,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Quantity",
+        "Free Quantity",
+        "Rate",
+        "Amount",
+        "(",
+        "%",
+        ")"
+      ],
+      "combined_confidence": 0.08814285714285713,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.7857142857142857,
+      "data_validation_score": 0.755,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Quantity",
+        "Free Quantity",
+        "Rate",
+        "Amount",
+        "(",
+        "%",
+        ")"
+      ],
+      "combined_confidence": 0.0,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.7857142857142857,
+      "data_validation_score": 0.6633333333333333,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "KSUB",
+        "THERMAL",
+        "BRANCH-THERMAL",
+        "BRANCH-THERMAL",
+        "BRANCH-THERMAL",
+        "KOTA",
+        "KOTA"
+      ],
+      "combined_confidence": 0.6833,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.654,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "NEW",
+        "DHAKAR",
+        "MEDICALS-BEGUN",
+        "MEDICALS-BEGUN",
+        "MEDICALS-BEGUN",
+        "MEDICALS-BEGUN"
+      ],
+      "combined_confidence": 0.5435,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.76,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.73,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "40385.33"
+      ],
+      "combined_confidence": 0.1333333333333333,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7166666666666667,
+      "data_validation_score": 0.675,
+      "data_column_count_detected": 4
+    }
+  ],
+  "final_selected_header": [
+    "KSUB",
+    "THERMAL",
+    "BRANCH-THERMAL",
+    "BRANCH-THERMAL",
+    "BRANCH-THERMAL",
+    "KOTA",
+    "KOTA"
+  ],
+  "confidence": 0.6833,
+  "confidence_breakdown": {
+    "visual_score": 0.75,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.654,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "KSUB",
+      "THERMAL",
+      "BRANCH-THERMAL",
+      "BRANCH-THERMAL",
+      "BRANCH-THERMAL",
+      "KOTA",
+      "KOTA"
+    ],
+    "normalized": [
+      "KSUB",
+      "THERMAL",
+      "BRANCH-THERMAL",
+      "BRANCH-THERMAL",
+      "BRANCH-THERMAL",
+      "KOTA",
+      "KOTA"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "BRANCH-THERMAL",
+        "into": "BRANCH-THERMAL",
+        "interval_idx": 0
+      },
+      {
+        "split": "BRANCH-THERMAL",
+        "into": "BRANCH-THERMAL",
+        "interval_idx": 1
+      },
+      {
+        "split": "BRANCH-THERMAL",
+        "into": "BRANCH-THERMAL",
+        "interval_idx": 2
+      },
+      {
+        "split": "KOTA",
+        "into": "KOTA",
+        "interval_idx": 2
+      },
+      {
+        "split": "KOTA",
+        "into": "KOTA",
+        "interval_idx": 3
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.6833,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.654,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.14285714285714285
+      },
+      "evidence_total": 0.5777857142857142,
+      "evidence_before_penalties": 0.5777857142857142
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Free Quantity",
+          "Rate",
+          "Amount",
+          "(",
+          "%",
+          ")"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8381428571428572
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Free Quantity",
+          "Rate",
+          "Amount",
+          "(",
+          "%",
+          ")"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8198095238095239
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot",
+          "Tot",
+          "197.22",
+          "0.49"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6909000000000001
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "KSUB",
+          "THERMAL",
+          "BRANCH-THERMAL",
+          "BRANCH-THERMAL",
+          "BRANCH-THERMAL",
+          "KOTA",
+          "KOTA"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6833
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "NEW",
+          "DHAKAR",
+          "MEDICALS-BEGUN",
+          "MEDICALS-BEGUN",
+          "MEDICALS-BEGUN",
+          "MEDICALS-BEGUN"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6935
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "SHREE",
+          "SHANTINATH",
+          "SHANTINATH",
+          "MEDICOSE-KEKRI",
+          "MEDICOSE-KEKRI",
+          "MEDICOSE-KEKRI"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.65339375
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "40385.33"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.6833333333333333
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=6 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=8 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "KSUB",
+      "THERMAL",
+      "BRANCH-THERMAL",
+      "BRANCH-THERMAL",
+      "BRANCH-THERMAL",
+      "KOTA",
+      "KOTA"
+    ]
+  }
+}

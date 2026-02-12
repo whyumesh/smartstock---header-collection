@@ -1,0 +1,65 @@
+{
+  "pdf_path": "pdfs\\10024112_20260103_125909_ABBOTT WOMEN HEALTH.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "Stock",
+          "Quantity",
+          "Quantity",
+          "Free Quantity",
+          "Free Quantity",
+          "Quantity",
+          "Free Quantity",
+          "Free Quantity",
+          "OTHER",
+          "OTHER",
+          "OTHER",
+          "Stock",
+          "Quantity",
+          "Free Quantity",
+          "Free Quantity",
+          "Sale",
+          "Sale",
+          "T/F",
+          "T/F",
+          "OTHER",
+          "OTHER",
+          "Stock",
+          "Stock",
+          "SCRAP"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8904298181818182
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=25 data=18 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=25 data=18 diff=7"
+          }
+        }
+      }
+    ]
+  }
+}

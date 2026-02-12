@@ -1,0 +1,161 @@
+{
+  "pdf_path": "pdfs\\10014452_20260101_141250_AIL ST.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.84075
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "DUVADILAN",
+          "INJ",
+          "2Mlx6",
+          "153.67",
+          "768.35",
+          "153.67",
+          "768.35",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6905311306340719
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "3128.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "3128.00"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7277855113636363
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8390436974789917
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=8 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

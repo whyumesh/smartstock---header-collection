@@ -1,0 +1,295 @@
+{
+  "pdf_path": "pdfs\\10002135_20251219_115223_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 69.39398193359375,
+      "y_max": 83.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 69.39398193359375,
+      "y_max": 83.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 3,
+      "y_min": 184.89398193359375,
+      "y_max": 199.19398498535156,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=5"
+    },
+    {
+      "page_no": 4,
+      "y_min": 300.39398193359375,
+      "y_max": 314.6939697265625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 6,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "GLUFORMIN",
+        "XL",
+        "15S",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.2004735609175754,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5599999999999999,
+      "data_validation_score": 0.7173678045878774,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "EPTOIN",
+        "ER",
+        "TAB",
+        "30'S",
+        "-"
+      ],
+      "combined_confidence": 0.15754186234817802,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.58,
+      "data_validation_score": 0.7327093117408907,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "DURAJOINT-GM",
+        "TAB",
+        "10;S",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.29408800540906027,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5599999999999999,
+      "data_validation_score": 0.7104400270453008,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "DURAJOINT-GM",
+    "TAB",
+    "10;S",
+    "-",
+    "-"
+  ],
+  "confidence": 0.7940880054090602,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.5599999999999999,
+    "data_validation_score": 0.7104400270453008,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "DURAJOINT-GM",
+      "TAB",
+      "10;S",
+      "-",
+      "-"
+    ],
+    "per_page": [
+      [
+        "GLUFORMIN",
+        "XL",
+        "15S",
+        "-",
+        "-"
+      ],
+      [
+        "EPTOIN",
+        "ER",
+        "TAB",
+        "30'S",
+        "-"
+      ],
+      [
+        "DURAJOINT-GM",
+        "TAB",
+        "10;S",
+        "-",
+        "-"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7493844155844156
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.750007114624506
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "GLUFORMIN",
+          "XL",
+          "15S",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7504735609175754
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Tot",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7272000000000001
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "EPTOIN",
+          "ER",
+          "TAB",
+          "30'S",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7075418623481781
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "DURAJOINT-GM",
+          "TAB",
+          "10;S",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7440880054090603
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Tot"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7242857142857144
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=2 data=7 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=2 data=7 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=1 data=5 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=1 data=5 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "DURAJOINT-GM",
+      "TAB",
+      "10;S",
+      "-",
+      "-"
+    ],
+    "data_column_count_detected": 6,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

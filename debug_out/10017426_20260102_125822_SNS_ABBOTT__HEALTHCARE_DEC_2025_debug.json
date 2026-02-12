@@ -1,0 +1,225 @@
+{
+  "pdf_path": "pdfs\\10017426_20260102_125822_SNS ABBOTT  HEALTHCARE DEC 2025.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 122.23800659179688,
+      "y_max": 133.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "SUPPLIER",
+        "Product Name",
+        "Invoice No",
+        "NO.",
+        "Date",
+        "RECEIVE",
+        "Date",
+        "Amount"
+      ],
+      "combined_confidence": 0.2582500000000001,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.8375,
+      "data_validation_score": 0.72875,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "SUPPLIER",
+    "Product Name",
+    "Invoice No",
+    "NO.",
+    "Date",
+    "RECEIVE",
+    "Date",
+    "Amount"
+  ],
+  "confidence": 0.2582500000000001,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.8375,
+    "data_validation_score": 0.72875,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SUPPLIER",
+      "NAME",
+      "INVOICE",
+      "NO.",
+      "DATE",
+      "RECEIVE",
+      "DATE",
+      "AMOUNT"
+    ],
+    "normalized": [
+      "SUPPLIER",
+      "Product Name",
+      "Invoice No",
+      "NO.",
+      "Date",
+      "RECEIVE",
+      "Date",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.2582500000000001,
+      "evidence_scores": {
+        "keyword_score": 0.4,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.72875,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.6446875,
+      "evidence_before_penalties": 0.6446875
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "Stock",
+          "Purchase",
+          "Purchase",
+          "RETURN",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Sales",
+          "Sales",
+          "RETURN",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Rate"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8033929824561404
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ABBOTT",
+          "ABBOTT",
+          "DIABETES",
+          "DIABETES"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.6777000000000001
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ABBOTT",
+          "ABBOTT",
+          "MULTI",
+          "THERAPY"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.6855
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "SUPPLIER",
+          "Product Name",
+          "Invoice No",
+          "NO.",
+          "Date",
+          "RECEIVE",
+          "Date",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8082500000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=4 data=14 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=14 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=4 data=13 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=13 diff=9"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "SUPPLIER",
+      "Product Name",
+      "Invoice No",
+      "NO.",
+      "Date",
+      "RECEIVE",
+      "Date",
+      "Amount"
+    ]
+  }
+}

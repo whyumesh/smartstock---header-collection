@@ -1,0 +1,224 @@
+{
+  "pdf_path": "pdfs\\10011639_20251216_133304_REPORT_7CL0SZ0V6.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 133.21798706054688,
+      "y_max": 141.0179901123047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.718017578125,
+      "y_max": 25.518016815185547,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    },
+    {
+      "page_no": 2,
+      "y_min": 38.718017578125,
+      "y_max": 67.51802062988281,
+      "confidence": 0.5798611203093578,
+      "reason": "density=6.7 font_boost=1.0 top_score=0.87"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Description",
+        "Op",
+        "Sales",
+        "Sale",
+        "Sales",
+        "Sales",
+        "Purchase",
+        "Purchase",
+        "Purchase",
+        "Purchase",
+        "Other",
+        "Closing",
+        "Closing",
+        "Expiry Date",
+        "Expiry Date"
+      ],
+      "combined_confidence": 0.4602611607142858,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.934375,
+      "data_validation_score": 0.7169308035714286,
+      "data_column_count_detected": 16
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "ABBOTT",
+        "HEALTHCARE",
+        "PVT",
+        "LTD,P",
+        "52967.00",
+        "52967.00"
+      ],
+      "combined_confidence": 0.21000000000000002,
+      "visual_score": 0.5,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.75,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Description",
+    "Op",
+    "Sales",
+    "Sale",
+    "Sales",
+    "Sales",
+    "Purchase",
+    "Purchase",
+    "Purchase",
+    "Purchase",
+    "Other",
+    "Closing",
+    "Closing",
+    "Expiry Date",
+    "Expiry Date"
+  ],
+  "confidence": 0.4602611607142858,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.934375,
+    "data_validation_score": 0.7169308035714286,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Item",
+      "Description",
+      "Opening",
+      "Sales",
+      "Sale",
+      "Sales",
+      "Sales",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Other",
+      "Closing",
+      "Closing",
+      "Expiry",
+      "Expiry"
+    ],
+    "normalized": [
+      "Product Name",
+      "Description",
+      "Op",
+      "Sales",
+      "Sale",
+      "Sales",
+      "Sales",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Other",
+      "Closing",
+      "Closing",
+      "Expiry Date",
+      "Expiry Date"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 16,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=16 data=16"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.4602611607142858,
+      "evidence_scores": {
+        "keyword_score": 0.7894736842105263,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7169308035714286,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.8099344552788221,
+      "evidence_before_penalties": 0.8099344552788221
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Description",
+          "Op",
+          "Sales",
+          "Sale",
+          "Sales",
+          "Sales",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Other",
+          "Closing",
+          "Closing",
+          "Expiry Date",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.8602611607142858
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ABBOTT",
+          "HEALTHCARE",
+          "PVT",
+          "LTD,P",
+          "52967.00",
+          "52967.00"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.66
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "all_filtered_noise",
+        "noise_removed": [
+          "------------------------------------------------------------------------------------ TOTAL 5058518.03 5058486.03 ===================================================================================="
+        ]
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Description",
+      "Op",
+      "Sales",
+      "Sale",
+      "Sales",
+      "Sales",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Other",
+      "Closing",
+      "Closing",
+      "Expiry Date",
+      "Expiry Date"
+    ]
+  }
+}

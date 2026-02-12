@@ -1,0 +1,442 @@
+{
+  "pdf_path": "pdfs\\10000861_20260101_115834_ABBOTT STOCK.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 3,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 4,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 5,
+      "y_min": 69.39398193359375,
+      "y_max": 83.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 6,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 7,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 8,
+      "y_min": 142.89398193359375,
+      "y_max": 157.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 9,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.7183103030303031,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.7833333333333333,
+      "data_validation_score": 0.7082181818181817,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "STATOR",
+        "CV",
+        "TAB",
+        "1X15",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.45361559392987977,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5666666666666667,
+      "data_validation_score": 0.7264113029827316,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "WINBIP",
+        "TAB",
+        "1X10",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.40001639194139194,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7572248168498169,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "STATOR",
+        "AM",
+        "TAB",
+        "1X10",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.5998153742808916,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.55,
+      "data_validation_score": 0.7240768714044576,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "&",
+    "Sales",
+    "Sales",
+    "ANALYSIS",
+    "ANALYSIS"
+  ],
+  "confidence": 0.7183103030303031,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.7833333333333333,
+    "data_validation_score": 0.7082181818181817,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "STOCK",
+      "&",
+      "SALES",
+      "SALES",
+      "ANALYSIS",
+      "ANALYSIS"
+    ],
+    "normalized": [
+      "Stock",
+      "&",
+      "Sales",
+      "Sales",
+      "ANALYSIS",
+      "ANALYSIS"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "SALES",
+        "into": "SALES",
+        "interval_idx": 0
+      },
+      {
+        "split": "SALES",
+        "into": "SALES",
+        "interval_idx": 1
+      },
+      {
+        "split": "ANALYSIS",
+        "into": "ANALYSIS",
+        "interval_idx": 1
+      },
+      {
+        "split": "ANALYSIS",
+        "into": "ANALYSIS",
+        "interval_idx": 2
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=6"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7183103030303031,
+      "evidence_scores": {
+        "keyword_score": 0.6,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7082181818181817,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.1
+      },
+      "evidence_total": 0.7370545454545455,
+      "evidence_before_penalties": 0.7370545454545455
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7541107275703021
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7183103030303031
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7359657142857143
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7485757575757577
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "KENACORT",
+          "SKIN",
+          "CR",
+          "15Gm",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7499133512544804
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "NICODUCE",
+          "OD",
+          "MG",
+          "TAB",
+          "1Ph",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7670289586956254
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "STATOR",
+          "CV",
+          "TAB",
+          "1X15",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7536155939298798
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "WINBIP",
+          "TAB",
+          "1X10",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.700016391941392
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "STATOR",
+          "AM",
+          "TAB",
+          "1X10",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7498153742808916
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "ABBOTT",
+          "HEALTHCARE",
+          "PVT",
+          "PATNA",
+          "6755.00"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6625023923444977
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Stock",
+      "&",
+      "Sales",
+      "Sales",
+      "ANALYSIS",
+      "ANALYSIS"
+    ]
+  }
+}

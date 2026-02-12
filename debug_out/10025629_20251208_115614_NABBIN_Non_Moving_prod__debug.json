@@ -1,0 +1,47 @@
+{
+  "pdf_path": "pdfs\\10025629_20251208_115614_NABBIN_Non Moving prod .pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 121.20787048339844,
+      "y_max": 137.2158660888672,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=10"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "No.1",
+          "Non-Moving",
+          "Product Name",
+          "From",
+          "Tot",
+          "Dec",
+          "8,2025"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7900075549450549
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=7 data=4 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=4 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

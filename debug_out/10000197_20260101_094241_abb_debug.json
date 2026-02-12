@@ -1,0 +1,1185 @@
+{
+  "pdf_path": "pdfs\\10000197_20260101_094241_abb.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 5,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 6,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 7,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 8,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 9,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 10,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 11,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 12,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 13,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 14,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 15,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 16,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 17,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 18,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 19,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 20,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 21,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 22,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 23,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 24,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 25,
+      "y_min": 104.12543487548828,
+      "y_max": 113.87543487548828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 5,
+      "headers": [
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Amount",
+        "A3Mn",
+        "E/E",
+        "Age",
+        "Exp"
+      ],
+      "combined_confidence": 0.8334290825453616,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9038461538461539,
+      "data_validation_score": 0.7382992588806542,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 11,
+      "headers": [
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "A3Mn",
+        "E/E",
+        "Age",
+        "Exp"
+      ],
+      "combined_confidence": 0.6304000000000001,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.875,
+      "data_validation_score": 0.752,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Amount",
+    "A3Mn",
+    "E/E",
+    "Age",
+    "Exp"
+  ],
+  "confidence": 0.8334290825453616,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.9038461538461539,
+    "data_validation_score": 0.7382992588806542,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Qty",
+      "Qty",
+      "Qty",
+      "Qty",
+      "Qty",
+      "mount",
+      "Qty",
+      "Amount",
+      "Amount",
+      "A3Mn",
+      "E/E",
+      "Age",
+      "Exp"
+    ],
+    "normalized": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Amount",
+      "A3Mn",
+      "E/E",
+      "Age",
+      "Exp"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 4
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 5
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 5
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 6
+      },
+      {
+        "split": "Amount",
+        "into": "Amount",
+        "interval_idx": 9
+      },
+      {
+        "split": "Amount",
+        "into": "Amount",
+        "interval_idx": 10
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.8334290825453616,
+      "evidence_scores": {
+        "keyword_score": 0.7692307692307693,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7382992588806542,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.038461538461538464
+      },
+      "evidence_total": 0.7807286608740097,
+      "evidence_before_penalties": 0.7807286608740097
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8184285714285715
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8207942307692307
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8140576923076923
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8155546218487395
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8166102564102564
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8334290825453616
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8232615384615385
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8277636363636365
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8246266666666667
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8241475113122172
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8216319327731093
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8304
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8253733333333334
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8153125000000001
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8221465240641712
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8159333333333334
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8166102564102564
+      },
+      {
+        "page_no": 17,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8153865546218488
+      },
+      {
+        "page_no": 18,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8253465201465202
+      },
+      {
+        "page_no": 19,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8210307692307692
+      },
+      {
+        "page_no": 20,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.817150226244344
+      },
+      {
+        "page_no": 21,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8217442307692309
+      },
+      {
+        "page_no": 22,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.83012
+      },
+      {
+        "page_no": 23,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8234750000000001
+      },
+      {
+        "page_no": 24,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.823132142857143
+      },
+      {
+        "page_no": 25,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8168873626373627
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=16 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=16 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=16 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=14 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=15 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=13 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 15,
+        "reason": "column_count_mismatch: header=15 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 16,
+        "reason": "column_count_mismatch: header=15 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=13 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 17,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 18,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 19,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 20,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 21,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 22,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 23,
+        "reason": "column_count_mismatch: header=16 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 24,
+        "reason": "column_count_mismatch: header=16 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 25,
+        "reason": "column_count_mismatch: header=16 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=13 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Amount",
+      "A3Mn",
+      "E/E",
+      "Age",
+      "Exp"
+    ]
+  }
+}

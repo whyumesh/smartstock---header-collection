@@ -1,0 +1,207 @@
+{
+  "pdf_path": "pdfs\\10000848_20251231_173947_Stock_Report.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 145.31600952148438,
+      "y_max": 153.24002075195312,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 324.5660095214844,
+      "y_max": 332.4900207519531,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 20.06601333618164,
+      "y_max": 27.990015029907227,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Particular",
+        "Product Code",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sl.Qnt.",
+        "Amount",
+        "Cl",
+        "Amount"
+      ],
+      "combined_confidence": 0.6146012670565302,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.8722222222222222,
+      "data_validation_score": 0.7007841130604288,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "THYRONORM",
+        "Sale",
+        "PILL",
+        "DOSE",
+        "1X100",
+        "1.00",
+        "1.00",
+        "146.01"
+      ],
+      "combined_confidence": 0.3402047421310599,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.65,
+      "data_validation_score": 0.7260237106552996,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "Particular",
+    "Product Code",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Sl.Qnt.",
+    "Amount",
+    "Cl",
+    "Amount"
+  ],
+  "confidence": 0.6146012670565302,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.8722222222222222,
+    "data_validation_score": 0.7007841130604288,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Particular",
+      "Prod.Code",
+      "Packing",
+      "Op.Qnt.",
+      "Pur.Qnt.",
+      "Sl.Qnt.",
+      "Sl.Value",
+      "Cl.Qnt.",
+      "Cl.Value"
+    ],
+    "normalized": [
+      "Particular",
+      "Product Code",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Sl.Qnt.",
+      "Amount",
+      "Cl",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 9,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=9 data=9"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.6146012670565302,
+      "evidence_scores": {
+        "keyword_score": 0.8,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7007841130604288,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.8085293615984406,
+      "evidence_before_penalties": 0.8085293615984406
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particular",
+          "Product Code",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sl.Qnt.",
+          "Amount",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8146012670565301
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "INDERAL",
+          "TAB",
+          "15S",
+          "NEW",
+          "Sales",
+          "1X1",
+          "44.00",
+          "12.00",
+          "442.26",
+          "32.00",
+          "1123.20"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7424935064935065
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "THYRONORM",
+          "Sale",
+          "PILL",
+          "DOSE",
+          "1X100",
+          "1.00",
+          "1.00",
+          "146.01"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7402047421310599
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=8 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Particular",
+      "Product Code",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Sl.Qnt.",
+      "Amount",
+      "Cl",
+      "Amount"
+    ]
+  }
+}

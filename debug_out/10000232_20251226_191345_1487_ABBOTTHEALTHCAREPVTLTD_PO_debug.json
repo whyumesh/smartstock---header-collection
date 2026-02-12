@@ -1,0 +1,125 @@
+{
+  "pdf_path": "pdfs\\10000232_20251226_191345_1487_ABBOTTHEALTHCAREPVTLTD_PO.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 30.499988555908203,
+      "y_max": 44.949989318847656,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "KRISHNA",
+        "KRISHNA",
+        "PHARMA",
+        "PHARMA",
+        "DISTRIBUTOR"
+      ],
+      "combined_confidence": 0.6545203619909502,
+      "visual_score": 0.5,
+      "reconstruction_score": 0.76,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.5976018099547511,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "KRISHNA",
+    "KRISHNA",
+    "PHARMA",
+    "PHARMA",
+    "DISTRIBUTOR"
+  ],
+  "confidence": 0.6545203619909502,
+  "confidence_breakdown": {
+    "visual_score": 0.5,
+    "reconstruction_score": 0.76,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.5976018099547511,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "KRISHNA",
+      "KRISHNA",
+      "PHARMA",
+      "PHARMA",
+      "DISTRIBUTOR"
+    ],
+    "normalized": [
+      "KRISHNA",
+      "KRISHNA",
+      "PHARMA",
+      "PHARMA",
+      "DISTRIBUTOR"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "KRISHNA",
+        "into": "KRISHNA",
+        "interval_idx": 0
+      },
+      {
+        "split": "KRISHNA",
+        "into": "KRISHNA",
+        "interval_idx": 1
+      },
+      {
+        "split": "PHARMA",
+        "into": "PHARMA",
+        "interval_idx": 2
+      },
+      {
+        "split": "PHARMA",
+        "into": "PHARMA",
+        "interval_idx": 3
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 5,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=5"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.6545203619909502,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.5976018099547511,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.6494004524886877,
+      "evidence_before_penalties": 0.6494004524886877
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "KRISHNA",
+          "KRISHNA",
+          "PHARMA",
+          "PHARMA",
+          "DISTRIBUTOR"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.6545203619909502
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "KRISHNA",
+      "KRISHNA",
+      "PHARMA",
+      "PHARMA",
+      "DISTRIBUTOR"
+    ]
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "pdf_path": "pdfs\\10005726_20251231_173437_ABBOTT INDIA LTD GASTRO DIV(INDIA)_SalesStatement_Dec_2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 98.94100189208984,
+      "y_max": 107.65360260009766,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 1,
+      "y_min": 98.94100189208984,
+      "y_max": 107.65360260009766,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 98.94100189208984,
+      "y_max": 107.65360260009766,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 3,
+      "y_min": 98.94100189208984,
+      "y_max": 107.65360260009766,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 4,
+      "y_min": 98.94100189208984,
+      "y_max": 107.65360260009766,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 5,
+      "y_min": 98.94100189208984,
+      "y_max": 107.65360260009766,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 6,
+      "y_min": 78.85025787353516,
+      "y_max": 88.84740447998047,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 6,
+      "headers": [
+        "Company",
+        "ABBOTT",
+        "INDIA",
+        "LTD",
+        "GASTRO",
+        "DIV(INDIA)"
+      ],
+      "combined_confidence": 0.5782575757575757,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7412878787878787,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Company",
+    "ABBOTT",
+    "INDIA",
+    "LTD",
+    "GASTRO",
+    "DIV(INDIA)"
+  ],
+  "confidence": 0.5782575757575757,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.7412878787878787,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Company",
+      "ABBOTT",
+      "INDIA",
+      "LTD",
+      "GASTRO",
+      "DIV(INDIA)"
+    ],
+    "normalized": [
+      "Company",
+      "ABBOTT",
+      "INDIA",
+      "LTD",
+      "GASTRO",
+      "DIV(INDIA)"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      ":"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=6"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5782575757575757,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7412878787878787,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.14285714285714285
+      },
+      "evidence_total": 0.7066076839826839,
+      "evidence_before_penalties": 0.7066076839826839
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "No",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8210344827586208
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "No",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8096934865900384
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "No",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8093271604938272
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "No",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.809513888888889
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "No",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8098518518518519
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "No",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.808763888888889
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Company",
+          "ABBOTT",
+          "INDIA",
+          "LTD",
+          "GASTRO",
+          "DIV(INDIA)"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7282575757575758
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Company",
+      "ABBOTT",
+      "INDIA",
+      "LTD",
+      "GASTRO",
+      "DIV(INDIA)"
+    ]
+  }
+}

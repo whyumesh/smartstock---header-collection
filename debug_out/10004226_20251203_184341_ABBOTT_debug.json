@@ -1,0 +1,217 @@
+{
+  "pdf_path": "pdfs\\10004226_20251203_184341_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 20.623992919921875,
+      "y_max": 30.114316940307617,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 1,
+      "y_min": 20.623992919921875,
+      "y_max": 30.114316940307617,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 2,
+      "y_min": 20.623992919921875,
+      "y_max": 30.114316940307617,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 20.623992919921875,
+      "y_max": 30.114316940307617,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 4,
+      "y_min": 20.623992919921875,
+      "y_max": 30.114316940307617,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 5,
+      "y_min": 20.623992919921875,
+      "y_max": 30.114316940307617,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 6,
+      "y_min": 20.623992919921875,
+      "y_max": 30.114316940307617,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "GANESH",
+          "GANESH",
+          "PL.A.",
+          "AGENCIES",
+          "AGENCIES"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6824105263157896
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GANESH",
+          "PL.A.",
+          "PL.A.",
+          "AGENCIES",
+          "AGENCIES"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.6824987616099072
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "GANESH",
+          "PL.A.",
+          "PL.A.",
+          "AGENCIES",
+          "AGENCIES"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6853238095238096
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "GANESH",
+          "PL.A.",
+          "PL.A.",
+          "AGENCIES",
+          "AGENCIES"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.6834489878542511
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "GANESH",
+          "PL.A.",
+          "PL.A.",
+          "AGENCIES"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6828230263157895
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "GANESH",
+          "PL.A.",
+          "PL.A.",
+          "AGENCIES",
+          "AGENCIES"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6872105263157895
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "GANESH",
+          "PL.A.",
+          "PL.A.",
+          "AGENCIES"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.6841188811188812
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=5 data=11 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=11 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=10 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=11 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=11 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=5 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=10 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=5 data=11 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=11 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=4 data=8 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=8 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

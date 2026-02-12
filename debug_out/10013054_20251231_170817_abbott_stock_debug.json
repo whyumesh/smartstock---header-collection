@@ -1,0 +1,91 @@
+{
+  "pdf_path": "pdfs\\10013054_20251231_170817_abbott stock.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 221.04640197753906,
+      "y_max": 231.71839904785156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 166.62123107910156,
+      "y_max": 177.29322814941406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Closing"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7870769230769231
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Closing"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.785976833976834
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=8 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=8 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=14 data=8 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=8 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

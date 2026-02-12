@@ -1,0 +1,248 @@
+{
+  "pdf_path": "pdfs\\10036333_20260102_183756_REPORT_7D413RX8H.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 69.39398193359375,
+      "y_max": 83.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 300.39398193359375,
+      "y_max": 314.6939697265625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5797878787878787,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.6822727272727273,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.579568115942029,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.6811739130434783,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "DESCRIPTION",
+    "Op",
+    "RECEIPT",
+    "ISSUE",
+    "Closing"
+  ],
+  "confidence": 0.8297878787878787,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.7916666666666666,
+    "data_validation_score": 0.6822727272727273,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7797878787878788
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.779568115942029
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "FINECEF",
+          "1Gm"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7095310344827587
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "NICODUCE",
+          "OD",
+          "100Tab"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7069278592375368
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "ROVAMYCIN",
+          "FORTE",
+          "*10",
+          "GST"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6838967888256895
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ZIL",
+          "1*10Tab"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6705
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=2 data=6 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=2 data=6 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=3 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=4 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=6 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=2 data=6 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=2 data=6 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing"
+    ],
+    "data_column_count_detected": 6,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

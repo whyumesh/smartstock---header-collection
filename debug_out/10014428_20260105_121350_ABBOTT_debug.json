@@ -1,0 +1,322 @@
+{
+  "pdf_path": "pdfs\\10014428_20260105_121350_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 69.39398193359375,
+      "y_max": 83.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 3,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 4,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 6,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "ESGIPYRIN-AQ",
+        "INJ",
+        "1Ml",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.7480800627943486,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7475431711145996,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Cl",
+        "250Mg",
+        "TAB.",
+        "1*10",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.3105343323343324,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.625,
+      "data_validation_score": 0.7026716616716616,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "Free Quantity",
+        "OINTMENT",
+        "20Gm.",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.540277072063047,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5928571428571429,
+      "data_validation_score": 0.6585282174580912,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "ESGIPYRIN-AQ",
+    "INJ",
+    "1Ml",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.7480800627943486,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.5428571428571428,
+    "data_validation_score": 0.7475431711145996,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ESGIPYRIN-AQ",
+      "INJ",
+      "1ML",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "ESGIPYRIN-AQ",
+      "INJ",
+      "1Ml",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7480800627943486,
+      "evidence_scores": {
+        "keyword_score": 0.6666666666666666,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7475431711145996,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.14285714285714285
+      },
+      "evidence_total": 0.7678381737310308,
+      "evidence_before_penalties": 0.7678381737310308
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7512011131725418
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7234
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "BETONIN",
+          "AST",
+          "JUNIOR",
+          "SYP.100",
+          "100Ml",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7537642135642136
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "ESGIPYRIN-AQ",
+          "INJ",
+          "1Ml",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7480800627943486
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "750Mg.Tab.",
+          "1*10",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7484831666541345
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Cl",
+          "250Mg",
+          "TAB.",
+          "1*10",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7605343323343324
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Free Quantity",
+          "OINTMENT",
+          "20Gm.",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7402770720630469
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ESGIPYRIN-AQ",
+      "INJ",
+      "1Ml",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

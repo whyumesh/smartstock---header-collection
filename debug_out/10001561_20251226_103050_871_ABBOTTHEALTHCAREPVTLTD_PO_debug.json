@@ -1,0 +1,45 @@
+{
+  "pdf_path": "pdfs\\10001561_20251226_103050_871_ABBOTTHEALTHCAREPVTLTD_PO.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 114.71966552734375,
+      "y_max": 123.66966247558594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "C-208-209",
+          "&",
+          "Tot",
+          "C-309",
+          "KANCHAN"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8043937254901962
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

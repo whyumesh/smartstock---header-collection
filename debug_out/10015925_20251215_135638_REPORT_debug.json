@@ -1,0 +1,152 @@
+{
+  "pdf_path": "pdfs\\10015925_20251215_135638_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "BALLIA",
+        "BALLIA",
+        "ARAJI",
+        "ARAJI",
+        "Purchase",
+        "Purchase",
+        "Op"
+      ],
+      "combined_confidence": 0.4558344155844155,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7999999999999999,
+      "semantic_score": 0.75,
+      "data_validation_score": 0.6541720779220779,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "BALLIA",
+    "BALLIA",
+    "ARAJI",
+    "ARAJI",
+    "Purchase",
+    "Purchase",
+    "Op"
+  ],
+  "confidence": 0.4558344155844155,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.7999999999999999,
+    "semantic_score": 0.75,
+    "data_validation_score": 0.6541720779220779,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "BALLIA",
+      "BALLIA",
+      "ARAJI",
+      "ARAJI",
+      "134&157,VILLAGE-DHANPALPUR",
+      "134&157,VILLAGE-DHANPALPUR",
+      ":P.O.No.:OP001135"
+    ],
+    "normalized": [
+      "BALLIA",
+      "BALLIA",
+      "ARAJI",
+      "ARAJI",
+      "Purchase",
+      "Purchase",
+      "Op"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "BALLIA",
+        "into": "BALLIA",
+        "interval_idx": 0
+      },
+      {
+        "split": "BALLIA",
+        "into": "BALLIA",
+        "interval_idx": 1
+      },
+      {
+        "split": "ARAJI",
+        "into": "ARAJI",
+        "interval_idx": 3
+      },
+      {
+        "split": "ARAJI",
+        "into": "ARAJI",
+        "interval_idx": 4
+      },
+      {
+        "split": "134&157,VILLAGE-DHANPALPUR",
+        "into": "134&157,VILLAGE-DHANPALPUR",
+        "interval_idx": 4
+      },
+      {
+        "split": "134&157,VILLAGE-DHANPALPUR",
+        "into": "134&157,VILLAGE-DHANPALPUR",
+        "interval_idx": 5
+      }
+    ],
+    "noise_tokens_removed": [
+      ":"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.4558344155844155,
+      "evidence_scores": {
+        "keyword_score": 0.42857142857142855,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6541720779220779,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7081858766233766,
+      "evidence_before_penalties": 0.7081858766233766
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "BALLIA",
+          "BALLIA",
+          "ARAJI",
+          "ARAJI",
+          "Purchase",
+          "Purchase",
+          "Op"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7558344155844156
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "BALLIA",
+      "BALLIA",
+      "ARAJI",
+      "ARAJI",
+      "Purchase",
+      "Purchase",
+      "Op"
+    ]
+  }
+}

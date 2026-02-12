@@ -1,0 +1,493 @@
+{
+  "pdf_path": "pdfs\\10000333_20260101_112154_REPORT_7D30O8YYL.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 216.39398193359375,
+      "y_max": 230.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=11"
+    },
+    {
+      "page_no": 4,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 6,
+      "y_min": 279.39398193359375,
+      "y_max": 293.6939697265625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 7,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 8,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 9,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 10,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 11,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5730434782608695,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.6485507246376812,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Cl",
+        "OD",
+        "1G",
+        "TABS",
+        "TAB",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.17828540706605223,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.6214285714285713,
+      "data_validation_score": 0.7449984639016897,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "BASITON",
+        "FORTE",
+        "15Tab",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.2523481203007519,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5599999999999999,
+      "data_validation_score": 0.7142406015037593,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.5728400000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.82,
+      "data_validation_score": 0.6942,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "BECOMAX",
+        "FORTE",
+        "15Tab",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.5962398004294557,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7133418592901352,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.5746597101449276,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.7833333333333333,
+      "data_validation_score": 0.7399652173913044,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5725463613937711,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.6460651403021894,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "BECOMAX",
+    "FORTE",
+    "15Tab",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.5962398004294557,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.5428571428571428,
+    "data_validation_score": 0.7133418592901352,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "BECOMAX",
+      "FORTE",
+      "15TAB",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "BECOMAX",
+      "FORTE",
+      "15Tab",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "C"
+    ],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5962398004294557,
+      "evidence_scores": {
+        "keyword_score": 0.3333333333333333,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7133418592901352,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.08333333333333333
+      },
+      "evidence_total": 0.6520021314892004,
+      "evidence_before_penalties": 0.6520021314892004
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7730434782608695
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7491528046421664
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "TYZA",
+          "CREAM",
+          "15Gm.",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7044894291754757
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Cl",
+          "OD",
+          "1G",
+          "TABS",
+          "TAB",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7282854070660523
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "TELPRES",
+          "CT",
+          "TAB"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6892717948717949
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "BASITON",
+          "FORTE",
+          "15Tab",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7023481203007519
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7228400000000001
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "BECOMAX",
+          "FORTE",
+          "15Tab",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7462398004294557
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7246597101449276
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7725463613937712
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "DIGENE",
+          "ULTRA",
+          "FIZZ",
+          "ORANGE",
+          "1Pic",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7187743929616995
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "CEFI",
+          "200Mg",
+          "10Tab",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6743271099744246
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=3 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=9 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=4 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=6 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "BECOMAX",
+      "FORTE",
+      "15Tab",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

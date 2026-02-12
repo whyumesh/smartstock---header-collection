@@ -1,0 +1,651 @@
+{
+  "pdf_path": "pdfs\\10000787_20260101_115834_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 2,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    },
+    {
+      "page_no": 3,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    },
+    {
+      "page_no": 4,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 258.7380065917969,
+      "y_max": 270.4380187988281,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    },
+    {
+      "page_no": 6,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 7,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 8,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 9,
+      "y_min": 185.23800659179688,
+      "y_max": 196.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    },
+    {
+      "page_no": 10,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 11,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 12,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 13,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    },
+    {
+      "page_no": 14,
+      "y_min": 269.2380065917969,
+      "y_max": 280.9380187988281,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    },
+    {
+      "page_no": 15,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    },
+    {
+      "page_no": 16,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 17,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8517333333333333
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ABBOTT",
+          "HEALTHCARE-CCD",
+          "HEALTHCARE-CCD",
+          "HEALTHCARE-CCD",
+          "(Nd)"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.676409090909091
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Cl",
+          "AT",
+          "20Gm",
+          "2176.72",
+          "5441.80",
+          "4837.12",
+          "3265.08"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.729825442967885
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "MINICHEK",
+          "2%",
+          "60Ml",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6982142857142858
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8485
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8435000000000001
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Cl",
+          "OD",
+          "TAB",
+          "7'S",
+          "449.92",
+          "11248.00",
+          "8498.30",
+          "4049.28"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7414551495016611
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "PHOSFOMIN",
+          "XT",
+          "TAB",
+          "10'S",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7015997340425533
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8456470588235294
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8406470588235295
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "ESGIPYRIN",
+          "TAB",
+          "15'S",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7247086834733893
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Cl",
+          "TAB",
+          "10'S",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7372564935064935
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "1000Mg",
+          "10'S",
+          "3982.02",
+          "0.00",
+          "632.06",
+          "3413.16"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7296878022243714
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8435000000000001
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8406470588235295
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "ANAFORTAN",
+          "Op",
+          "10Ml",
+          "1564.16",
+          "3519.36",
+          "3312.91",
+          "2101.84"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.705436507936508
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "FINECEF",
+          "1Gm",
+          "INJ",
+          "VIAL",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7270863970588235
+      },
+      {
+        "page_no": 17,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8456470588235294
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=11 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=11 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=7 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=7 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=16 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=16 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=8 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=7 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=7 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=16 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 15,
+        "reason": "column_count_mismatch: header=7 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 16,
+        "reason": "column_count_mismatch: header=8 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 17,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      }
+    ]
+  }
+}

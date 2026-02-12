@@ -1,0 +1,139 @@
+{
+  "pdf_path": "pdfs\\10023126_20260101_183426_ABBOTT HEALTH CARE.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 75.42711639404297,
+      "y_max": 81.01005554199219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 40.994258880615234,
+      "y_max": 46.57719802856445,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.251583099365234,
+      "y_max": 32.83452224731445,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 3,
+      "y_min": 20.379390716552734,
+      "y_max": 25.962329864501953,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Quantity",
+          "PrvSal",
+          "Rep.qt",
+          "Sale",
+          "Free Quantity",
+          "Adj",
+          "Stock",
+          "Sale",
+          "Age"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8353095238095238
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "-",
+          "TYZA",
+          "100Mg",
+          "10'S",
+          "396.16"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.721969090909091
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Rate",
+          "Rate",
+          "Rate",
+          "INSTA",
+          "INSTA",
+          "30'S",
+          "30'S"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7282166666666667
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "15'S"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.6948380952380953
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=10 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=9 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=9 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=7 data=9 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=9 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=3 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=5 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

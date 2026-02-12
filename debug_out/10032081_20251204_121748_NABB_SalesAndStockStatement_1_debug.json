@@ -1,0 +1,132 @@
+{
+  "pdf_path": "pdfs\\10032081_20251204_121748_NABB_SalesAndStockStatement_1.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 194.78781127929688,
+      "y_max": 204.1258087158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 145.18148803710938,
+      "y_max": 154.5194854736328,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 145.18148803710938,
+      "y_max": 154.5194854736328,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8179960784313727
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8179960784313727
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8191904761904762
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=14 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=11 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

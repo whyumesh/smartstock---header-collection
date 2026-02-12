@@ -1,0 +1,55 @@
+{
+  "pdf_path": "pdfs\\10025876_20260101_184504_ABBOTT INDIA.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 58.6678466796875,
+      "y_max": 67.65113067626953,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Nov",
+          "Oct",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From",
+          "Sales",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8585333333333333
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=7 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=7 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

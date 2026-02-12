@@ -1,0 +1,384 @@
+{
+  "pdf_path": "pdfs\\10028814_20251216_144532_REPORT_7CL0VKIE2.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 206.23800659179688,
+      "y_max": 217.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 4,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 5,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 6,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "VALANCE",
+        "OD",
+        "250Mg",
+        "TAB",
+        "1*15",
+        "2597.36",
+        "2910.20",
+        "2866.50",
+        "2750.15",
+        "-"
+      ],
+      "combined_confidence": 0.176789010989011,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.59,
+      "data_validation_score": 0.693945054945055,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "ELOCON",
+        "OINTMENT",
+        "10Gm",
+        "1*10Gm",
+        "2303.95",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "2303.95",
+        "-"
+      ],
+      "combined_confidence": 0.2766136363636364,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5727272727272728,
+      "data_validation_score": 0.735340909090909,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "SZETALO",
+        "LS",
+        "TAB",
+        "1*15",
+        "8247.68",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "8247.68",
+        "-"
+      ],
+      "combined_confidence": 0.2509776580207616,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5727272727272728,
+      "data_validation_score": 0.7321610173765346,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "ELOCON",
+    "OINTMENT",
+    "10Gm",
+    "1*10Gm",
+    "2303.95",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "2303.95",
+    "-"
+  ],
+  "confidence": 0.2766136363636364,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.5727272727272728,
+    "data_validation_score": 0.735340909090909,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ELOCON",
+      "OINTMENT",
+      "10GM",
+      "1*10GM",
+      "2303.95",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "2303.95",
+      "-"
+    ],
+    "normalized": [
+      "ELOCON",
+      "OINTMENT",
+      "10Gm",
+      "1*10Gm",
+      "2303.95",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "2303.95",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "10",
+      "10"
+    ],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=12"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.2766136363636364,
+      "evidence_scores": {
+        "keyword_score": 0.25,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.735340909090909,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 0.14285714285714285
+      },
+      "evidence_total": 0.5621209415584415,
+      "evidence_before_penalties": 0.5621209415584415
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8305882352941176
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "250Mg",
+          "TAB",
+          "1*15",
+          "2597.36",
+          "2910.20",
+          "2866.50",
+          "2750.15",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.726789010989011
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ELOCON",
+          "OINTMENT",
+          "10Gm",
+          "1*10Gm",
+          "2303.95",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "2303.95",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7266136363636364
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8308235294117646
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "KENACORT",
+          "10Mg",
+          "INJ",
+          "1*1Ml",
+          "256.96",
+          "1529.50",
+          "565.40",
+          "1284.78",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7228775047117333
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "SZETALO",
+          "LS",
+          "TAB",
+          "1*15",
+          "8247.68",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "8247.68",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7009776580207616
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "ABBOTT",
+          "ABBOTT",
+          "CRICTICAL",
+          "CRICTICAL",
+          "CARDIOLOGIS",
+          "CARDIOLOGIS"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.67486
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=6 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=11 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ELOCON",
+      "OINTMENT",
+      "10Gm",
+      "1*10Gm",
+      "2303.95",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "2303.95",
+      "-"
+    ]
+  }
+}

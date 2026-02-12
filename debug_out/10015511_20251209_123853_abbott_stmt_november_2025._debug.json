@@ -1,0 +1,266 @@
+{
+  "pdf_path": "pdfs\\10015511_20251209_123853_abbott stmt november 2025..pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 66.56607818603516,
+      "y_max": 74.49007415771484,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 262.9730529785156,
+      "y_max": 270.8970642089844,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 273.4730529785156,
+      "y_max": 281.3970642089844,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    },
+    {
+      "page_no": 3,
+      "y_min": 114.5660171508789,
+      "y_max": 122.4900131225586,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=11"
+    },
+    {
+      "page_no": 4,
+      "y_min": 20.06601333618164,
+      "y_max": 27.990015029907227,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    },
+    {
+      "page_no": 5,
+      "y_min": 20.06601333618164,
+      "y_max": 27.990015029907227,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Particular",
+        "Op",
+        "Purchase",
+        "Amount",
+        "Sl.Qnt.",
+        "Amount",
+        "Cl",
+        "Amount"
+      ],
+      "combined_confidence": 0.8267973684210526,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.8624999999999999,
+      "data_validation_score": 0.7964868421052631,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "Particular",
+    "Op",
+    "Purchase",
+    "Amount",
+    "Sl.Qnt.",
+    "Amount",
+    "Cl",
+    "Amount"
+  ],
+  "confidence": 0.8267973684210526,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.8624999999999999,
+    "data_validation_score": 0.7964868421052631,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Particular",
+      "Op.Qnt.",
+      "Pur.Qnt.",
+      "Pur.Value",
+      "Sl.Qnt.",
+      "Sl.Value",
+      "Cl.Qnt.",
+      "Cl.Value"
+    ],
+    "normalized": [
+      "Particular",
+      "Op",
+      "Purchase",
+      "Amount",
+      "Sl.Qnt.",
+      "Amount",
+      "Cl",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=8"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.8267973684210526,
+      "evidence_scores": {
+        "keyword_score": 0.75,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7964868421052631,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.8032883771929825,
+      "evidence_before_penalties": 0.8032883771929825
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particular",
+          "Op",
+          "Purchase",
+          "Amount",
+          "Sl.Qnt.",
+          "Amount",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8267973684210526
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "COMPANY",
+          "Tot",
+          "30991.20",
+          "17542.19",
+          "67207.92"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7332752688172043
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "COMPANY",
+          "Tot",
+          "1654.50",
+          "2272.32",
+          "7313.47"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7368600578368999
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "NIVAQUIN",
+          "250Mg",
+          "TABS"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7318
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "KENACORT",
+          "10Mg",
+          "INJECTION",
+          "1529.50",
+          "1990.80",
+          "917.70"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7235928571428571
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "REJOINT",
+          "UC",
+          "2247.87",
+          "3746.45"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7166315789473684
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=9 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=9 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=9 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=9 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=3 data=8 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=8 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=6 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=8 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=4 data=9 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=9 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Particular",
+      "Op",
+      "Purchase",
+      "Amount",
+      "Sl.Qnt.",
+      "Amount",
+      "Cl",
+      "Amount"
+    ]
+  }
+}

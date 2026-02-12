@@ -1,0 +1,725 @@
+{
+  "pdf_path": "pdfs\\10016687_20251231_194523_REPORT_7D0165J7K.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 4,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 5,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 6,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 7,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 8,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 9,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 10,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 11,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 12,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 13,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "GST",
+        "CV",
+        "10Tab",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.3539250000000001,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5875,
+      "data_validation_score": 0.732125,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "OXMAZETOL",
+        "ER",
+        "TAB",
+        "10Tab",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.4076220103425987,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7515715901745315,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "CALAPTIN",
+        "SR",
+        "10Tab",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.40590636973180083,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7711985153256705,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "LOBATE",
+        "CREAM",
+        "30G",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.7391744066047472,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7750386996904025,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "GLIMER-2",
+        "MG",
+        "10Tab",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.7378367794486216,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7683505639097744,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "ERTYCIN",
+        "SUSP",
+        "15Ml",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5579137595160109,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7812354642467207,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 11,
+      "headers": [
+        "Cl",
+        "INJ",
+        "1Amp",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.7868624308697839,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5875,
+      "data_validation_score": 0.771812154348919,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 12,
+      "headers": [
+        "VALANCE",
+        "OD",
+        "10Tab",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5830803571428571,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7820684523809524,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 13,
+      "headers": [
+        "SURBEX",
+        "NANO",
+        "5Ml",
+        "60K",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.34848400412796704,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7808815591013734,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "Cl",
+    "INJ",
+    "1Amp",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.7868624308697839,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.5875,
+    "data_validation_score": 0.771812154348919,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "CLINAXON-2",
+      "INJ",
+      "1AMP",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "Cl",
+      "INJ",
+      "1Amp",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=12"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7868624308697839,
+      "evidence_scores": {
+        "keyword_score": 0.2857142857142857,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.771812154348919,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.07142857142857142
+      },
+      "evidence_total": 0.6715244671586583,
+      "evidence_before_penalties": 0.6715244671586583
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8164705882352941
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GST",
+          "CV",
+          "10Tab",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7039250000000001
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "HYDENT",
+          "PRO",
+          "PASTE",
+          "70Gm",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7367756410256411
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "OXMAZETOL",
+          "ER",
+          "TAB",
+          "10Tab",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7076220103425988
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Tot",
+          "Tot",
+          "39338.24",
+          "39338.24",
+          "28672.80",
+          "28672.80",
+          "18603.09",
+          "18603.09",
+          "49847.51",
+          "49847.51"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6795167791039614
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "GENTYCYN-HC",
+          "EYE",
+          "Op",
+          "10Ml",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7926696832579185
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Tot",
+          "Tot",
+          "388.44",
+          "896.40",
+          "896.40",
+          "564.40",
+          "564.40",
+          "776.88",
+          "776.88"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6833401596611275
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "CALAPTIN",
+          "SR",
+          "10Tab",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7059063697318009
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "LOBATE",
+          "CREAM",
+          "30G",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7391744066047472
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "GLIMER-2",
+          "MG",
+          "10Tab",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7378367794486216
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "ERTYCIN",
+          "SUSP",
+          "15Ml",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7079137595160109
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Cl",
+          "INJ",
+          "1Amp",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7868624308697839
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "10Tab",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7330803571428571
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "SURBEX",
+          "NANO",
+          "5Ml",
+          "60K",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.798484004127967
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=13 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=13 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Cl",
+      "INJ",
+      "1Amp",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

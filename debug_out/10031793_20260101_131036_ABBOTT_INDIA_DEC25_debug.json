@@ -1,0 +1,111 @@
+{
+  "pdf_path": "pdfs\\10031793_20260101_131036_ABBOTT INDIA DEC25.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 269.2380065917969,
+      "y_max": 280.9380187988281,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=11"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "Stock",
+          "Purchase",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Sales",
+          "Sales",
+          "RETURN",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Rate"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8123882352941176
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Tot",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7696666666666667
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "SURBEX-NANO",
+          "5Ml",
+          "42.65"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6807310344827586
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=3 data=12 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=12 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=3 data=12 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=12 diff=9"
+          }
+        }
+      }
+    ]
+  }
+}

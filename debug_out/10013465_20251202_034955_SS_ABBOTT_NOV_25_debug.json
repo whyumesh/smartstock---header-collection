@@ -1,0 +1,193 @@
+{
+  "pdf_path": "pdfs\\10013465_20251202_034955_SS ABBOTT NOV 25.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 3,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 4,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.825078125
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Tot",
+          "108280.60",
+          "108280.60",
+          "96925.90",
+          "96925.90",
+          "105768.65",
+          "105768.65",
+          "99437.85",
+          "99437.85"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.672573476702509
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot",
+          "173016.78",
+          "173016.78",
+          "31169.34",
+          "31169.34",
+          "71811.23",
+          "71811.23",
+          "135377.29",
+          "135377.29"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6734891414141415
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "INDERAL",
+          "LA",
+          "20Mg",
+          "15'S",
+          "2379.00",
+          "3120.00",
+          "3120.00",
+          "2379.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6981063857833368
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8317142857142859
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=14 data=10 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=10 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

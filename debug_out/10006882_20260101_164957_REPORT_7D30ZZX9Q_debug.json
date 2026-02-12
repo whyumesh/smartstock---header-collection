@@ -1,0 +1,149 @@
+{
+  "pdf_path": "pdfs\\10006882_20260101_164957_REPORT_7D30ZZX9Q.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 3,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8482788461538462
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Tot",
+          "Tot",
+          "81705.17",
+          "81705.17",
+          "60220.20",
+          "60220.20",
+          "78807.57",
+          "78807.57",
+          "63117.80"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.6753087301587302
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ABBOTT",
+          "Op",
+          "Op",
+          "DIV)",
+          "INDIA",
+          "LTD",
+          "LTD"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7538380952380952
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Tot",
+          "12059.91",
+          "27196.56",
+          "21846.23",
+          "17410.24"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.6938000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=7 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=5 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=10 diff=5"
+          }
+        }
+      }
+    ]
+  }
+}

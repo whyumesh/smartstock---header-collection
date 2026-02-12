@@ -1,0 +1,82 @@
+{
+  "pdf_path": "pdfs\\10000847_20251231_133755_Stock_Report.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 145.31600952148438,
+      "y_max": 153.24002075195312,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 20.06601333618164,
+      "y_max": 27.990015029907227,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particular",
+          "Pack",
+          "Op",
+          "Amount",
+          "Purchase",
+          "Amount",
+          "Sl.Qnt.",
+          "Amount",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8498326530612246
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "PANKREOFLAT",
+          "HD",
+          "TABLETS",
+          "1X10",
+          "1339.30",
+          "4017.90",
+          "4017.90",
+          "1339.30"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6734915498625176
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=10 data=6 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=6 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "pdf_path": "pdfs\\10021653_20260102_125822_REPORT_7D40ROXM6.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 69.39398193359375,
+      "y_max": 83.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing",
+        "Exp"
+      ],
+      "combined_confidence": 0.5887265306122449,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.6793469387755102,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "DESCRIPTION",
+    "Op",
+    "RECEIPT",
+    "ISSUE",
+    "Closing",
+    "Exp"
+  ],
+  "confidence": 0.5887265306122449,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8142857142857143,
+    "data_validation_score": 0.6793469387755102,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ITEM",
+      "DESCRIPTION",
+      "OPENING",
+      "RECEIPT",
+      "ISSUE",
+      "CLOSING",
+      "M.EXP"
+    ],
+    "normalized": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing",
+      "Exp"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.5887265306122449,
+      "evidence_scores": {
+        "keyword_score": 0.625,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6793469387755102,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7760867346938777,
+      "evidence_before_penalties": 0.7760867346938777
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "Exp"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.788726530612245
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing",
+          "Exp"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7647693059628544
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=12 data=8 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=8 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing",
+      "Exp"
+    ]
+  }
+}

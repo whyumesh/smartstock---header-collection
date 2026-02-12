@@ -1,0 +1,266 @@
+{
+  "pdf_path": "pdfs\\10035838_20251231_131705_REPORT_7D00SD4TP.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    },
+    {
+      "page_no": 2,
+      "y_min": 237.73800659179688,
+      "y_max": 249.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "ESPIN",
+        "AT",
+        "1X10",
+        "8.97",
+        "-5",
+        "-44.84",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-5",
+        "-44.84",
+        "-"
+      ],
+      "combined_confidence": 0.7331956043956044,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5769230769230769,
+      "data_validation_score": 0.7640549450549451,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "ESPIN",
+    "AT",
+    "1X10",
+    "8.97",
+    "-5",
+    "-44.84",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-5",
+    "-44.84",
+    "-"
+  ],
+  "confidence": 0.7331956043956044,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.5769230769230769,
+    "data_validation_score": 0.7640549450549451,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ESPIN",
+      "AT",
+      "1X10",
+      "8.97",
+      "-5",
+      "-44.84",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-5",
+      "-44.84",
+      "-"
+    ],
+    "normalized": [
+      "ESPIN",
+      "AT",
+      "1X10",
+      "8.97",
+      "-5",
+      "-44.84",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-5",
+      "-44.84",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7331956043956044,
+      "evidence_scores": {
+        "keyword_score": 0.1,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7640549450549451,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.6410137362637364,
+      "evidence_before_penalties": 0.6410137362637364
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8442521008403361
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "DUVADILAN.INJECTION.2ML",
+          "DUVADILAN.INJECTION.2ML",
+          "DUVADILAN.INJECTION.2ML",
+          "6*2Ml",
+          "6*2Ml",
+          "153.67",
+          "153.67",
+          "1383.03",
+          "1383.03",
+          "38417.50",
+          "38417.50",
+          "32814.52",
+          "32814.52",
+          "5839.46",
+          "5839.46"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.6737807633542928
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "1*7",
+          "430.05",
+          "13761.61",
+          "-",
+          "0.00",
+          "2246.13",
+          "11611.36"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7239898975264087
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "ESPIN",
+          "AT",
+          "1X10",
+          "8.97",
+          "-5",
+          "-44.84",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-5",
+          "-44.84",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7331956043956044
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=15 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=13 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ESPIN",
+      "AT",
+      "1X10",
+      "8.97",
+      "-5",
+      "-44.84",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-5",
+      "-44.84",
+      "-"
+    ]
+  }
+}

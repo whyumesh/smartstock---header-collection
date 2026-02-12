@@ -1,0 +1,51 @@
+{
+  "pdf_path": "pdfs\\10014318_20260112_165205_O_000340-11A009-33.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 144.23060607910156,
+      "y_max": 153.54542541503906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Srno",
+          "Product Name",
+          "Product Name",
+          "SAP",
+          "Product Code",
+          "Pack",
+          "Single",
+          "Order",
+          "Discount",
+          "%",
+          "Remark"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8303636363636363
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=5 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=5 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "pdf_path": "pdfs\\10015739_20251204_121745_REPORT_7C60PTGQ0.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 2,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing",
+        "Exp"
+      ],
+      "combined_confidence": 0.5838206612795611,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.6548175921120913,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing",
+        "Exp"
+      ],
+      "combined_confidence": 0.587251948051948,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.671974025974026,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Tot"
+      ],
+      "combined_confidence": 0.3500000000000001,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.7999999999999999,
+      "semantic_score": 0.95,
+      "data_validation_score": 0.8,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "DESCRIPTION",
+    "Op",
+    "RECEIPT",
+    "ISSUE",
+    "Closing",
+    "Exp"
+  ],
+  "confidence": 0.587251948051948,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8142857142857143,
+    "data_validation_score": 0.671974025974026,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ITEM",
+      "DESCRIPTION",
+      "OPENING",
+      "RECEIPT",
+      "ISSUE",
+      "CLOSING",
+      "M.EXP"
+    ],
+    "normalized": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing",
+      "Exp"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.587251948051948,
+      "evidence_scores": {
+        "keyword_score": 0.625,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.671974025974026,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.7575768398268399,
+      "evidence_before_penalties": 0.7575768398268399
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "Exp"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7838206612795612
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "Exp"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7872519480519481
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7500000000000001
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing",
+      "Exp"
+    ]
+  }
+}

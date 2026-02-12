@@ -1,0 +1,268 @@
+{
+  "pdf_path": "pdfs\\10014822_20251209_175804_repStockAndSalesReport.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 77.27764892578125,
+      "y_max": 86.88500213623047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 1,
+      "y_min": 77.27764892578125,
+      "y_max": 86.88500213623047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 2,
+      "y_min": 77.27764892578125,
+      "y_max": 86.88500213623047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 3,
+      "y_min": 77.27764892578125,
+      "y_max": 86.88500213623047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 4,
+      "y_min": 77.27764892578125,
+      "y_max": 86.88500213623047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 5,
+      "y_min": 77.27764892578125,
+      "y_max": 86.88500213623047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 6,
+      "y_min": 77.27764892578125,
+      "y_max": 86.88500213623047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8876000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8766
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8932666666666668
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8933666666666668
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8852333333333334
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8867490196078432
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8834102564102565
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=4 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=4 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=12 data=6 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=6 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=12 data=8 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=8 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=12 data=6 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=6 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=12 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=10 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=12 data=4 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=4 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=12 data=4 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=4 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

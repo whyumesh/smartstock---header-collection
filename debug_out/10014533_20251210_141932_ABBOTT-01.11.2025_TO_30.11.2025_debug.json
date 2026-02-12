@@ -1,0 +1,483 @@
+{
+  "pdf_path": "pdfs\\10014533_20251210_141932_ABBOTT-01.11.2025 TO 30.11.2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 153.39398193359375,
+      "y_max": 167.69398498535156,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 4,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 6,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=9"
+    },
+    {
+      "page_no": 7,
+      "y_min": 268.89398193359375,
+      "y_max": 283.1939697265625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 8,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=5"
+    },
+    {
+      "page_no": 9,
+      "y_min": 205.89398193359375,
+      "y_max": 220.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 10,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    },
+    {
+      "page_no": 11,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing",
+        "Exp"
+      ],
+      "combined_confidence": 0.5942973760932946,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.7072011661807581,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing",
+        "Exp"
+      ],
+      "combined_confidence": 0.4160000000000001,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.7157142857142856,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing",
+        "Exp"
+      ],
+      "combined_confidence": 0.4151142857142858,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.7112857142857143,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing",
+        "Exp"
+      ],
+      "combined_confidence": 0.5964979591836734,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.718204081632653,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing",
+        "Exp"
+      ],
+      "combined_confidence": 0.4461714285714286,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.7165714285714285,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing",
+        "Exp"
+      ],
+      "combined_confidence": 0.5964362576199311,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.7178955738139411,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "VALANCE",
+        "OD",
+        "1000Mg",
+        "TAB",
+        "1X10"
+      ],
+      "combined_confidence": 0.17036961538461537,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7518480769230769,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "DESCRIPTION",
+    "Op",
+    "RECEIPT",
+    "ISSUE",
+    "Closing",
+    "Exp"
+  ],
+  "confidence": 0.5964979591836734,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8142857142857143,
+    "data_validation_score": 0.718204081632653,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ITEM",
+      "DESCRIPTION",
+      "OPENING",
+      "RECEIPT",
+      "ISSUE",
+      "CLOSING",
+      "M.EXP"
+    ],
+    "normalized": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing",
+      "Exp"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.5964979591836734,
+      "evidence_scores": {
+        "keyword_score": 0.625,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.718204081632653,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.08333333333333333
+      },
+      "evidence_total": 0.7441343537414966,
+      "evidence_before_penalties": 0.7441343537414966
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "Exp"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7942973760932945
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "Exp"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7660000000000001
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "Exp"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7651142857142859
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "Exp"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7964979591836735
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "Exp"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7961714285714286
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "Exp"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7964362576199311
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "IVABID",
+          "OD",
+          "15Mg",
+          "TAB",
+          "10'S"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.68674
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Cl",
+          "TAB",
+          "1X10"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7346008658008658
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7224000000000002
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Rate",
+          "10Mg",
+          "10'T"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7109333333333334
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "1000Mg",
+          "TAB",
+          "1X10"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7203696153846154
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "SELSUN",
+          "SHAMPOO"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6794
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=3 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=1 data=7 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=1 data=7 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=3 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=2 data=6 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=2 data=6 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing",
+      "Exp"
+    ]
+  }
+}

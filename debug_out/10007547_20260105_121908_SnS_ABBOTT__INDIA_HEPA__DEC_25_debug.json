@@ -1,0 +1,49 @@
+{
+  "pdf_path": "pdfs\\10007547_20260105_121908_SnS ABBOTT (INDIA HEPA) DEC'25.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 90.73797607421875,
+      "y_max": 102.43797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "(Abott",
+          "INDIA(HEPA))",
+          "-",
+          "Store",
+          "Sale"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8592491618773946
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=9 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=7 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

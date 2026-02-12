@@ -1,0 +1,153 @@
+{
+  "pdf_path": "pdfs\\10023595_20251226_181149_545_ABBOTTINDIALTDALL_PO.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 193.166259765625,
+      "y_max": 202.9662628173828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 48.449974060058594,
+      "y_max": 56.449974060058594,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Quantity",
+        "Free Quantity",
+        "Rate",
+        "Amount",
+        "Remarks"
+      ],
+      "combined_confidence": 0.4248928571428572,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.9,
+      "data_validation_score": 0.7494642857142857,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "G-26,ASHTAVINAYAK",
+        "MALL,",
+        "Op",
+        "DARSHAN",
+        "COMPEX,",
+        "NANBHAWADI,KALANALA"
+      ],
+      "combined_confidence": 0.5687884057971015,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.6583333333333333,
+      "data_validation_score": 0.660608695652174,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "G-26,ASHTAVINAYAK",
+    "MALL,",
+    "Op",
+    "DARSHAN",
+    "COMPEX,",
+    "NANBHAWADI,KALANALA"
+  ],
+  "confidence": 0.5687884057971015,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.6583333333333333,
+    "data_validation_score": 0.660608695652174,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "G-26,ASHTAVINAYAK",
+      "MALL,",
+      "OPP:MADHAV",
+      "DARSHAN",
+      "COMPEX,",
+      "NANBHAWADI,KALANALA"
+    ],
+    "normalized": [
+      "G-26,ASHTAVINAYAK",
+      "MALL,",
+      "Op",
+      "DARSHAN",
+      "COMPEX,",
+      "NANBHAWADI,KALANALA"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 5,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=5"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5687884057971015,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.660608695652174,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.6776521739130436,
+      "evidence_before_penalties": 0.6776521739130436
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Rate",
+          "Amount",
+          "Remarks"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8248928571428572
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "G-26,ASHTAVINAYAK",
+          "MALL,",
+          "Op",
+          "DARSHAN",
+          "COMPEX,",
+          "NANBHAWADI,KALANALA"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7187884057971016
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "G-26,ASHTAVINAYAK",
+      "MALL,",
+      "Op",
+      "DARSHAN",
+      "COMPEX,",
+      "NANBHAWADI,KALANALA"
+    ]
+  }
+}

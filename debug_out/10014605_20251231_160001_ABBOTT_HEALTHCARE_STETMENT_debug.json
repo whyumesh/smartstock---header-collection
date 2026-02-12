@@ -1,0 +1,632 @@
+{
+  "pdf_path": "pdfs\\10014605_20251231_160001_ABBOTT HEALTHCARE STETMENT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 219.7100067138672,
+      "y_max": 231.7160186767578,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 161.03282165527344,
+      "y_max": 173.03883361816406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 161.03282165527344,
+      "y_max": 173.03883361816406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 3,
+      "y_min": 161.03282165527344,
+      "y_max": 173.03883361816406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 161.03282165527344,
+      "y_max": 173.03883361816406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 5,
+      "y_min": 161.03282165527344,
+      "y_max": 173.03883361816406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 6,
+      "y_min": 161.03282165527344,
+      "y_max": 173.03883361816406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 7,
+      "y_min": 161.03282165527344,
+      "y_max": 173.03883361816406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 8,
+      "y_min": 161.03282165527344,
+      "y_max": 173.03883361816406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 9,
+      "y_min": 161.03282165527344,
+      "y_max": 173.03883361816406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 10,
+      "y_min": 102.07219696044922,
+      "y_max": 114.07819366455078,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.4940566801619433,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7625910931174089,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.49424175824175826,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7635164835164835,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.49348251748251754,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7597202797202798,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.2852307692307692,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7184615384615385,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.49464253393665164,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7655203619909503,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.4944023668639053,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7643195266272189,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.4983076923076923,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.783846153846154,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.49336263736263736,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7591208791208791,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "3405454.35",
+        "84713.67",
+        "736755.66",
+        "2758873.69"
+      ],
+      "combined_confidence": 0.2616666666666667,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.6583333333333333,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Op",
+    "Bal",
+    "Receipt",
+    "Purchase",
+    "Tot",
+    "Issue",
+    "Sale",
+    "Closing",
+    "Closing",
+    "Bala"
+  ],
+  "confidence": 0.4983076923076923,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.8576923076923078,
+    "data_validation_score": 0.783846153846154,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "PACKING",
+      "Op.",
+      "Opening",
+      "Bal",
+      "Receipt",
+      "Receipt/Pur",
+      "Total",
+      "Issue",
+      "Issue/Sales",
+      "Closing",
+      "Closing",
+      "Bala"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Op",
+      "Bal",
+      "Receipt",
+      "Purchase",
+      "Tot",
+      "Issue",
+      "Sale",
+      "Closing",
+      "Closing",
+      "Bala"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=12"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.4983076923076923,
+      "evidence_scores": {
+        "keyword_score": 0.7142857142857143,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.783846153846154,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.09090909090909091
+      },
+      "evidence_total": 0.7211238761238762,
+      "evidence_before_penalties": 0.7211238761238762
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8352307692307692
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8440566801619434
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8442417582417583
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8434825174825176
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8352307692307692
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8446425339366517
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8443216783216784
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8444023668639054
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8483076923076923
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8433626373626374
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "3405454.35",
+          "84713.67",
+          "736755.66",
+          "2758873.69"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.6616666666666667
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=13 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=11 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Op",
+      "Bal",
+      "Receipt",
+      "Purchase",
+      "Tot",
+      "Issue",
+      "Sale",
+      "Closing",
+      "Closing",
+      "Bala"
+    ]
+  }
+}

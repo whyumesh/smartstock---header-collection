@@ -1,0 +1,275 @@
+{
+  "pdf_path": "pdfs\\10032878_20251203_131630_ABB-3011.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 69.25503540039062,
+      "y_max": 78.92974090576172,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 56.27706527709961,
+      "y_max": 65.95177459716797,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 2,
+      "y_min": 43.29806137084961,
+      "y_max": 52.97277069091797,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 3,
+      "y_min": 30.31905746459961,
+      "y_max": 39.99376678466797,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "|Sl.No",
+        "|",
+        "Product Name",
+        "|",
+        "Pack",
+        "Sale",
+        "Sales",
+        "|",
+        "Stock",
+        "|"
+      ],
+      "combined_confidence": 0.6088,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.75,
+      "data_validation_score": 0.769,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "|Sl.No",
+    "|",
+    "Product Name",
+    "|",
+    "Pack",
+    "Sale",
+    "Sales",
+    "|",
+    "Stock",
+    "|"
+  ],
+  "confidence": 0.6088,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.75,
+    "data_validation_score": 0.769,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "|SL.No",
+      "|",
+      "Product Name",
+      "|",
+      "PACKG",
+      "|L.M.SALE|",
+      "SALES",
+      "|",
+      "STOCK",
+      "|"
+    ],
+    "normalized": [
+      "|Sl.No",
+      "|",
+      "Product Name",
+      "|",
+      "Pack",
+      "Sale",
+      "Sales",
+      "|",
+      "Stock",
+      "|"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=10"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.6088,
+      "evidence_scores": {
+        "keyword_score": 0.8571428571428571,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.769,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.8315357142857144,
+      "evidence_before_penalties": 0.8315357142857144
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "|Sl.No",
+          "|Sl.No",
+          "|",
+          "|",
+          "Product Name",
+          "Product Name",
+          "|",
+          "|",
+          "Pack",
+          "Sale",
+          "Sale",
+          "Sale",
+          "Sale",
+          "Sales",
+          "|",
+          "|",
+          "Stock",
+          "Stock",
+          "|"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7826441102756893
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "|Sl.No",
+          "|Sl.No",
+          "|",
+          "|",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "|",
+          "Pack",
+          "Pack",
+          "Sale",
+          "Sale",
+          "Sale",
+          "Sale",
+          "Sales",
+          "|",
+          "|",
+          "Stock",
+          "Stock",
+          "|"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7816693363844394
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "|Sl.No",
+          "|Sl.No",
+          "|",
+          "|",
+          "Product Name",
+          "Product Name",
+          "|",
+          "Pack",
+          "Pack",
+          "Sale",
+          "Sale",
+          "Sale",
+          "Sale",
+          "Sales",
+          "|",
+          "|",
+          "Stock",
+          "Stock",
+          "|"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7872456140350877
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "|Sl.No",
+          "|",
+          "Product Name",
+          "|",
+          "Pack",
+          "Sale",
+          "Sales",
+          "|",
+          "Stock",
+          "|"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8088000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=11 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=11 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=20 data=12 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=12 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=19 data=11 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=11 diff=8"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "|Sl.No",
+      "|",
+      "Product Name",
+      "|",
+      "Pack",
+      "Sale",
+      "Sales",
+      "|",
+      "Stock",
+      "|"
+    ]
+  }
+}

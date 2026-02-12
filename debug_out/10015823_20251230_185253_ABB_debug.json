@@ -1,0 +1,213 @@
+{
+  "pdf_path": "pdfs\\10015823_20251230_185253_ABB.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 210.27479553222656,
+      "y_max": 220.94679260253906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 156.1330108642578,
+      "y_max": 166.8050079345703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 156.1330108642578,
+      "y_max": 166.8050079345703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near"
+      ],
+      "combined_confidence": 0.39400000000000013,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.88125,
+      "data_validation_score": 0.61375,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Receipt",
+    "Tot",
+    "Issue",
+    "Closing",
+    "Near"
+  ],
+  "confidence": 0.39400000000000013,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.88125,
+    "data_validation_score": 0.61375,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "PACKING",
+      "Op.Bal.",
+      "Receipt",
+      "Total",
+      "Issue",
+      "Closing",
+      "Near"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Tot",
+      "Issue",
+      "Closing",
+      "Near"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=8"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.39400000000000013,
+      "evidence_scores": {
+        "keyword_score": 0.7777777777777778,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.61375,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.7812152777777778,
+      "evidence_before_penalties": 0.7812152777777778
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Closing",
+          "Closing",
+          "Near"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.794875
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Closing",
+          "Closing",
+          "Near"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7957500000000001
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Near"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7940000000000002
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=9 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=9 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=16 data=9 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=9 diff=7"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Tot",
+      "Issue",
+      "Closing",
+      "Near"
+    ]
+  }
+}

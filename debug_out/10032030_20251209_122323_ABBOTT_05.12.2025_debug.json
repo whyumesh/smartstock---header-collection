@@ -1,0 +1,543 @@
+{
+  "pdf_path": "pdfs\\10032030_20251209_122323_ABBOTT_05.12.2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 2,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 6,
+      "y_min": 227.23800659179688,
+      "y_max": 238.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 7,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 8,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 9,
+      "y_min": 227.23800659179688,
+      "y_max": 238.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    },
+    {
+      "page_no": 10,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 11,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 12,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 12,
+      "headers": [
+        "VERTIN",
+        "OD",
+        "TAB",
+        "15'S",
+        "451.59",
+        "2257.97",
+        "0.00",
+        "451.59",
+        "1806.38"
+      ],
+      "combined_confidence": 0.19126921387790952,
+      "visual_score": 0.7,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7313460693895476,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "VERTIN",
+    "OD",
+    "TAB",
+    "15'S",
+    "451.59",
+    "2257.97",
+    "0.00",
+    "451.59",
+    "1806.38"
+  ],
+  "confidence": 0.19126921387790952,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.7313460693895476,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "VERTIN",
+      "OD",
+      "TAB",
+      "15'S",
+      "451.59",
+      "2257.97",
+      "0.00",
+      "451.59",
+      "1806.38"
+    ],
+    "normalized": [
+      "VERTIN",
+      "OD",
+      "TAB",
+      "15'S",
+      "451.59",
+      "2257.97",
+      "0.00",
+      "451.59",
+      "1806.38"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "24",
+      "5",
+      "0",
+      "1",
+      "4",
+      "2"
+    ],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=9 data=10"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.19126921387790952,
+      "evidence_scores": {
+        "keyword_score": 0.1111111111111111,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7313460693895476,
+        "lexical_purity_score": 0.28,
+        "multi_page_presence_score": 0.07692307692307693
+      },
+      "evidence_total": 0.4478066028174724,
+      "evidence_before_penalties": 0.4478066028174724
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8517333333333333
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ABBOTT",
+          "ABBOTT",
+          "CRITICAL",
+          "CRITICAL",
+          "CARIOLOGY",
+          "CARIOLOGY"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6719339393939394
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "LOBATE",
+          "OINTMENT",
+          "30Gm",
+          "170.25",
+          "1702.49",
+          "0.00",
+          "170.25",
+          "1532.24"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7398669630642956
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Tot",
+          "6004.24",
+          "6004.24",
+          "7933.96",
+          "2702.66",
+          "2702.66",
+          "11235.54",
+          "11235.54"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.68251331738437
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8467333333333334
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ABBOTT",
+          "ABBOTT",
+          "ENDURA",
+          "ENDURA"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.669788888888889
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "15S",
+          "692.31",
+          "4153.85",
+          "0.00",
+          "692.31",
+          "3461.54"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7310969526926975
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "VERTIN",
+          "MG",
+          "TAB",
+          "15'S",
+          "292.28",
+          "12860.23",
+          "43841.70",
+          "29227.80",
+          "27474.13"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7138302337734387
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8485
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8467333333333334
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "MYSOLINE",
+          "TAB",
+          "10'S",
+          "71.75",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7032168964076859
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "ABBOTT",
+          "OSVITA",
+          "OSVITA",
+          "OSVITA"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6851
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "TAB",
+          "15'S",
+          "451.59",
+          "2257.97",
+          "0.00",
+          "451.59",
+          "1806.38"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7412692138779096
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=6 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=8 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=15 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=4 data=13 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=13 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=8 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=9 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=15 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=13 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=4 data=12 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=12 diff=8"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "VERTIN",
+      "OD",
+      "TAB",
+      "15'S",
+      "451.59",
+      "2257.97",
+      "0.00",
+      "451.59",
+      "1806.38"
+    ]
+  }
+}

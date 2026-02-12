@@ -1,0 +1,238 @@
+{
+  "pdf_path": "pdfs\\10000393_20251231_185805_Mailattach.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.82628631591797,
+      "y_max": 105.66590881347656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 30.17934226989746,
+      "y_max": 38.01896667480469,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 2,
+      "y_min": 30.28539276123047,
+      "y_max": 38.12501525878906,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "DIGENE",
+        "TAB",
+        "TAB",
+        "ASSORTED",
+        "ASSORTED",
+        "Str",
+        "Str",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.29995545545545543,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5777777777777778,
+      "data_validation_score": 0.6594994994994995,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "DIGENE",
+    "TAB",
+    "TAB",
+    "ASSORTED",
+    "ASSORTED",
+    "Str",
+    "Str",
+    "-",
+    "-"
+  ],
+  "confidence": 0.29995545545545543,
+  "confidence_breakdown": {
+    "visual_score": 0.75,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.5777777777777778,
+    "data_validation_score": 0.6594994994994995,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "DIGENE",
+      "TAB",
+      "TAB",
+      "ASSORTED",
+      "ASSORTED",
+      "Str",
+      "Str",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "DIGENE",
+      "TAB",
+      "TAB",
+      "ASSORTED",
+      "ASSORTED",
+      "Str",
+      "Str",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "TAB",
+        "into": "TAB",
+        "interval_idx": 0
+      },
+      {
+        "split": "TAB",
+        "into": "TAB",
+        "interval_idx": 1
+      },
+      {
+        "split": "ASSORTED",
+        "into": "ASSORTED",
+        "interval_idx": 1
+      },
+      {
+        "split": "ASSORTED",
+        "into": "ASSORTED",
+        "interval_idx": 2
+      },
+      {
+        "split": "Str",
+        "into": "Str",
+        "interval_idx": 2
+      },
+      {
+        "split": "Str",
+        "into": "Str",
+        "interval_idx": 3
+      },
+      {
+        "split": "0",
+        "into": "0",
+        "interval_idx": 7
+      },
+      {
+        "split": "0",
+        "into": "0",
+        "interval_idx": 8
+      }
+    ],
+    "noise_tokens_removed": [
+      "0",
+      "0",
+      "0"
+    ],
+    "data_column_count_detected": 9,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=9 data=9"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.29995545545545543,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6594994994994995,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.5358748748748748,
+      "evidence_before_penalties": 0.5358748748748748
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Manufacturer",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Stk",
+          "Rcpt",
+          "Sales",
+          "Cl",
+          "Stk",
+          "Sales",
+          "Val",
+          "TraOrd"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8102269469660774
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "DIGENE",
+          "TAB",
+          "TAB",
+          "ASSORTED",
+          "ASSORTED",
+          "Str",
+          "Str",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.6999554554554555
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "441434.20"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.6200000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=9 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=9 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=1 data=4 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=1 data=4 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "DIGENE",
+      "TAB",
+      "TAB",
+      "ASSORTED",
+      "ASSORTED",
+      "Str",
+      "Str",
+      "-",
+      "-"
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "pdf_path": "pdfs\\10011557_20260102_143716_REPORT_7D40V7U3F.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 4,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 6,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8508888888888889
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Tot",
+          "Tot",
+          "67353.51",
+          "67353.51",
+          "116608.88",
+          "116608.88",
+          "109253.93",
+          "82525.48",
+          "82525.48"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.67955417275799
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "PEDIASURE",
+          "CHOCOLATE",
+          "(J)",
+          "375Gm",
+          "7283.16",
+          "0.00",
+          "5675.44",
+          "1820.79"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7102833789018
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "ABBOTT",
+          "HEALTHCARE(MAIN",
+          "HEALTHCARE(MAIN",
+          "HEALTHCARE(MAIN",
+          "DIVISION)"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.71952
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8535882352941178
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "LIMITED(DUBHALAC)",
+          "LIMITED(DUBHALAC)"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7376235294117648
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Tot",
+          "66236.03",
+          "33907.60",
+          "51863.18",
+          "53324.53"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6907066666666667
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=5 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=4 data=12 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=12 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "pdf_path": "pdfs\\10000893_20251231_161033_ABBOTT HEALTHCARE-4.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 93.8025131225586,
+      "y_max": 102.30001068115234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 1,
+      "y_min": 93.8025131225586,
+      "y_max": 102.30001068115234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 2,
+      "y_min": 93.8025131225586,
+      "y_max": 102.30001068115234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 3,
+      "y_min": 93.8025131225586,
+      "y_max": 102.30001068115234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 4,
+      "y_min": 93.8025131225586,
+      "y_max": 102.30001068115234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 5,
+      "y_min": 93.8025131225586,
+      "y_max": 102.30001068115234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "NO",
+          "Product Name",
+          "/",
+          "COMPANY",
+          "Op",
+          "Quantity",
+          "Op",
+          "AMT",
+          "Sale",
+          "Quantity",
+          "Sale",
+          "AMT",
+          "Closing",
+          "Closing",
+          "AMT"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8352000000000002
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "NO",
+          "Product Name",
+          "/",
+          "COMPANY",
+          "Op",
+          "Quantity",
+          "Op",
+          "AMT",
+          "Sale",
+          "Quantity",
+          "Sale",
+          "AMT",
+          "Closing",
+          "Closing",
+          "AMT"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8305801169590644
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "NO",
+          "Product Name",
+          "/",
+          "COMPANY",
+          "Op",
+          "Quantity",
+          "Op",
+          "AMT",
+          "Sale",
+          "Quantity",
+          "Sale",
+          "AMT",
+          "Closing",
+          "Closing",
+          "AMT"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8350095238095239
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "NO",
+          "Product Name",
+          "/",
+          "COMPANY",
+          "Op",
+          "Quantity",
+          "Op",
+          "AMT",
+          "Sale",
+          "Quantity",
+          "Sale",
+          "AMT",
+          "Closing",
+          "Closing",
+          "AMT"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8352266666666668
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "NO",
+          "Product Name",
+          "/",
+          "COMPANY",
+          "Op",
+          "Quantity",
+          "Op",
+          "AMT",
+          "Sale",
+          "Quantity",
+          "Sale",
+          "AMT",
+          "Closing",
+          "Closing",
+          "AMT"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8367294117647059
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "NO",
+          "Product Name",
+          "/",
+          "COMPANY",
+          "Op",
+          "Quantity",
+          "Op",
+          "AMT",
+          "Sale",
+          "Quantity",
+          "Sale",
+          "AMT",
+          "Closing",
+          "Closing",
+          "AMT"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8390222222222223
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=8 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=8 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=15 data=8 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=8 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=15 data=8 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=8 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=15 data=8 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=8 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=15 data=8 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=8 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=15 data=8 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=8 diff=7"
+          }
+        }
+      }
+    ]
+  }
+}

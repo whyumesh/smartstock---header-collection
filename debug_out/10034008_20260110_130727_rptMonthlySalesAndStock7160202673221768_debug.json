@@ -1,0 +1,369 @@
+{
+  "pdf_path": "pdfs\\10034008_20260110_130727_rptMonthlySalesAndStock7160202673221768.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    },
+    {
+      "page_no": 1,
+      "y_min": 6.995975494384766,
+      "y_max": 21.3599853515625,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Closing",
+        "Closing",
+        "PTR",
+        "PTR",
+        "2736.49",
+        "2736.49",
+        "2507.04",
+        "2507.04",
+        "5466.75",
+        "5466.75",
+        "2916.90",
+        "2916.90",
+        "2593.00",
+        "2593.00",
+        "1815.00",
+        "1815.00",
+        "1562.20",
+        "1562.20",
+        "6754.80",
+        "6754.80",
+        "32283.68",
+        "32283.68",
+        "8328.24",
+        "8328.24"
+      ],
+      "combined_confidence": 0.5662836438923395,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.6666666666666666,
+      "data_validation_score": 0.614751552795031,
+      "data_column_count_detected": 25
+    }
+  ],
+  "final_selected_header": [
+    "Closing",
+    "Closing",
+    "PTR",
+    "PTR",
+    "2736.49",
+    "2736.49",
+    "2507.04",
+    "2507.04",
+    "5466.75",
+    "5466.75",
+    "2916.90",
+    "2916.90",
+    "2593.00",
+    "2593.00",
+    "1815.00",
+    "1815.00",
+    "1562.20",
+    "1562.20",
+    "6754.80",
+    "6754.80",
+    "32283.68",
+    "32283.68",
+    "8328.24",
+    "8328.24"
+  ],
+  "confidence": 0.5662836438923395,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.6666666666666666,
+    "data_validation_score": 0.614751552795031,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Closing",
+      "Closing",
+      "(PTR)",
+      "(PTR)",
+      "2736.49",
+      "2736.49",
+      "2507.04",
+      "2507.04",
+      "5466.75",
+      "5466.75",
+      "2916.90",
+      "2916.90",
+      "2593.00",
+      "2593.00",
+      "1815.00",
+      "1815.00",
+      "1562.20",
+      "1562.20",
+      "6754.80",
+      "6754.80",
+      "32283.68",
+      "32283.68",
+      "8328.24",
+      "8328.24"
+    ],
+    "normalized": [
+      "Closing",
+      "Closing",
+      "PTR",
+      "PTR",
+      "2736.49",
+      "2736.49",
+      "2507.04",
+      "2507.04",
+      "5466.75",
+      "5466.75",
+      "2916.90",
+      "2916.90",
+      "2593.00",
+      "2593.00",
+      "1815.00",
+      "1815.00",
+      "1562.20",
+      "1562.20",
+      "6754.80",
+      "6754.80",
+      "32283.68",
+      "32283.68",
+      "8328.24",
+      "8328.24"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Closing",
+        "into": "Closing",
+        "interval_idx": 1
+      },
+      {
+        "split": "Closing",
+        "into": "Closing",
+        "interval_idx": 2
+      },
+      {
+        "split": "(PTR)",
+        "into": "(PTR)",
+        "interval_idx": 2
+      },
+      {
+        "split": "(PTR)",
+        "into": "(PTR)",
+        "interval_idx": 3
+      },
+      {
+        "split": "2736.49",
+        "into": "2736.49",
+        "interval_idx": 6
+      },
+      {
+        "split": "2736.49",
+        "into": "2736.49",
+        "interval_idx": 7
+      },
+      {
+        "split": "2507.04",
+        "into": "2507.04",
+        "interval_idx": 7
+      },
+      {
+        "split": "2507.04",
+        "into": "2507.04",
+        "interval_idx": 8
+      },
+      {
+        "split": "5466.75",
+        "into": "5466.75",
+        "interval_idx": 9
+      },
+      {
+        "split": "5466.75",
+        "into": "5466.75",
+        "interval_idx": 10
+      },
+      {
+        "split": "2916.90",
+        "into": "2916.90",
+        "interval_idx": 13
+      },
+      {
+        "split": "2916.90",
+        "into": "2916.90",
+        "interval_idx": 14
+      },
+      {
+        "split": "2593.00",
+        "into": "2593.00",
+        "interval_idx": 14
+      },
+      {
+        "split": "2593.00",
+        "into": "2593.00",
+        "interval_idx": 15
+      },
+      {
+        "split": "1815.00",
+        "into": "1815.00",
+        "interval_idx": 15
+      },
+      {
+        "split": "1815.00",
+        "into": "1815.00",
+        "interval_idx": 16
+      },
+      {
+        "split": "1562.20",
+        "into": "1562.20",
+        "interval_idx": 18
+      },
+      {
+        "split": "1562.20",
+        "into": "1562.20",
+        "interval_idx": 19
+      },
+      {
+        "split": "6754.80",
+        "into": "6754.80",
+        "interval_idx": 20
+      },
+      {
+        "split": "6754.80",
+        "into": "6754.80",
+        "interval_idx": 21
+      },
+      {
+        "split": "32283.68",
+        "into": "32283.68",
+        "interval_idx": 22
+      },
+      {
+        "split": "32283.68",
+        "into": "32283.68",
+        "interval_idx": 23
+      },
+      {
+        "split": "8328.24",
+        "into": "8328.24",
+        "interval_idx": 23
+      },
+      {
+        "split": "8328.24",
+        "into": "8328.24",
+        "interval_idx": 24
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 25,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=24 data=25"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5662836438923395,
+      "evidence_scores": {
+        "keyword_score": 0.16666666666666666,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.614751552795031,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.5828545548654245,
+      "evidence_before_penalties": 0.5828545548654245
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "2736.49",
+          "2736.49",
+          "2507.04",
+          "2507.04",
+          "5466.75",
+          "5466.75",
+          "2916.90",
+          "2916.90",
+          "2593.00",
+          "2593.00",
+          "1815.00",
+          "1815.00",
+          "1562.20",
+          "1562.20",
+          "6754.80",
+          "6754.80",
+          "32283.68",
+          "32283.68",
+          "8328.24",
+          "8328.24"
+        ],
+        "data_column_count_detected": 25,
+        "combined_confidence": 0.7162836438923396
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6749
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=3 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=7 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Closing",
+      "Closing",
+      "PTR",
+      "PTR",
+      "2736.49",
+      "2736.49",
+      "2507.04",
+      "2507.04",
+      "5466.75",
+      "5466.75",
+      "2916.90",
+      "2916.90",
+      "2593.00",
+      "2593.00",
+      "1815.00",
+      "1815.00",
+      "1562.20",
+      "1562.20",
+      "6754.80",
+      "6754.80",
+      "32283.68",
+      "32283.68",
+      "8328.24",
+      "8328.24"
+    ]
+  }
+}

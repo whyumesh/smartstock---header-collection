@@ -1,0 +1,123 @@
+{
+  "pdf_path": "pdfs\\10025992_20251213_121657_report.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8371111111111111
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "KENACORT",
+          "INJ",
+          "1Ml",
+          "6688.86",
+          "9887.88",
+          "6489.82",
+          "10469.52",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7258887116467762
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "STATOR",
+          "CV",
+          "TAB",
+          "15'S",
+          "1784.53",
+          "-",
+          "0.00",
+          "721.04",
+          "1135.61"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7105186299081037
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

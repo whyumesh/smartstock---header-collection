@@ -1,0 +1,44 @@
+{
+  "pdf_path": "pdfs\\10023816_20251226_170332_REPORT_7CV10BEBL.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 154.010009765625,
+      "y_max": 163.11001586914062,
+      "confidence": 0.9,
+      "reason": "header_keywords=14 tokens=15"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SNo.",
+          "Order",
+          "Quantity",
+          "Unit"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8962209302325581
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

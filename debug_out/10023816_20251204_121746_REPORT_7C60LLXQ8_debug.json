@@ -1,0 +1,148 @@
+{
+  "pdf_path": "pdfs\\10023816_20251204_121746_REPORT_7C60LLXQ8.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 80.23797607421875,
+      "y_max": 91.93797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "ANALYSIS",
+        "(Abbott",
+        "GI",
+        "Op",
+        "-",
+        "Order",
+        "Sale",
+        "1.50"
+      ],
+      "combined_confidence": 0.32736038079567475,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.7545454545454546,
+      "data_validation_score": 0.73225644943292,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "&",
+    "Sales",
+    "ANALYSIS",
+    "(Abbott",
+    "GI",
+    "Op",
+    "-",
+    "Order",
+    "Sale",
+    "1.50"
+  ],
+  "confidence": 0.32736038079567475,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.7545454545454546,
+    "data_validation_score": 0.73225644943292,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "STOCK",
+      "&",
+      "SALES",
+      "ANALYSIS",
+      "(ABBOTT",
+      "GI",
+      "OPTIMA)",
+      "-",
+      "Reorder",
+      "Sale",
+      "1.50"
+    ],
+    "normalized": [
+      "Stock",
+      "&",
+      "Sales",
+      "ANALYSIS",
+      "(Abbott",
+      "GI",
+      "Op",
+      "-",
+      "Order",
+      "Sale",
+      "1.50"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "01/11/2025",
+      "30/11/2025",
+      ":",
+      "X"
+    ],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=10"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.32736038079567475,
+      "evidence_scores": {
+        "keyword_score": 0.5555555555555556,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.73225644943292,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7234530012471189,
+      "evidence_before_penalties": 0.7234530012471189
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "(Abbott",
+          "GI",
+          "Op",
+          "-",
+          "Order",
+          "Sale",
+          "1.50"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8773603807956748
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Stock",
+      "&",
+      "Sales",
+      "ANALYSIS",
+      "(Abbott",
+      "GI",
+      "Op",
+      "-",
+      "Order",
+      "Sale",
+      "1.50"
+    ]
+  }
+}

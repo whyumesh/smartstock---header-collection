@@ -1,0 +1,250 @@
+{
+  "pdf_path": "pdfs\\10014920_20251211_184625_abbott stock.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 151.65713500976562,
+      "y_max": 161.7071533203125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 1,
+      "y_min": 140.25714111328125,
+      "y_max": 150.30712890625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 140.25714111328125,
+      "y_max": 150.30712890625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 140.25714111328125,
+      "y_max": 150.30712890625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 4,
+      "y_min": 140.25714111328125,
+      "y_max": 150.30712890625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 5,
+      "y_min": 140.25714111328125,
+      "y_max": 150.30712890625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8841333333333334
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8628190476190477
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8673333333333334
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8714666666666667
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8680000000000001
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8368000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=5 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=5 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=15 data=5 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=5 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=15 data=5 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=5 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=15 data=5 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=5 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=15 data=5 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=5 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=15 data=5 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=5 diff=10"
+          }
+        }
+      }
+    ]
+  }
+}

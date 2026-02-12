@@ -1,0 +1,180 @@
+{
+  "pdf_path": "pdfs\\10014894_20251215_185730_EMAIL9417_25121518544449.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 2,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 122.23800659179688,
+      "y_max": 133.93800354003906,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8456470588235294
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ABBOTT",
+          "GI",
+          "Op"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7625333333333334
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "PTR",
+          "TAB",
+          "1X15",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7252373949579832
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Tot",
+          "36960.43",
+          "36960.43",
+          "59849.70",
+          "59849.70",
+          "33211.37",
+          "33211.37",
+          "66776.07",
+          "66776.07"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6741940568475453
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "SUPPLIER",
+          "Product Name",
+          "Invoice No",
+          "NO.",
+          "Date",
+          "RECEIVE",
+          "Date",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7802142857142857
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=3 data=12 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=12 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=7 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

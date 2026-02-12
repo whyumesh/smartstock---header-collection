@@ -1,0 +1,11 @@
+{
+  "pdf_path": "pdfs\\10034043_20260102_112952_December stock statement.pdf",
+  "header_zone_detected": null,
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_words"
+  }
+}

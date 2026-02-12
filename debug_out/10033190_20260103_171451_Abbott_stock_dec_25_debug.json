@@ -1,0 +1,179 @@
+{
+  "pdf_path": "pdfs\\10033190_20260103_171451_Abbott stock dec'25.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 147.206298828125,
+      "y_max": 156.54429626464844,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 47.71017837524414,
+      "y_max": 57.04817581176758,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Surplus",
+        "Tot",
+        "Issue",
+        "Expiry Date",
+        "Closing",
+        "Near",
+        "MSR"
+      ],
+      "combined_confidence": 0.41527272727272735,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.8409090909090909,
+      "data_validation_score": 0.6854545454545454,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "GRAND",
+        "Tot"
+      ],
+      "combined_confidence": 0.28,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Receipt",
+    "Surplus",
+    "Tot",
+    "Issue",
+    "Expiry Date",
+    "Closing",
+    "Near",
+    "MSR"
+  ],
+  "confidence": 0.41527272727272735,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.8409090909090909,
+    "data_validation_score": 0.6854545454545454,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "PACKING",
+      "Op.Bal.",
+      "Receipt",
+      "Surplus",
+      "Total",
+      "Issue",
+      "Expiry",
+      "Closing",
+      "Near",
+      "MSR"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Surplus",
+      "Tot",
+      "Issue",
+      "Expiry Date",
+      "Closing",
+      "Near",
+      "MSR"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=11"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.41527272727272735,
+      "evidence_scores": {
+        "keyword_score": 0.6153846153846154,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6854545454545454,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7752097902097903,
+      "evidence_before_penalties": 0.7752097902097903
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Surplus",
+          "Tot",
+          "Issue",
+          "Expiry Date",
+          "Closing",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8152727272727274
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GRAND",
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.68
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Surplus",
+      "Tot",
+      "Issue",
+      "Expiry Date",
+      "Closing",
+      "Near",
+      "MSR"
+    ]
+  }
+}

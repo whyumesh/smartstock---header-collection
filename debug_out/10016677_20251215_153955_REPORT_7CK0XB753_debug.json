@@ -1,0 +1,154 @@
+{
+  "pdf_path": "pdfs\\10016677_20251215_153955_REPORT_7CK0XB753.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 3,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=3"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8418872180451129
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Tot",
+          "Tot",
+          "46050.53",
+          "46050.53",
+          "0.00",
+          "0.00",
+          "28891.16",
+          "28891.16",
+          "17071.15",
+          "17071.15"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6764373190659866
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot",
+          "Tot",
+          "85613.13",
+          "85613.13",
+          "0.00",
+          "0.00",
+          "5871.14",
+          "79741.99",
+          "79741.99"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.6836812865497076
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "INDIA",
+          "Op"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6711461538461538
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=4 data=12 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=12 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

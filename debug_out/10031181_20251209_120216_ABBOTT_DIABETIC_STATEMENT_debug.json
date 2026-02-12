@@ -1,0 +1,96 @@
+{
+  "pdf_path": "pdfs\\10031181_20251209_120216_ABBOTT DIABETIC STATEMENT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "1823.28",
+          "1823.28",
+          "1968.03",
+          "1968.03",
+          "1901.00",
+          "1901.00",
+          "19000.10",
+          "19000.10",
+          "23571.68",
+          "23571.68",
+          "5978.61",
+          "5978.61",
+          "6754.80"
+        ],
+        "data_column_count_detected": 26,
+        "combined_confidence": 0.7065261588506371
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "10272.08",
+          "10272.08",
+          "1388.10",
+          "1388.10",
+          "3115.71",
+          "3115.71",
+          "5156.46",
+          "5156.46",
+          "82545.28",
+          "82545.28",
+          "82545.28"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6995738648947951
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=26 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=26 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=15 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=12 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

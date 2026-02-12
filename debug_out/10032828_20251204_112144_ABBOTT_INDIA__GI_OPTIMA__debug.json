@@ -1,0 +1,56 @@
+{
+  "pdf_path": "pdfs\\10032828_20251204_112144_ABBOTT INDIA (GI OPTIMA).PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 87.98321533203125,
+      "y_max": 93.40904998779297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Pend",
+          "Ord",
+          "Product Name",
+          "Pack",
+          "Rcpt",
+          "Sales",
+          "Free Quantity",
+          "Sale",
+          "Adj",
+          "Cl",
+          "StkVl(Cs",
+          "IIIL",
+          "IILa",
+          "ILas",
+          "Age",
+          "Batch No"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8425750000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=5 diff=11",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=5 diff=11"
+          }
+        }
+      }
+    ]
+  }
+}

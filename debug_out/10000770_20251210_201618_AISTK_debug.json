@@ -1,0 +1,95 @@
+{
+  "pdf_path": "pdfs\\10000770_20251210_201618_AISTK.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 163.89398193359375,
+      "y_max": 178.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 184.89398193359375,
+      "y_max": 199.19398498535156,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=9"
+    },
+    {
+      "page_no": 2,
+      "y_min": 153.39398193359375,
+      "y_max": 167.69398498535156,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=9"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "ABBOTT"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7224000000000002
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "EPTOIN",
+          "ER",
+          "ER"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7426444444444446
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "OD"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7333333333333334
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=1 data=7 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=1 data=7 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=3 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=3 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=6 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

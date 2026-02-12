@@ -1,0 +1,872 @@
+{
+  "pdf_path": "pdfs\\10017178_20251216_175030_ABBOT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 1,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 3,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 4,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 5,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 6,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 7,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 8,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 9,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 10,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 11,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 12,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 13,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 14,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 15,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 16,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 17,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 18,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 19,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 20,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 21,
+      "y_min": 49.0003662109375,
+      "y_max": 60.04081726074219,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.7177500000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.80125,
+      "data_column_count_detected": 4
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.7177500000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.80125,
+      "data_column_count_detected": 4
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.5425000000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.6749999999999999,
+      "data_column_count_detected": 3
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.6895000000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.66,
+      "data_column_count_detected": 4
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.5425000000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.6749999999999999,
+      "data_column_count_detected": 3
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.7177500000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.80125,
+      "data_column_count_detected": 4
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.7027500000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.7262500000000001,
+      "data_column_count_detected": 4
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.5527500000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.7262500000000001,
+      "data_column_count_detected": 3
+    },
+    {
+      "page_no": 11,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.7177500000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.80125,
+      "data_column_count_detected": 4
+    },
+    {
+      "page_no": 12,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.6925000000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.6749999999999999,
+      "data_column_count_detected": 4
+    },
+    {
+      "page_no": 13,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.5425000000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.6749999999999999,
+      "data_column_count_detected": 3
+    },
+    {
+      "page_no": 14,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.5425000000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.6749999999999999,
+      "data_column_count_detected": 3
+    },
+    {
+      "page_no": 16,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.7177500000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.80125,
+      "data_column_count_detected": 4
+    },
+    {
+      "page_no": 17,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.7177500000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.80125,
+      "data_column_count_detected": 4
+    },
+    {
+      "page_no": 18,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.7177500000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.80125,
+      "data_column_count_detected": 4
+    },
+    {
+      "page_no": 19,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.7005000000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.715,
+      "data_column_count_detected": 4
+    },
+    {
+      "page_no": 20,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.5425000000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.6749999999999999,
+      "data_column_count_detected": 3
+    },
+    {
+      "page_no": 21,
+      "headers": [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      "combined_confidence": 0.5425000000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6875,
+      "data_validation_score": 0.6749999999999999,
+      "data_column_count_detected": 3
+    }
+  ],
+  "final_selected_header": [
+    "PANINDRA",
+    "VIDHALAYA",
+    "ROAD,NORTH",
+    "Purchase"
+  ],
+  "confidence": 0.76775,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.6875,
+    "data_validation_score": 0.80125,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "PANINDRA",
+      "VIDHALAYA",
+      "ROAD,NORTH",
+      "Purchase"
+    ],
+    "per_page": [
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ],
+      [
+        "PANINDRA",
+        "VIDHALAYA",
+        "ROAD,NORTH",
+        "Purchase"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.6751250000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "PANINDRA",
+          "PANINDRA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6712222222222223
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6925000000000001
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7177500000000001
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7177500000000001
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6925000000000001
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.6895000000000001
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6925000000000001
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7177500000000001
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7027500000000001
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.7027500000000001
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7177500000000001
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.6925000000000001
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6925000000000001
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6925000000000001
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.6777500000000001
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7177500000000001
+      },
+      {
+        "page_no": 17,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7177500000000001
+      },
+      {
+        "page_no": 18,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7177500000000001
+      },
+      {
+        "page_no": 19,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7005000000000001
+      },
+      {
+        "page_no": 20,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6925000000000001
+      },
+      {
+        "page_no": 21,
+        "headers": [
+          "PANINDRA",
+          "VIDHALAYA",
+          "ROAD,NORTH",
+          "Purchase"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6925000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=8 data=5 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=5 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=4 data=2 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=2 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 15,
+        "reason": "column_count_mismatch: header=8 data=5 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=5 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "PANINDRA",
+      "VIDHALAYA",
+      "ROAD,NORTH",
+      "Purchase"
+    ],
+    "data_column_count_detected": 4,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

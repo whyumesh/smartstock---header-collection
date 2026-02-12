@@ -1,0 +1,142 @@
+{
+  "pdf_path": "pdfs\\10001372_20251211_144947_Stock-Statement-ABBOTT(I)WOMEN HEALTH-From 01122025 To 11122025-144202.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 28.920555114746094,
+      "y_max": 816.9293823242188,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Bal",
+        "Amt(Q+F)",
+        "15000.00",
+        "100178.80",
+        "1238.93",
+        "7277.76",
+        "2732.76",
+        "5812.68",
+        "4550.40",
+        "136791.33"
+      ],
+      "combined_confidence": 0.29499999999999993,
+      "visual_score": 0.5,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Bal",
+    "Amt(Q+F)",
+    "15000.00",
+    "100178.80",
+    "1238.93",
+    "7277.76",
+    "2732.76",
+    "5812.68",
+    "4550.40",
+    "136791.33"
+  ],
+  "confidence": 0.29499999999999993,
+  "confidence_breakdown": {
+    "visual_score": 0.5,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.5,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Bal",
+      "Amt(Q+F)",
+      "15000.00",
+      "100178.80",
+      "1238.93",
+      "7277.76",
+      "2732.76",
+      "5812.68",
+      "4550.40",
+      "136791.33"
+    ],
+    "normalized": [
+      "Bal",
+      "Amt(Q+F)",
+      "15000.00",
+      "100178.80",
+      "1238.93",
+      "7277.76",
+      "2732.76",
+      "5812.68",
+      "4550.40",
+      "136791.33"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "1",
+      "——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————",
+      "——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————",
+      "——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————",
+      "——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.29499999999999993,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 0.4,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.41000000000000003,
+      "evidence_before_penalties": 0.41000000000000003
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Bal",
+          "Amt(Q+F)",
+          "15000.00",
+          "100178.80",
+          "1238.93",
+          "7277.76",
+          "2732.76",
+          "5812.68",
+          "4550.40",
+          "136791.33"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.695
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Bal",
+      "Amt(Q+F)",
+      "15000.00",
+      "100178.80",
+      "1238.93",
+      "7277.76",
+      "2732.76",
+      "5812.68",
+      "4550.40",
+      "136791.33"
+    ]
+  }
+}

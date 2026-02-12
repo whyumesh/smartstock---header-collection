@@ -1,0 +1,53 @@
+{
+  "pdf_path": "pdfs\\10000992_20260109_152949_ABB_II.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 238.13511657714844,
+      "y_max": 250.14112854003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SNO.",
+          "PARTICULARS",
+          "PARTICULARS",
+          "PARTICULARS",
+          "Pack",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "CASES",
+          "Rate",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8394395604395605
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=8 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=8 diff=5"
+          }
+        }
+      }
+    ]
+  }
+}

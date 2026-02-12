@@ -1,0 +1,471 @@
+{
+  "pdf_path": "pdfs\\10017215_20251216_140428_REPORT_7CL0TYUZD.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 3,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 5,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    },
+    {
+      "page_no": 6,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 7,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "ESOKEM",
+        "IT",
+        "10'S",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.7829422084623323,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7813777089783281,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "MOXON-0.3",
+        "MG",
+        "10'S",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5829350646558464,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7438419899458987,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "REJOINT",
+        "MAX",
+        "10'S",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5522271886824907,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7778026100791194,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "VISYNERAL-Z",
+        "Op",
+        "15Ml",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.6265835326953749,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5875,
+      "data_validation_score": 0.7204176634768741,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "ESOKEM",
+    "IT",
+    "10'S",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.8329422084623322,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.5583333333333333,
+    "data_validation_score": 0.7813777089783281,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "ESOKEM",
+      "IT",
+      "10'S",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "per_page": [
+      [
+        "ESOKEM",
+        "IT",
+        "10'S",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      [
+        "MOXON-0.3",
+        "MG",
+        "10'S",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      [
+        "REJOINT",
+        "MAX",
+        "10'S",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      [
+        "VISYNERAL-Z",
+        "Op",
+        "15Ml",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8233333333333334
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "DELETUS",
+          "SYP",
+          "100Ml",
+          "731.70",
+          "6097.50",
+          "677.55",
+          "6707.25",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7018854156263525
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ESOKEM",
+          "IT",
+          "10'S",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7829422084623323
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8223684210526316
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "MOXON-0.3",
+          "MG",
+          "10'S",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7329350646558465
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "REJOINT",
+          "MAX",
+          "10'S",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7022271886824907
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "SIAGLIDE-M",
+          "OD",
+          "15'S",
+          "1301.44",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "1301.44"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7075705415499535
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "VISYNERAL-Z",
+          "Op",
+          "15Ml",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.776583532695375
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=11 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=11 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=19 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ESOKEM",
+      "IT",
+      "10'S",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "data_column_count_detected": 12,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "pdf_path": "pdfs\\10011873_20251231_220554_ABBOTT DEC-25.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.35065460205078,
+      "y_max": 67.53007507324219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 57.35065460205078,
+      "y_max": 67.53007507324219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 57.35065460205078,
+      "y_max": 67.53007507324219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 57.35065460205078,
+      "y_max": 67.53007507324219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 57.35065460205078,
+      "y_max": 67.53007507324219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From",
+          "Sales",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7940263157894737
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From",
+          "Sales",
+          "Amount"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7948278388278389
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From",
+          "Sales",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7934789915966387
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From",
+          "Sales",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7981794871794872
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From",
+          "Sales",
+          "Amount"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7940659340659341
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=7 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=7 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=13 data=8 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=8 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=13 data=7 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=7 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=13 data=7 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=7 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=13 data=8 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=8 diff=5"
+          }
+        }
+      }
+    ]
+  }
+}

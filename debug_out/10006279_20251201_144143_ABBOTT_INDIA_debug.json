@@ -1,0 +1,248 @@
+{
+  "pdf_path": "pdfs\\10006279_20251201_144143_ABBOTT INDIA.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 91.56024169921875,
+      "y_max": 99.3233871459961,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 91.56024169921875,
+      "y_max": 99.3233871459961,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 2,
+      "y_min": 66.09098815917969,
+      "y_max": 74.8035888671875,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "Stock",
+        "And",
+        "Sales",
+        "Sales",
+        "Report",
+        "From",
+        "From",
+        "01/Nov/2025",
+        "Tot",
+        "30/Nov/2025",
+        "30/Nov/2025"
+      ],
+      "combined_confidence": 0.5842945454545455,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.7272727272727273,
+      "data_validation_score": 0.6192,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "And",
+    "Sales",
+    "Sales",
+    "Report",
+    "From",
+    "From",
+    "01/Nov/2025",
+    "Tot",
+    "30/Nov/2025",
+    "30/Nov/2025"
+  ],
+  "confidence": 0.5842945454545455,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.7272727272727273,
+    "data_validation_score": 0.6192,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Stock",
+      "And",
+      "Sales",
+      "Sales",
+      "Report",
+      "from",
+      "from",
+      "01/Nov/2025",
+      "to",
+      "30/Nov/2025",
+      "30/Nov/2025"
+    ],
+    "normalized": [
+      "Stock",
+      "And",
+      "Sales",
+      "Sales",
+      "Report",
+      "From",
+      "From",
+      "01/Nov/2025",
+      "Tot",
+      "30/Nov/2025",
+      "30/Nov/2025"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Sales",
+        "into": "Sales",
+        "interval_idx": 0
+      },
+      {
+        "split": "Sales",
+        "into": "Sales",
+        "interval_idx": 1
+      },
+      {
+        "split": "from",
+        "into": "from",
+        "interval_idx": 1
+      },
+      {
+        "split": "from",
+        "into": "from",
+        "interval_idx": 2
+      },
+      {
+        "split": "30/Nov/2025",
+        "into": "30/Nov/2025",
+        "interval_idx": 2
+      },
+      {
+        "split": "30/Nov/2025",
+        "into": "30/Nov/2025",
+        "interval_idx": 3
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=10"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5842945454545455,
+      "evidence_scores": {
+        "keyword_score": 0.36363636363636365,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6192,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.6165424242424242,
+      "evidence_before_penalties": 0.6165424242424242
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8630589743589744
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8631897435897437
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Stock",
+          "And",
+          "Sales",
+          "Sales",
+          "Report",
+          "From",
+          "From",
+          "01/Nov/2025",
+          "Tot",
+          "30/Nov/2025",
+          "30/Nov/2025"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7342945454545455
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=18 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=18 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=13 data=18 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=18 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Stock",
+      "And",
+      "Sales",
+      "Sales",
+      "Report",
+      "From",
+      "From",
+      "01/Nov/2025",
+      "Tot",
+      "30/Nov/2025",
+      "30/Nov/2025"
+    ]
+  }
+}

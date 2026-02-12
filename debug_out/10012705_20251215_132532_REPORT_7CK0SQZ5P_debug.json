@@ -1,0 +1,302 @@
+{
+  "pdf_path": "pdfs\\10012705_20251215_132532_REPORT_7CK0SQZ5P.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 101.510009765625,
+      "y_max": 110.6100082397461,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 59.510009765625,
+      "y_max": 68.6100082397461,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.510009765625,
+      "y_max": 26.610010147094727,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 49.010009765625,
+      "y_max": 58.110008239746094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=9"
+    },
+    {
+      "page_no": 4,
+      "y_min": 17.510009765625,
+      "y_max": 26.610010147094727,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 28.010009765625,
+      "y_max": 37.110008239746094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.376705160057334,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8214285714285714,
+      "data_validation_score": 0.6120972288580984,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5783167701863354,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8214285714285714,
+      "data_validation_score": 0.6201552795031056,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "MELAGLOW",
+        "RICH",
+        "20Gm",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.5571922053102177,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7306038836939458,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "NERVUP",
+        "OD",
+        "CAPS",
+        "15Ca",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.36601088056680164,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.55,
+      "data_validation_score": 0.6800544028340081,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "ESGIPYRIN-AQ",
+        "1Ml",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.43086507936507934,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5333333333333333,
+      "data_validation_score": 0.6709920634920635,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Product Code",
+    "Product Name",
+    "DESCRIPTION",
+    "Op",
+    "RECEIPT",
+    "ISSUE",
+    "Closing"
+  ],
+  "confidence": 0.5783167701863354,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8214285714285714,
+    "data_validation_score": 0.6201552795031056,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "CODE",
+      "ITEM",
+      "DESCRIPTION",
+      "OPENING",
+      "RECEIPT",
+      "ISSUE",
+      "CLOSING"
+    ],
+    "normalized": [
+      "Product Code",
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.5783167701863354,
+      "evidence_scores": {
+        "keyword_score": 0.6666666666666666,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6201552795031056,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.7383721532091098,
+      "evidence_before_penalties": 0.7383721532091098
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.776705160057334
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7783167701863355
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "MELAGLOW",
+          "RICH",
+          "20Gm",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7071922053102178
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "NERVUP",
+          "OD",
+          "CAPS",
+          "15Ca",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6660108805668017
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "ROVAMYCIN",
+          "FORT",
+          "10Ca"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6687090909090909
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ESGIPYRIN-AQ",
+          "1Ml",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7308650793650794
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=3 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=7 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Code",
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing"
+    ]
+  }
+}

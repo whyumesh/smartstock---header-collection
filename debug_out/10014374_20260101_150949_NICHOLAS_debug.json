@@ -1,0 +1,726 @@
+{
+  "pdf_path": "pdfs\\10014374_20260101_150949_NICHOLAS.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 2,
+      "y_min": 164.23800659179688,
+      "y_max": 175.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    },
+    {
+      "page_no": 3,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 5,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 6,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 7,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 8,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 9,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 10,
+      "y_min": 122.23800659179688,
+      "y_max": 133.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=10"
+    },
+    {
+      "page_no": 11,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 12,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 13,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 14,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "Cl",
+        "INJ",
+        "2Ml",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5780696969696969,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5875,
+      "data_validation_score": 0.7528484848484848,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Cl",
+        "GRANUELS",
+        "30Ml",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.7858055555555556,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5875,
+      "data_validation_score": 0.7665277777777778,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "GLUFORMIN",
+        "I-1MG",
+        "10'S",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.7773325163398693,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7533292483660131,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "FINCEF",
+        "CV",
+        "200Mg",
+        "10'S",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5761162171162171,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7440426240426241,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 12,
+      "headers": [
+        "GENTICYN-B",
+        "Op",
+        "5Ml",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.6398244781783682,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5875,
+      "data_validation_score": 0.7866223908918406,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Cl",
+    "GRANUELS",
+    "30Ml",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.7858055555555556,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.5875,
+    "data_validation_score": 0.7665277777777778,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "CLARIBID",
+      "GRANUELS",
+      "30ML",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "Cl",
+      "GRANUELS",
+      "30Ml",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=12"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7858055555555556,
+      "evidence_scores": {
+        "keyword_score": 0.14285714285714285,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7665277777777778,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.06666666666666667
+      },
+      "evidence_total": 0.6340128968253969,
+      "evidence_before_penalties": 0.6340128968253969
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8313865546218489
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "PHENSEDYL",
+          "BR",
+          "SYP",
+          "60Ml",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.741108597285068
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Cl",
+          "INJ",
+          "2Ml",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7280696969696969
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8244117647058824
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "ELOCON",
+          "CREAM",
+          "(Small)",
+          "5Gm",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7879141660712868
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Cl",
+          "GRANUELS",
+          "30Ml",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7858055555555556
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "PPG",
+          "-",
+          "0.2",
+          "Sales",
+          "1350.40",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "1350.40"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.717878870967742
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "OMNA",
+          "Exp",
+          "-",
+          "1000Mg",
+          "VIAL",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7894105306458248
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "GLUFORMIN",
+          "I-1MG",
+          "10'S",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7773325163398693
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "FINCEF",
+          "CV",
+          "200Mg",
+          "10'S",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7261162171162171
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8194117647058824
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "PROCAINE",
+          "PENCI",
+          "4La",
+          "VIAL",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7840943762120234
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "GENTICYN-B",
+          "Op",
+          "5Ml",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7898244781783682
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8209150326797385
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "TELPRES",
+          "AM",
+          "10'S",
+          "5714.81",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "5714.81"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6963001527819135
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=11 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=11 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=13 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=17 data=11 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=11 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=13 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=17 data=11 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=11 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=13 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=18 data=11 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=11 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Cl",
+      "GRANUELS",
+      "30Ml",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "pdf_path": "pdfs\\10007948_20251202_120457_KALYANI NOV.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 117.57190704345703,
+      "y_max": 128.99346923828125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "LM",
+        "Product Name",
+        "Pack",
+        "Op",
+        "PTS",
+        "Tot",
+        "Sales",
+        "Closing",
+        "Closing",
+        "AGE",
+        "Transit"
+      ],
+      "combined_confidence": 0.4766454545454545,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.8727272727272727,
+      "data_validation_score": 0.7105,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "LM",
+    "Product Name",
+    "Pack",
+    "Op",
+    "PTS",
+    "Tot",
+    "Sales",
+    "Closing",
+    "Closing",
+    "AGE",
+    "Transit"
+  ],
+  "confidence": 0.4766454545454545,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.8727272727272727,
+    "data_validation_score": 0.7105,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "LM",
+      "Product Name",
+      "Packing",
+      "Opening",
+      "Receipts",
+      "Total",
+      "Sales",
+      "Closing",
+      "Closing",
+      "AGE",
+      "Transit"
+    ],
+    "normalized": [
+      "LM",
+      "Product Name",
+      "Pack",
+      "Op",
+      "PTS",
+      "Tot",
+      "Sales",
+      "Closing",
+      "Closing",
+      "AGE",
+      "Transit"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "Name"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=11"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.4766454545454545,
+      "evidence_scores": {
+        "keyword_score": 0.75,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7105,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.865125,
+      "evidence_before_penalties": 0.865125
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "LM",
+          "Product Name",
+          "Pack",
+          "Op",
+          "PTS",
+          "Tot",
+          "Sales",
+          "Closing",
+          "Closing",
+          "AGE",
+          "Transit"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8766454545454545
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "LM",
+      "Product Name",
+      "Pack",
+      "Op",
+      "PTS",
+      "Tot",
+      "Sales",
+      "Closing",
+      "Closing",
+      "AGE",
+      "Transit"
+    ]
+  }
+}

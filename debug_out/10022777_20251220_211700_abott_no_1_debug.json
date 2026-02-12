@@ -1,0 +1,58 @@
+{
+  "pdf_path": "pdfs\\10022777_20251220_211700_abott no 1.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 99.79444885253906,
+      "y_max": 110.18675994873047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "PTS",
+          "PTS",
+          "Tot",
+          "Tot",
+          "Sales",
+          "Sales",
+          "Closing",
+          "Closing",
+          "Closing"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8712614870509606
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=10 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=10 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

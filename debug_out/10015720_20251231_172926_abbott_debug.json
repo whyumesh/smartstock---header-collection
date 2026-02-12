@@ -1,0 +1,544 @@
+{
+  "pdf_path": "pdfs\\10015720_20251231_172926_abbott.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 56.611595153808594,
+      "y_max": 65.61196899414062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 1,
+      "y_min": 59.37158966064453,
+      "y_max": 68.37196350097656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 56.611595153808594,
+      "y_max": 65.61196899414062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 59.37158966064453,
+      "y_max": 68.37196350097656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 4,
+      "y_min": 56.611595153808594,
+      "y_max": 65.61196899414062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 5,
+      "y_min": 59.37158966064453,
+      "y_max": 68.37196350097656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 6,
+      "y_min": 56.611595153808594,
+      "y_max": 65.61196899414062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 7,
+      "y_min": 59.37158966064453,
+      "y_max": 68.37196350097656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 8,
+      "y_min": 56.611595153808594,
+      "y_max": 65.61196899414062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 9,
+      "y_min": 59.37158966064453,
+      "y_max": 68.37196350097656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 10,
+      "y_min": 56.611595153808594,
+      "y_max": 65.61196899414062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 11,
+      "y_min": 59.37158966064453,
+      "y_max": 68.37196350097656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 12,
+      "y_min": 56.611595153808594,
+      "y_max": 65.61196899414062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 13,
+      "y_min": 59.37158966064453,
+      "y_max": 68.37196350097656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 14,
+      "y_min": 56.611595153808594,
+      "y_max": 65.61196899414062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 15,
+      "y_min": 59.37158966064453,
+      "y_max": 68.37196350097656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8859555555555555
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8980277777777778
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8859555555555555
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8980277777777778
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8859555555555555
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8980277777777778
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8859555555555555
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8980277777777778
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8859555555555555
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8980277777777778
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8859555555555555
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8980277777777778
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8859555555555555
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8980277777777778
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8859555555555555
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "No",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "LOSS",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8980277777777778
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 15,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

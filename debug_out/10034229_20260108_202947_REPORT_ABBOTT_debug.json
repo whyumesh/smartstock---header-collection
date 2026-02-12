@@ -1,0 +1,318 @@
+{
+  "pdf_path": "pdfs\\10034229_20260108_202947_REPORT ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 164.23800659179688,
+      "y_max": 175.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 4,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 5,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "CREMAFFIN",
+        "MINT",
+        "15Ml",
+        "15Ml",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.6323049450549451,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7499862637362636,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "CREMAFFIN",
+    "MINT",
+    "15Ml",
+    "15Ml",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.6323049450549451,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.5615384615384615,
+    "data_validation_score": 0.7499862637362636,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "CREMAFFIN",
+      "MINT",
+      "15ML",
+      "15ML",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "CREMAFFIN",
+      "MINT",
+      "15Ml",
+      "15Ml",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=12"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.6323049450549451,
+      "evidence_scores": {
+        "keyword_score": 0.25,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7499862637362636,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.6041632326007327,
+      "evidence_before_penalties": 0.6041632326007327
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8232941176470587
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "CREMAFFIN",
+          "MINT",
+          "15Ml",
+          "15Ml",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7823049450549451
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "GANATON",
+          "OD",
+          "TAB.",
+          "10Tab",
+          "10559.22",
+          "12976.00",
+          "20112.65",
+          "3746.82"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6970038837405094
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "EPTOIN",
+          "ER",
+          "TAB.",
+          "30'S",
+          "4544.52",
+          "5770.80",
+          "7603.14",
+          "2878.20",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7268128306878308
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "LTD.7",
+          "LTD.7"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7275500000000001
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Tot",
+          "38233.43",
+          "24647.81",
+          "20924.15",
+          "43771.38"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.6970000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=8 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=4 data=12 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=12 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=5 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=10 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "CREMAFFIN",
+      "MINT",
+      "15Ml",
+      "15Ml",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

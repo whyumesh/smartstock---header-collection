@@ -1,0 +1,49 @@
+{
+  "pdf_path": "pdfs\\10028720_20260102_123746_vertin.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 180.40713500976562,
+      "y_max": 190.40713500976562,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Received",
+          "Issued",
+          "PReturn",
+          "SReturn",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8397296381049242
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

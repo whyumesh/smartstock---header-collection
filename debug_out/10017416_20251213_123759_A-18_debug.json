@@ -1,0 +1,191 @@
+{
+  "pdf_path": "pdfs\\10017416_20251213_123759_A-18.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.82653045654297,
+      "y_max": 105.66615295410156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 1,
+      "y_min": 20.53053855895996,
+      "y_max": 28.370162963867188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "GANATON",
+        "OD",
+        "CAPS",
+        "10'S",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.7673530386617431,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5307692307692308,
+      "data_validation_score": 0.7059959625394848,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "GANATON",
+    "OD",
+    "CAPS",
+    "10'S",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.7673530386617431,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.5307692307692308,
+    "data_validation_score": 0.7059959625394848,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "GANATON",
+      "OD",
+      "CAPS",
+      "10'S",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "GANATON",
+      "OD",
+      "CAPS",
+      "10'S",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7673530386617431,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7059959625394848,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.6014989906348712,
+      "evidence_before_penalties": 0.6014989906348712
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "Oct2025",
+          "Sales",
+          "Adj",
+          "Cl",
+          "Stock",
+          "Val",
+          "Amount",
+          "Order",
+          "Exp",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8441028971028972
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GANATON",
+          "OD",
+          "CAPS",
+          "10'S",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7673530386617431
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "GANATON",
+      "OD",
+      "CAPS",
+      "10'S",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

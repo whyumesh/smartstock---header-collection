@@ -1,0 +1,200 @@
+{
+  "pdf_path": "pdfs\\10014605_20251231_155446_ABBOTT OPTIMA DUPHALAC.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 219.7100067138672,
+      "y_max": 231.7160186767578,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 102.07219696044922,
+      "y_max": 114.07819366455078,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Bala"
+      ],
+      "combined_confidence": 0.4937926421404682,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7612709030100334,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "691264.97",
+        "263272.95",
+        "536893.58",
+        "484073.58"
+      ],
+      "combined_confidence": 0.2616666666666667,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.6583333333333333,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Op",
+    "Bal",
+    "Receipt",
+    "Purchase",
+    "Tot",
+    "Issue",
+    "Sale",
+    "Closing",
+    "Closing",
+    "Bala"
+  ],
+  "confidence": 0.4937926421404682,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.8576923076923078,
+    "data_validation_score": 0.7612709030100334,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "PACKING",
+      "Op.",
+      "Opening",
+      "Bal",
+      "Receipt",
+      "Receipt/Pur",
+      "Total",
+      "Issue",
+      "Issue/Sales",
+      "Closing",
+      "Closing",
+      "Bala"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Op",
+      "Bal",
+      "Receipt",
+      "Purchase",
+      "Tot",
+      "Issue",
+      "Sale",
+      "Closing",
+      "Closing",
+      "Bala"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=12"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.4937926421404682,
+      "evidence_scores": {
+        "keyword_score": 0.7142857142857143,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7612709030100334,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.756389154323937,
+      "evidence_before_penalties": 0.756389154323937
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8437926421404682
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "691264.97",
+          "263272.95",
+          "536893.58",
+          "484073.58"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.6616666666666667
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Op",
+      "Bal",
+      "Receipt",
+      "Purchase",
+      "Tot",
+      "Issue",
+      "Sale",
+      "Closing",
+      "Closing",
+      "Bala"
+    ]
+  }
+}

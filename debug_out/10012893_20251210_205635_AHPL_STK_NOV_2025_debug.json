@@ -1,0 +1,297 @@
+{
+  "pdf_path": "pdfs\\10012893_20251210_205635_AHPL STK NOV 2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 49.010009765625,
+      "y_max": 58.110008239746094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 91.010009765625,
+      "y_max": 100.1100082397461,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=6"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.510009765625,
+      "y_max": 26.610010147094727,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 3,
+      "y_min": 101.510009765625,
+      "y_max": 110.6100082397461,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 4,
+      "y_min": 122.510009765625,
+      "y_max": 131.61001586914062,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 5,
+      "y_min": 164.510009765625,
+      "y_max": 173.61001586914062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "ANALYSIS",
+        "(Abbott",
+        "HEALTHCARE)"
+      ],
+      "combined_confidence": 0.7327818181818182,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7166666666666667,
+      "data_validation_score": 0.7972424242424242,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "LOBATE",
+        "SKIN",
+        "CREAM",
+        "1*15Gm",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.46152549019607836,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.55,
+      "data_validation_score": 0.7576274509803922,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "R2-F-5MG",
+        "TAB",
+        "1*10Tab",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.7041547866547866,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7404167904167904,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "WINBP",
+        "TAB",
+        "1*10Tab",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.45979104369020335,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7560980755938739,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "&",
+    "Sales",
+    "ANALYSIS",
+    "(Abbott",
+    "HEALTHCARE)"
+  ],
+  "confidence": 0.7327818181818182,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.7166666666666667,
+    "data_validation_score": 0.7972424242424242,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "STOCK",
+      "&",
+      "SALES",
+      "ANALYSIS",
+      "(ABBOTT",
+      "HEALTHCARE)"
+    ],
+    "normalized": [
+      "Stock",
+      "&",
+      "Sales",
+      "ANALYSIS",
+      "(Abbott",
+      "HEALTHCARE)"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=6"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7327818181818182,
+      "evidence_scores": {
+        "keyword_score": 0.4,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7972424242424242,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.7159772727272727,
+      "evidence_before_penalties": 0.7159772727272727
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SRI",
+          "SADHU",
+          "MEDICINE",
+          "COMPLEX",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7858769230769231
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "(Abbott",
+          "HEALTHCARE)"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7327818181818182
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7501636363636364
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "LOBATE",
+          "SKIN",
+          "CREAM",
+          "1*15Gm",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7615254901960784
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "R2-F-5MG",
+          "TAB",
+          "1*10Tab",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7041547866547866
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "WINBP",
+          "TAB",
+          "1*10Tab",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7597910436902033
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Stock",
+      "&",
+      "Sales",
+      "ANALYSIS",
+      "(Abbott",
+      "HEALTHCARE)"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pdf_path": "pdfs\\10024831_20260102_114528_ABBOTT_WOMEN.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 101.510009765625,
+      "y_max": 110.6100082397461,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "(Abbott",
+          "INDIA",
+          "(Woman",
+          "HEALTH))",
+          "-",
+          "Store",
+          "Stock",
+          "Issue"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8561809523809524
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=6 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=6 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "pdf_path": "pdfs\\10001341_20251220_102809_NIH_SalesAndStockStatement.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 242.08035278320312,
+      "y_max": 249.08035278320312,
+      "confidence": 0.9,
+      "reason": "header_keywords=8 tokens=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 148.82046508789062,
+      "y_max": 155.82046508789062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 148.82046508789062,
+      "y_max": 155.82046508789062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8201764705882353
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8305647058823529
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8274666666666667
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

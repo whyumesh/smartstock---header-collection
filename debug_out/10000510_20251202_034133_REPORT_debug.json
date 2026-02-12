@@ -1,0 +1,279 @@
+{
+  "pdf_path": "pdfs\\10000510_20251202_034133_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=16"
+    },
+    {
+      "page_no": 2,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 3,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "first_multi_token_with_keyword"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "AAAGM",
+        "PHENERGAN",
+        "AMP",
+        "Closing",
+        "2Ml",
+        "11.47",
+        "573.50",
+        "-",
+        "0.00",
+        "637.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.41934261394713884,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.6038461538461538,
+      "data_validation_score": 0.7428669158895403,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "AAABD",
+        "TYZA",
+        "CREAM",
+        "/",
+        "GEL",
+        "10Gr",
+        "85.89",
+        "1030.68",
+        "-",
+        "0.00",
+        "190.86",
+        "858.90",
+        "-"
+      ],
+      "combined_confidence": 0.30846153846153856,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5769230769230769,
+      "data_validation_score": 0.7153846153846154,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "AAAGM",
+    "PHENERGAN",
+    "AMP",
+    "Closing",
+    "2Ml",
+    "11.47",
+    "573.50",
+    "-",
+    "0.00",
+    "637.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.7693426139471388,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.6038461538461538,
+    "data_validation_score": 0.7428669158895403,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "AAAGM",
+      "PHENERGAN",
+      "AMP",
+      "Closing",
+      "2Ml",
+      "11.47",
+      "573.50",
+      "-",
+      "0.00",
+      "637.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "per_page": [
+      [
+        "AAAGM",
+        "PHENERGAN",
+        "AMP",
+        "Closing",
+        "2Ml",
+        "11.47",
+        "573.50",
+        "-",
+        "0.00",
+        "637.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      [
+        "AAABD",
+        "TYZA",
+        "CREAM",
+        "/",
+        "GEL",
+        "10Gr",
+        "85.89",
+        "1030.68",
+        "-",
+        "0.00",
+        "190.86",
+        "858.90",
+        "-"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8388552036199095
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "AAABB",
+          "HUMAN",
+          "INSULETARD",
+          "10Ml",
+          "133.50",
+          "400.50",
+          "1335.00",
+          "1305.99",
+          "534.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7219584679135732
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "AAAGM",
+          "PHENERGAN",
+          "AMP",
+          "Closing",
+          "2Ml",
+          "11.47",
+          "573.50",
+          "-",
+          "0.00",
+          "637.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7193426139471388
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "AAABD",
+          "TYZA",
+          "CREAM",
+          "/",
+          "GEL",
+          "10Gr",
+          "85.89",
+          "1030.68",
+          "-",
+          "0.00",
+          "190.86",
+          "858.90",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7084615384615386
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=14 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=14 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=10 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=13 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "AAAGM",
+      "PHENERGAN",
+      "AMP",
+      "Closing",
+      "2Ml",
+      "11.47",
+      "573.50",
+      "-",
+      "0.00",
+      "637.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "data_column_count_detected": 13,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

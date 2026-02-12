@@ -1,0 +1,373 @@
+{
+  "pdf_path": "pdfs\\10017312_20260102_174524_ABBOTT DEC 25.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 62.95100021362305,
+      "y_max": 69.5510025024414,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 64.95100402832031,
+      "y_max": 71.5510025024414,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 2,
+      "y_min": 64.95100402832031,
+      "y_max": 71.5510025024414,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 3,
+      "y_min": 64.95100402832031,
+      "y_max": 71.5510025024414,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 4,
+      "y_min": 64.95100402832031,
+      "y_max": 71.5510025024414,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "S.NO",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECPT",
+        "F_RE",
+        "Tot",
+        "ISSUE",
+        "Free Quantity",
+        "Cl",
+        "Rate",
+        "Amount",
+        "Exp"
+      ],
+      "combined_confidence": 0.4994038461538462,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7893269230769231,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "S.NO",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECPT",
+        "F_RE",
+        "Tot",
+        "ISSUE",
+        "Free Quantity",
+        "Cl",
+        "Rate",
+        "Amount",
+        "Exp"
+      ],
+      "combined_confidence": 0.6494038461538463,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7893269230769231,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "S.NO",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECPT",
+        "F_RE",
+        "Tot",
+        "ISSUE",
+        "Free Quantity",
+        "Cl",
+        "Rate",
+        "Amount",
+        "Exp"
+      ],
+      "combined_confidence": 0.6494038461538463,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7893269230769231,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "S.NO",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECPT",
+        "F_RE",
+        "Tot",
+        "ISSUE",
+        "Free Quantity",
+        "Cl",
+        "Rate",
+        "Amount",
+        "Exp"
+      ],
+      "combined_confidence": 0.4994038461538462,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7893269230769231,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "S.NO",
+    "Product Name",
+    "Pack",
+    "Op",
+    "RECPT",
+    "F_RE",
+    "Tot",
+    "ISSUE",
+    "Free Quantity",
+    "Cl",
+    "Rate",
+    "Amount",
+    "Exp"
+  ],
+  "confidence": 0.8994038461538462,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.8576923076923078,
+    "data_validation_score": 0.7893269230769231,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "S.NO",
+      "Product Name",
+      "Pack",
+      "Op",
+      "RECPT",
+      "F_RE",
+      "Tot",
+      "ISSUE",
+      "Free Quantity",
+      "Cl",
+      "Rate",
+      "Amount",
+      "Exp"
+    ],
+    "per_page": [
+      [
+        "S.NO",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECPT",
+        "F_RE",
+        "Tot",
+        "ISSUE",
+        "Free Quantity",
+        "Cl",
+        "Rate",
+        "Amount",
+        "Exp"
+      ],
+      [
+        "S.NO",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECPT",
+        "F_RE",
+        "Tot",
+        "ISSUE",
+        "Free Quantity",
+        "Cl",
+        "Rate",
+        "Amount",
+        "Exp"
+      ],
+      [
+        "S.NO",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECPT",
+        "F_RE",
+        "Tot",
+        "ISSUE",
+        "Free Quantity",
+        "Cl",
+        "Rate",
+        "Amount",
+        "Exp"
+      ],
+      [
+        "S.NO",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECPT",
+        "F_RE",
+        "Tot",
+        "ISSUE",
+        "Free Quantity",
+        "Cl",
+        "Rate",
+        "Amount",
+        "Exp"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "S.NO",
+          "Product Name",
+          "Pack",
+          "Op",
+          "RECPT",
+          "F_RE",
+          "Tot",
+          "ISSUE",
+          "Free Quantity",
+          "Cl",
+          "Rate",
+          "Amount",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8494038461538462
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "S.NO",
+          "Product Name",
+          "Pack",
+          "Op",
+          "RECPT",
+          "F_RE",
+          "Tot",
+          "ISSUE",
+          "Free Quantity",
+          "Cl",
+          "Rate",
+          "Amount",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8494038461538462
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "S.NO",
+          "Product Name",
+          "Pack",
+          "Op",
+          "RECPT",
+          "F_RE",
+          "Tot",
+          "ISSUE",
+          "Free Quantity",
+          "Cl",
+          "Rate",
+          "Amount",
+          "Exp"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8494038461538462
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "S.NO",
+          "Product Name",
+          "Pack",
+          "Op",
+          "RECPT",
+          "F_RE",
+          "Tot",
+          "ISSUE",
+          "Free Quantity",
+          "Cl",
+          "Rate",
+          "Amount",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8494038461538462
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "S.NO",
+          "Product Name",
+          "Pack",
+          "Op",
+          "RECPT",
+          "F_RE",
+          "Tot",
+          "ISSUE",
+          "Free Quantity",
+          "Cl",
+          "Rate",
+          "Amount",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8494038461538462
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=13 data=10 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=10 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "S.NO",
+      "Product Name",
+      "Pack",
+      "Op",
+      "RECPT",
+      "F_RE",
+      "Tot",
+      "ISSUE",
+      "Free Quantity",
+      "Cl",
+      "Rate",
+      "Amount",
+      "Exp"
+    ],
+    "data_column_count_detected": 12,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

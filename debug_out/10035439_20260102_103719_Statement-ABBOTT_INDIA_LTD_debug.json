@@ -1,0 +1,53 @@
+{
+  "pdf_path": "pdfs\\10035439_20260102_103719_Statement-ABBOTT INDIA LTD.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 68.48960876464844,
+      "y_max": 72.35950469970703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Sale",
+          "Op",
+          "Purchase",
+          "T/In",
+          "Sales",
+          "Free Quantity",
+          "Out.",
+          "Cl",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8452692307692308
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=8 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=8 diff=5"
+          }
+        }
+      }
+    ]
+  }
+}

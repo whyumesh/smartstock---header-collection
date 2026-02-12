@@ -1,0 +1,291 @@
+{
+  "pdf_path": "pdfs\\10005726_20260110_090740_ABBOTT (NEURO LIFE ) INDIA LTD_StockAndSales_Jan_2026.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 95.71025085449219,
+      "y_max": 103.47339630126953,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Tran",
+        "Recd.",
+        "Recd.",
+        "Quantity",
+        "Quantity",
+        "Amount",
+        "Amount",
+        "Quantity",
+        "Quantity"
+      ],
+      "combined_confidence": 0.910092244897959,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.9530612244897958,
+      "data_validation_score": 0.7724,
+      "data_column_count_detected": 21
+    }
+  ],
+  "final_selected_header": [
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Tran",
+    "Recd.",
+    "Recd.",
+    "Quantity",
+    "Quantity",
+    "Amount",
+    "Amount",
+    "Quantity",
+    "Quantity"
+  ],
+  "confidence": 0.910092244897959,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.9530612244897958,
+    "data_validation_score": 0.7724,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Qty",
+      "Qty",
+      "Qty",
+      "Qty",
+      "F.Qty",
+      "F.Qty",
+      "Qty",
+      "Qty",
+      "F.Qty",
+      "F.Qty",
+      "Qty",
+      "Qty",
+      "Tran",
+      "Rec",
+      "Rec",
+      "Qty",
+      "Qty",
+      "F.Value",
+      "F.Value",
+      "Qty",
+      "Qty"
+    ],
+    "normalized": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Tran",
+      "Recd.",
+      "Recd.",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Amount",
+      "Quantity",
+      "Quantity"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 5
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 6
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 6
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 7
+      },
+      {
+        "split": "F.Qty",
+        "into": "F.Qty",
+        "interval_idx": 7
+      },
+      {
+        "split": "F.Qty",
+        "into": "F.Qty",
+        "interval_idx": 8
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 9
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 10
+      },
+      {
+        "split": "F.Qty",
+        "into": "F.Qty",
+        "interval_idx": 10
+      },
+      {
+        "split": "F.Qty",
+        "into": "F.Qty",
+        "interval_idx": 11
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 11
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 12
+      },
+      {
+        "split": "Rec",
+        "into": "Rec",
+        "interval_idx": 14
+      },
+      {
+        "split": "Rec",
+        "into": "Rec",
+        "interval_idx": 15
+      },
+      {
+        "split": "F.Value",
+        "into": "F.Value",
+        "interval_idx": 18
+      },
+      {
+        "split": "F.Value",
+        "into": "F.Value",
+        "interval_idx": 19
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 19
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 20
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 21,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=21 data=21"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.910092244897959,
+      "evidence_scores": {
+        "keyword_score": 0.9523809523809523,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7724,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.9311952380952381,
+      "evidence_before_penalties": 0.9311952380952381
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Tran",
+          "Recd.",
+          "Recd.",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 21,
+        "combined_confidence": 0.910092244897959
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Tran",
+      "Recd.",
+      "Recd.",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Amount",
+      "Quantity",
+      "Quantity"
+    ]
+  }
+}

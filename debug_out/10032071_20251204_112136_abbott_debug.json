@@ -1,0 +1,255 @@
+{
+  "pdf_path": "pdfs\\10032071_20251204_112136_abbott.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 95.87999725341797,
+      "y_max": 103.87999725341797,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 47.880001068115234,
+      "y_max": 55.880001068115234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 2,
+      "y_min": 311.8800048828125,
+      "y_max": 319.8800048828125,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=6"
+    },
+    {
+      "page_no": 3,
+      "y_min": 107.87999725341797,
+      "y_max": 115.87999725341797,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "SNO",
+        "Product Name",
+        "DESCRIPTION",
+        "Pack",
+        "OB",
+        "Purchase",
+        "FR",
+        "Sale",
+        "FR",
+        "CB",
+        "Rate",
+        "Amount"
+      ],
+      "combined_confidence": 0.42458399117222656,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.7880952380952381,
+      "data_validation_score": 0.7598247177658942,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "RETURNED",
+        "RETURNED",
+        "RETURNED",
+        "Amount",
+        "Amount",
+        "0.00",
+        "0.00",
+        "453.60",
+        "GST",
+        "650.02",
+        "650.02"
+      ],
+      "combined_confidence": 0.39255986013986016,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7045454545454546,
+      "data_validation_score": 0.5832538461538461,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Tot",
+        "Tot",
+        "VAL.",
+        "VAL.",
+        "282210.81",
+        "282210.81",
+        "0.00",
+        "0.00",
+        "182481.71",
+        "182481.71",
+        "96685.70",
+        "96685.70"
+      ],
+      "combined_confidence": 0.6828231425671618,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.6583333333333333,
+      "data_validation_score": 0.6057823795024752,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Tot",
+        "VAL.",
+        "46067.00",
+        "0.00",
+        "18168.77",
+        "27898.23"
+      ],
+      "combined_confidence": 0.7176666666666668,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.6583333333333333,
+      "data_validation_score": 0.7799999999999999,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Tot",
+    "VAL.",
+    "46067.00",
+    "0.00",
+    "18168.77",
+    "27898.23"
+  ],
+  "confidence": 0.7176666666666668,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.6583333333333333,
+    "data_validation_score": 0.7799999999999999,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "TOTAL",
+      "VAL.",
+      "46067.00",
+      "0.00",
+      "18168.77",
+      "27898.23"
+    ],
+    "normalized": [
+      "Tot",
+      "VAL.",
+      "46067.00",
+      "0.00",
+      "18168.77",
+      "27898.23"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=6"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7176666666666668,
+      "evidence_scores": {
+        "keyword_score": 0.3333333333333333,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7799999999999999,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.7033333333333334,
+      "evidence_before_penalties": 0.7033333333333334
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SNO",
+          "Product Name",
+          "DESCRIPTION",
+          "Pack",
+          "OB",
+          "Purchase",
+          "FR",
+          "Sale",
+          "FR",
+          "CB",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8245839911722266
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "RETURNED",
+          "RETURNED",
+          "RETURNED",
+          "Amount",
+          "Amount",
+          "0.00",
+          "0.00",
+          "453.60",
+          "GST",
+          "650.02",
+          "650.02"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7425598601398602
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot",
+          "Tot",
+          "VAL.",
+          "VAL.",
+          "282210.81",
+          "282210.81",
+          "0.00",
+          "0.00",
+          "182481.71",
+          "182481.71",
+          "96685.70",
+          "96685.70"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6828231425671618
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Tot",
+          "VAL.",
+          "46067.00",
+          "0.00",
+          "18168.77",
+          "27898.23"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7176666666666668
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Tot",
+      "VAL.",
+      "46067.00",
+      "0.00",
+      "18168.77",
+      "27898.23"
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "pdf_path": "pdfs\\10029743_20251204_112141_REPORT_7C60Q868J.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 69.39398193359375,
+      "y_max": 83.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5711333333333333,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.639,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "THYROWEL",
+        "PLUS",
+        "TAB",
+        "10*15Tab",
+        "-"
+      ],
+      "combined_confidence": 0.16286998361998362,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.58,
+      "data_validation_score": 0.721849918099918,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "DESCRIPTION",
+    "Op",
+    "RECEIPT",
+    "ISSUE",
+    "Closing"
+  ],
+  "confidence": 0.5711333333333333,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.7916666666666666,
+    "data_validation_score": 0.639,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ITEM",
+      "DESCRIPTION",
+      "OPENING",
+      "RECEIPT",
+      "ISSUE",
+      "CLOSING"
+    ],
+    "normalized": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=6"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.5711333333333333,
+      "evidence_scores": {
+        "keyword_score": 0.5714285714285714,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.639,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.7359404761904762,
+      "evidence_before_penalties": 0.7359404761904762
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "PIN",
+          "Product Code",
+          ":-456010",
+          ":-456010",
+          "UJJAIN"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7574085714285714
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7711333333333333
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "THYROWEL",
+          "PLUS",
+          "TAB",
+          "10*15Tab",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7128699836199837
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing"
+    ]
+  }
+}

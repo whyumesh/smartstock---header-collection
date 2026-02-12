@@ -1,0 +1,52 @@
+{
+  "pdf_path": "pdfs\\10036285_20251220_154917_REPORT_7CP0XAGUD.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 122.510009765625,
+      "y_max": 131.61001586914062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Product Name",
+          "DESCRIPTION",
+          "Batch No",
+          "Exp",
+          "HSN",
+          "MRP",
+          "Rate",
+          "Amount",
+          "DIS%",
+          "GST",
+          "GST"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8810181277056276
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=9 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=9 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

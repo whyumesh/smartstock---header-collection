@@ -1,0 +1,158 @@
+{
+  "pdf_path": "pdfs\\10036390_20260101_164440_SS ABBOTT INDIA LIMITED.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8308970588235294
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "DIGENE",
+          "INSTA",
+          "MINT",
+          "(10Mlx5)",
+          "Box",
+          "2429.78",
+          "0.00",
+          "3928.10",
+          "347.11",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7357748382815307
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "GANATON",
+          "OD",
+          "TAB",
+          "10S",
+          "-",
+          "0.00",
+          "32440.00",
+          "11173.64",
+          "22383.60",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.700030959752322
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "MG",
+          "15Tab",
+          "49657.00",
+          "-",
+          "0.00",
+          "19115.36",
+          "32453.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7287150997150998
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

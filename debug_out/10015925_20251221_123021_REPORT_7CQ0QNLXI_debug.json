@@ -1,0 +1,222 @@
+{
+  "pdf_path": "pdfs\\10015925_20251221_123021_REPORT_7CQ0QNLXI.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 216.73797607421875,
+      "y_max": 228.43797302246094,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Rate",
+        "Rate",
+        "Rate",
+        "5Mg",
+        "5Mg",
+        ":50Tab:",
+        ":50Tab:",
+        "30:0",
+        "30:0"
+      ],
+      "combined_confidence": 0.0,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7166666666666666,
+      "data_validation_score": 0.5879166666666666,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "Rate",
+    "Rate",
+    "Rate",
+    "5Mg",
+    "5Mg",
+    ":50Tab:",
+    ":50Tab:",
+    "30:0",
+    "30:0"
+  ],
+  "confidence": 0.0,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.7166666666666666,
+    "data_validation_score": 0.5879166666666666,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SORBITRATE",
+      "SORBITRATE",
+      "SORBITRATE",
+      "5MG",
+      "5MG",
+      ":50Tab:",
+      ":50Tab:",
+      "30:0",
+      "30:0"
+    ],
+    "normalized": [
+      "Rate",
+      "Rate",
+      "Rate",
+      "5Mg",
+      "5Mg",
+      ":50Tab:",
+      ":50Tab:",
+      "30:0",
+      "30:0"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "a",
+        "into": "a",
+        "interval_idx": 0
+      },
+      {
+        "split": "a",
+        "into": "a",
+        "interval_idx": 1
+      },
+      {
+        "split": "SORBITRATE",
+        "into": "SORBITRATE",
+        "interval_idx": 1
+      },
+      {
+        "split": "SORBITRATE",
+        "into": "SORBITRATE",
+        "interval_idx": 2
+      },
+      {
+        "split": "SORBITRATE",
+        "into": "SORBITRATE",
+        "interval_idx": 3
+      },
+      {
+        "split": "5MG",
+        "into": "5MG",
+        "interval_idx": 3
+      },
+      {
+        "split": "5MG",
+        "into": "5MG",
+        "interval_idx": 4
+      },
+      {
+        "split": ":50Tab:",
+        "into": ":50Tab:",
+        "interval_idx": 4
+      },
+      {
+        "split": ":50Tab:",
+        "into": ":50Tab:",
+        "interval_idx": 5
+      },
+      {
+        "split": "30:0",
+        "into": "30:0",
+        "interval_idx": 6
+      },
+      {
+        "split": "30:0",
+        "into": "30:0",
+        "interval_idx": 7
+      }
+    ],
+    "noise_tokens_removed": [
+      "a",
+      "a",
+      ":"
+    ],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=9 data=8"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.0,
+      "evidence_scores": {
+        "keyword_score": 0.3333333333333333,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.5879166666666666,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.5998125000000001,
+      "evidence_before_penalties": 0.5998125000000001
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Cl",
+          "MG",
+          ":1",
+          "PH",
+          "20:0"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7626779862700229
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Rate",
+          "Rate",
+          "Rate",
+          "5Mg",
+          "5Mg",
+          ":50Tab:",
+          ":50Tab:",
+          "30:0",
+          "30:0"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.6909166666666667
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Rate",
+      "Rate",
+      "Rate",
+      "5Mg",
+      "5Mg",
+      ":50Tab:",
+      ":50Tab:",
+      "30:0",
+      "30:0"
+    ]
+  }
+}

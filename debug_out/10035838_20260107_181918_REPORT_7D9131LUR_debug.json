@@ -1,0 +1,165 @@
+{
+  "pdf_path": "pdfs\\10035838_20260107_181918_REPORT_7D9131LUR.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73797607421875,
+      "y_max": 123.43797302246094,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Tot",
+        "ABBOTT",
+        "ABBOTT",
+        "ABBOTT",
+        "INDIA",
+        "LTD.",
+        "Order",
+        "Order",
+        "NO",
+        "Op"
+      ],
+      "combined_confidence": 0.4897875161349806,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.735,
+      "data_validation_score": 0.6389375806749031,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "Tot",
+    "ABBOTT",
+    "ABBOTT",
+    "ABBOTT",
+    "INDIA",
+    "LTD.",
+    "Order",
+    "Order",
+    "NO",
+    "Op"
+  ],
+  "confidence": 0.4897875161349806,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.735,
+    "data_validation_score": 0.6389375806749031,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "TO,",
+      "ABBOTT",
+      "ABBOTT",
+      "ABBOTT",
+      "INDIA",
+      "LTD.",
+      "ORDER",
+      "ORDER",
+      "NO",
+      "OP000546"
+    ],
+    "normalized": [
+      "Tot",
+      "ABBOTT",
+      "ABBOTT",
+      "ABBOTT",
+      "INDIA",
+      "LTD.",
+      "Order",
+      "Order",
+      "NO",
+      "Op"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "ABBOTT",
+        "into": "ABBOTT",
+        "interval_idx": 0
+      },
+      {
+        "split": "ABBOTT",
+        "into": "ABBOTT",
+        "interval_idx": 1
+      },
+      {
+        "split": "ABBOTT",
+        "into": "ABBOTT",
+        "interval_idx": 2
+      },
+      {
+        "split": "ORDER",
+        "into": "ORDER",
+        "interval_idx": 7
+      },
+      {
+        "split": "ORDER",
+        "into": "ORDER",
+        "interval_idx": 8
+      }
+    ],
+    "noise_tokens_removed": [
+      ":"
+    ],
+    "data_column_count_detected": 9,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=9"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.4897875161349806,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6389375806749031,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7222343951687258,
+      "evidence_before_penalties": 0.7222343951687258
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Tot",
+          "ABBOTT",
+          "ABBOTT",
+          "ABBOTT",
+          "INDIA",
+          "LTD.",
+          "Order",
+          "Order",
+          "NO",
+          "Op"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7897875161349807
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Tot",
+      "ABBOTT",
+      "ABBOTT",
+      "ABBOTT",
+      "INDIA",
+      "LTD.",
+      "Order",
+      "Order",
+      "NO",
+      "Op"
+    ]
+  }
+}

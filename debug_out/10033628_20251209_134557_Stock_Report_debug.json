@@ -1,0 +1,267 @@
+{
+  "pdf_path": "pdfs\\10033628_20251209_134557_Stock_Report.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.5660171508789,
+      "y_max": 119.4900131225586,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 156.56600952148438,
+      "y_max": 164.49002075195312,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 72.5660171508789,
+      "y_max": 80.4900131225586,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 3,
+      "y_min": 62.06601333618164,
+      "y_max": 69.9900131225586,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 42.47299575805664,
+      "y_max": 50.396995544433594,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "ESGIPYRIN",
+        "INSTAGEL",
+        "GM",
+        "2.00",
+        "237.31",
+        "2.00",
+        "237.31"
+      ],
+      "combined_confidence": 0.416828408782868,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.78414204391434,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "COMPANY",
+        "Tot",
+        "1176.00",
+        "91008.01",
+        "1176.00",
+        "58287.76",
+        "1195.00",
+        "67895.97",
+        "1115.00",
+        "72550.81"
+      ],
+      "combined_confidence": 0.4076428571428572,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.635,
+      "data_validation_score": 0.6282142857142857,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "ESGIPYRIN",
+    "INSTAGEL",
+    "GM",
+    "2.00",
+    "237.31",
+    "2.00",
+    "237.31"
+  ],
+  "confidence": 0.416828408782868,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.78414204391434,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ESGIPYRIN",
+      "INSTAGEL",
+      "GM",
+      "2.00",
+      "237.31",
+      "2.00",
+      "237.31"
+    ],
+    "normalized": [
+      "ESGIPYRIN",
+      "INSTAGEL",
+      "GM",
+      "2.00",
+      "237.31",
+      "2.00",
+      "237.31"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "50"
+    ],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=8"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.416828408782868,
+      "evidence_scores": {
+        "keyword_score": 0.2857142857142857,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.78414204391434,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.6069640824071564,
+      "evidence_before_penalties": 0.6069640824071564
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particular",
+          "Pack",
+          "Op",
+          "Amount",
+          "Purchase",
+          "Amount",
+          "Sl.Qnt.",
+          "Amount",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8487600000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ESGIPYRIN",
+          "INSTAGEL",
+          "GM",
+          "2.00",
+          "237.31",
+          "2.00",
+          "237.31"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.716828408782868
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "LOBATE",
+          "SKIN",
+          "CREAM",
+          "30Gm",
+          "5.00",
+          "862.15",
+          "3.00",
+          "517.29",
+          "2.00",
+          "344.86"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.6986576588628763
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "SZETALO",
+          "LS",
+          "TAB",
+          "1X15",
+          "8.00",
+          "1217.28",
+          "8.00",
+          "1217.28"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.692202380952381
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "COMPANY",
+          "Tot",
+          "1176.00",
+          "91008.01",
+          "1176.00",
+          "58287.76",
+          "1195.00",
+          "67895.97",
+          "1115.00",
+          "72550.81"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7076428571428572
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=10 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=8 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=10 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=8 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ESGIPYRIN",
+      "INSTAGEL",
+      "GM",
+      "2.00",
+      "237.31",
+      "2.00",
+      "237.31"
+    ]
+  }
+}

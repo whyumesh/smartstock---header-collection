@@ -1,0 +1,52 @@
+{
+  "pdf_path": "pdfs\\10004168_20251204_121749_Mailattach_1.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 98.62492370605469,
+      "y_max": 106.54501342773438,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Op",
+          "Purchase",
+          "Last",
+          "PrvS",
+          "Sales",
+          "Cl",
+          "Sale",
+          "Val",
+          "Stk",
+          "Val",
+          "Order"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8274637445887446
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=10 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

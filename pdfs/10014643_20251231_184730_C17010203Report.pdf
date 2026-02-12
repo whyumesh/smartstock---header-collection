@@ -1,0 +1,134 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                           ) Tj
+T* (                                  KENT PHARMA                                                    ) Tj
+T* (                                                                                                           ) Tj
+T* (                                CHENNAI. - 600003                                                ) Tj
+T* (                                                                                                           ) Tj
+T* (Stock & Sales Report From 01/12/2025 To 31/12/2025                                              ) Tj
+T* (Company Name : ABBOTT INDIA[PHARMA DIVI] - TRUSTPURAM,KODAMBAKKAM,                                         ) Tj
+T* (===========================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur PFree  PurRet      Sale     SFree OthFr SRet CurStk ) Tj
+T* (===========================================================================================================) Tj
+T* (1   BRUFEN 200MG              1X15`S      9         -     -       -         -         -     -    -      9 ) Tj
+T* (2   BRUFEN 400MG 15`S         15`S       30         -     -       -         -         -     -    -     30 ) Tj
+T* (3   CREMAFFFIN PLAIN 225ML    225ML     313       600     -       -       655         -     -    -    258 ) Tj
+T* (4   CREMAFFIN MIXED FRUIT 225 225ML     120       240     -       -       195         -     -    -    165 ) Tj
+T* (5   CREMAFFIN PLUS 225ML      225ML     237       240     -       -       266         5     -    -    206 ) Tj
+T* (6   CREMAGEL 2%30GM           30GMGE     60         -     -       -         -         -     -    -     60 ) Tj
+T* (7   CREMALAX 10MG TAB         3x6tab     49         -     -       -         3         -     -    -     46 ) Tj
+T* (8   LIBRAX TAB                20`S        4         -     -       4         -         -     -    -      0 ) Tj
+T* (9   PANKREOFLAT 170MG TAB     15         19        25     -       -        10         -     -    -     34 ) Tj
+T* (10  PANKREOFLAT LIQUID 100ML  100ML       5         -     -       -         -         -     -    -      5 ) Tj
+T* (11  SURBEX XT 15`S            15`S        7         -     -       -         -         -     -    -      7 ) Tj
+T* (-----------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                               853      1105     -       4      1129         5     -    -    820 ) Tj
+T* (-----------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:   162697.16 Purc.Value: :   234250.31 Sales Value::   249883.53                               ) Tj
+T* (Cl.Stk Val:    161903.92 Pur.RetVal ::      520.80 SalRet Val: :        0.00                               ) Tj
+T* (                                     :             NetSal\(GVal\):   249883.53                             ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:        0.00                               ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (Non Moving items Report Non Move Days > 90                                                                 ) Tj
+T* (========================================================================================                   ) Tj
+T* (Prod.Name                 Packing    Batch      Qty       Days                                             ) Tj
+T* (========================================================================================                   ) Tj
+T* (Company Name : ABBOTT INDIA[PHARMA DIVI]                                                                   ) Tj
+T* (BRUFEN 200MG              1X15`S     532781D7   9         342                                              ) Tj
+T* (BRUFEN 400MG 15`S         15`S       542816D7   30        148                                              ) Tj
+T* (CREMAGEL 2%30GM           30GMGEL    AVJ0078    2         120                                              ) Tj
+T* (CREMAGEL 2%30GM           30GMGEL    AVK0093    8         120                                              ) Tj
+T* (CREMAGEL 2%30GM           30GMGEL    AVL0045    10        120                                              ) Tj
+T* (----------------------------------------------------------------------------------------                   ) Tj
+T* (                                                                                                           ) Tj
+T* (                                       *** END OF REPORT ***                                               ) Tj
+T* (                                                                                                           ) Tj
+ET
+endstream
+endobj
+9 0 obj
+4185
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 750 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000004751 00000 n
+0000004830 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000004728 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+4923
+%%EOF

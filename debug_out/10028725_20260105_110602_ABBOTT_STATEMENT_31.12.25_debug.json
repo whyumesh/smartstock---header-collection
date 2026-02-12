@@ -1,0 +1,57 @@
+{
+  "pdf_path": "pdfs\\10028725_20260105_110602_ABBOTT STATEMENT 31.12.25.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 71.62399291992188,
+      "y_max": 81.35431671142578,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal",
+          "SVal",
+          "Order"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8698623575912577
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=6 diff=11",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=6 diff=11"
+          }
+        }
+      }
+    ]
+  }
+}

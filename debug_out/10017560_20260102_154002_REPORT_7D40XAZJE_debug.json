@@ -1,0 +1,291 @@
+{
+  "pdf_path": "pdfs\\10017560_20260102_154002_REPORT_7D40XAZJE.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.39398193359375,
+      "y_max": 125.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 1,
+      "y_min": 79.89398193359375,
+      "y_max": 94.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=5"
+    },
+    {
+      "page_no": 4,
+      "y_min": 289.89398193359375,
+      "y_max": 304.1939697265625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 6,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "ABBOTT",
+        "CRITICAL",
+        "CRITICAL",
+        "CRITICAL",
+        "CARDIOLOGY",
+        "HC"
+      ],
+      "combined_confidence": 0.5386720930232558,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.6808604651162792,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "ABBOTT",
+        "ABBOTT",
+        "NOVA",
+        "CARE",
+        "CARE",
+        "HC"
+      ],
+      "combined_confidence": 0.5368676767676768,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.6718383838383839,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "ABBOTT",
+    "CRITICAL",
+    "CRITICAL",
+    "CRITICAL",
+    "CARDIOLOGY",
+    "HC"
+  ],
+  "confidence": 0.7386720930232558,
+  "confidence_breakdown": {
+    "visual_score": 0.75,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.6808604651162792,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "ABBOTT",
+      "CRITICAL",
+      "CRITICAL",
+      "CRITICAL",
+      "CARDIOLOGY",
+      "HC"
+    ],
+    "per_page": [
+      [
+        "ABBOTT",
+        "CRITICAL",
+        "CRITICAL",
+        "CRITICAL",
+        "CARDIOLOGY",
+        "HC"
+      ],
+      [
+        "ABBOTT",
+        "ABBOTT",
+        "NOVA",
+        "CARE",
+        "CARE",
+        "HC"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7971727272727274
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7887146853146855
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ABBOTT",
+          "CRITICAL",
+          "CRITICAL",
+          "CRITICAL",
+          "CARDIOLOGY",
+          "HC"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6886720930232558
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Tot",
+          "Tot"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7200000000000001
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "CREMAFFIN",
+          "PRINK",
+          "SY",
+          "225,Ml"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7058857142857143
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "EPTOIN",
+          "INJ",
+          "2,Ml"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7037639751552796
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "ABBOTT",
+          "ABBOTT",
+          "NOVA",
+          "CARE",
+          "CARE",
+          "HC"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6868676767676768
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=10 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=8 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=2 data=8 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=2 data=8 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=3 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=7 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ABBOTT",
+      "CRITICAL",
+      "CRITICAL",
+      "CRITICAL",
+      "CARDIOLOGY",
+      "HC"
+    ],
+    "data_column_count_detected": 7,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

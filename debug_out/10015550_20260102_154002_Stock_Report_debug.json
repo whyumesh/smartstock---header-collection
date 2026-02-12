@@ -1,0 +1,221 @@
+{
+  "pdf_path": "pdfs\\10015550_20260102_154002_Stock_Report.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 66.56595611572266,
+      "y_max": 74.48995208740234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 262.9729919433594,
+      "y_max": 270.8970031738281,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 52.97299575805664,
+      "y_max": 60.896995544433594,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Particular",
+        "Pack",
+        "Op",
+        "Amount",
+        "Purchase",
+        "Amount",
+        "Sl.Qnt.",
+        "Amount",
+        "Cl"
+      ],
+      "combined_confidence": 0.6187923976608187,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.8722222222222222,
+      "data_validation_score": 0.7217397660818713,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "COMPANY",
+        "Tot",
+        "379.00",
+        "74436.61",
+        "430.00",
+        "92199.60",
+        "443.00",
+        "95714.99",
+        "366.00"
+      ],
+      "combined_confidence": 0.5779397103870787,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.6388888888888888,
+      "data_validation_score": 0.7508096630465051,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "COMPANY",
+        "Tot",
+        "359.00",
+        "140218.06",
+        "310.00",
+        "102309.50",
+        "414.00",
+        "150266.00",
+        "255.00"
+      ],
+      "combined_confidence": 0.5709971509971509,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.6388888888888888,
+      "data_validation_score": 0.7160968660968661,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "COMPANY",
+    "Tot",
+    "Op",
+    "Amount",
+    "Purchase",
+    "Amount",
+    "Sl.Qnt.",
+    "Amount",
+    "Cl"
+  ],
+  "confidence": 0.8465701754385964,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.8722222222222222,
+    "data_validation_score": 0.7217397660818713,
+    "consensus_score": 0.7777777777777778
+  },
+  "debug": {
+    "voted_headers": [
+      "COMPANY",
+      "Tot",
+      "Op",
+      "Amount",
+      "Purchase",
+      "Amount",
+      "Sl.Qnt.",
+      "Amount",
+      "Cl"
+    ],
+    "per_page": [
+      [
+        "Particular",
+        "Pack",
+        "Op",
+        "Amount",
+        "Purchase",
+        "Amount",
+        "Sl.Qnt.",
+        "Amount",
+        "Cl"
+      ],
+      [
+        "COMPANY",
+        "Tot",
+        "379.00",
+        "74436.61",
+        "430.00",
+        "92199.60",
+        "443.00",
+        "95714.99",
+        "366.00"
+      ],
+      [
+        "COMPANY",
+        "Tot",
+        "359.00",
+        "140218.06",
+        "310.00",
+        "102309.50",
+        "414.00",
+        "150266.00",
+        "255.00"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particular",
+          "Pack",
+          "Op",
+          "Amount",
+          "Purchase",
+          "Amount",
+          "Sl.Qnt.",
+          "Amount",
+          "Cl"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8187923976608187
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "COMPANY",
+          "Tot",
+          "379.00",
+          "74436.61",
+          "430.00",
+          "92199.60",
+          "443.00",
+          "95714.99",
+          "366.00"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7279397103870787
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "COMPANY",
+          "Tot",
+          "359.00",
+          "140218.06",
+          "310.00",
+          "102309.50",
+          "414.00",
+          "150266.00",
+          "255.00"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7209971509971509
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "COMPANY",
+      "Tot",
+      "Op",
+      "Amount",
+      "Purchase",
+      "Amount",
+      "Sl.Qnt.",
+      "Amount",
+      "Cl"
+    ],
+    "data_column_count_detected": 9,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

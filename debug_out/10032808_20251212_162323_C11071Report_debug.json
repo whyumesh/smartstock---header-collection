@@ -1,0 +1,228 @@
+{
+  "pdf_path": "pdfs\\10032808_20251212_162323_C11071Report.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 178.61199951171875,
+      "y_max": 189.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "No",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Free Quantity",
+        "Purchase",
+        "Sep",
+        "Oct",
+        "Sale",
+        "Free Quantity",
+        "OthFr",
+        "SRet",
+        "Repl",
+        "CurStk",
+        "Stk.Value",
+        "OrdQt",
+        "Order",
+        "Pend",
+        "SalVal",
+        "Exp",
+        "Age",
+        "Rate",
+        "Last"
+      ],
+      "combined_confidence": 0.487282196969697,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.7895833333333333,
+      "data_validation_score": 0.7468276515151516,
+      "data_column_count_detected": 24
+    }
+  ],
+  "final_selected_header": [
+    "No",
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Free Quantity",
+    "Purchase",
+    "Sep",
+    "Oct",
+    "Sale",
+    "Free Quantity",
+    "OthFr",
+    "SRet",
+    "Repl",
+    "CurStk",
+    "Stk.Value",
+    "OrdQt",
+    "Order",
+    "Pend",
+    "SalVal",
+    "Exp",
+    "Age",
+    "Rate",
+    "Last"
+  ],
+  "confidence": 0.487282196969697,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.7895833333333333,
+    "data_validation_score": 0.7468276515151516,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Opstk",
+      "Pur",
+      "PFree",
+      "PurRet",
+      "Sep",
+      "Oct",
+      "Sale",
+      "SFree",
+      "OthFr",
+      "SRet",
+      "Repl",
+      "CurStk",
+      "StkVal",
+      "OrdQt",
+      "OrdFr",
+      "Pend.Ord",
+      "SalVal",
+      "Exp",
+      "Age",
+      "Rate",
+      "Last"
+    ],
+    "normalized": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Free Quantity",
+      "Purchase",
+      "Sep",
+      "Oct",
+      "Sale",
+      "Free Quantity",
+      "OthFr",
+      "SRet",
+      "Repl",
+      "CurStk",
+      "Stk.Value",
+      "OrdQt",
+      "Order",
+      "Pend",
+      "SalVal",
+      "Exp",
+      "Age",
+      "Rate",
+      "Last"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "Name"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 24,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=24 data=24"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.487282196969697,
+      "evidence_scores": {
+        "keyword_score": 0.5925925925925926,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7468276515151516,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8348550610269361,
+      "evidence_before_penalties": 0.8348550610269361
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "No",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Free Quantity",
+          "Purchase",
+          "Sep",
+          "Oct",
+          "Sale",
+          "Free Quantity",
+          "OthFr",
+          "SRet",
+          "Repl",
+          "CurStk",
+          "Stk.Value",
+          "OrdQt",
+          "Order",
+          "Pend",
+          "SalVal",
+          "Exp",
+          "Age",
+          "Rate",
+          "Last"
+        ],
+        "data_column_count_detected": 24,
+        "combined_confidence": 0.887282196969697
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Free Quantity",
+      "Purchase",
+      "Sep",
+      "Oct",
+      "Sale",
+      "Free Quantity",
+      "OthFr",
+      "SRet",
+      "Repl",
+      "CurStk",
+      "Stk.Value",
+      "OrdQt",
+      "Order",
+      "Pend",
+      "SalVal",
+      "Exp",
+      "Age",
+      "Rate",
+      "Last"
+    ]
+  }
+}

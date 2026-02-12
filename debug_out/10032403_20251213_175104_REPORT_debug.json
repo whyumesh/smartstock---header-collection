@@ -1,0 +1,211 @@
+{
+  "pdf_path": "pdfs\\10032403_20251213_175104_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=17"
+    },
+    {
+      "page_no": 2,
+      "y_min": 227.23800659179688,
+      "y_max": 238.93800354003906,
+      "confidence": 0.71,
+      "reason": "header_keywords=3 tokens=17"
+    },
+    {
+      "page_no": 3,
+      "y_min": 248.23800659179688,
+      "y_max": 259.9380187988281,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=17"
+    },
+    {
+      "page_no": 4,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "first_multi_token_with_keyword"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=18"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8276428571428571
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ELOCON",
+          "OINT",
+          "10Gm",
+          "10Gm",
+          "ONIT",
+          "PCS",
+          "-"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.7247604395604397
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "KENACORT",
+          "10Mg",
+          "INJECTION",
+          "10Ml",
+          "INJ",
+          "PCS",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7384292172739542
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "REJOINT",
+          "UC",
+          "CAP",
+          "CAP",
+          "PCS",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.717983351235231
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "SUPERMET",
+          "TAB",
+          "TAB",
+          "PCS",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.7064771062271064
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "1000Mg",
+          "TAB",
+          "TAB",
+          "PCS",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7241649350649351
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=13 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=7 data=15 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=15 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=7 data=15 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=15 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=6 data=15 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=15 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=7 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=12 diff=5"
+          }
+        }
+      }
+    ]
+  }
+}

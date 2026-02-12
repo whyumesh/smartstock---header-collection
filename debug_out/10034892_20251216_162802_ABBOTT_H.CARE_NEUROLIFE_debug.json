@@ -1,0 +1,48 @@
+{
+  "pdf_path": "pdfs\\10034892_20251216_162802_ABBOTT H.CARE NEUROLIFE.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 331.8940124511719,
+      "y_max": 346.1940002441406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "Sale",
+          "1*7'S",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8195
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

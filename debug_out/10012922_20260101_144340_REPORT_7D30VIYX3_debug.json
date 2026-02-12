@@ -1,0 +1,185 @@
+{
+  "pdf_path": "pdfs\\10012922_20260101_144340_REPORT_7D30VIYX3.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "ABBOTT",
+        "INDIA",
+        "INDIA",
+        "LTD.,[CONSUMER",
+        "LTD.,[CONSUMER",
+        "CARE]"
+      ],
+      "combined_confidence": 0.730175,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.675875,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.5571180952380952,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.7833333333333333,
+      "data_validation_score": 0.6522571428571429,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5744226190476189,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.6554464285714285,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "ABBOTT",
+    "INDIA",
+    "INDIA",
+    "LTD.,[CONSUMER",
+    "LTD.,[CONSUMER",
+    "CARE]"
+  ],
+  "confidence": 0.780175,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.675875,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "ABBOTT",
+      "INDIA",
+      "INDIA",
+      "LTD.,[CONSUMER",
+      "LTD.,[CONSUMER",
+      "CARE]"
+    ],
+    "per_page": [
+      [
+        "ABBOTT",
+        "INDIA",
+        "INDIA",
+        "LTD.,[CONSUMER",
+        "LTD.,[CONSUMER",
+        "CARE]"
+      ],
+      [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS",
+        "ANALYSIS"
+      ],
+      [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "INDIA",
+          "LTD.,[CONSUMER",
+          "LTD.,[CONSUMER",
+          "CARE]"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.730175
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7071180952380952
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.774422619047619
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "ABBOTT",
+      "INDIA",
+      "INDIA",
+      "LTD.,[CONSUMER",
+      "LTD.,[CONSUMER",
+      "CARE]"
+    ],
+    "data_column_count_detected": 6,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

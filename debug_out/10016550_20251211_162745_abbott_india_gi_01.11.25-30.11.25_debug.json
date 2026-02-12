@@ -1,0 +1,130 @@
+{
+  "pdf_path": "pdfs\\10016550_20251211_162745_abbott india gi 01.11.25-30.11.25.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 87.3693618774414,
+      "y_max": 97.69214630126953,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Amount",
+        "Cl",
+        "Amount",
+        "%",
+        "Sale"
+      ],
+      "combined_confidence": 0.6828333333333332,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.9166666666666666,
+      "data_validation_score": 0.7475,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Op",
+    "Purchase",
+    "Sale",
+    "Amount",
+    "Cl",
+    "Amount",
+    "%",
+    "Sale"
+  ],
+  "confidence": 0.6828333333333332,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.9166666666666666,
+    "data_validation_score": 0.7475,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "ITEM",
+      "OPENING",
+      "PURCHASE",
+      "SALE",
+      "AMOUNT-I",
+      "CL.STOCK",
+      "AMOUNT-II",
+      "%",
+      "SALE"
+    ],
+    "normalized": [
+      "Product Name",
+      "Op",
+      "Purchase",
+      "Sale",
+      "Amount",
+      "Cl",
+      "Amount",
+      "%",
+      "Sale"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 9,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=9 data=9"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.6828333333333332,
+      "evidence_scores": {
+        "keyword_score": 1.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7475,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.936875,
+      "evidence_before_penalties": 0.936875
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Amount",
+          "Cl",
+          "Amount",
+          "%",
+          "Sale"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8828333333333332
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Op",
+      "Purchase",
+      "Sale",
+      "Amount",
+      "Cl",
+      "Amount",
+      "%",
+      "Sale"
+    ]
+  }
+}

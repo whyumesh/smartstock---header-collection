@@ -1,0 +1,177 @@
+{
+  "pdf_path": "pdfs\\10015529_20251204_121751_ail stock report..pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 67.1278305053711,
+      "y_max": 74.1278305053711,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 20.627765655517578,
+      "y_max": 27.627765655517578,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Particular",
+        "Pack",
+        "Op",
+        "Amount",
+        "Purchase",
+        "Amount",
+        "Sl.Qnt.",
+        "Amount",
+        "Cl",
+        "Amount"
+      ],
+      "combined_confidence": 0.64876,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.8799999999999999,
+      "data_validation_score": 0.8388,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "INDERAL",
+        "40X15",
+        "240.00",
+        "8424.00",
+        "20.00",
+        "702.00",
+        "220.00",
+        "7722.00"
+      ],
+      "combined_confidence": 0.5495212765957447,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7976063829787234,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "Particular",
+    "Pack",
+    "Op",
+    "Amount",
+    "Purchase",
+    "Amount",
+    "Sl.Qnt.",
+    "Amount",
+    "Cl",
+    "Amount"
+  ],
+  "confidence": 0.64876,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.8799999999999999,
+    "data_validation_score": 0.8388,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Particular",
+      "Packing",
+      "Op.Qnt.",
+      "Op.Value",
+      "Pur.Qnt.",
+      "Pur.Value",
+      "Sl.Qnt.",
+      "Sl.Value",
+      "Cl.Qnt.",
+      "Cl.Value"
+    ],
+    "normalized": [
+      "Particular",
+      "Pack",
+      "Op",
+      "Amount",
+      "Purchase",
+      "Amount",
+      "Sl.Qnt.",
+      "Amount",
+      "Cl",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=10"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.64876,
+      "evidence_scores": {
+        "keyword_score": 0.8,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.8388,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.8597,
+      "evidence_before_penalties": 0.8597
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particular",
+          "Pack",
+          "Op",
+          "Amount",
+          "Purchase",
+          "Amount",
+          "Sl.Qnt.",
+          "Amount",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8487600000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "INDERAL",
+          "40X15",
+          "240.00",
+          "8424.00",
+          "20.00",
+          "702.00",
+          "220.00",
+          "7722.00"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.6995212765957447
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Particular",
+      "Pack",
+      "Op",
+      "Amount",
+      "Purchase",
+      "Amount",
+      "Sl.Qnt.",
+      "Amount",
+      "Cl",
+      "Amount"
+    ]
+  }
+}

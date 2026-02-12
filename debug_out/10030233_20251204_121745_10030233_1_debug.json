@@ -1,0 +1,11 @@
+{
+  "pdf_path": "pdfs\\10030233_20251204_121745_10030233_1.pdf",
+  "header_zone_detected": null,
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_words"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "pdf_path": "pdfs\\10005726_20251231_173435_ABBOTT(THROMBIS DIV)_SalesStatement_Dec_2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 36.850250244140625,
+      "y_max": 46.8474006652832,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "PLATINUM",
+        "CENTRE",
+        ",Ground",
+        "FLOOR,BANK",
+        "ROAD,KANNUR",
+        "670001,",
+        "KANNUR"
+      ],
+      "combined_confidence": 0.5715714285714285,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7078571428571429,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "PLATINUM",
+    "CENTRE",
+    ",Ground",
+    "FLOOR,BANK",
+    "ROAD,KANNUR",
+    "670001,",
+    "KANNUR"
+  ],
+  "confidence": 0.5715714285714285,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.7078571428571429,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "PLATINUM",
+      "CENTRE",
+      ",GROUND",
+      "FLOOR,BANK",
+      "ROAD,KANNUR",
+      "670001,",
+      "KANNUR"
+    ],
+    "normalized": [
+      "PLATINUM",
+      "CENTRE",
+      ",Ground",
+      "FLOOR,BANK",
+      "ROAD,KANNUR",
+      "670001,",
+      "KANNUR"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5715714285714285,
+      "evidence_scores": {
+        "keyword_score": 0.14285714285714285,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7078571428571429,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.6501785714285714,
+      "evidence_before_penalties": 0.6501785714285714
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "PLATINUM",
+          "CENTRE",
+          ",Ground",
+          "FLOOR,BANK",
+          "ROAD,KANNUR",
+          "670001,",
+          "KANNUR"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7215714285714285
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "PLATINUM",
+      "CENTRE",
+      ",Ground",
+      "FLOOR,BANK",
+      "ROAD,KANNUR",
+      "670001,",
+      "KANNUR"
+    ]
+  }
+}

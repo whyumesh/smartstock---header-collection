@@ -1,0 +1,329 @@
+{
+  "pdf_path": "pdfs\\10032953_20251211_200822_Stock_Report.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 126.56607818603516,
+      "y_max": 134.49008178710938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 30.56601333618164,
+      "y_max": 38.490013122558594,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 178.97305297851562,
+      "y_max": 186.89706420898438,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    },
+    {
+      "page_no": 3,
+      "y_min": 220.97305297851562,
+      "y_max": 228.89706420898438,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 30.56607437133789,
+      "y_max": 38.490074157714844,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 5,
+      "y_min": 199.97305297851562,
+      "y_max": 207.89706420898438,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    },
+    {
+      "page_no": 6,
+      "y_min": 20.06601333618164,
+      "y_max": 27.990015029907227,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "COMPANY",
+        "Tot",
+        "3036.000",
+        "187377.58",
+        "5574.000",
+        "389367.02",
+        "6778.000",
+        "481234.21",
+        "1816.000"
+      ],
+      "combined_confidence": 0.5811833333333333,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.6388888888888888,
+      "data_validation_score": 0.7670277777777778,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "COMPANY",
+        "Tot",
+        "846.000",
+        "72030.91",
+        "584.000",
+        "91389.36",
+        "823.000",
+        "89718.66",
+        "607.000"
+      ],
+      "combined_confidence": 0.5811407407407406,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.6388888888888888,
+      "data_validation_score": 0.7668148148148148,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "COMPANY",
+    "Tot",
+    "3036.000",
+    "187377.58",
+    "5574.000",
+    "389367.02",
+    "6778.000",
+    "481234.21",
+    "1816.000"
+  ],
+  "confidence": 0.7811833333333332,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.6388888888888888,
+    "data_validation_score": 0.7670277777777778,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "COMPANY",
+      "Tot",
+      "3036.000",
+      "187377.58",
+      "5574.000",
+      "389367.02",
+      "6778.000",
+      "481234.21",
+      "1816.000"
+    ],
+    "per_page": [
+      [
+        "COMPANY",
+        "Tot",
+        "3036.000",
+        "187377.58",
+        "5574.000",
+        "389367.02",
+        "6778.000",
+        "481234.21",
+        "1816.000"
+      ],
+      [
+        "COMPANY",
+        "Tot",
+        "846.000",
+        "72030.91",
+        "584.000",
+        "91389.36",
+        "823.000",
+        "89718.66",
+        "607.000"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "S/N",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Amount",
+          "Purchase",
+          "Cs.Pc.Pu",
+          "Amount",
+          "Sl.Qnt.",
+          "Cs.Pc.Sa",
+          "Amount",
+          "Cl"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8501666666666667
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "61.",
+          "VERTIN",
+          "OD",
+          "10*7",
+          "0.",
+          "0."
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7093693379790942
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "COMPANY",
+          "Tot",
+          "3036.000",
+          "187377.58",
+          "5574.000",
+          "389367.02",
+          "6778.000",
+          "481234.21",
+          "1816.000"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7311833333333333
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "COMPANY",
+          "Tot",
+          "846.000",
+          "72030.91",
+          "584.000",
+          "91389.36",
+          "823.000",
+          "89718.66",
+          "607.000"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7311407407407406
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "262.",
+          "BASITON",
+          "FORT",
+          "TAB",
+          "1*15",
+          "0.",
+          "0."
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7203660159716061
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "COMPANY",
+          "Tot",
+          "****.***",
+          "549625.10",
+          "****.***",
+          "285763.74",
+          "****.***",
+          "654451.46",
+          "****.***"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7228845878136201
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Following",
+          "Product Name",
+          "Have",
+          "Not",
+          "Moved",
+          "Since",
+          "Days"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7128530612244899
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=9 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=9 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=6 data=4 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=4 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=7 data=4 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=4 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=9 data=4 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=4 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=7 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=5 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "COMPANY",
+      "Tot",
+      "3036.000",
+      "187377.58",
+      "5574.000",
+      "389367.02",
+      "6778.000",
+      "481234.21",
+      "1816.000"
+    ],
+    "data_column_count_detected": 9,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "pdf_path": "pdfs\\10033445_20260102_103719_ABBOTT INDIA S & S  REPORT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 284.9959716796875,
+      "y_max": 300.16998291015625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 284.9959716796875,
+      "y_max": 303.8599853515625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    },
+    {
+      "page_no": 2,
+      "y_min": 284.9959716796875,
+      "y_max": 300.16998291015625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    },
+    {
+      "page_no": 3,
+      "y_min": 12.995975494384766,
+      "y_max": 51.98797607421875,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 4,
+      "y_min": 284.9959716796875,
+      "y_max": 303.8599853515625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 13.000003814697266,
+      "y_max": 64.11395263671875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 6,
+      "y_min": 13.000003814697266,
+      "y_max": 64.11395263671875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 5,
+      "headers": [
+        "Rate",
+        "Amount",
+        "Amount",
+        "3575.60",
+        "3575.60",
+        "3360.42",
+        "3360.42",
+        "3677.18",
+        "3677.18",
+        "16381.88",
+        "16381.88",
+        "29940.48",
+        "29940.48",
+        "94053.90",
+        "94053.90",
+        "72422.40",
+        "72422.40",
+        "33183.36",
+        "33183.36",
+        "7087.50",
+        "7087.50",
+        "76442.11",
+        "76442.11",
+        "20533.68",
+        "20533.68",
+        "9109.20",
+        "9109.20",
+        "6781.53"
+      ],
+      "combined_confidence": 0.17533045525902669,
+      "visual_score": 0.7,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.6410714285714285,
+      "data_validation_score": 0.6105808477237049,
+      "data_column_count_detected": 29
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "Rate",
+        "Amount",
+        "Amount",
+        "14333.90",
+        "7583.94",
+        "7583.94",
+        "66,10,472.57"
+      ],
+      "combined_confidence": 0.1919490509490509,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.7999999999999999,
+      "semantic_score": 0.7642857142857142,
+      "data_validation_score": 0.5454595404595405,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Rate",
+    "Amount",
+    "Amount",
+    "14333.90",
+    "7583.94",
+    "7583.94",
+    "66,10,472.57"
+  ],
+  "confidence": 0.1919490509490509,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.7999999999999999,
+    "semantic_score": 0.7642857142857142,
+    "data_validation_score": 0.5454595404595405,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Max(NetRate)",
+      "Value",
+      "Value",
+      "14333.90",
+      "7583.94",
+      "7583.94",
+      "66,10,472.57"
+    ],
+    "normalized": [
+      "Rate",
+      "Amount",
+      "Amount",
+      "14333.90",
+      "7583.94",
+      "7583.94",
+      "66,10,472.57"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Value",
+        "into": "Value",
+        "interval_idx": 2
+      },
+      {
+        "split": "Value",
+        "into": "Value",
+        "interval_idx": 3
+      },
+      {
+        "split": "7583.94",
+        "into": "7583.94",
+        "interval_idx": 4
+      },
+      {
+        "split": "7583.94",
+        "into": "7583.94",
+        "interval_idx": 5
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.1919490509490509,
+      "evidence_scores": {
+        "keyword_score": 0.42857142857142855,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.5454595404595405,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.14285714285714285
+      },
+      "evidence_total": 0.5952934565434566,
+      "evidence_before_penalties": 0.5952934565434566
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Quantity",
+          "Quantity",
+          "-3",
+          "-2",
+          "-1",
+          "-3",
+          "-6"
+        ],
+        "data_column_count_detected": 31,
+        "combined_confidence": 0.730358024691358
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Quantity",
+          "Quantity",
+          "-9",
+          "-9",
+          "-3",
+          "-3",
+          "-4",
+          "-4",
+          "-2870",
+          "-2870"
+        ],
+        "data_column_count_detected": 34,
+        "combined_confidence": 0.7406401566269988
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Quantity",
+          "Quantity",
+          "-3",
+          "-3"
+        ],
+        "data_column_count_detected": 32,
+        "combined_confidence": 0.7639047619047619
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "2,57,823.96",
+          "0.00",
+          "0.00",
+          "3,57,374.57"
+        ],
+        "data_column_count_detected": 30,
+        "combined_confidence": 0.6782
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Quantity",
+          "Quantity",
+          "-7",
+          "-7",
+          "-7",
+          "-7",
+          "-1699",
+          "-1158",
+          "-5"
+        ],
+        "data_column_count_detected": 33,
+        "combined_confidence": 0.7144323618964767
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Rate",
+          "Amount",
+          "Amount",
+          "3575.60",
+          "3575.60",
+          "3360.42",
+          "3360.42",
+          "3677.18",
+          "3677.18",
+          "16381.88",
+          "16381.88",
+          "29940.48",
+          "29940.48",
+          "94053.90",
+          "94053.90",
+          "72422.40",
+          "72422.40",
+          "33183.36",
+          "33183.36",
+          "7087.50",
+          "7087.50",
+          "76442.11",
+          "76442.11",
+          "20533.68",
+          "20533.68",
+          "9109.20",
+          "9109.20",
+          "6781.53"
+        ],
+        "data_column_count_detected": 29,
+        "combined_confidence": 0.7253304552590267
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Rate",
+          "Amount",
+          "Amount",
+          "14333.90",
+          "7583.94",
+          "7583.94",
+          "66,10,472.57"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.741949050949051
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=9 data=31 diff=22",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=31 diff=22"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=12 data=34 diff=22",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=34 diff=22"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=6 data=32 diff=26",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=32 diff=26"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=4 data=30 diff=26",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=30 diff=26"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=11 data=33 diff=22",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=33 diff=22"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Rate",
+      "Amount",
+      "Amount",
+      "14333.90",
+      "7583.94",
+      "7583.94",
+      "66,10,472.57"
+    ]
+  }
+}

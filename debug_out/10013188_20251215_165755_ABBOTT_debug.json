@@ -1,0 +1,182 @@
+{
+  "pdf_path": "pdfs\\10013188_20251215_165755_ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 256.51953125,
+      "y_max": 272.52752685546875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 1,
+      "y_min": 114.22019958496094,
+      "y_max": 130.2281951904297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 114.22019958496094,
+      "y_max": 130.2281951904297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "SNO.",
+        "PARTICULARS",
+        "Pack",
+        "Quantity",
+        "CASE",
+        "Rate",
+        "Amount"
+      ],
+      "combined_confidence": 0.4585714285714286,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.7785714285714286,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "SNO.",
+    "PARTICULARS",
+    "Pack",
+    "Quantity",
+    "CASE",
+    "Rate",
+    "Amount"
+  ],
+  "confidence": 0.4585714285714286,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8142857142857143,
+    "data_validation_score": 0.7785714285714286,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SNO.",
+      "PARTICULARS",
+      "PACKING",
+      "QTY+FREE",
+      "CASE",
+      "RATE",
+      "AMOUNT"
+    ],
+    "normalized": [
+      "SNO.",
+      "PARTICULARS",
+      "Pack",
+      "Quantity",
+      "CASE",
+      "Rate",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.4585714285714286,
+      "evidence_scores": {
+        "keyword_score": 0.5714285714285714,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7785714285714286,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.7083333333333334,
+      "evidence_before_penalties": 0.7083333333333334
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SNO.",
+          "PARTICULARS",
+          "Pack",
+          "Quantity",
+          "CASE",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8085714285714286
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "SNO.",
+          "PARTICULARS",
+          "Pack",
+          "Quantity",
+          "CASE",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8245
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "SNO.",
+          "PARTICULARS",
+          "Pack",
+          "Quantity",
+          "CASE",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8088571428571429
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=7 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=5 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=7 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=5 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "SNO.",
+      "PARTICULARS",
+      "Pack",
+      "Quantity",
+      "CASE",
+      "Rate",
+      "Amount"
+    ]
+  }
+}

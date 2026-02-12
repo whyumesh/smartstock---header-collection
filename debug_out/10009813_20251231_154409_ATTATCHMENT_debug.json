@@ -1,0 +1,160 @@
+{
+  "pdf_path": "pdfs\\10009813_20251231_154409_ATTATCHMENT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 3,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=6 tokens=11"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "Purchase",
+          "Purchase",
+          "RETURN",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Sales",
+          "Sales",
+          "RETURN",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Rate",
+          "Rate",
+          "SCRAP"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.81084
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "DUVADILAN",
+          "INJ",
+          "6*2Ml",
+          "170.74"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7163285714285715
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "NOVORAPID",
+          "Exp",
+          "Pend",
+          "926.37"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7691327409432673
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Stock",
+          "Stock",
+          "Purchase",
+          "Purchase",
+          "RETURN",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Sales",
+          "Sales",
+          "RETURN",
+          "OTHERS",
+          "OTHERS",
+          "Stock",
+          "Stock",
+          "Rate",
+          "Rate",
+          "SCRAP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8090305882352942
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=20 data=13 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=13 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=4 data=13 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=13 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=4 data=13 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=13 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=20 data=12 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=12 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

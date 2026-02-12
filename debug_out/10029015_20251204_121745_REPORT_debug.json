@@ -1,0 +1,262 @@
+{
+  "pdf_path": "pdfs\\10029015_20251204_121745_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 3,
+      "y_min": 205.89398193359375,
+      "y_max": 220.19398498535156,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing",
+        "OCT",
+        "Exp"
+      ],
+      "combined_confidence": 0.4385376623376624,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.7875,
+      "data_validation_score": 0.6801883116883117,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "FIDONAL",
+        "CREAM",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.39433367003367004,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5333333333333333,
+      "data_validation_score": 0.7008350168350169,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "DESCRIPTION",
+    "Op",
+    "RECEIPT",
+    "ISSUE",
+    "Closing",
+    "OCT",
+    "Exp"
+  ],
+  "confidence": 0.4385376623376624,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.7875,
+    "data_validation_score": 0.6801883116883117,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ITEM",
+      "DESCRIPTION",
+      "OPENING",
+      "RECEIPT",
+      "ISSUE",
+      "CLOSING",
+      "OCT",
+      "M.EXP"
+    ],
+    "normalized": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing",
+      "OCT",
+      "Exp"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.4385376623376624,
+      "evidence_scores": {
+        "keyword_score": 0.5555555555555556,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6801883116883117,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.6664359668109668,
+      "evidence_before_penalties": 0.6664359668109668
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7885376623376624
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7856193181818183
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing",
+          "Closing",
+          "OCT",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.76222
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "EPTOIN",
+          "INJ",
+          "25*2",
+          "-"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7322149350649352
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "FIDONAL",
+          "CREAM",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6943336700336701
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=15 data=9 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=9 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=4 data=9 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=9 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "DESCRIPTION",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing",
+      "OCT",
+      "Exp"
+    ]
+  }
+}

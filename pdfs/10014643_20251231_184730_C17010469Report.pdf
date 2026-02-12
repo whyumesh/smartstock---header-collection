@@ -1,0 +1,129 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                           ) Tj
+T* (                                  KENT PHARMA                                                    ) Tj
+T* (                                                                                                           ) Tj
+T* (                                CHENNAI. - 600003                                                ) Tj
+T* (                                                                                                           ) Tj
+T* (Stock & Sales Report From 01/12/2025 To 31/12/2025                                              ) Tj
+T* (Company Name : ABBOTT \(SIAGLIDE\) -                                                                       ) Tj
+T* (===========================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur PFree  PurRet      Sale     SFree OthFr SRet CurStk ) Tj
+T* (===========================================================================================================) Tj
+T* (1   NERVUP PN TAB             10`S       41         -     -       -         6         -     -    -     35 ) Tj
+T* (2   SIAGLIDE 100              15         10         -     -       -         -         -     -    -     10 ) Tj
+T* (3   SIAGLIDE M 1000           15         16         -     -      16         -         -     -    -      0 ) Tj
+T* (4   SIAGLIDE M 500            15         13       200     -       -       115         -     -    -     98 ) Tj
+T* (5   SIAGLIDE M OD 15S TAB     15          8         -     -       8         -         -     -    -      0 ) Tj
+T* (6   SIAGLIDE TRIO 500 MG TAB  10`S       10         -     -       -         -         -     -    -     10 ) Tj
+T* (7   SUPERMET XL 25MG TAB      1X15 T      1         -     -       -         -         -     -    -      1 ) Tj
+T* (8   TELPRES 20MG              15`S        8         -     -       -         -         -     -    -      8 ) Tj
+T* (9   TELPRES MT 25MG           15`S        2         -     -       -         -         -     -    -      2 ) Tj
+T* (-----------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                               109       200     -      24       121         -     -    -    164 ) Tj
+T* (-----------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:    16458.45 Purc.Value: :    29776.00 Sales Value::    20274.18                               ) Tj
+T* (Cl.Stk Val:     22912.49 Pur.RetVal ::     5022.64 SalRet Val: :        0.00                               ) Tj
+T* (                                     :             NetSal\(GVal\):    20274.18                             ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:        0.00                               ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (Non Moving items Report Non Move Days > 90                                                                 ) Tj
+T* (========================================================================================                   ) Tj
+T* (Prod.Name                 Packing    Batch      Qty       Days                                             ) Tj
+T* (========================================================================================                   ) Tj
+T* (Company Name : ABBOTT \(SIAGLIDE\)                                                                         ) Tj
+T* (SIAGLIDE 100              15         HBUA4005   10        91                                               ) Tj
+T* (SUPERMET XL 25MG TAB      1X15 TAB   AJL0010    1         853                                              ) Tj
+T* (----------------------------------------------------------------------------------------                   ) Tj
+T* (                                                                                                           ) Tj
+T* (                                       *** END OF REPORT ***                                               ) Tj
+T* (                                                                                                           ) Tj
+ET
+endstream
+endobj
+9 0 obj
+3735
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 750 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000004301 00000 n
+0000004380 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000004278 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+4473
+%%EOF

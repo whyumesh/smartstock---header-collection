@@ -1,0 +1,53 @@
+{
+  "pdf_path": "pdfs\\10015274_20260101_120856_308483_024-17.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 86.98672485351562,
+      "y_max": 94.98672485351562,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Quantity",
+          "Purchase",
+          "Quantity",
+          "Tot",
+          "Quantity",
+          "Sale",
+          "Quantity",
+          "Bal",
+          "Quantity"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.9172307692307692
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=7 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=7 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

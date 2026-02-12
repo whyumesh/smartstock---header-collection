@@ -1,0 +1,57 @@
+{
+  "pdf_path": "pdfs\\10033356_20251213_143229_REPORT_7CI0UZNZD.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 91.010009765625,
+      "y_max": 100.1100082397461,
+      "confidence": 0.9,
+      "reason": "header_keywords=8 tokens=17"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "S.",
+          "Product Name",
+          "DESCRIPTION",
+          "Pack",
+          "COMPANY",
+          "Quantity",
+          "Batch No",
+          "Exp",
+          "MRP",
+          "Quantity",
+          "+",
+          "Free Quantity",
+          "Rate",
+          "Discount",
+          "|",
+          "Quantity",
+          "REMARK"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8542720588235293
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=6 diff=11",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=6 diff=11"
+          }
+        }
+      }
+    ]
+  }
+}

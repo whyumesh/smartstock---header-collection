@@ -1,0 +1,55 @@
+{
+  "pdf_path": "pdfs\\10026889_20251204_121747_abboot nov.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 51.02935028076172,
+      "y_max": 62.41825866699219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "O.Stk",
+          "O.Stk",
+          "Purchase",
+          "Purchase",
+          "Tot",
+          "Sale",
+          "Sale",
+          "Qoh",
+          "Qoh",
+          "Amount",
+          "Amount",
+          "Age"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8457999999999999
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=10 diff=5"
+          }
+        }
+      }
+    ]
+  }
+}

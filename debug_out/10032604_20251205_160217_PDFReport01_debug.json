@@ -1,0 +1,62 @@
+{
+  "pdf_path": "pdfs\\10032604_20251205_160217_PDFReport01.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 120.70899963378906,
+      "y_max": 129.13975524902344,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Unit",
+          "Op",
+          "Op",
+          "Op",
+          "Op",
+          "RCV-QNT",
+          "RCV-QNT",
+          "RCV-AMT",
+          "RCV-AMT",
+          "ISUUE-Q",
+          "ISUUE-Q",
+          "ISSUE-AMT",
+          "ISSUE-AMT",
+          "RQNTY",
+          "RQNTY",
+          "RTN-AMT",
+          "RTN-AMT",
+          "BAL-QNT",
+          "BAL-QNT",
+          "BAL-AMT"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8391931818181818
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=22 data=13 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=13 diff=9"
+          }
+        }
+      }
+    ]
+  }
+}

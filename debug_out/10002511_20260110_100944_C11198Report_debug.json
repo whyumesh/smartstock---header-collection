@@ -1,0 +1,169 @@
+{
+  "pdf_path": "pdfs\\10002511_20260110_100944_C11198Report.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 190.61199951171875,
+      "y_max": 201.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 1,
+      "y_min": 118.61199951171875,
+      "y_max": 129.85299682617188,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "No",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Free Quantity",
+        "Purchase",
+        "Trans",
+        "Nov",
+        "Dec",
+        "Sale",
+        "CurStk",
+        "Stk.Value",
+        "OrdQt",
+        "SalVal",
+        "Exp",
+        "Age",
+        "Last",
+        "Date"
+      ],
+      "combined_confidence": 0.2770813397129187,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.7894736842105263,
+      "data_validation_score": 0.695933014354067,
+      "data_column_count_detected": 18
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Batch No",
+        "Quantity",
+        "Days"
+      ],
+      "combined_confidence": 0.5432857142857144,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.7999999999999999,
+      "semantic_score": 0.8814285714285715,
+      "data_validation_score": 0.45999999999999996,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Batch No",
+    "Quantity",
+    "Days"
+  ],
+  "confidence": 0.5432857142857144,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.7999999999999999,
+    "semantic_score": 0.8814285714285715,
+    "data_validation_score": 0.45999999999999996,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Prod.Name",
+      "Packing",
+      "Batch",
+      "Qty",
+      "Days"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Batch No",
+      "Quantity",
+      "Days"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 18,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.5432857142857144,
+      "evidence_scores": {
+        "keyword_score": 0.7142857142857143,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.45999999999999996,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.6185714285714287,
+      "evidence_before_penalties": 0.6185714285714287
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "No",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Free Quantity",
+          "Purchase",
+          "Trans",
+          "Nov",
+          "Dec",
+          "Sale",
+          "CurStk",
+          "Stk.Value",
+          "OrdQt",
+          "SalVal",
+          "Exp",
+          "Age",
+          "Last",
+          "Date"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8270813397129188
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Batch No",
+          "Quantity",
+          "Days"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7432857142857143
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Batch No",
+      "Quantity",
+      "Days"
+    ]
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "pdf_path": "pdfs\\10000411_20251219_130006_Mailattach.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 99.0242919921875,
+      "y_max": 107.2724380493164,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 39.11402130126953,
+      "y_max": 47.36216354370117,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 2,
+      "y_min": 39.11450958251953,
+      "y_max": 47.36265182495117,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 29.8359432220459,
+      "y_max": 38.08408737182617,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 4,
+      "y_min": 66.95264434814453,
+      "y_max": 75.20079040527344,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=7"
+    },
+    {
+      "page_no": 5,
+      "y_min": 84.6585693359375,
+      "y_max": 92.9067153930664,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 6,
+      "y_min": 20.5572566986084,
+      "y_max": 28.805400848388672,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Free Quantity",
+        "OctL_Sal",
+        "C_Sal",
+        "Free Quantity",
+        "Repl",
+        "Adj",
+        "Stk",
+        "Fr",
+        "Sale",
+        "Purchase",
+        "Age"
+      ],
+      "combined_confidence": 0.42001025641025647,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.7966666666666666,
+      "data_validation_score": 0.6533846153846153,
+      "data_column_count_detected": 15
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "HYDENT",
+        "HYDENT",
+        "PRO",
+        "PASTE",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.20157228574121955,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5235294117647059,
+      "data_validation_score": 0.634332016941392,
+      "data_column_count_detected": 16
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Free Quantity",
+    "OctL_Sal",
+    "C_Sal",
+    "Free Quantity",
+    "Repl",
+    "Adj",
+    "Stk",
+    "Fr",
+    "Sale",
+    "Purchase",
+    "Age"
+  ],
+  "confidence": 0.42001025641025647,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.7966666666666666,
+    "data_validation_score": 0.6533846153846153,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ProductName",
+      "Pack",
+      "Op.Qt",
+      "Purch",
+      "Free",
+      "OctL_Sal",
+      "C_Sal",
+      "Free",
+      "Repl",
+      "Adj",
+      "Stk",
+      "Fr",
+      "Sale_Val",
+      "PurRt",
+      "age"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Free Quantity",
+      "OctL_Sal",
+      "C_Sal",
+      "Free Quantity",
+      "Repl",
+      "Adj",
+      "Stk",
+      "Fr",
+      "Sale",
+      "Purchase",
+      "Age"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 15,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=15 data=15"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.42001025641025647,
+      "evidence_scores": {
+        "keyword_score": 0.5555555555555556,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6533846153846153,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.1
+      },
+      "evidence_total": 0.7122350427350428,
+      "evidence_before_penalties": 0.7122350427350428
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Free Quantity",
+          "OctL_Sal",
+          "C_Sal",
+          "Free Quantity",
+          "Repl",
+          "Adj",
+          "Stk",
+          "Fr",
+          "Sale",
+          "Purchase",
+          "Age"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.8200102564102565
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "COSYMOXYL",
+          "COSYMOXYL",
+          "COSYMOXYL",
+          "625Mg",
+          "625Mg",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.7103193641722232
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "FIGHTOX",
+          "375Mg",
+          "TAB",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.717333097569717
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "HYDENT",
+          "HYDENT",
+          "PRO",
+          "PASTE",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.7515722857412196
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "NERVUP",
+          "NERVUP",
+          "ING",
+          "1Ml",
+          "1Ml",
+          "1Ml",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.6498189437937337
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Free Quantity",
+          "Free Quantity",
+          "OctL_Sal",
+          "OctL_Sal",
+          "C_Sal",
+          "C_Sal",
+          "Free Quantity",
+          "Repl",
+          "Repl",
+          "Adj",
+          "Adj",
+          "Adj",
+          "Stk",
+          "Fr",
+          "Fr",
+          "Sale",
+          "Sale",
+          "Purchase",
+          "Purchase",
+          "Age"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.8065570291777189
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "TOOTHMIN--AF--150ML",
+          "150M",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7528222815732608
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=10 data=15 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=15 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=11 data=4 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=4 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=12 data=16 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=16 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=29 data=16 diff=13",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=29 data=16 diff=13"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=10 data=4 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=4 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Free Quantity",
+      "OctL_Sal",
+      "C_Sal",
+      "Free Quantity",
+      "Repl",
+      "Adj",
+      "Stk",
+      "Fr",
+      "Sale",
+      "Purchase",
+      "Age"
+    ]
+  }
+}

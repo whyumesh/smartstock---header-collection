@@ -1,0 +1,884 @@
+{
+  "pdf_path": "pdfs\\10007330_20251203_095222_NBM_SalesAndStockStatement.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 127.80889129638672,
+      "y_max": 139.8148956298828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 80.18688201904297,
+      "y_max": 92.19287872314453,
+      "confidence": 0.9,
+      "reason": "header_keywords=12 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 114.4861068725586,
+      "y_max": 126.49210357666016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 114.4861068725586,
+      "y_max": 126.49210357666016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 4,
+      "y_min": 114.4861068725586,
+      "y_max": 126.49210357666016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 5,
+      "y_min": 25.478200912475586,
+      "y_max": 37.48419952392578,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=10"
+    },
+    {
+      "page_no": 6,
+      "y_min": 25.478200912475586,
+      "y_max": 37.48419952392578,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=10"
+    },
+    {
+      "page_no": 7,
+      "y_min": 114.4861068725586,
+      "y_max": 126.49210357666016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 8,
+      "y_min": 114.4861068725586,
+      "y_max": 126.49210357666016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 9,
+      "y_min": 114.4861068725586,
+      "y_max": 126.49210357666016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 10,
+      "y_min": 114.4861068725586,
+      "y_max": 126.49210357666016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 11,
+      "y_min": 69.98223114013672,
+      "y_max": 81.98822784423828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 12,
+      "y_min": 114.4861068725586,
+      "y_max": 126.49210357666016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 13,
+      "y_min": 114.4861068725586,
+      "y_max": 126.49210357666016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 14,
+      "y_min": 25.478200912475586,
+      "y_max": 37.48419952392578,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=10"
+    },
+    {
+      "page_no": 15,
+      "y_min": 11.871877670288086,
+      "y_max": 23.87787628173828,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Shortage",
+        "Shortage",
+        "Expiry Date",
+        "Expiry Date",
+        "Closing",
+        "Closing",
+        "Bala",
+        "MSR"
+      ],
+      "combined_confidence": 0.2931578947368422,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.8394736842105263,
+      "data_validation_score": 0.7263157894736842,
+      "data_column_count_detected": 18
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Breakage",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Rate"
+      ],
+      "combined_confidence": 0.5902857142857143,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.9714285714285714,
+      "data_validation_score": 0.38,
+      "data_column_count_detected": 0
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Tot",
+        "Amount",
+        "IN",
+        "Rs.)",
+        "0.00",
+        "0.00",
+        "0.00",
+        "0.00",
+        "0.00"
+      ],
+      "combined_confidence": 0.6305555555555555,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.7277777777777777,
+      "data_validation_score": 0.8,
+      "data_column_count_detected": 0
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "Tot",
+        "Amount",
+        "IN",
+        "Rs.)",
+        "0.00",
+        "0.00",
+        "0.00",
+        "0.00",
+        "0.00"
+      ],
+      "combined_confidence": 0.6305555555555555,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.7277777777777777,
+      "data_validation_score": 0.8,
+      "data_column_count_detected": 0
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Shortage",
+        "Shortage",
+        "Expiry Date",
+        "Expiry Date",
+        "Closing",
+        "Closing",
+        "Bala",
+        "MSR"
+      ],
+      "combined_confidence": 0.29000000000000004,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.8394736842105263,
+      "data_validation_score": 0.7105263157894737,
+      "data_column_count_detected": 18
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Shortage",
+        "Shortage",
+        "Expiry Date",
+        "Expiry Date",
+        "Closing",
+        "Closing",
+        "Bala",
+        "MSR"
+      ],
+      "combined_confidence": 0.2931578947368422,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.8394736842105263,
+      "data_validation_score": 0.7263157894736842,
+      "data_column_count_detected": 18
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Shortage",
+        "Shortage",
+        "Expiry Date",
+        "Expiry Date",
+        "Closing",
+        "Closing",
+        "Bala",
+        "MSR"
+      ],
+      "combined_confidence": 0.29000000000000004,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.8394736842105263,
+      "data_validation_score": 0.7105263157894737,
+      "data_column_count_detected": 18
+    },
+    {
+      "page_no": 13,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Op",
+        "Bal",
+        "Receipt",
+        "Purchase",
+        "Tot",
+        "Issue",
+        "Sale",
+        "Shortage",
+        "Shortage",
+        "Expiry Date",
+        "Expiry Date",
+        "Closing",
+        "Closing",
+        "Bala",
+        "MSR"
+      ],
+      "combined_confidence": 0.29000000000000004,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.8394736842105263,
+      "data_validation_score": 0.7105263157894737,
+      "data_column_count_detected": 18
+    },
+    {
+      "page_no": 14,
+      "headers": [
+        "Tot",
+        "Amount",
+        "IN",
+        "Rs.)",
+        "0.00",
+        "0.00",
+        "0.00",
+        "0.00",
+        "0.00"
+      ],
+      "combined_confidence": 0.6305555555555555,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.7277777777777777,
+      "data_validation_score": 0.8,
+      "data_column_count_detected": 0
+    },
+    {
+      "page_no": 15,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "3760988.04",
+        "4276920.00",
+        "4386252.96",
+        "3606.21",
+        "3801827.22"
+      ],
+      "combined_confidence": 0.495,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.65,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Tot",
+    "Amount",
+    "IN",
+    "Rs.)",
+    "0.00",
+    "0.00",
+    "0.00",
+    "0.00",
+    "0.00"
+  ],
+  "confidence": 0.6305555555555555,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.7277777777777777,
+    "data_validation_score": 0.8,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "TOTAL",
+      "(Value",
+      "IN",
+      "Rs.)",
+      "0.00",
+      "0.00",
+      "0.00",
+      "0.00",
+      "0.00"
+    ],
+    "normalized": [
+      "Tot",
+      "Amount",
+      "IN",
+      "Rs.)",
+      "0.00",
+      "0.00",
+      "0.00",
+      "0.00",
+      "0.00"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "0"
+    ],
+    "data_column_count_detected": 18,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.6305555555555555,
+      "evidence_scores": {
+        "keyword_score": 0.3333333333333333,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.8,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.0625
+      },
+      "evidence_total": 0.5645833333333333,
+      "evidence_before_penalties": 0.5645833333333333
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Shortage",
+          "Shortage",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala",
+          "MSR"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8431578947368422
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Breakage",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Rate"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7902857142857143
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Shortage",
+          "Shortage",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala",
+          "MSR"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8400000000000001
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Shortage",
+          "Shortage",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala",
+          "MSR"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8400000000000001
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Shortage",
+          "Shortage",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala",
+          "MSR"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8360526315789475
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Tot",
+          "Amount",
+          "IN",
+          "Rs.)",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7805555555555556
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Tot",
+          "Amount",
+          "IN",
+          "Rs.)",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7805555555555556
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Shortage",
+          "Shortage",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala",
+          "MSR"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8400000000000001
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Shortage",
+          "Shortage",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala",
+          "MSR"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8455639097744362
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Shortage",
+          "Shortage",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala",
+          "MSR"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8431578947368422
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Shortage",
+          "Shortage",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala",
+          "MSR"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8400000000000001
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Shortage",
+          "Shortage",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala",
+          "MSR"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8384210526315791
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Shortage",
+          "Shortage",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala",
+          "MSR"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8400000000000001
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Shortage",
+          "Shortage",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala",
+          "MSR"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8400000000000001
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "Tot",
+          "Amount",
+          "IN",
+          "Rs.)",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7805555555555556
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "3760988.04",
+          "4276920.00",
+          "4386252.96",
+          "3606.21",
+          "3801827.22"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.645
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=19 data=17 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=17 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=19 data=17 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=17 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=19 data=17 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=17 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=19 data=17 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=17 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=19 data=17 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=17 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=19 data=17 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=17 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Tot",
+      "Amount",
+      "IN",
+      "Rs.)",
+      "0.00",
+      "0.00",
+      "0.00",
+      "0.00",
+      "0.00"
+    ]
+  }
+}

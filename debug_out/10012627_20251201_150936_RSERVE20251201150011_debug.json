@@ -1,0 +1,83 @@
+{
+  "pdf_path": "pdfs\\10012627_20251201_150936_RSERVE20251201150011.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 200.58432006835938,
+      "y_max": 208.58432006835938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 81.52914428710938,
+      "y_max": 89.52914428710938,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Breakage",
+          "Balance",
+          "Quantity",
+          "Stock",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8445882352941176
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GRAND",
+          "Tot"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7425
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=14 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=14 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=2 data=8 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=2 data=8 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

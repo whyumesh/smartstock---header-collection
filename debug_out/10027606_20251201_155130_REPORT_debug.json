@@ -1,0 +1,457 @@
+{
+  "pdf_path": "pdfs\\10027606_20251201_155130_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.39398193359375,
+      "y_max": 125.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 163.89398193359375,
+      "y_max": 178.19398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 174.39398193359375,
+      "y_max": 188.69398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 163.89398193359375,
+      "y_max": 178.19398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 153.39398193359375,
+      "y_max": 167.69398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 6,
+      "y_min": 142.89398193359375,
+      "y_max": 157.19398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 7,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 8,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "OCT",
+        "Exp"
+      ],
+      "combined_confidence": 0.6191771708683473,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.89375,
+      "data_validation_score": 0.7521358543417367,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "OCT",
+        "Exp"
+      ],
+      "combined_confidence": 0.6190595238095238,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.89375,
+      "data_validation_score": 0.751547619047619,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "OCT",
+        "Exp"
+      ],
+      "combined_confidence": 0.6177901394600394,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.89375,
+      "data_validation_score": 0.7452006973001967,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "OCT",
+        "Exp"
+      ],
+      "combined_confidence": 0.6188044489294491,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.89375,
+      "data_validation_score": 0.7502722446472446,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "OCT",
+        "Exp"
+      ],
+      "combined_confidence": 0.6185052264808364,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.89375,
+      "data_validation_score": 0.7487761324041812,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "DESCRIPTION",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "OCT",
+    "Exp"
+  ],
+  "confidence": 0.8691771708683473,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.89375,
+    "data_validation_score": 0.7521358543417367,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "DESCRIPTION",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "OCT",
+      "Exp"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "DESCRIPTION",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "OCT",
+        "Exp"
+      ],
+      [
+        "Product Name",
+        "DESCRIPTION",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "OCT",
+        "Exp"
+      ],
+      [
+        "Product Name",
+        "DESCRIPTION",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "OCT",
+        "Exp"
+      ],
+      [
+        "Product Name",
+        "DESCRIPTION",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "OCT",
+        "Exp"
+      ],
+      [
+        "Product Name",
+        "DESCRIPTION",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "OCT",
+        "Exp"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "OCT",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7950313725490197
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8191771708683474
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "-Abbott",
+          "-Abbott",
+          "SPECTRA",
+          "SPECTRA"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.6678777777777778
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "OCT",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.789532350160711
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8190595238095238
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8177901394600394
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.818804448929449
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8185052264808363
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "OCT",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7892601748273123
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=9 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=9 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=4 data=9 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=9 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=15 data=9 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=9 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=15 data=9 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=9 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "DESCRIPTION",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "OCT",
+      "Exp"
+    ],
+    "data_column_count_detected": 8,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

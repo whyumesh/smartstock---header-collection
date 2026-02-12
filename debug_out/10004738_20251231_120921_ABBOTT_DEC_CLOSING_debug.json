@@ -1,0 +1,359 @@
+{
+  "pdf_path": "pdfs\\10004738_20251231_120921_ABBOTT DEC CLOSING.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 4,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=10"
+    },
+    {
+      "page_no": 5,
+      "y_min": 258.7380065917969,
+      "y_max": 270.4380187988281,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 6,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "CREMAFFIN",
+        "PLAIN",
+        "ML",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.28010947204968945,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7422140269151138,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "CREMAFFIN",
+    "PLAIN",
+    "ML",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.28010947204968945,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.5583333333333333,
+    "data_validation_score": 0.7422140269151138,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "CREMAFFIN",
+      "PLAIN",
+      "ML",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "CREMAFFIN",
+      "PLAIN",
+      "ML",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "225",
+      "1/26"
+    ],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=11"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.28010947204968945,
+      "evidence_scores": {
+        "keyword_score": 0.2857142857142857,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7422140269151138,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 0.14285714285714285
+      },
+      "evidence_total": 0.5727677924430641,
+      "evidence_before_penalties": 0.5727677924430641
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8233333333333334
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "CREMAFFIN",
+          "PLAIN",
+          "ML",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7301094720496895
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "EPTOIN",
+          "INJ",
+          "2Ml",
+          "475.50",
+          "-",
+          "0.00",
+          "237.75",
+          "237.75"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7245706989247312
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "HYTRIN",
+          "10T",
+          "1466.85",
+          "1047.75",
+          "1466.85",
+          "1047.75",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6967781703252021
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8260000000000001
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7228631578947369
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "ZOLFRESH",
+          "15T",
+          "15999.06",
+          "10389.00",
+          "18700.20",
+          "7687.86",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6696666666666666
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=7 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=5 data=11 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=11 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=7 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=11 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "CREMAFFIN",
+      "PLAIN",
+      "ML",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

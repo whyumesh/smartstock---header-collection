@@ -1,0 +1,374 @@
+{
+  "pdf_path": "pdfs\\10000924_20260103_134610_NAHPL_SalesAndStockStatement.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 183.65150451660156,
+      "y_max": 195.6575164794922,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 125.82469940185547,
+      "y_max": 137.83070373535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 125.82469940185547,
+      "y_max": 137.83070373535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 125.82469940185547,
+      "y_max": 137.83070373535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 4,
+      "y_min": 125.82469940185547,
+      "y_max": 137.83070373535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 5,
+      "y_min": 57.50969696044922,
+      "y_max": 69.51569366455078,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 5,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "1345841.85",
+        "0.00",
+        "189692.92",
+        "0.00",
+        "1163401.52"
+      ],
+      "combined_confidence": 0.35000000000000003,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.65,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "GRAND",
+    "Tot",
+    "1345841.85",
+    "0.00",
+    "189692.92",
+    "0.00",
+    "1163401.52"
+  ],
+  "confidence": 0.35000000000000003,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.65,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "GRAND",
+      "TOTAL",
+      "1345841.85",
+      "0.00",
+      "189692.92",
+      "0.00",
+      "1163401.52"
+    ],
+    "normalized": [
+      "GRAND",
+      "Tot",
+      "1345841.85",
+      "0.00",
+      "189692.92",
+      "0.00",
+      "1163401.52"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "0",
+      "1101025"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.35000000000000003,
+      "evidence_scores": {
+        "keyword_score": 0.14285714285714285,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.41638095238095235,
+      "evidence_before_penalties": 0.41638095238095235
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8615925925925926
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8630000000000001
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.86452
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8615925925925926
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8615925925925926
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "1345841.85",
+          "0.00",
+          "189692.92",
+          "0.00",
+          "1163401.52"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.65
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=27 data=18 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=27 data=18 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=26 data=17 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=26 data=17 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=25 data=17 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=25 data=17 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=27 data=18 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=27 data=18 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=27 data=18 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=27 data=18 diff=9"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "GRAND",
+      "Tot",
+      "1345841.85",
+      "0.00",
+      "189692.92",
+      "0.00",
+      "1163401.52"
+    ]
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "pdf_path": "pdfs\\10016160_20251211_141841_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 2,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 3,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 4,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 5,
+      "y_min": 258.7380065917969,
+      "y_max": 270.4380187988281,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=10"
+    },
+    {
+      "page_no": 6,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "BISOSAFE",
+        "2.5",
+        "TAB",
+        "1*10",
+        "1320.12",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "1320.12"
+      ],
+      "combined_confidence": 0.16090324675324674,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.58,
+      "data_validation_score": 0.7245162337662338,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "VALANCE",
+        "OD",
+        "TAB.",
+        "1*10",
+        "3413.16",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "3413.16"
+      ],
+      "combined_confidence": 0.18343711180124211,
+      "visual_score": 0.7,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.58,
+      "data_validation_score": 0.7121855590062112,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "VALANCE",
+    "OD",
+    "TAB.",
+    "1*10",
+    "3413.16",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "3413.16"
+  ],
+  "confidence": 0.7834371118012421,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.58,
+    "data_validation_score": 0.7121855590062112,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "VALANCE",
+      "OD",
+      "TAB.",
+      "1*10",
+      "3413.16",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "3413.16"
+    ],
+    "per_page": [
+      [
+        "BISOSAFE",
+        "2.5",
+        "TAB",
+        "1*10",
+        "1320.12",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "1320.12"
+      ],
+      [
+        "VALANCE",
+        "OD",
+        "TAB.",
+        "1*10",
+        "3413.16",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "3413.16"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8429206349206348
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "BISOSAFE",
+          "2.5",
+          "TAB",
+          "1*10",
+          "1320.12",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "1320.12"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7109032467532468
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "TAB.",
+          "1*10",
+          "3413.16",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "3413.16"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7334371118012422
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "LOBATE",
+          "OINT.",
+          "30Gm.",
+          "330.90",
+          "1654.50",
+          "-",
+          "0.00",
+          "1985.40"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7295013392857144
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8433968253968254
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8382222222222222
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "ABBOTT",
+          "NOVACARE",
+          "NOVACARE",
+          "PRIMARY"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6804
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=4 data=12 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=12 diff=8"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "VALANCE",
+      "OD",
+      "TAB.",
+      "1*10",
+      "3413.16",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "3413.16"
+    ],
+    "data_column_count_detected": 11,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

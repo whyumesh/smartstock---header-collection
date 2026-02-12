@@ -1,0 +1,11 @@
+{
+  "pdf_path": "pdfs\\10023724_20251211_122430_statement.pdf",
+  "header_zone_detected": null,
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_words"
+  }
+}

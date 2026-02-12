@@ -1,0 +1,447 @@
+{
+  "pdf_path": "pdfs\\10000333_20251219_122846_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 174.39398193359375,
+      "y_max": 188.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 216.39398193359375,
+      "y_max": 230.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=11"
+    },
+    {
+      "page_no": 4,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 6,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 7,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 8,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 9,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 10,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "Cl",
+        "OD",
+        "1G",
+        "TABS",
+        "TAB",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.17991397849462365,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.6214285714285713,
+      "data_validation_score": 0.7531413210445468,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "BECOMAX",
+        "FORTE",
+        "15Tab",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.5957936086901605,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7111109005936592,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.5751397101449275,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.7833333333333333,
+      "data_validation_score": 0.7423652173913043,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5738144773358003,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.6524057200123342,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "BECOMAX",
+    "FORTE",
+    "15Tab",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.5957936086901605,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.5428571428571428,
+    "data_validation_score": 0.7111109005936592,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "BECOMAX",
+      "FORTE",
+      "15TAB",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "BECOMAX",
+      "FORTE",
+      "15Tab",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "C"
+    ],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5957936086901605,
+      "evidence_scores": {
+        "keyword_score": 0.3333333333333333,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7111109005936592,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.09090909090909091
+      },
+      "evidence_total": 0.6522019675726571,
+      "evidence_before_penalties": 0.6522019675726571
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "BETOGAIN",
+          "200Ml",
+          "SYRUP",
+          "Sale",
+          "ML",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.77108995215311
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7491528046421664
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "TYZA",
+          "CREAM",
+          "15Gm.",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.703931289640592
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Cl",
+          "OD",
+          "1G",
+          "TABS",
+          "TAB",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7299139784946237
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "TELPRES",
+          "CT",
+          "TAB"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.689671794871795
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ABBOTT",
+          "(Multitherapy)",
+          "(Multitherapy)"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6906655172413794
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "CAAT",
+          "40Mg",
+          "10Tab",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7048382714310861
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "BECOMAX",
+          "FORTE",
+          "15Tab",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7457936086901605
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7251397101449275
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7738144773358002
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "DIGENE",
+          "ULTRA",
+          "FIZZ",
+          "ORANGE",
+          "1Pic",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7198466540339606
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=3 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=3 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=9 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=7 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "BECOMAX",
+      "FORTE",
+      "15Tab",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

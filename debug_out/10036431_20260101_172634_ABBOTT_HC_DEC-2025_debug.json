@@ -1,0 +1,312 @@
+{
+  "pdf_path": "pdfs\\10036431_20260101_172634_ABBOTT HC DEC-2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 2,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=16"
+    },
+    {
+      "page_no": 3,
+      "y_min": 174.73800659179688,
+      "y_max": 186.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=11"
+    },
+    {
+      "page_no": 4,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=17"
+    },
+    {
+      "page_no": 5,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 6,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 7,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.71,
+      "reason": "header_keywords=3 tokens=16"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8437222222222223
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "TACITINIX",
+          "OINT",
+          "15Gm",
+          "324.00",
+          "5832.05",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "5832.05"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7370613475997686
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Cl",
+          "AT",
+          "20Gm",
+          "20Gm",
+          "171.42",
+          "2571.26",
+          "2720.90",
+          "3325.52",
+          "2399.84",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7303688311688312
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "NOV",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8404444444444444
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "KENACORT",
+          "HEXA",
+          "20M",
+          "1Ml",
+          "IN",
+          "352.86",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7271112221112223
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ABBOT",
+          "NOVACARE(A/HC)",
+          "NOVACARE(A/HC)",
+          "NOVACARE(A/HC)"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6833
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "NOV",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8370526315789475
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "FINECEF",
+          "1G",
+          "INJ",
+          "INJ",
+          "12.99",
+          "5222.22",
+          "-",
+          "0.00",
+          "6435.05",
+          "1195.14"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7353938394938395
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=15 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=4 data=12 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=12 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=19 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=10 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=13 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

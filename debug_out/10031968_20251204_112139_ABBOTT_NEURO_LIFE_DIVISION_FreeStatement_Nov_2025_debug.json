@@ -1,0 +1,316 @@
+{
+  "pdf_path": "pdfs\\10031968_20251204_112139_ABBOTT NEURO LIFE DIVISION_FreeStatement_Nov_2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 86.81844329833984,
+      "y_max": 94.62278747558594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 86.81844329833984,
+      "y_max": 94.62278747558594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 2,
+      "y_min": 86.81844329833984,
+      "y_max": 94.62278747558594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 3,
+      "y_min": 86.81844329833984,
+      "y_max": 94.62278747558594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Invoice Date",
+        "Date",
+        "Invoice Date",
+        "No",
+        "Customer",
+        "Product Name",
+        "Manufacture",
+        "MRP",
+        "Quantity",
+        "Quantity",
+        "Free Quantity",
+        "Discount",
+        "SchDisc"
+      ],
+      "combined_confidence": 0.4404715284715285,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7446653346653347,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Invoice Date",
+        "Date",
+        "Invoice Date",
+        "No",
+        "Customer",
+        "Product Name",
+        "Manufacture",
+        "MRP",
+        "Quantity",
+        "Quantity",
+        "Free Quantity",
+        "Discount",
+        "SchDisc"
+      ],
+      "combined_confidence": 0.2916010143702451,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.750312764158918,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Invoice Date",
+        "Date",
+        "Invoice Date",
+        "No",
+        "Customer",
+        "Product Name",
+        "Manufacture",
+        "MRP",
+        "Quantity",
+        "Quantity",
+        "Free Quantity",
+        "Discount",
+        "SchDisc"
+      ],
+      "combined_confidence": 0.29292307692307684,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7569230769230769,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "Invoice Date",
+    "Date",
+    "Invoice Date",
+    "No",
+    "Customer",
+    "Product Name",
+    "Manufacture",
+    "MRP",
+    "Quantity",
+    "Quantity",
+    "Free Quantity",
+    "Discount",
+    "SchDisc"
+  ],
+  "confidence": 0.8904715284715284,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.8576923076923078,
+    "data_validation_score": 0.7446653346653347,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Invoice Date",
+      "Date",
+      "Invoice Date",
+      "No",
+      "Customer",
+      "Product Name",
+      "Manufacture",
+      "MRP",
+      "Quantity",
+      "Quantity",
+      "Free Quantity",
+      "Discount",
+      "SchDisc"
+    ],
+    "per_page": [
+      [
+        "Invoice Date",
+        "Date",
+        "Invoice Date",
+        "No",
+        "Customer",
+        "Product Name",
+        "Manufacture",
+        "MRP",
+        "Quantity",
+        "Quantity",
+        "Free Quantity",
+        "Discount",
+        "SchDisc"
+      ],
+      [
+        "Invoice Date",
+        "Date",
+        "Invoice Date",
+        "No",
+        "Customer",
+        "Product Name",
+        "Manufacture",
+        "MRP",
+        "Quantity",
+        "Quantity",
+        "Free Quantity",
+        "Discount",
+        "SchDisc"
+      ],
+      [
+        "Invoice Date",
+        "Date",
+        "Invoice Date",
+        "No",
+        "Customer",
+        "Product Name",
+        "Manufacture",
+        "MRP",
+        "Quantity",
+        "Quantity",
+        "Free Quantity",
+        "Discount",
+        "SchDisc"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "No",
+          "Customer",
+          "Product Name",
+          "Manufacture",
+          "MRP",
+          "Quantity",
+          "Quantity",
+          "Free Quantity",
+          "Discount",
+          "SchDisc"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8404715284715285
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "No",
+          "Customer",
+          "Product Name",
+          "Manufacture",
+          "MRP",
+          "Quantity",
+          "Quantity",
+          "Free Quantity",
+          "Discount",
+          "SchDisc"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8416010143702451
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "No",
+          "Customer",
+          "Product Name",
+          "Manufacture",
+          "MRP",
+          "Quantity",
+          "Quantity",
+          "Free Quantity",
+          "Discount",
+          "SchDisc"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8429230769230769
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "No",
+          "Customer",
+          "Customer",
+          "Product Name",
+          "Manufacture",
+          "Manufacture",
+          "Manufacture",
+          "Manufacture",
+          "Manufacture",
+          "MRP",
+          "MRP",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Free Quantity",
+          "Free Quantity",
+          "Discount",
+          "SchDisc"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8144285714285715
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=22 data=14 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=14 diff=8"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Invoice Date",
+      "Date",
+      "Invoice Date",
+      "No",
+      "Customer",
+      "Product Name",
+      "Manufacture",
+      "MRP",
+      "Quantity",
+      "Quantity",
+      "Free Quantity",
+      "Discount",
+      "SchDisc"
+    ],
+    "data_column_count_detected": 13,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

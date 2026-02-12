@@ -1,0 +1,134 @@
+{
+  "pdf_path": "pdfs\\10012705_20260101_194822_REPORT_7D316DIVM.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 133.21798706054688,
+      "y_max": 141.0179901123047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.718017578125,
+      "y_max": 25.518016815185547,
+      "confidence": 0.4,
+      "reason": "fallback_first_lines"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "============================================================================"
+      ],
+      "combined_confidence": 0.53,
+      "visual_score": 0.4,
+      "reconstruction_score": 0.72,
+      "semantic_score": 0.5,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "============================================================================"
+  ],
+  "confidence": 0.53,
+  "confidence_breakdown": {
+    "visual_score": 0.4,
+    "reconstruction_score": 0.72,
+    "semantic_score": 0.5,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "============================================================================"
+    ],
+    "normalized": [
+      "============================================================================"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.53,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.45,
+      "evidence_before_penalties": 0.45
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Description",
+          "Op",
+          "Op",
+          "Sales",
+          "Sales",
+          "Sale",
+          "Sale",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Other",
+          "Other",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Expiry Date",
+          "Expiry Date",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8425922973578146
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "============================================================================"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.53
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=29 data=17 diff=12",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=29 data=17 diff=12"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "============================================================================"
+    ]
+  }
+}

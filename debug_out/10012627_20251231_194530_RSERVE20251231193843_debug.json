@@ -1,0 +1,87 @@
+{
+  "pdf_path": "pdfs\\10012627_20251231_194530_RSERVE20251231193843.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 190.02188110351562,
+      "y_max": 197.02188110351562,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 81.17147064208984,
+      "y_max": 88.17147064208984,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Breakage",
+          "Balance",
+          "Balance",
+          "Quantity",
+          "Quantity",
+          "Stock",
+          "Stock",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.843952380952381
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GRAND",
+          "Tot"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7425
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=21 data=14 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=14 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=2 data=8 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=2 data=8 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

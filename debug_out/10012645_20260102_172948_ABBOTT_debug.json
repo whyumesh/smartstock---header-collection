@@ -1,0 +1,356 @@
+{
+  "pdf_path": "pdfs\\10012645_20260102_172948_ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 138.2238006591797,
+      "y_max": 150.2298126220703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 1,
+      "y_min": 80.3969955444336,
+      "y_max": 92.40299224853516,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 80.3969955444336,
+      "y_max": 92.40299224853516,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 80.3969955444336,
+      "y_max": 92.40299224853516,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 4,
+      "y_min": 80.3969955444336,
+      "y_max": 92.40299224853516,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 5,
+      "y_min": 12.648977279663086,
+      "y_max": 24.65497589111328,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 5,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "55176.57",
+        "516741.67",
+        "535841.74",
+        "0.00",
+        "30749.33"
+      ],
+      "combined_confidence": 0.255,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.65,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "GRAND",
+    "Tot",
+    "55176.57",
+    "516741.67",
+    "535841.74",
+    "0.00",
+    "30749.33"
+  ],
+  "confidence": 0.255,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.65,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "GRAND",
+      "TOTAL",
+      "55176.57",
+      "516741.67",
+      "535841.74",
+      "0.00",
+      "30749.33"
+    ],
+    "normalized": [
+      "GRAND",
+      "Tot",
+      "55176.57",
+      "516741.67",
+      "535841.74",
+      "0.00",
+      "30749.33"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "2296",
+      "29973",
+      "0"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.255,
+      "evidence_scores": {
+        "keyword_score": 0.14285714285714285,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.39838095238095234,
+      "evidence_before_penalties": 0.39838095238095234
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock",
+          "Stock",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8644285714285714
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock",
+          "Stock",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8615714285714287
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8627407407407408
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Breakage",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Stock",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8265333333333333
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Breakage",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Stock",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8286666666666667
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "55176.57",
+          "516741.67",
+          "535841.74",
+          "0.00",
+          "30749.33"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.655
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=28 data=18 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=28 data=18 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=28 data=18 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=28 data=18 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=27 data=18 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=27 data=18 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=15 data=4 diff=11",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=4 diff=11"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=15 data=4 diff=11",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=4 diff=11"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "GRAND",
+      "Tot",
+      "55176.57",
+      "516741.67",
+      "535841.74",
+      "0.00",
+      "30749.33"
+    ]
+  }
+}

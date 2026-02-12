@@ -1,0 +1,50 @@
+{
+  "pdf_path": "pdfs\\10031010_20260101_190033_RASIKLAL MANSUKLAL & CO.-NI-954-ABBOTT GI OPTIMA-01-Jan-26-1850.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 34.61100387573242,
+      "y_max": 44.574005126953125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Description",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sales",
+          "Closing",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8855391304347825
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=10 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=8 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

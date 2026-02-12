@@ -1,0 +1,242 @@
+{
+  "pdf_path": "pdfs\\10023809_20251204_121749_abb.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 2,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 3,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "DIGENE",
+        "INSTA",
+        "SACHET",
+        "GEL",
+        "(M",
+        "10Ml",
+        "-"
+      ],
+      "combined_confidence": 0.2207197845804988,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.5857142857142856,
+      "data_validation_score": 0.7428846371882086,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Stock",
+        "&",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.5639259259259259,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.7666666666666666,
+      "data_validation_score": 0.702962962962963,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "&",
+    "&",
+    "Sales",
+    "Sales",
+    "ANALYSIS"
+  ],
+  "confidence": 0.5639259259259259,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.7666666666666666,
+    "data_validation_score": 0.702962962962963,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "STOCK",
+      "&",
+      "&",
+      "SALES",
+      "SALES",
+      "ANALYSIS"
+    ],
+    "normalized": [
+      "Stock",
+      "&",
+      "&",
+      "Sales",
+      "Sales",
+      "ANALYSIS"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "&",
+        "into": "&",
+        "interval_idx": 0
+      },
+      {
+        "split": "&",
+        "into": "&",
+        "interval_idx": 1
+      },
+      {
+        "split": "SALES",
+        "into": "SALES",
+        "interval_idx": 1
+      },
+      {
+        "split": "SALES",
+        "into": "SALES",
+        "interval_idx": 2
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5639259259259259,
+      "evidence_scores": {
+        "keyword_score": 0.75,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.702962962962963,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.7257407407407408,
+      "evidence_before_penalties": 0.7257407407407408
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.75100790513834
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "DIGENE",
+          "INSTA",
+          "SACHET",
+          "GEL",
+          "(M",
+          "10Ml",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7707197845804988
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Stock",
+          "&",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.713925925925926
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7532017021276596
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=10 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=7 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Stock",
+      "&",
+      "&",
+      "Sales",
+      "Sales",
+      "ANALYSIS"
+    ]
+  }
+}

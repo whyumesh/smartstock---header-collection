@@ -1,0 +1,180 @@
+{
+  "pdf_path": "pdfs\\10032401_20260103_190921_abbot2.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 105.1822509765625,
+      "y_max": 117.55200958251953,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 60.062252044677734,
+      "y_max": 72.43201446533203,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "LMS",
+        "Quantity",
+        "Amount",
+        "P.Return",
+        "Sale",
+        "Return",
+        "Quantity",
+        "Amt"
+      ],
+      "combined_confidence": 0.26280000000000003,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.835,
+      "data_validation_score": 0.704,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "LMS",
+    "Quantity",
+    "Amount",
+    "P.Return",
+    "Sale",
+    "Return",
+    "Quantity",
+    "Amt"
+  ],
+  "confidence": 0.26280000000000003,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.835,
+    "data_validation_score": 0.704,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "Packing",
+      "LMS",
+      "Qty.",
+      "Amount",
+      "P.Return",
+      "Sale",
+      "Return",
+      "Qty",
+      "Amt"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "LMS",
+      "Quantity",
+      "Amount",
+      "P.Return",
+      "Sale",
+      "Return",
+      "Quantity",
+      "Amt"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "Name"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 9,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=9"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.26280000000000003,
+      "evidence_scores": {
+        "keyword_score": 0.6363636363636364,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.704,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7225909090909092,
+      "evidence_before_penalties": 0.7225909090909092
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "LMS",
+          "Quantity",
+          "Amount",
+          "P.Return",
+          "Sale",
+          "Return",
+          "Quantity",
+          "Amt"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8128000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "LMS",
+          "Quantity",
+          "Amount",
+          "P.Return",
+          "Sale",
+          "Return",
+          "Quantity",
+          "Amt"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7772
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=10 data=5 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=5 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "LMS",
+      "Quantity",
+      "Amount",
+      "P.Return",
+      "Sale",
+      "Return",
+      "Quantity",
+      "Amt"
+    ]
+  }
+}

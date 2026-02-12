@@ -1,0 +1,154 @@
+{
+  "pdf_path": "pdfs\\10001561_20251222_101327_891_ABBOTTHEALTHCAREPVTLTD_PO.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 114.71966552734375,
+      "y_max": 123.66966247558594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "C-208-209",
+        "C-208-209",
+        "&",
+        "Tot",
+        "C-309",
+        "C-309",
+        "KANCHAN"
+      ],
+      "combined_confidence": 0.23919751620928087,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.6142857142857142,
+      "data_validation_score": 0.6317018667606903,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "C-208-209",
+    "C-208-209",
+    "&",
+    "Tot",
+    "C-309",
+    "C-309",
+    "KANCHAN"
+  ],
+  "confidence": 0.23919751620928087,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.6142857142857142,
+    "data_validation_score": 0.6317018667606903,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "C-208-209",
+      "C-208-209",
+      "&",
+      "TO",
+      "C-309",
+      "C-309",
+      "KANCHAN"
+    ],
+    "normalized": [
+      "C-208-209",
+      "C-208-209",
+      "&",
+      "Tot",
+      "C-309",
+      "C-309",
+      "KANCHAN"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "C-208-209",
+        "into": "C-208-209",
+        "interval_idx": 0
+      },
+      {
+        "split": "C-208-209",
+        "into": "C-208-209",
+        "interval_idx": 1
+      },
+      {
+        "split": "803",
+        "into": "803",
+        "interval_idx": 1
+      },
+      {
+        "split": "803",
+        "into": "803",
+        "interval_idx": 2
+      },
+      {
+        "split": "C-309",
+        "into": "C-309",
+        "interval_idx": 2
+      },
+      {
+        "split": "C-309",
+        "into": "C-309",
+        "interval_idx": 3
+      }
+    ],
+    "noise_tokens_removed": [
+      "C",
+      "803",
+      "803"
+    ],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=8"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.23919751620928087,
+      "evidence_scores": {
+        "keyword_score": 0.16666666666666666,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6317018667606903,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.5830921333568392,
+      "evidence_before_penalties": 0.5830921333568392
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "C-208-209",
+          "C-208-209",
+          "&",
+          "Tot",
+          "C-309",
+          "C-309",
+          "KANCHAN"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7891975162092809
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "C-208-209",
+      "C-208-209",
+      "&",
+      "Tot",
+      "C-309",
+      "C-309",
+      "KANCHAN"
+    ]
+  }
+}

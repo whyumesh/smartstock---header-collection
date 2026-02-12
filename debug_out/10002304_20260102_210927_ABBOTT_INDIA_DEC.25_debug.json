@@ -1,0 +1,98 @@
+{
+  "pdf_path": "pdfs\\10002304_20260102_210927_ABBOTT INDIA DEC.25.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 98.20249938964844,
+      "y_max": 106.69999694824219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 98.20249938964844,
+      "y_max": 106.69999694824219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "NO",
+          "Product Name",
+          "/",
+          "COMPANY",
+          "Op",
+          "Quantity",
+          "Op",
+          "AMT",
+          "IN",
+          "Quantity",
+          "Out.",
+          "Quantity",
+          "Out.",
+          "AMT",
+          "Cl Qty",
+          "Cl",
+          "AMT"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8369639468690703
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "NO",
+          "Product Name",
+          "/",
+          "COMPANY",
+          "Op",
+          "Quantity",
+          "Op",
+          "AMT",
+          "IN",
+          "Quantity",
+          "Out.",
+          "Quantity",
+          "Out.",
+          "AMT",
+          "Cl Qty",
+          "Cl",
+          "AMT"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8374509803921569
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=9 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=9 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=17 data=9 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=9 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

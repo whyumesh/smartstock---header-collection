@@ -1,0 +1,231 @@
+{
+  "pdf_path": "pdfs\\10015075_20260101_133102_ABBOTT DEC SALE.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 1,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 3,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "CITY",
+        "MEDICAL",
+        "MEDICAL",
+        "AGENCIES",
+        "AGENCIES"
+      ],
+      "combined_confidence": 0.523,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.76,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.6275,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "ESGIPYRIN-AQ",
+        "INJ",
+        "1Ml",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.6014532356532357,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7644090354090354,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "NIVAQUINE",
+        "SYP",
+        "60Ml",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.608408931494038,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7741875146130466,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "TG-GOAL",
+        "10'S",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.5507796296296297,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5333333333333333,
+      "data_validation_score": 0.7330648148148148,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "NIVAQUINE",
+    "SYP",
+    "60Ml",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.608408931494038,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.5428571428571428,
+    "data_validation_score": 0.7741875146130466,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "NIVAQUINE",
+      "SYP",
+      "60ML",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "NIVAQUINE",
+      "SYP",
+      "60Ml",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "P"
+    ],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.608408931494038,
+      "evidence_scores": {
+        "keyword_score": 0.3333333333333333,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7741875146130466,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.683880211986595,
+      "evidence_before_penalties": 0.683880211986595
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "CITY",
+          "MEDICAL",
+          "MEDICAL",
+          "AGENCIES",
+          "AGENCIES"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.673
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ESGIPYRIN-AQ",
+          "INJ",
+          "1Ml",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7514532356532357
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "NIVAQUINE",
+          "SYP",
+          "60Ml",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.758408931494038
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "TG-GOAL",
+          "10'S",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7007796296296297
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "NIVAQUINE",
+      "SYP",
+      "60Ml",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

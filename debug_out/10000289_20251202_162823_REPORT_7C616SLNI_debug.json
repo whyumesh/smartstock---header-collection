@@ -1,0 +1,259 @@
+{
+  "pdf_path": "pdfs\\10000289_20251202_162823_REPORT_7C616SLNI.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=6"
+    },
+    {
+      "page_no": 2,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "COMBINORM",
+        "CAP",
+        "CAP",
+        "388.05",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5572910166756321,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7499166218396988,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "COMBINORM",
+    "CAP",
+    "CAP",
+    "388.05",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.5572910166756321,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.5615384615384615,
+    "data_validation_score": 0.7499166218396988,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "COMBINORM",
+      "CAP",
+      "CAP",
+      "388.05",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "COMBINORM",
+      "CAP",
+      "CAP",
+      "388.05",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "15"
+    ],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5572910166756321,
+      "evidence_scores": {
+        "keyword_score": 0.125,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7499166218396988,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.6257291554599247,
+      "evidence_before_penalties": 0.6257291554599247
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8459140271493213
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "INDIA",
+          "PRIMA",
+          "LTD.",
+          "LTD."
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7139052631578948
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "COMBINORM",
+          "CAP",
+          "CAP",
+          "388.05",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7072910166756321
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "INDIA",
+          "INDIA",
+          "NEURO",
+          "PSYCHIATRY",
+          "PSYCHIATRY"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7245
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=6 data=13 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=13 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=7 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=12 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "COMBINORM",
+      "CAP",
+      "CAP",
+      "388.05",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

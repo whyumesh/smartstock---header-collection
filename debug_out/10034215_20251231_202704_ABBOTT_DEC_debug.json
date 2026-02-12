@@ -1,0 +1,47 @@
+{
+  "pdf_path": "pdfs\\10034215_20251231_202704_ABBOTT DEC.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 106.16709899902344,
+      "y_max": 117.44178771972656,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Stock",
+          "Stock",
+          "Report",
+          "No.",
+          "No."
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7852924369747899
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=7 data=9 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=9 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

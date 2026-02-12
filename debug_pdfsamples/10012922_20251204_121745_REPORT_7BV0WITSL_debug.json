@@ -1,0 +1,80 @@
+{
+  "pdf_path": "pdfsamples\\10012922_20251204_121745_REPORT_7BV0WITSL.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 79.89398193359375,
+      "y_max": 94.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "ANALYSIS",
+        "(Abbott",
+        "INDIA",
+        "LTD.,[METABOLICS])",
+        "01-11-2025",
+        "-",
+        "20-11-2025"
+      ],
+      "combined_confidence": 0.8229331053351573,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.6599999999999999,
+      "data_validation_score": 0.6796655266757866
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "&",
+    "Sales",
+    "ANALYSIS",
+    "(Abbott",
+    "INDIA",
+    "LTD.,[METABOLICS])",
+    "01-11-2025",
+    "-",
+    "20-11-2025"
+  ],
+  "confidence": 0.8229331053351573,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.6599999999999999,
+    "data_validation_score": 0.6796655266757866,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "STOCK",
+      "&",
+      "SALES",
+      "ANALYSIS",
+      "(ABBOTT",
+      "INDIA",
+      "LTD.,[METABOLICS])",
+      "01-11-2025",
+      "-",
+      "20-11-2025"
+    ],
+    "normalized": [
+      "Stock",
+      "&",
+      "Sales",
+      "ANALYSIS",
+      "(Abbott",
+      "INDIA",
+      "LTD.,[METABOLICS])",
+      "01-11-2025",
+      "-",
+      "20-11-2025"
+    ]
+  }
+}

@@ -1,0 +1,944 @@
+{
+  "pdf_path": "pdfs\\10000337_20251204_124937_ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 65.66944885253906,
+      "y_max": 76.06175994873047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 65.66944885253906,
+      "y_max": 76.06175994873047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 26.384479522705078,
+      "y_max": 36.77678298950195,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 3,
+      "y_min": 170.43043518066406,
+      "y_max": 180.82273864746094,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 275.1914367675781,
+      "y_max": 285.583740234375,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=10"
+    },
+    {
+      "page_no": 5,
+      "y_min": 104.95545959472656,
+      "y_max": 115.34777069091797,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 6,
+      "y_min": 26.384479522705078,
+      "y_max": 36.77678298950195,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 7,
+      "y_min": 13.289447784423828,
+      "y_max": 23.681753158569336,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 8,
+      "y_min": 65.66944885253906,
+      "y_max": 76.06175994873047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 9,
+      "y_min": 52.57448196411133,
+      "y_max": 62.9667854309082,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 10,
+      "y_min": 379.95245361328125,
+      "y_max": 390.3447570800781,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 11,
+      "y_min": 118.05043029785156,
+      "y_max": 128.44273376464844,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 12,
+      "y_min": 366.8574523925781,
+      "y_max": 377.249755859375,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=10"
+    },
+    {
+      "page_no": 13,
+      "y_min": 340.6664733886719,
+      "y_max": 351.05877685546875,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=10"
+    },
+    {
+      "page_no": 14,
+      "y_min": 13.289447784423828,
+      "y_max": 23.681753158569336,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 15,
+      "y_min": 249.0014190673828,
+      "y_max": 259.39373779296875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 16,
+      "y_min": 13.289447784423828,
+      "y_max": 23.681753158569336,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 17,
+      "y_min": 235.9064483642578,
+      "y_max": 246.2987518310547,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=10"
+    },
+    {
+      "page_no": 18,
+      "y_min": 39.47945022583008,
+      "y_max": 49.87175369262695,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "ARACHITOL",
+        "NANO",
+        "DAI",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.3234034679089027,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.525,
+      "data_validation_score": 0.7170173395445135,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "LOBATE",
+        "SKIN",
+        "CREA",
+        "15Gm",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.5747246963562754,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5307692307692308,
+      "data_validation_score": 0.7428542510121457,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "FINECEF",
+        "MG",
+        "INJ",
+        "INJ",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.4838980185830708,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5307692307692308,
+      "data_validation_score": 0.7637208621461234,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 14,
+      "headers": [
+        "KETOF",
+        "DT",
+        "TAB",
+        "10'S",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.5831665702718335,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5307692307692308,
+      "data_validation_score": 0.7475636205899363,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 16,
+      "headers": [
+        "PHENSEDYL",
+        "CR",
+        "SYP",
+        "100Ml",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.7227157056116332,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5307692307692308,
+      "data_validation_score": 0.6953092972889353,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "PHENSEDYL",
+    "CR",
+    "SYP",
+    "100Ml",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.7227157056116332,
+  "confidence_breakdown": {
+    "visual_score": 0.75,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.5307692307692308,
+    "data_validation_score": 0.6953092972889353,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "PHENSEDYL",
+      "CR",
+      "SYP",
+      "100ML",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "PHENSEDYL",
+      "CR",
+      "SYP",
+      "100Ml",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7227157056116332,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6953092972889353,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.05263157894736842
+      },
+      "evidence_total": 0.5790904822169707,
+      "evidence_before_penalties": 0.5790904822169707
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.7943959899749374
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.790929061784897
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ARACHITOL",
+          "NANO",
+          "DAI",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7734034679089027
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7987092877260851
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7935932120542877
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "LOBATE",
+          "SKIN",
+          "CREA",
+          "15Gm",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7247246963562755
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "FINECEF",
+          "MG",
+          "INJ",
+          "INJ",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7838980185830708
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "NIFEDINE-SR",
+          "NIFEDINE-SR",
+          "10*10",
+          "10*10",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7497538039695684
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7981239258861439
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "GTN",
+          "Rate",
+          "CR",
+          "30'S",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7755047619047619
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8022713480128895
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7990934479054781
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7951044628479411
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7953232215963308
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "KETOF",
+          "DT",
+          "TAB",
+          "10'S",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7331665702718335
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.804062641723356
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "PHENSEDYL",
+          "CR",
+          "SYP",
+          "100Ml",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7227157056116332
+      },
+      {
+        "page_no": 17,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7885012077294685
+      },
+      {
+        "page_no": 18,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7974422419685578
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=14 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=14 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=19 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=10 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 15,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 17,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 18,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "PHENSEDYL",
+      "CR",
+      "SYP",
+      "100Ml",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

@@ -1,0 +1,1161 @@
+{
+  "pdf_path": "pdfs\\10030525_20251213_115053_ABBOTT HC NOV MONTH AREAWISE.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=19"
+    },
+    {
+      "page_no": 1,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=20"
+    },
+    {
+      "page_no": 2,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=20"
+    },
+    {
+      "page_no": 3,
+      "y_min": 6.995975494384766,
+      "y_max": 21.3599853515625,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 4,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=20"
+    },
+    {
+      "page_no": 5,
+      "y_min": 280.0,
+      "y_max": 310.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 6,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=17"
+    },
+    {
+      "page_no": 7,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=20"
+    },
+    {
+      "page_no": 8,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 9,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=21"
+    },
+    {
+      "page_no": 10,
+      "y_min": 280.0,
+      "y_max": 310.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    },
+    {
+      "page_no": 11,
+      "y_min": 280.0,
+      "y_max": 310.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 12,
+      "y_min": 280.0,
+      "y_max": 310.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 13,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 14,
+      "y_min": 57.0,
+      "y_max": 95.989990234375,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 5,
+      "headers": [
+        "Sale",
+        "Sale",
+        "Amount",
+        "Amount",
+        "91.61",
+        "91.61",
+        "4229.71",
+        "4229.71",
+        "3133.13",
+        "3133.13",
+        "11223.99",
+        "11223.99",
+        "4144.65",
+        "4144.65",
+        "8072.79",
+        "8072.79",
+        "14288.13",
+        "14288.13",
+        "3508.23",
+        "3508.23",
+        "5187.91",
+        "5187.91",
+        "1509.81",
+        "1509.81",
+        "2748.74",
+        "2748.74",
+        "1867.37"
+      ],
+      "combined_confidence": 0.5775882217621348,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.6592592592592593,
+      "data_validation_score": 0.6286818495514147,
+      "data_column_count_detected": 26
+    },
+    {
+      "page_no": 13,
+      "headers": [
+        "Closing",
+        "Closing",
+        "PTR",
+        "PTR",
+        "1063.68",
+        "1063.68",
+        "99736.01",
+        "99736.01",
+        "3285.36",
+        "3285.36",
+        "1681.68",
+        "1681.68",
+        "2189.50",
+        "2189.50",
+        "4182.28",
+        "4182.28",
+        "3276.24",
+        "3276.24",
+        "3624.96",
+        "3624.96",
+        "3696.00",
+        "3696.00",
+        "1996.80",
+        "1996.80",
+        "2821.87",
+        "6164.73"
+      ],
+      "combined_confidence": 0.5758626373626373,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.6615384615384615,
+      "data_validation_score": 0.6177747252747252,
+      "data_column_count_detected": 25
+    }
+  ],
+  "final_selected_header": [
+    "Sale",
+    "Sale",
+    "Amount",
+    "Amount",
+    "91.61",
+    "91.61",
+    "4229.71",
+    "4229.71",
+    "3133.13",
+    "3133.13",
+    "11223.99",
+    "11223.99",
+    "4144.65",
+    "4144.65",
+    "8072.79",
+    "8072.79",
+    "14288.13",
+    "14288.13",
+    "3508.23",
+    "3508.23",
+    "5187.91",
+    "5187.91",
+    "1509.81",
+    "1509.81",
+    "2748.74",
+    "2748.74",
+    "1867.37"
+  ],
+  "confidence": 0.5775882217621348,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.6592592592592593,
+    "data_validation_score": 0.6286818495514147,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Sale",
+      "Sale",
+      "Value",
+      "Value",
+      "91.61",
+      "91.61",
+      "4229.71",
+      "4229.71",
+      "3133.13",
+      "3133.13",
+      "11223.99",
+      "11223.99",
+      "4144.65",
+      "4144.65",
+      "8072.79",
+      "8072.79",
+      "14288.13",
+      "14288.13",
+      "3508.23",
+      "3508.23",
+      "5187.91",
+      "5187.91",
+      "1509.81",
+      "1509.81",
+      "2748.74",
+      "2748.74",
+      "1867.37"
+    ],
+    "normalized": [
+      "Sale",
+      "Sale",
+      "Amount",
+      "Amount",
+      "91.61",
+      "91.61",
+      "4229.71",
+      "4229.71",
+      "3133.13",
+      "3133.13",
+      "11223.99",
+      "11223.99",
+      "4144.65",
+      "4144.65",
+      "8072.79",
+      "8072.79",
+      "14288.13",
+      "14288.13",
+      "3508.23",
+      "3508.23",
+      "5187.91",
+      "5187.91",
+      "1509.81",
+      "1509.81",
+      "2748.74",
+      "2748.74",
+      "1867.37"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Sale",
+        "into": "Sale",
+        "interval_idx": 2
+      },
+      {
+        "split": "Sale",
+        "into": "Sale",
+        "interval_idx": 3
+      },
+      {
+        "split": "Value",
+        "into": "Value",
+        "interval_idx": 3
+      },
+      {
+        "split": "Value",
+        "into": "Value",
+        "interval_idx": 4
+      },
+      {
+        "split": "91.61",
+        "into": "91.61",
+        "interval_idx": 9
+      },
+      {
+        "split": "91.61",
+        "into": "91.61",
+        "interval_idx": 10
+      },
+      {
+        "split": "4229.71",
+        "into": "4229.71",
+        "interval_idx": 12
+      },
+      {
+        "split": "4229.71",
+        "into": "4229.71",
+        "interval_idx": 13
+      },
+      {
+        "split": "3133.13",
+        "into": "3133.13",
+        "interval_idx": 13
+      },
+      {
+        "split": "3133.13",
+        "into": "3133.13",
+        "interval_idx": 14
+      },
+      {
+        "split": "11223.99",
+        "into": "11223.99",
+        "interval_idx": 14
+      },
+      {
+        "split": "11223.99",
+        "into": "11223.99",
+        "interval_idx": 15
+      },
+      {
+        "split": "4144.65",
+        "into": "4144.65",
+        "interval_idx": 15
+      },
+      {
+        "split": "4144.65",
+        "into": "4144.65",
+        "interval_idx": 16
+      },
+      {
+        "split": "8072.79",
+        "into": "8072.79",
+        "interval_idx": 19
+      },
+      {
+        "split": "8072.79",
+        "into": "8072.79",
+        "interval_idx": 20
+      },
+      {
+        "split": "14288.13",
+        "into": "14288.13",
+        "interval_idx": 20
+      },
+      {
+        "split": "14288.13",
+        "into": "14288.13",
+        "interval_idx": 21
+      },
+      {
+        "split": "3508.23",
+        "into": "3508.23",
+        "interval_idx": 21
+      },
+      {
+        "split": "3508.23",
+        "into": "3508.23",
+        "interval_idx": 22
+      },
+      {
+        "split": "5187.91",
+        "into": "5187.91",
+        "interval_idx": 22
+      },
+      {
+        "split": "5187.91",
+        "into": "5187.91",
+        "interval_idx": 23
+      },
+      {
+        "split": "1509.81",
+        "into": "1509.81",
+        "interval_idx": 23
+      },
+      {
+        "split": "1509.81",
+        "into": "1509.81",
+        "interval_idx": 24
+      },
+      {
+        "split": "2748.74",
+        "into": "2748.74",
+        "interval_idx": 24
+      },
+      {
+        "split": "2748.74",
+        "into": "2748.74",
+        "interval_idx": 25
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 26,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=27 data=26"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5775882217621348,
+      "evidence_scores": {
+        "keyword_score": 0.14814814814814814,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6286818495514147,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.06666666666666667
+      },
+      "evidence_total": 0.5383741660915574,
+      "evidence_before_penalties": 0.5383741660915574
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "2944.80",
+          "2944.80",
+          "3548.64",
+          "3548.64",
+          "34032.60",
+          "34032.60",
+          "41240.37",
+          "41240.37",
+          "2903.40",
+          "2903.40",
+          "62747.20",
+          "62747.20",
+          "3792.25",
+          "3792.25",
+          "3370.85",
+          "3370.85",
+          "5645.20",
+          "5645.20",
+          "5666.74",
+          "5666.74",
+          "7318.84",
+          "7318.84",
+          "6152.19",
+          "6152.19",
+          "8759.94",
+          "8759.94",
+          "10662.94",
+          "10662.94",
+          "2953.50",
+          "2953.50",
+          "3437.29",
+          "11914.65"
+        ],
+        "data_column_count_detected": 28,
+        "combined_confidence": 0.7096724386724388
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "7148.32",
+          "7148.32",
+          "9572.94",
+          "9572.94",
+          "6222.00",
+          "6222.00",
+          "3294.20",
+          "3294.20",
+          "4934.25",
+          "4934.25",
+          "9585.86",
+          "9585.86",
+          "13712.79",
+          "13712.79",
+          "3570.82",
+          "3570.82",
+          "7556.64",
+          "7556.64",
+          "1081.56",
+          "1081.56",
+          "6665.76",
+          "6665.76",
+          "3062.54",
+          "3062.54",
+          "5243.94",
+          "5243.94",
+          "9859.08",
+          "9859.08",
+          "1957.76",
+          "1957.76",
+          "9201.32",
+          "9201.32",
+          "5705.28",
+          "5705.28",
+          "2769.66"
+        ],
+        "data_column_count_detected": 25,
+        "combined_confidence": 0.7108901098901099
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "4027.04",
+          "4027.04",
+          "22469.97",
+          "22469.97",
+          "23673.43",
+          "23673.43",
+          "42990.40",
+          "42990.40",
+          "8101.85",
+          "8101.85",
+          "3944.50",
+          "3944.50",
+          "1526.88",
+          "1526.88",
+          "1423.60",
+          "1423.60",
+          "13554.84",
+          "13554.84",
+          "10662.21",
+          "10662.21",
+          "6070.20",
+          "6070.20",
+          "2281.60",
+          "2281.60",
+          "1565.12",
+          "1565.12",
+          "16256.76",
+          "16256.76",
+          "11539.08",
+          "11539.08",
+          "1840.53",
+          "1840.53",
+          "3585.60",
+          "1669.58"
+        ],
+        "data_column_count_detected": 28,
+        "combined_confidence": 0.7092385509227616
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 28,
+        "combined_confidence": 0.6707000000000001
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "4044.26",
+          "4044.26",
+          "7664.00",
+          "7664.00",
+          "2965.41",
+          "2965.41",
+          "3368.16",
+          "3368.16",
+          "23120.92",
+          "23120.92",
+          "12220.50",
+          "12220.50",
+          "2457.00",
+          "2457.00",
+          "6751.50",
+          "6751.50",
+          "4355.23",
+          "4355.23",
+          "32378.76",
+          "32378.76",
+          "18159.84",
+          "18159.84",
+          "3330.70",
+          "3330.70",
+          "6855.80",
+          "6855.80",
+          "10986.50",
+          "10986.50",
+          "4757.94",
+          "4757.94",
+          "19223.52",
+          "19223.52",
+          "10220.50",
+          "10220.50",
+          "10057.20",
+          "10057.20"
+        ],
+        "data_column_count_detected": 28,
+        "combined_confidence": 0.7082837162837163
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Amount",
+          "Amount",
+          "91.61",
+          "91.61",
+          "4229.71",
+          "4229.71",
+          "3133.13",
+          "3133.13",
+          "11223.99",
+          "11223.99",
+          "4144.65",
+          "4144.65",
+          "8072.79",
+          "8072.79",
+          "14288.13",
+          "14288.13",
+          "3508.23",
+          "3508.23",
+          "5187.91",
+          "5187.91",
+          "1509.81",
+          "1509.81",
+          "2748.74",
+          "2748.74",
+          "1867.37"
+        ],
+        "data_column_count_detected": 26,
+        "combined_confidence": 0.7275882217621348
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "4572.12",
+          "4572.12",
+          "7462.00",
+          "7462.00",
+          "1128.14",
+          "1128.14",
+          "2730.60",
+          "2730.60",
+          "2662.10",
+          "2662.10",
+          "11807.55",
+          "11807.55",
+          "8391.24",
+          "8391.24",
+          "4619.70",
+          "4619.70",
+          "4140.48",
+          "4140.48",
+          "2695.68",
+          "2695.68",
+          "2500.70",
+          "2500.70",
+          "41005.14",
+          "41005.14",
+          "2786.10",
+          "2786.10",
+          "16156.48",
+          "16156.48",
+          "19242.96"
+        ],
+        "data_column_count_detected": 25,
+        "combined_confidence": 0.7106277056277057
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "3656.34",
+          "3656.34",
+          "75.96",
+          "75.96",
+          "5185.60",
+          "5185.60",
+          "2499.52",
+          "2499.52",
+          "1345.90",
+          "1345.90",
+          "56186.01",
+          "56186.01",
+          "11957.22",
+          "11957.22",
+          "38138.51",
+          "38138.51",
+          "4321.46",
+          "4321.46",
+          "71877.58",
+          "71877.58",
+          "19814.08",
+          "19814.08",
+          "19076.72",
+          "19076.72",
+          "4626.80",
+          "4626.80",
+          "6100.92",
+          "6100.92",
+          "22344.66",
+          "22344.66",
+          "3529.25",
+          "3529.25",
+          "3004.20",
+          "3004.20",
+          "3720.58"
+        ],
+        "data_column_count_detected": 25,
+        "combined_confidence": 0.7093479853479854
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "3566.64",
+          "3566.64",
+          "5498.90",
+          "5498.90",
+          "3563.40",
+          "3563.40",
+          "3324.88",
+          "3324.88",
+          "5009.40",
+          "5009.40",
+          "6306.30",
+          "6306.30",
+          "2092.80",
+          "2092.80",
+          "12745.60",
+          "12745.60",
+          "8564.60",
+          "8564.60",
+          "44913.39",
+          "44913.39",
+          "3438.27",
+          "3438.27",
+          "6100.29",
+          "6100.29",
+          "2346.96",
+          "2346.96"
+        ],
+        "data_column_count_detected": 26,
+        "combined_confidence": 0.7260607553366174
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "14289.00",
+          "14289.00",
+          "2823.60",
+          "2823.60",
+          "3394.02",
+          "3394.02",
+          "20883.77",
+          "20883.77",
+          "4365.77",
+          "4365.77",
+          "4516.50",
+          "4516.50",
+          "7033.70",
+          "7033.70",
+          "8530.50",
+          "8530.50",
+          "5586.00",
+          "5586.00",
+          "3343.74",
+          "3343.74",
+          "7531.30",
+          "7531.30",
+          "1420.50",
+          "1420.50",
+          "5693.88",
+          "5693.88",
+          "1404.40",
+          "1404.40",
+          "8718.60",
+          "8718.60",
+          "2390.22",
+          "2390.22",
+          "2914.32",
+          "2914.32",
+          "5970.80",
+          "2583.24"
+        ],
+        "data_column_count_detected": 28,
+        "combined_confidence": 0.708848051948052
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Amount",
+          "Amount",
+          "6293.13",
+          "6293.13",
+          "6310.81",
+          "6310.81",
+          "38594.35",
+          "38594.35",
+          "2585.29",
+          "2585.29",
+          "9826.01",
+          "9826.01",
+          "4227.74",
+          "4227.74",
+          "4655.26",
+          "4655.26",
+          "2220.37",
+          "2220.37",
+          "3741.42",
+          "3741.42",
+          "2725.50",
+          "2725.50"
+        ],
+        "data_column_count_detected": 27,
+        "combined_confidence": 0.7163052465822282
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Amount",
+          "Amount",
+          "2779.43",
+          "2779.43",
+          "2910.43",
+          "2910.43",
+          "2730.10",
+          "2730.10",
+          "6597.90",
+          "6597.90",
+          "3000.78",
+          "3000.78",
+          "2957.82",
+          "2957.82",
+          "2816.83",
+          "2816.83",
+          "3163.43",
+          "3163.43",
+          "39748.79",
+          "39748.79",
+          "1918.21",
+          "1918.21",
+          "3218.39",
+          "3218.39",
+          "74.01",
+          "74.01",
+          "4352.45",
+          "4352.45"
+        ],
+        "data_column_count_detected": 27,
+        "combined_confidence": 0.7311756091651145
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Amount",
+          "Amount",
+          "7376.38",
+          "7376.38",
+          "5610.56",
+          "5610.56",
+          "8310.15",
+          "8310.15",
+          "32948.61",
+          "32948.61",
+          "3747.44",
+          "3747.44",
+          "7800.67",
+          "7800.67",
+          "36134.03",
+          "36134.03",
+          "1926.81",
+          "1926.81",
+          "71984.79",
+          "71984.79",
+          "5290.78",
+          "5290.78",
+          "14821.42",
+          "14821.42",
+          "2441.28",
+          "2441.28",
+          "7888.17"
+        ],
+        "data_column_count_detected": 26,
+        "combined_confidence": 0.7317693296209039
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "1063.68",
+          "1063.68",
+          "99736.01",
+          "99736.01",
+          "3285.36",
+          "3285.36",
+          "1681.68",
+          "1681.68",
+          "2189.50",
+          "2189.50",
+          "4182.28",
+          "4182.28",
+          "3276.24",
+          "3276.24",
+          "3624.96",
+          "3624.96",
+          "3696.00",
+          "3696.00",
+          "1996.80",
+          "1996.80",
+          "2821.87",
+          "6164.73"
+        ],
+        "data_column_count_detected": 25,
+        "combined_confidence": 0.7258626373626373
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "1253.59",
+          "1253.59",
+          "1013.22",
+          "1013.22",
+          "2055.97",
+          "2055.97",
+          "4479.84",
+          "4479.84",
+          "1595.58",
+          "1595.58",
+          "2104.56",
+          "2104.56",
+          "2395.91",
+          "2395.91",
+          "6646.77",
+          "6646.77",
+          "56012.31",
+          "2550258.95"
+        ],
+        "data_column_count_detected": 19,
+        "combined_confidence": 0.7174545454545456
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=36 data=28 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=36 data=28 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=39 data=25 diff=14",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=39 data=25 diff=14"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=38 data=28 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=38 data=28 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=2 data=28 diff=26",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=2 data=28 diff=26"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=40 data=28 diff=12",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=40 data=28 diff=12"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=33 data=25 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=33 data=25 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=39 data=25 diff=14",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=39 data=25 diff=14"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=30 data=26 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=30 data=26 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=40 data=28 diff=12",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=40 data=28 diff=12"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=24 data=27 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=24 data=27 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=30 data=27 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=30 data=27 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=29 data=26 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=29 data=26 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=22 data=19 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=19 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Sale",
+      "Sale",
+      "Amount",
+      "Amount",
+      "91.61",
+      "91.61",
+      "4229.71",
+      "4229.71",
+      "3133.13",
+      "3133.13",
+      "11223.99",
+      "11223.99",
+      "4144.65",
+      "4144.65",
+      "8072.79",
+      "8072.79",
+      "14288.13",
+      "14288.13",
+      "3508.23",
+      "3508.23",
+      "5187.91",
+      "5187.91",
+      "1509.81",
+      "1509.81",
+      "2748.74",
+      "2748.74",
+      "1867.37"
+    ]
+  }
+}

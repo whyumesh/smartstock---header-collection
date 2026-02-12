@@ -1,0 +1,151 @@
+{
+  "pdf_path": "pdfs\\10023816_20251204_121746_REPORT_7C60LNZZE.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73797607421875,
+      "y_max": 123.43797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "DESCRIPTION",
+        "Quantity",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Order"
+      ],
+      "combined_confidence": 0.44771825396825393,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.911111111111111,
+      "data_validation_score": 0.6274801587301587,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "DESCRIPTION",
+    "DESCRIPTION",
+    "Quantity",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Order"
+  ],
+  "confidence": 0.44771825396825393,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.911111111111111,
+    "data_validation_score": 0.6274801587301587,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "ITEM",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "QTY.",
+      "QTY.",
+      "VALUE",
+      "QTY.",
+      "VALUE",
+      "ORDER"
+    ],
+    "normalized": [
+      "Product Name",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Order"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "DESCRIPTION",
+        "into": "DESCRIPTION",
+        "interval_idx": 1
+      },
+      {
+        "split": "DESCRIPTION",
+        "into": "DESCRIPTION",
+        "interval_idx": 2
+      },
+      {
+        "split": "QTY.",
+        "into": "QTY.",
+        "interval_idx": 3
+      },
+      {
+        "split": "QTY.",
+        "into": "QTY.",
+        "interval_idx": 4
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 9,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=9 data=9"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.44771825396825393,
+      "evidence_scores": {
+        "keyword_score": 0.8,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6274801587301587,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8568700396825397,
+      "evidence_before_penalties": 0.8568700396825397
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Order"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.847718253968254
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Order"
+    ]
+  }
+}

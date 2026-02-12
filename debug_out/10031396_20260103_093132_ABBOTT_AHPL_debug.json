@@ -1,0 +1,219 @@
+{
+  "pdf_path": "pdfs\\10031396_20260103_093132_ABBOTT AHPL.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 216.73800659179688,
+      "y_max": 228.43800354003906,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=15"
+    },
+    {
+      "page_no": 2,
+      "y_min": 122.23800659179688,
+      "y_max": 133.93800354003906,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=17"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "NOV",
+        "SCRAP"
+      ],
+      "combined_confidence": 0.6769090909090909,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.9272727272727272,
+      "data_validation_score": 0.9072727272727273,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "VASXONE",
+        "-",
+        "1.5",
+        "1*1",
+        "-120",
+        "-6804.00",
+        "0.00",
+        "0.00",
+        "-120",
+        "-6804.00"
+      ],
+      "combined_confidence": 0.1760626373626374,
+      "visual_score": 0.64,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.59,
+      "data_validation_score": 0.7403131868131869,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "NOV",
+    "SCRAP"
+  ],
+  "confidence": 0.6769090909090909,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.9272727272727272,
+    "data_validation_score": 0.9072727272727273,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "QTY.",
+      "VALUE",
+      "QTY.",
+      "VALUE",
+      "QTY.",
+      "VALUE",
+      "QTY.",
+      "VALUE",
+      "QTY.",
+      "NOV",
+      "SCRAP"
+    ],
+    "normalized": [
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "NOV",
+      "SCRAP"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=11"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.6769090909090909,
+      "evidence_scores": {
+        "keyword_score": 0.8181818181818182,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.9072727272727273,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.8646969696969697,
+      "evidence_before_penalties": 0.8646969696969697
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "NOV",
+          "SCRAP"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8769090909090909
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Op",
+          "INJ",
+          "1*1",
+          "1417.50",
+          "0.00",
+          "0.00",
+          "1417.50"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7678748041274358
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "VASXONE",
+          "-",
+          "1.5",
+          "1*1",
+          "-120",
+          "-6804.00",
+          "0.00",
+          "0.00",
+          "-120",
+          "-6804.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7260626373626374
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=7 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=11 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "NOV",
+      "SCRAP"
+    ]
+  }
+}

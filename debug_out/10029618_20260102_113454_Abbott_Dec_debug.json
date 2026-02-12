@@ -1,0 +1,95 @@
+{
+  "pdf_path": "pdfs\\10029618_20260102_113454_Abbott Dec.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 192.88400268554688,
+      "y_max": 207.55801391601562,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 125.70288848876953,
+      "y_max": 140.37689208984375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8282499999999999
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8301333333333334
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

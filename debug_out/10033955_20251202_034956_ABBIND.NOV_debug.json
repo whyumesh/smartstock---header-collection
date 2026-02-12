@@ -1,0 +1,261 @@
+{
+  "pdf_path": "pdfs\\10033955_20251202_034956_ABBIND.NOV.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 4,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 4,
+      "headers": [
+        "Tot",
+        "925025.66",
+        "1249486.84",
+        "1274860.06",
+        "940558.59"
+      ],
+      "combined_confidence": 0.259,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.6699999999999999,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Tot",
+    "925025.66",
+    "1249486.84",
+    "1274860.06",
+    "940558.59"
+  ],
+  "confidence": 0.259,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.6699999999999999,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "TOTAL",
+      "925025.66",
+      "1249486.84",
+      "1274860.06",
+      "940558.59"
+    ],
+    "normalized": [
+      "Tot",
+      "925025.66",
+      "1249486.84",
+      "1274860.06",
+      "940558.59"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "6697",
+      "9980",
+      "9656",
+      "7021",
+      "0"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.259,
+      "evidence_scores": {
+        "keyword_score": 0.2,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 0.4,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.38,
+      "evidence_before_penalties": 0.38
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8379705882352941
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "CREMAFFIN",
+          "PLUS",
+          "LIQ",
+          "225Ml",
+          "225Ml",
+          "68330.85",
+          "55591.20",
+          "85971.63",
+          "40766.88"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7105816993464052
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "HYTRIN",
+          "1Mg",
+          "10Tab",
+          "10Tab",
+          "754.36",
+          "3771.80",
+          "1749.74",
+          "2828.85",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7015991869062045
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8381176470588235
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Tot",
+          "925025.66",
+          "1249486.84",
+          "1274860.06",
+          "940558.59"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.659
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Tot",
+      "925025.66",
+      "1249486.84",
+      "1274860.06",
+      "940558.59"
+    ]
+  }
+}

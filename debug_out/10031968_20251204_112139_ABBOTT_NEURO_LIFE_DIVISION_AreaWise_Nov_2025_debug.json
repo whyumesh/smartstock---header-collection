@@ -1,0 +1,152 @@
+{
+  "pdf_path": "pdfs\\10031968_20251204_112139_ABBOTT NEURO LIFE DIVISION_AreaWise_Nov_2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 114.1409912109375,
+      "y_max": 122.85359191894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 102.1409912109375,
+      "y_max": 110.85359191894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 2,
+      "y_min": 102.1409912109375,
+      "y_max": 110.85359191894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 3,
+      "y_min": 102.1409912109375,
+      "y_max": 110.85359191894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Invoice Date",
+          "No",
+          "Invoice Date",
+          "Date",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8373090909090909
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Invoice Date",
+          "No",
+          "Invoice Date",
+          "Date",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.839
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Invoice Date",
+          "No",
+          "Invoice Date",
+          "Date",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8378428571428571
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Invoice Date",
+          "No",
+          "Invoice Date",
+          "Date",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Quantity",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8296333333333332
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=10 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=10 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=10 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=10 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=7 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

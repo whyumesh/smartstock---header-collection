@@ -1,0 +1,66 @@
+{
+  "pdf_path": "pdfs\\10034008_20260110_131225_rptMonthlySalesAndStock7160202673358846.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "1433.20",
+          "1433.20",
+          "65929.04",
+          "65929.04",
+          "4698.81",
+          "4698.81",
+          "1706.35",
+          "1706.35",
+          "3823.16",
+          "3823.16",
+          "31057.00",
+          "31057.00",
+          "4876.35",
+          "4876.35",
+          "4448.73",
+          "4448.73",
+          "7199.16",
+          "7199.16",
+          "2852.30",
+          "2852.30",
+          "5090.51",
+          "5090.51"
+        ],
+        "data_column_count_detected": 22,
+        "combined_confidence": 0.7710261236802413
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=26 data=22 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=26 data=22 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

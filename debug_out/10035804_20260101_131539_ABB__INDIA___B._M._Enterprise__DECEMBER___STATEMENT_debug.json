@@ -1,0 +1,152 @@
+{
+  "pdf_path": "pdfs\\10035804_20260101_131539_ABB  INDIA_  B. M. Enterprise_ DECEMBER  _STATEMENT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 185.23800659179688,
+      "y_max": 196.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8232941176470587
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "EPTOIN",
+          "ER",
+          "TAB",
+          "30S",
+          "1154.16",
+          "1731.24",
+          "1468.44",
+          "1442.70",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7259645879072351
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "INDERAL",
+          "10S",
+          "-",
+          "0.00",
+          "9182.00",
+          "4859.21",
+          "4407.36",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6953778409090909
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "THYRONORM",
+          "1Pt(120S)",
+          "1620.64",
+          "41673.60",
+          "39465.76",
+          "4746.16"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.660292689990496
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=6 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=12 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

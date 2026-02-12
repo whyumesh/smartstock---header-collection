@@ -1,0 +1,168 @@
+{
+  "pdf_path": "pdfs\\10009128_20251227_180415_SSS.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 120.95100402832031,
+      "y_max": 127.5510025024414,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "S.NO",
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECPT",
+        "F_RE",
+        "Tot",
+        "ISSUE",
+        "Free Quantity",
+        "Cl",
+        "Rate",
+        "Amount",
+        "Exp"
+      ],
+      "combined_confidence": 0.7086703296703296,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.8642857142857142,
+      "data_validation_score": 0.8040659340659341,
+      "data_column_count_detected": 14
+    }
+  ],
+  "final_selected_header": [
+    "S.NO",
+    "Product Code",
+    "Product Name",
+    "Pack",
+    "Op",
+    "RECPT",
+    "F_RE",
+    "Tot",
+    "ISSUE",
+    "Free Quantity",
+    "Cl",
+    "Rate",
+    "Amount",
+    "Exp"
+  ],
+  "confidence": 0.7086703296703296,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.8642857142857142,
+    "data_validation_score": 0.8040659340659341,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "S.NO",
+      "P-CODE",
+      "Product Name",
+      "PACKING",
+      "OP-ST.",
+      "RECPT",
+      "F_RE",
+      "TOTAL",
+      "ISSUE",
+      "FREE_I",
+      "CL_STOCK",
+      "RATE",
+      "AMOUNT",
+      "Exp."
+    ],
+    "normalized": [
+      "S.NO",
+      "Product Code",
+      "Product Name",
+      "Pack",
+      "Op",
+      "RECPT",
+      "F_RE",
+      "Tot",
+      "ISSUE",
+      "Free Quantity",
+      "Cl",
+      "Rate",
+      "Amount",
+      "Exp"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 14,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=14 data=14"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.7086703296703296,
+      "evidence_scores": {
+        "keyword_score": 0.7058823529411765,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.8040659340659341,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8774870717517776,
+      "evidence_before_penalties": 0.8774870717517776
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "S.NO",
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "RECPT",
+          "F_RE",
+          "Tot",
+          "ISSUE",
+          "Free Quantity",
+          "Cl",
+          "Rate",
+          "Amount",
+          "Exp"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.9086703296703296
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "S.NO",
+      "Product Code",
+      "Product Name",
+      "Pack",
+      "Op",
+      "RECPT",
+      "F_RE",
+      "Tot",
+      "ISSUE",
+      "Free Quantity",
+      "Cl",
+      "Rate",
+      "Amount",
+      "Exp"
+    ]
+  }
+}

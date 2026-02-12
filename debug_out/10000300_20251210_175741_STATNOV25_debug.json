@@ -1,0 +1,428 @@
+{
+  "pdf_path": "pdfs\\10000300_20251210_175741_STATNOV25.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 79.89398193359375,
+      "y_max": 94.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 184.89398193359375,
+      "y_max": 199.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 3,
+      "y_min": 205.89398193359375,
+      "y_max": 220.19398498535156,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 4,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 5,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 6,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 7,
+      "y_min": 111.39398193359375,
+      "y_max": 125.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 8,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 9,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Op",
+        "VIHAR",
+        "ROAD,",
+        "MEDICINE",
+        "Op",
+        "(M.P)"
+      ],
+      "combined_confidence": 0.6277863505747127,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.7166666666666667,
+      "data_validation_score": 0.7222650862068966,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.5730742857142858,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.82,
+      "data_validation_score": 0.6953714285714285,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "TYZA",
+        "CREAM",
+        "10Gm",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.4504467193176871,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7343764537312925,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "TRIBET",
+        "FORTE",
+        "10Tab",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.5567759899658787,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7285228069722512,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "RAPISONE",
+        "SR",
+        "5Cap",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.4506526687598116,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7354062009419151,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.5748266666666667,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.7833333333333333,
+      "data_validation_score": 0.7408,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5738726264726264,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.6526964656964657,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Op",
+    "VIHAR",
+    "ROAD,",
+    "MEDICINE",
+    "Op",
+    "(M.P)"
+  ],
+  "confidence": 0.6277863505747127,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.7166666666666667,
+    "data_validation_score": 0.7222650862068966,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SHOP.NO.3,15A,BAL",
+      "VIHAR",
+      "ROAD,",
+      "MEDICINE",
+      "STREET,BHOPAL",
+      "(M.P)"
+    ],
+    "normalized": [
+      "Op",
+      "VIHAR",
+      "ROAD,",
+      "MEDICINE",
+      "Op",
+      "(M.P)"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "462001"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=6"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.6277863505747127,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7222650862068966,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.1
+      },
+      "evidence_total": 0.6975662715517241,
+      "evidence_before_penalties": 0.6975662715517241
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Op",
+          "VIHAR",
+          "ROAD,",
+          "MEDICINE",
+          "Op",
+          "(M.P)"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7777863505747127
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7230742857142858
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "TYZA",
+          "CREAM",
+          "10Gm",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7504467193176871
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "TRIBET",
+          "FORTE",
+          "10Tab",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7067759899658788
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "PHENERGAN-ING",
+          "1X2Ml",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7472583333333334
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "KENACORT",
+          "SKIN",
+          "CREAM",
+          "15Gm",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7549866668982113
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "SZETALO",
+          "LS",
+          "15Tab",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7502598930481283
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "RAPISONE",
+          "SR",
+          "5Cap",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7506526687598116
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7248266666666667
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7738726264726264
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=3 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=4 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=6 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Op",
+      "VIHAR",
+      "ROAD,",
+      "MEDICINE",
+      "Op",
+      "(M.P)"
+    ]
+  }
+}

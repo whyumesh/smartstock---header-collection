@@ -1,0 +1,150 @@
+{
+  "pdf_path": "pdfs\\10032698_20260103_120720_NEUROSCIENCE Division Dec 2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 203.44903564453125,
+      "y_max": 214.71900939941406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity"
+      ],
+      "combined_confidence": 0.5144285714285715,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 1.0,
+      "data_validation_score": 0.6971428571428572,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity"
+  ],
+  "confidence": 0.5144285714285715,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 1.0,
+    "data_validation_score": 0.6971428571428572,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Qty",
+      "Qty",
+      "Qty",
+      "Qty",
+      "Qty",
+      "Qty",
+      "Qty"
+    ],
+    "normalized": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 2
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 3
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 3
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 4
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 4
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 5
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.5144285714285715,
+      "evidence_scores": {
+        "keyword_score": 1.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6971428571428572,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8617857142857143,
+      "evidence_before_penalties": 0.8617857142857143
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8644285714285714
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity"
+    ]
+  }
+}

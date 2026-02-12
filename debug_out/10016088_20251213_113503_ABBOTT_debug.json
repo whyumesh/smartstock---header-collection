@@ -1,0 +1,483 @@
+{
+  "pdf_path": "pdfs\\10016088_20251213_113503_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 258.7380065917969,
+      "y_max": 270.4380187988281,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 3,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 4,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 6,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=17"
+    },
+    {
+      "page_no": 7,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.71,
+      "reason": "header_keywords=3 tokens=17"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "CONTRAMAL-DT",
+        "54.71",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.18201687914139775,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5545454545454546,
+      "data_validation_score": 0.7555389411615342,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "GLUFORMIN",
+        "FORTE",
+        "1X10",
+        "48.97",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.2865417975689469,
+      "visual_score": 0.7,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.746170526306273,
+      "data_column_count_detected": 14
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "KENACORT",
+        "40Mg/Ml",
+        "INJECTIO",
+        "VIAL",
+        "124.27",
+        "8823.03",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "8823.03"
+      ],
+      "combined_confidence": 0.18756158547335022,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5818181818181818,
+      "data_validation_score": 0.755989745548569,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "PREREJOINT",
+        "TABS",
+        "123.65",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.18051136103094634,
+      "visual_score": 0.7,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7192234718213988,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "STROMIX",
+        "CAPS",
+        "27.17",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.32256849481563454,
+      "visual_score": 0.64,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7545091407448387,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "VALANCE",
+        "OD",
+        "TAB",
+        "94.63",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.338250516451874,
+      "visual_score": 0.71,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7422141207209081,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "VALANCE",
+    "OD",
+    "TAB",
+    "94.63",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.338250516451874,
+  "confidence_breakdown": {
+    "visual_score": 0.71,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.5615384615384615,
+    "data_validation_score": 0.7422141207209081,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "VALANCE",
+      "OD",
+      "TAB",
+      "94.63",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "VALANCE",
+      "OD",
+      "TAB",
+      "94.63",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "1000",
+      "1",
+      "X",
+      "10"
+    ],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.338250516451874,
+      "evidence_scores": {
+        "keyword_score": 0.125,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7422141207209081,
+        "lexical_purity_score": 0.52,
+        "multi_page_presence_score": 0.125
+      },
+      "evidence_total": 0.5573035301802269,
+      "evidence_before_penalties": 0.5573035301802269
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8299159663865546
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "CONTRAMAL-DT",
+          "54.71",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7320168791413978
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "GLUFORMIN",
+          "FORTE",
+          "1X10",
+          "48.97",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.7365417975689469
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "KENACORT",
+          "40Mg/Ml",
+          "INJECTIO",
+          "VIAL",
+          "124.27",
+          "8823.03",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "8823.03"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7375615854733503
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8136666666666668
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "PREREJOINT",
+          "TABS",
+          "123.65",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7305113610309464
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "STROMIX",
+          "CAPS",
+          "27.17",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7225684948156346
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "TAB",
+          "94.63",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.738250516451874
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=15 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=12 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "VALANCE",
+      "OD",
+      "TAB",
+      "94.63",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

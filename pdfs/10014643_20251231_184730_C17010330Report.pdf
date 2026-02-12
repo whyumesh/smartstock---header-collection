@@ -1,0 +1,114 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                           ) Tj
+T* (                                  KENT PHARMA                                                    ) Tj
+T* (                                                                                                           ) Tj
+T* (                                CHENNAI. - 600003                                                ) Tj
+T* (                                                                                                           ) Tj
+T* (Stock & Sales Report From 01/12/2025 To 31/12/2025                                              ) Tj
+T* (Company Name : MSD -                                                                                       ) Tj
+T* (===========================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur PFree  PurRet      Sale     SFree OthFr SRet CurStk ) Tj
+T* (===========================================================================================================) Tj
+T* (1   JANUMET 50/1000MG         15`S       46        40     -       -        52         -     -    9     43 ) Tj
+T* (2   JANUMET 50/500MG          15`S      154       640     -       -       457         -     -   22    359 ) Tj
+T* (3   JANUMET XR CP 100/1000 MG 14`S       13         -     -       -        17         -     -    5      1 ) Tj
+T* (4   JANUVIA 100 MG TAB        7`S        46        50     -       -        40         -     -    -     56 ) Tj
+T* (5   JANUVIA 25MG              7`S        17         -     -       -         -         -     -    -     17 ) Tj
+T* (6   JANUVIA 50MG              7`S        95        30     -       -        81         -     -    -     44 ) Tj
+T* (-----------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                               371       760     -       -       647         -     -   36    520 ) Tj
+T* (-----------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:    80342.19 Purc.Value: :   179134.10 Sales Value::   161115.64                               ) Tj
+T* (Cl.Stk Val:    119056.96 Pur.RetVal ::        0.00 SalRet Val: :     8970.59                               ) Tj
+T* (                                     :             NetSal\(GVal\):   152145.05                             ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:        0.00                               ) Tj
+T* (                                                                                                           ) Tj
+T* (                                       *** END OF REPORT ***                                               ) Tj
+T* (                                                                                                           ) Tj
+ET
+endstream
+endobj
+9 0 obj
+2385
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 750 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000002951 00000 n
+0000003030 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000002928 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+3123
+%%EOF

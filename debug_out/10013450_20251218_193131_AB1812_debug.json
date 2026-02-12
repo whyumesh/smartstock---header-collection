@@ -1,0 +1,147 @@
+{
+  "pdf_path": "pdfs\\10013450_20251218_193131_AB1812.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 38.510009765625,
+      "y_max": 47.610008239746094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 112.010009765625,
+      "y_max": 121.1100082397461,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "GSETHI",
+        "PHARMA",
+        "DISTRIBUTORS",
+        "PVT",
+        ".Ltd",
+        "Purchase",
+        "Order"
+      ],
+      "combined_confidence": 0.25174501086475787,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.7071428571428572,
+      "data_validation_score": 0.7515821971809319,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "VERTIN",
+        "8Mg",
+        "TAB",
+        "10.00",
+        "0.00"
+      ],
+      "combined_confidence": 0.527,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.76,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "VERTIN",
+    "8Mg",
+    "TAB",
+    "10.00",
+    "0.00"
+  ],
+  "confidence": 0.527,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.76,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "VERTIN",
+      "8MG",
+      "TAB",
+      "10.00",
+      "0.00"
+    ],
+    "normalized": [
+      "VERTIN",
+      "8Mg",
+      "TAB",
+      "10.00",
+      "0.00"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "15"
+    ],
+    "data_column_count_detected": 5,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=5"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.527,
+      "evidence_scores": {
+        "keyword_score": 0.2,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.76,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.672,
+      "evidence_before_penalties": 0.672
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "GSETHI",
+          "PHARMA",
+          "DISTRIBUTORS",
+          "PVT",
+          ".Ltd",
+          "Purchase",
+          "Order"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8017450108647579
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "VERTIN",
+          "8Mg",
+          "TAB",
+          "10.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.677
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "VERTIN",
+      "8Mg",
+      "TAB",
+      "10.00",
+      "0.00"
+    ]
+  }
+}

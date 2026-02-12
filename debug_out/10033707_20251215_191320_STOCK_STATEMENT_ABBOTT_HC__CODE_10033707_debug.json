@@ -1,0 +1,869 @@
+{
+  "pdf_path": "pdfs\\10033707_20251215_191320_STOCK STATEMENT ABBOTT HC  CODE 10033707.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 3,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=14"
+    },
+    {
+      "page_no": 4,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=13"
+    },
+    {
+      "page_no": 6,
+      "y_min": 206.23800659179688,
+      "y_max": 217.93800354003906,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=14"
+    },
+    {
+      "page_no": 7,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 8,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 9,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 10,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=14"
+    },
+    {
+      "page_no": 11,
+      "y_min": 122.23800659179688,
+      "y_max": 133.93800354003906,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=14"
+    },
+    {
+      "page_no": 12,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 13,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    },
+    {
+      "page_no": 14,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 15,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 16,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 17,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "TIXYLIX",
+        "SYRUP",
+        "100Ml",
+        "Unit",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.2815521978021978,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5813186813186813,
+      "data_validation_score": 0.7014423076923078,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "BETOGAIN",
+        "SYRUP",
+        "200Ml",
+        "Unit",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.43124442676478864,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5813186813186813,
+      "data_validation_score": 0.7249034525052624,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "LINGRETIN",
+        "TAB",
+        "1*10",
+        "Unit",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.398564645060494,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5813186813186813,
+      "data_validation_score": 0.6865045439837885,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 11,
+      "headers": [
+        "Cl",
+        "2Ml",
+        "INJ",
+        "2Ml",
+        "Unit",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.41169969911041343,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.6076530612244897,
+      "data_validation_score": 0.7258454343275772,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 14,
+      "headers": [
+        "AGGRIBLOC",
+        "5Mg",
+        "INFUSION",
+        "100Ml",
+        "Unit",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.38105344907193645,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5826530612244898,
+      "data_validation_score": 0.7226141841351925,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 15,
+      "headers": [
+        "XARB",
+        "TAB",
+        "1*10",
+        "Unit",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.23350274725274728,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5813186813186813,
+      "data_validation_score": 0.736195054945055,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 16,
+      "headers": [
+        "FINECEF",
+        "1.125G",
+        "INJ",
+        "Unit",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.42842372202696083,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5813186813186813,
+      "data_validation_score": 0.7107999288161231,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 17,
+      "headers": [
+        "SUPPLIER",
+        "Product Name",
+        "Invoice No",
+        "NO.",
+        "Date",
+        "RECEIVE",
+        "Date",
+        "Amount"
+      ],
+      "combined_confidence": 0.4582500000000001,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.8375,
+      "data_validation_score": 0.72875,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "SUPPLIER",
+    "Product Name",
+    "Invoice No",
+    "NO.",
+    "Date",
+    "RECEIVE",
+    "Date",
+    "Amount"
+  ],
+  "confidence": 0.4582500000000001,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.8375,
+    "data_validation_score": 0.72875,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SUPPLIER",
+      "NAME",
+      "INVOICE",
+      "NO.",
+      "DATE",
+      "RECEIVE",
+      "DATE",
+      "AMOUNT"
+    ],
+    "normalized": [
+      "SUPPLIER",
+      "Product Name",
+      "Invoice No",
+      "NO.",
+      "Date",
+      "RECEIVE",
+      "Date",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.4582500000000001,
+      "evidence_scores": {
+        "keyword_score": 0.4,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.72875,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.05555555555555555
+      },
+      "evidence_total": 0.6252430555555555,
+      "evidence_before_penalties": 0.6252430555555555
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8164705882352941
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "TIXYLIX",
+          "SYRUP",
+          "100Ml",
+          "Unit",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7815521978021979
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "BETOGAIN",
+          "SYRUP",
+          "200Ml",
+          "Unit",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7812444267647887
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "ESGIPYRIN",
+          "DS",
+          "INJ",
+          "3Ml",
+          "Unit",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7557331240188384
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8114705882352942
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ELOCON",
+          "OINTMENT",
+          "10G",
+          "Unit",
+          "4964.08",
+          "2707.68",
+          "3577.69",
+          "4061.52"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7422369930610295
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Cl",
+          "AT",
+          "CREAM",
+          "15G",
+          "Unit",
+          "1731.52",
+          "-",
+          "0.00",
+          "769.55",
+          "989.44"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7607763642564006
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "SOFT",
+          "SKIN",
+          "LOTION",
+          "TVAKSH",
+          "75Ml",
+          "Unit",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7915755735492578
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8175
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "IVABID",
+          "CV",
+          "6.25",
+          "TAB",
+          "1*14",
+          "Unit",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7885512640953818
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "LINGRETIN",
+          "TAB",
+          "1*10",
+          "Unit",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.748564645060494
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Cl",
+          "2Ml",
+          "INJ",
+          "2Ml",
+          "Unit",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7616996991104135
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Gd",
+          "50Mg",
+          "TAB",
+          "1*4",
+          "Unit",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7904925431711146
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8125000000000001
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "AGGRIBLOC",
+          "5Mg",
+          "INFUSION",
+          "100Ml",
+          "Unit",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7310534490719365
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "XARB",
+          "TAB",
+          "1*10",
+          "Unit",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7335027472527473
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "FINECEF",
+          "1.125G",
+          "INJ",
+          "Unit",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7784237220269609
+      },
+      {
+        "page_no": 17,
+        "headers": [
+          "SUPPLIER",
+          "Product Name",
+          "Invoice No",
+          "NO.",
+          "Date",
+          "RECEIVE",
+          "Date",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8082500000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=8 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=10 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=15 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=15 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "SUPPLIER",
+      "Product Name",
+      "Invoice No",
+      "NO.",
+      "Date",
+      "RECEIVE",
+      "Date",
+      "Amount"
+    ]
+  }
+}

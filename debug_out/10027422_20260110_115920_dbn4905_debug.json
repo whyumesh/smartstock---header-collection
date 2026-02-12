@@ -1,0 +1,126 @@
+{
+  "pdf_path": "pdfs\\10027422_20260110_115920_dbn4905.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 77.6099853515625,
+      "y_max": 91.34998321533203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 1,
+      "y_min": 77.6099853515625,
+      "y_max": 91.34998321533203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "PIMPRI",
+        "PUNE",
+        "PIN-"
+      ],
+      "combined_confidence": 0.32699999999999996,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.61,
+      "data_column_count_detected": 3
+    }
+  ],
+  "final_selected_header": [
+    "PIMPRI",
+    "PUNE",
+    "PIN-"
+  ],
+  "confidence": 0.32699999999999996,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.61,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "PIMPRI",
+      "PUNE",
+      "PIN-"
+    ],
+    "normalized": [
+      "PIMPRI",
+      "PUNE",
+      "PIN-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "411018",
+      "Page",
+      "1"
+    ],
+    "data_column_count_detected": 3,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=3 data=3"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.32699999999999996,
+      "evidence_scores": {
+        "keyword_score": 0.3333333333333333,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.61,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.6318333333333334,
+      "evidence_before_penalties": 0.6318333333333334
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "PIMPRI",
+          "PUNE",
+          "PIN-"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.727
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "PIMPRI",
+          "PUNE",
+          "PIN-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7288888888888889
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=3 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=6 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "PIMPRI",
+      "PUNE",
+      "PIN-"
+    ]
+  }
+}

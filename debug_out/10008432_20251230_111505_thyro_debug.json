@@ -1,0 +1,118 @@
+{
+  "pdf_path": "pdfs\\10008432_20251230_111505_thyro.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 192.65713500976562,
+      "y_max": 202.65713500976562,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Received",
+        "Issued",
+        "Closing"
+      ],
+      "combined_confidence": 0.4545714285714286,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8714285714285713,
+      "data_validation_score": 0.7014285714285714,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Product Name",
+    "Pack",
+    "Op",
+    "Received",
+    "Issued",
+    "Closing"
+  ],
+  "confidence": 0.4545714285714286,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8714285714285713,
+    "data_validation_score": 0.7014285714285714,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Item",
+      "Name",
+      "Pack",
+      "Opening",
+      "Received",
+      "Issued",
+      "Closing"
+    ],
+    "normalized": [
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Received",
+      "Issued",
+      "Closing"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.4545714285714286,
+      "evidence_scores": {
+        "keyword_score": 0.7777777777777778,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7014285714285714,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8698015873015873,
+      "evidence_before_penalties": 0.8698015873015873
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Received",
+          "Issued",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8545714285714286
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Received",
+      "Issued",
+      "Closing"
+    ]
+  }
+}

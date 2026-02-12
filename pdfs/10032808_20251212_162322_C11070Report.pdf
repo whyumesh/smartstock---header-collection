@@ -1,0 +1,117 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                                                                                                                                ) Tj
+T* (                                   SOL PHARMA                                                                                                                                                         ) Tj
+T* (                                                                                                                                                                                                                ) Tj
+T* (                               PALAKKAD. - 678001                                                                                                                                                     ) Tj
+T* (                                                                                                                                                                                                                ) Tj
+T* (Stock & Sales Report From 01/11/2025 To 30/11/2025                                                                                                                                                   ) Tj
+T* (Company Name : ABBOTT DERMA - .                                                                                                                                                                                 ) Tj
+T* (================================================================================================================================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur PFree  PurRet       Sep   Oct      Sale     SFree OthFr SRet    Repl CurStk    StkVal OrdQt OrdFr  Pend.Ord    SalVal Exp Age     Rate Last PDate  Pcode ) Tj
+T* (================================================================================================================================================================================================================) Tj
+T* (1   FACE GUARD TVAKSH         30 GM       0         -     -       -         0     0         -         -     -    -       -      0         -     -     -         -      0.00   Y 268   305.70          -    395 ) Tj
+T* (2   FACECLIN AT 15 GM         15 GM       7         -     -       -         4     3         1         -     -    -       -      6   1484.16     -     -         0    274.84   -  17   247.36 02/06/2025    931 ) Tj
+T* (3   FACECLIN GEL 20 GM        20 GM      19        20     -       -         8    17        15         -     -    -       -     24   3633.84     -     -         0   2446.21   -   4   151.41 26/11/2025    932 ) Tj
+T* (4   MELAGLOW CREAM            15 GM      24         -     -       -         3     8         7         -     -    -       -     17   4584.73     -     -        -6   2019.71   -   3   269.69 29/10/2025    410 ) Tj
+T* (5   MELAGLOW RICH CREAM       20G        11         -     -       -         9     0         3         -     -    -       -      8   2821.44     -     -        -6   1144.26   -  17   352.68 30/08/2025    411 ) Tj
+T* (6   MELALITE CREAM 15         30 GM       9         -     -       -         9     3         3         -     -    -       -      6    862.32     -     -         0    472.52   -   1   143.72 02/10/2025   1342 ) Tj
+T* (7   MELALITE FORTE CREAM 30 G 30 GMS     17         -     -       -        16     2         9         -     -    -       -      8    963.04     6     -         0   1179.27   -   9   120.38 02/10/2025   1343 ) Tj
+T* (8   MELALITE XL 15 GM         15 GM      15         -     -       -         0     3         -         -     -    -       -     15   3645.90     -     -        -5      0.00   -  59   243.06 30/08/2025   1344 ) Tj
+T* (9   MINI CHECK 60 ML          60ML        6         -     -       -         2     3         1         -     -    -       -      5   3336.90     -     -         0    726.39   -  34   667.38 30/09/2025   1368 ) Tj
+T* (----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                               108        20     -       -        51    39        39         -     -    -       -     89         -     -     -         -         -   -   -        -          -      - ) Tj
+T* (----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:    25923.20 Purc.Value: :     3028.20 Sales Value::     8263.20                                                                                                                                    ) Tj
+T* (Cl.Stk Val:     21332.33 Pur.RetVal ::        0.00 SalRet Val: :        0.00                                                                                                                                    ) Tj
+T* (Oct Sal:         9373.00 Sep Sal:    :    11562.00 NetSal\(GVal\):     8263.20                                                                                                                                  ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:        0.00                                                                                                                                    ) Tj
+T* (                                                                                                                                                                                                                ) Tj
+T* (                                       *** END OF REPORT ***                                                                                                                                                    ) Tj
+T* (                                                                                                                                                                                                                ) Tj
+ET
+endstream
+endobj
+9 0 obj
+2655
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 1100 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000003221 00000 n
+0000003300 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000003198 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+3393
+%%EOF

@@ -1,0 +1,167 @@
+{
+  "pdf_path": "pdfs\\10036238_20260102_190402_RSERVE20260102140000.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 157.49940490722656,
+      "y_max": 169.5054168701172,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 31.357595443725586,
+      "y_max": 43.36359405517578,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "8182.74",
+        "0.00",
+        "0.00",
+        "3757.61",
+        "0.00",
+        "4803.50"
+      ],
+      "combined_confidence": 0.64375,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.6437499999999999,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "GRAND",
+    "Tot",
+    "8182.74",
+    "0.00",
+    "0.00",
+    "3757.61",
+    "0.00",
+    "4803.50"
+  ],
+  "confidence": 0.64375,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.6437499999999999,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "GRAND",
+      "TOTAL",
+      "8182.74",
+      "0.00",
+      "0.00",
+      "3757.61",
+      "0.00",
+      "4803.50"
+    ],
+    "normalized": [
+      "GRAND",
+      "Tot",
+      "8182.74",
+      "0.00",
+      "0.00",
+      "3757.61",
+      "0.00",
+      "4803.50"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.64375,
+      "evidence_scores": {
+        "keyword_score": 0.125,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.48125,
+      "evidence_before_penalties": 0.48125
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Rate"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.8888
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "8182.74",
+          "0.00",
+          "0.00",
+          "3757.61",
+          "0.00",
+          "4803.50"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.64375
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=20 data=16 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=16 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "GRAND",
+      "Tot",
+      "8182.74",
+      "0.00",
+      "0.00",
+      "3757.61",
+      "0.00",
+      "4803.50"
+    ]
+  }
+}

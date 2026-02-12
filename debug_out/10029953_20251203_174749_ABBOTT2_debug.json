@@ -1,0 +1,237 @@
+{
+  "pdf_path": "pdfs\\10029953_20251203_174749_ABBOTT2.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 69.20108032226562,
+      "y_max": 78.87578582763672,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 147.01004028320312,
+      "y_max": 156.68475341796875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 30.29702377319336,
+      "y_max": 39.97173309326172,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "THYRONORM",
+        "12.5",
+        "MG",
+        "100'S",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.732771978021978,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5307692307692308,
+      "data_validation_score": 0.7455906593406593,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "THYRONORM",
+    "12.5",
+    "MG",
+    "100'S",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.732771978021978,
+  "confidence_breakdown": {
+    "visual_score": 0.75,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.5307692307692308,
+    "data_validation_score": 0.7455906593406593,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "THYRONORM",
+      "12.5",
+      "MG",
+      "100'S",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "THYRONORM",
+      "12.5",
+      "MG",
+      "100'S",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.732771978021978,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7455906593406593,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.6197309981684982,
+      "evidence_before_penalties": 0.6197309981684982
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7919149273459618
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8019806763285025
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "THYRONORM",
+          "12.5",
+          "MG",
+          "100'S",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.732771978021978
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "THYRONORM",
+      "12.5",
+      "MG",
+      "100'S",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "pdf_path": "pdfs\\10016290_20260102_201711_ABBOTT HELTHCARE SST DEC.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 2,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    },
+    {
+      "page_no": 3,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 4,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 5,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 6,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 6,
+      "headers": [
+        "SUPPLIER",
+        "Product Name",
+        "Invoice No",
+        "NO.",
+        "Date",
+        "RECEIVE",
+        "Date",
+        "Amount"
+      ],
+      "combined_confidence": 0.26012500000000005,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.8375,
+      "data_validation_score": 0.738125,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "SUPPLIER",
+    "Product Name",
+    "Invoice No",
+    "NO.",
+    "Date",
+    "RECEIVE",
+    "Date",
+    "Amount"
+  ],
+  "confidence": 0.26012500000000005,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.8375,
+    "data_validation_score": 0.738125,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SUPPLIER",
+      "NAME",
+      "INVOICE",
+      "NO.",
+      "DATE",
+      "RECEIVE",
+      "DATE",
+      "AMOUNT"
+    ],
+    "normalized": [
+      "SUPPLIER",
+      "Product Name",
+      "Invoice No",
+      "NO.",
+      "Date",
+      "RECEIVE",
+      "Date",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.26012500000000005,
+      "evidence_scores": {
+        "keyword_score": 0.4,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.738125,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.14285714285714285
+      },
+      "evidence_total": 0.6363169642857143,
+      "evidence_before_penalties": 0.6363169642857143
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8380336134453781
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ABBOTT",
+          "CARDIAC",
+          "CARDIAC",
+          "CARDIAC",
+          "TASK",
+          "FORCE",
+          "{Piramal}",
+          "{Piramal}"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6810669172932331
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "GANATON",
+          "OD",
+          "324.41",
+          "2595.28",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "2595.28"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6936042120551926
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8423809523809523
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "ABBOTT",
+          "ABBOTT",
+          "RESPICARE",
+          "RESPICARE",
+          "DIV"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.6725133333333334
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ABBOTT",
+          "SPECTRA",
+          "SPECTRA",
+          "SPECTRA"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6839000000000001
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "SUPPLIER",
+          "Product Name",
+          "Invoice No",
+          "NO.",
+          "Date",
+          "RECEIVE",
+          "Date",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8101250000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=15 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=5 data=13 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=13 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=4 data=12 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=12 diff=8"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "SUPPLIER",
+      "Product Name",
+      "Invoice No",
+      "NO.",
+      "Date",
+      "RECEIVE",
+      "Date",
+      "Amount"
+    ]
+  }
+}

@@ -1,0 +1,769 @@
+{
+  "pdf_path": "pdfs\\10033102_20260101_130016_REPORT_7D30OKE0O.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 258.7380065917969,
+      "y_max": 270.4380187988281,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 5,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 6,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 7,
+      "y_min": 185.23800659179688,
+      "y_max": 196.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=10"
+    },
+    {
+      "page_no": 8,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 9,
+      "y_min": 122.23800659179688,
+      "y_max": 133.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 10,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 11,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 12,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 13,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 14,
+      "y_min": 195.73800659179688,
+      "y_max": 207.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=10"
+    },
+    {
+      "page_no": 15,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    },
+    {
+      "page_no": 16,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "BRUFEN",
+        "MRP",
+        "10'S",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.4960570175438597,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5750000000000001,
+      "data_validation_score": 0.7302850877192982,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "COLOSPA",
+        "TAB",
+        "15'S",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5758111251157422,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7457222922453774,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 12,
+      "headers": [
+        "GAROIN",
+        "TAB",
+        "60Mg",
+        "100S",
+        "100S",
+        "677.38",
+        "-",
+        "0.00",
+        "307.20",
+        "406.43"
+      ],
+      "combined_confidence": 0.15840486322188452,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.59,
+      "data_validation_score": 0.7020243161094225,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 15,
+      "headers": [
+        "ZREJOINT",
+        "TAB",
+        "10`S",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5467885763000854,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7506095481670929,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 16,
+      "headers": [
+        "ZESGIPYRIN",
+        "INSTAGEL",
+        "50Gm",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.721950700280112,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7514201680672269,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "ZESGIPYRIN",
+    "INSTAGEL",
+    "50Gm",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.721950700280112,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.5583333333333333,
+    "data_validation_score": 0.7514201680672269,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ZESGIPYRIN",
+      "INSTAGEL",
+      "50GM",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "ZESGIPYRIN",
+      "INSTAGEL",
+      "50Gm",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=12"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.721950700280112,
+      "evidence_scores": {
+        "keyword_score": 0.2857142857142857,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7514201680672269,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.058823529411764705
+      },
+      "evidence_total": 0.6651659663865546,
+      "evidence_before_penalties": 0.6651659663865546
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8390000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "BRUFEN",
+          "MRP",
+          "10'S",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6960570175438597
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ROWASA",
+          "500Mg",
+          "SACH",
+          "500Mg",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7362171950856162
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8483308823529412
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7121066666666667
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "COLOSPA",
+          "TAB",
+          "15'S",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7258111251157422
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "PROTHIADIN",
+          "15S",
+          "15S",
+          "2241.30",
+          "4482.60",
+          "3984.58",
+          "2913.69",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7320287885007712
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8334621848739496
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Tot",
+          "Tot",
+          "3073.70",
+          "6147.40",
+          "6147.40",
+          "2557.97",
+          "2557.97",
+          "6688.72"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6822272263450835
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "GLUFORMIN",
+          "0.5",
+          "15S",
+          "1167.48",
+          "4314.60",
+          "1480.50",
+          "4162.32",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7284109362859363
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8404464285714286
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "KENACORT",
+          "10Mg",
+          "INJ",
+          "VIAL",
+          "1284.78",
+          "1529.50",
+          "1359.60",
+          "1590.68"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7301579727689926
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "GAROIN",
+          "TAB",
+          "60Mg",
+          "100S",
+          "100S",
+          "677.38",
+          "-",
+          "0.00",
+          "307.20",
+          "406.43"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7084048632218846
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "BETONIN",
+          "AST",
+          "225Ml",
+          "225Ml",
+          "10549.92",
+          "-",
+          "0.00",
+          "1512.56",
+          "9188.64"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7086414927261228
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8276249999999999
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "ZREJOINT",
+          "TAB",
+          "10`S",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6967885763000854
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "ZESGIPYRIN",
+          "INSTAGEL",
+          "50Gm",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.721950700280112
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=13 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=6 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=8 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=17 data=11 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=11 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=8 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=16 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=8 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=16 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=11 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ZESGIPYRIN",
+      "INSTAGEL",
+      "50Gm",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

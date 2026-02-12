@@ -1,0 +1,149 @@
+{
+  "pdf_path": "pdfs\\10000992_20251204_121747_AB_IND.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 238.13511657714844,
+      "y_max": 250.14112854003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 1,
+      "y_min": 135.2374725341797,
+      "y_max": 147.2434844970703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "SNO.",
+        "PARTICULARS",
+        "Pack",
+        "Quantity",
+        "CASES",
+        "Rate",
+        "Amount"
+      ],
+      "combined_confidence": 0.6738165413533835,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.854796992481203,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "SNO.",
+        "PARTICULARS",
+        "Pack",
+        "Quantity",
+        "CASES",
+        "Rate",
+        "Amount"
+      ],
+      "combined_confidence": 0.6161632653061224,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.816530612244898,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "SNO.",
+    "PARTICULARS",
+    "Pack",
+    "Quantity",
+    "CASES",
+    "Rate",
+    "Amount"
+  ],
+  "confidence": 0.8738165413533835,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8142857142857143,
+    "data_validation_score": 0.854796992481203,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "SNO.",
+      "PARTICULARS",
+      "Pack",
+      "Quantity",
+      "CASES",
+      "Rate",
+      "Amount"
+    ],
+    "per_page": [
+      [
+        "SNO.",
+        "PARTICULARS",
+        "Pack",
+        "Quantity",
+        "CASES",
+        "Rate",
+        "Amount"
+      ],
+      [
+        "SNO.",
+        "PARTICULARS",
+        "Pack",
+        "Quantity",
+        "CASES",
+        "Rate",
+        "Amount"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SNO.",
+          "PARTICULARS",
+          "Pack",
+          "Quantity",
+          "CASES",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8238165413533836
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "SNO.",
+          "PARTICULARS",
+          "Pack",
+          "Quantity",
+          "CASES",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8161632653061225
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "SNO.",
+      "PARTICULARS",
+      "Pack",
+      "Quantity",
+      "CASES",
+      "Rate",
+      "Amount"
+    ],
+    "data_column_count_detected": 6,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

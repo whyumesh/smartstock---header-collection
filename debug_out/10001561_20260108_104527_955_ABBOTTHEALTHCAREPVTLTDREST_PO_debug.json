@@ -1,0 +1,122 @@
+{
+  "pdf_path": "pdfs\\10001561_20260108_104527_955_ABBOTTHEALTHCAREPVTLTDREST_PO.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 47.999961853027344,
+      "y_max": 55.999961853027344,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Op",
+        "NO.11-12,MEMAN",
+        "JAMAT,",
+        "RAJENDRA",
+        "BHAVAN,",
+        "Op",
+        "GENERAL",
+        "HOSPITAL,"
+      ],
+      "combined_confidence": 0.8099116200828157,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.66875,
+      "data_validation_score": 0.6558081004140787,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "Op",
+    "NO.11-12,MEMAN",
+    "JAMAT,",
+    "RAJENDRA",
+    "BHAVAN,",
+    "Op",
+    "GENERAL",
+    "HOSPITAL,"
+  ],
+  "confidence": 0.8099116200828157,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.66875,
+    "data_validation_score": 0.6558081004140787,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "SHOP",
+      "NO.11-12,MEMAN",
+      "JAMAT,",
+      "RAJENDRA",
+      "BHAVAN,",
+      "OPP",
+      "GENERAL",
+      "HOSPITAL,"
+    ],
+    "normalized": [
+      "Op",
+      "NO.11-12,MEMAN",
+      "JAMAT,",
+      "RAJENDRA",
+      "BHAVAN,",
+      "Op",
+      "GENERAL",
+      "HOSPITAL,"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=8"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.8099116200828157,
+      "evidence_scores": {
+        "keyword_score": 0.25,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6558081004140787,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7264520251035197,
+      "evidence_before_penalties": 0.7264520251035197
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Op",
+          "NO.11-12,MEMAN",
+          "JAMAT,",
+          "RAJENDRA",
+          "BHAVAN,",
+          "Op",
+          "GENERAL",
+          "HOSPITAL,"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8099116200828157
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Op",
+      "NO.11-12,MEMAN",
+      "JAMAT,",
+      "RAJENDRA",
+      "BHAVAN,",
+      "Op",
+      "GENERAL",
+      "HOSPITAL,"
+    ]
+  }
+}

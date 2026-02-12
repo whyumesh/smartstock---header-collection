@@ -1,0 +1,246 @@
+{
+  "pdf_path": "pdfs\\10005726_20260110_090740_ABBOTT HEALTHCARE (OSVITA)_StockAndSales_Jan_2026.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 95.71025085449219,
+      "y_max": 103.47339630126953,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Tran",
+        "Tran",
+        "Recd.",
+        "Recd.",
+        "Quantity",
+        "Quantity",
+        "Amount",
+        "Quantity"
+      ],
+      "combined_confidence": 0.33704761904761893,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.9285714285714286,
+      "data_validation_score": 0.6816666666666666,
+      "data_column_count_detected": 19
+    }
+  ],
+  "final_selected_header": [
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Tran",
+    "Tran",
+    "Recd.",
+    "Recd.",
+    "Quantity",
+    "Quantity",
+    "Amount",
+    "Quantity"
+  ],
+  "confidence": 0.33704761904761893,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.9285714285714286,
+    "data_validation_score": 0.6816666666666666,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Qty",
+      "Qty",
+      "Qty",
+      "Qty",
+      "F.Qty",
+      "Qty",
+      "Qty",
+      "F.Qty",
+      "F.Qty",
+      "Qty",
+      "Tran",
+      "Tran",
+      "Rec",
+      "Rec",
+      "Qty",
+      "Qty",
+      "F.Value",
+      "Qty"
+    ],
+    "normalized": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Tran",
+      "Tran",
+      "Recd.",
+      "Recd.",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Quantity"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 6
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 7
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 7
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 8
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 9
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 10
+      },
+      {
+        "split": "F.Qty",
+        "into": "F.Qty",
+        "interval_idx": 10
+      },
+      {
+        "split": "F.Qty",
+        "into": "F.Qty",
+        "interval_idx": 11
+      },
+      {
+        "split": "Tran",
+        "into": "Tran",
+        "interval_idx": 12
+      },
+      {
+        "split": "Tran",
+        "into": "Tran",
+        "interval_idx": 13
+      },
+      {
+        "split": "Rec",
+        "into": "Rec",
+        "interval_idx": 13
+      },
+      {
+        "split": "Rec",
+        "into": "Rec",
+        "interval_idx": 14
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 19,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=18 data=19"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.33704761904761893,
+      "evidence_scores": {
+        "keyword_score": 0.8888888888888888,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6816666666666666,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8301388888888889,
+      "evidence_before_penalties": 0.8301388888888889
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Tran",
+          "Tran",
+          "Recd.",
+          "Recd.",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 19,
+        "combined_confidence": 0.887047619047619
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Tran",
+      "Tran",
+      "Recd.",
+      "Recd.",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Quantity"
+    ]
+  }
+}

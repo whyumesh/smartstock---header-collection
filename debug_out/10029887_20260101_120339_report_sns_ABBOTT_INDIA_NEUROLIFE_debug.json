@@ -1,0 +1,165 @@
+{
+  "pdf_path": "pdfs\\10029887_20260101_120339_report_sns_ABBOTT_INDIA_NEUROLIFE.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 109.94307708740234,
+      "y_max": 120.14308166503906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Company:",
+        "Company:",
+        "ABBOTT",
+        "ABBOTT",
+        "INDIA",
+        "INDIA",
+        "NEUROLIFE",
+        "NEUROLIFE"
+      ],
+      "combined_confidence": 0.5664285714285714,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.6321428571428571,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "Company:",
+    "Company:",
+    "ABBOTT",
+    "ABBOTT",
+    "INDIA",
+    "INDIA",
+    "NEUROLIFE",
+    "NEUROLIFE"
+  ],
+  "confidence": 0.5664285714285714,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.6321428571428571,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Company:",
+      "Company:",
+      "ABBOTT",
+      "ABBOTT",
+      "INDIA",
+      "INDIA",
+      "NEUROLIFE",
+      "NEUROLIFE"
+    ],
+    "normalized": [
+      "Company:",
+      "Company:",
+      "ABBOTT",
+      "ABBOTT",
+      "INDIA",
+      "INDIA",
+      "NEUROLIFE",
+      "NEUROLIFE"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Company:",
+        "into": "Company:",
+        "interval_idx": 0
+      },
+      {
+        "split": "Company:",
+        "into": "Company:",
+        "interval_idx": 1
+      },
+      {
+        "split": "ABBOTT",
+        "into": "ABBOTT",
+        "interval_idx": 1
+      },
+      {
+        "split": "ABBOTT",
+        "into": "ABBOTT",
+        "interval_idx": 2
+      },
+      {
+        "split": "INDIA",
+        "into": "INDIA",
+        "interval_idx": 2
+      },
+      {
+        "split": "INDIA",
+        "into": "INDIA",
+        "interval_idx": 3
+      },
+      {
+        "split": "NEUROLIFE",
+        "into": "NEUROLIFE",
+        "interval_idx": 3
+      },
+      {
+        "split": "NEUROLIFE",
+        "into": "NEUROLIFE",
+        "interval_idx": 4
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 9,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=9"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5664285714285714,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6321428571428571,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7205357142857143,
+      "evidence_before_penalties": 0.7205357142857143
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Company:",
+          "Company:",
+          "ABBOTT",
+          "ABBOTT",
+          "INDIA",
+          "INDIA",
+          "NEUROLIFE",
+          "NEUROLIFE"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7164285714285714
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Company:",
+      "Company:",
+      "ABBOTT",
+      "ABBOTT",
+      "INDIA",
+      "INDIA",
+      "NEUROLIFE",
+      "NEUROLIFE"
+    ]
+  }
+}

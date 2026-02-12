@@ -1,0 +1,107 @@
+{
+  "pdf_path": "pdfs\\10034008_20260110_130727_rptMonthlySalesAndStock7160202673317500.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 86.29998779296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Closing",
+        "PTR",
+        "1672.65",
+        "1672.65",
+        "1672.65"
+      ],
+      "combined_confidence": 0.4011176811594203,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7999999999999999,
+      "semantic_score": 0.76,
+      "data_validation_score": 0.6205884057971015,
+      "data_column_count_detected": 4
+    }
+  ],
+  "final_selected_header": [
+    "Closing",
+    "PTR",
+    "1672.65",
+    "1672.65",
+    "1672.65"
+  ],
+  "confidence": 0.4011176811594203,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.7999999999999999,
+    "semantic_score": 0.76,
+    "data_validation_score": 0.6205884057971015,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Closing",
+      "(PTR)",
+      "1672.65",
+      "1672.65",
+      "1672.65"
+    ],
+    "normalized": [
+      "Closing",
+      "PTR",
+      "1672.65",
+      "1672.65",
+      "1672.65"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 4,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=4"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.4011176811594203,
+      "evidence_scores": {
+        "keyword_score": 0.4,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6205884057971015,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.6926471014492753,
+      "evidence_before_penalties": 0.6926471014492753
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "PTR",
+          "1672.65",
+          "1672.65",
+          "1672.65"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7511176811594203
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Closing",
+      "PTR",
+      "1672.65",
+      "1672.65",
+      "1672.65"
+    ]
+  }
+}

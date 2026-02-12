@@ -1,0 +1,112 @@
+{
+  "pdf_path": "pdfs\\10015925_20251221_123021_REPORT_7CQ0QMYBQ.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 185.23797607421875,
+      "y_max": 196.93797302246094,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "COLOSPA",
+        "TAB",
+        ":10",
+        "GST",
+        "10:0"
+      ],
+      "combined_confidence": 0.026550000000000018,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.64,
+      "data_validation_score": 0.6677500000000001,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "COLOSPA",
+    "TAB",
+    ":10",
+    "GST",
+    "10:0"
+  ],
+  "confidence": 0.026550000000000018,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.64,
+    "data_validation_score": 0.6677500000000001,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "COLOSPA",
+      "TAB",
+      ":10",
+      "TA:",
+      "10:0"
+    ],
+    "normalized": [
+      "COLOSPA",
+      "TAB",
+      ":10",
+      "GST",
+      "10:0"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "a",
+      "X",
+      ":"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.026550000000000018,
+      "evidence_scores": {
+        "keyword_score": 0.2,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6677500000000001,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.6004375,
+      "evidence_before_penalties": 0.6004375
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "COLOSPA",
+          "TAB",
+          ":10",
+          "GST",
+          "10:0"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7765500000000001
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "COLOSPA",
+      "TAB",
+      ":10",
+      "GST",
+      "10:0"
+    ]
+  }
+}

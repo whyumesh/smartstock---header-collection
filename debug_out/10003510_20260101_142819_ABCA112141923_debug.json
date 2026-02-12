@@ -1,0 +1,206 @@
+{
+  "pdf_path": "pdfs\\10003510_20260101_142819_ABCA112141923.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 88.8434829711914,
+      "y_max": 96.3434829711914,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=18"
+    },
+    {
+      "page_no": 1,
+      "y_min": 66.5564956665039,
+      "y_max": 74.0564956665039,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=18"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Op",
+        "Purchase",
+        "Purchase",
+        "Quantity",
+        "Sale",
+        "Amt",
+        "Sale",
+        "Ret³Damage",
+        "Cl",
+        "Quantity",
+        "Cl",
+        "Amt"
+      ],
+      "combined_confidence": 0.0,
+      "visual_score": 0.9,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.875,
+      "data_validation_score": 0.65,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Product Name",
+    "Op",
+    "Purchase",
+    "Purchase",
+    "Quantity",
+    "Sale",
+    "Amt",
+    "Sale",
+    "Ret³Damage",
+    "Cl",
+    "Quantity",
+    "Cl",
+    "Amt"
+  ],
+  "confidence": 0.0,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.875,
+    "data_validation_score": 0.65,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "³SNo³Item",
+      "Name",
+      "Opening",
+      "³Purchase",
+      "³Pur.Retu³Sale",
+      "Qty",
+      "Sale",
+      "Amt",
+      "³Sale",
+      "Ret³Damage",
+      "Q³Clo.",
+      "Qty",
+      "Clo.",
+      "Amt"
+    ],
+    "normalized": [
+      "Product Name",
+      "Product Name",
+      "Op",
+      "Purchase",
+      "Purchase",
+      "Quantity",
+      "Sale",
+      "Amt",
+      "Sale",
+      "Ret³Damage",
+      "Cl",
+      "Quantity",
+      "Cl",
+      "Amt"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "³",
+      "³",
+      "³",
+      "³"
+    ],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=14 data=13"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.0,
+      "evidence_scores": {
+        "keyword_score": 0.8125,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.65,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.753125,
+      "evidence_before_penalties": 0.753125
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Quantity",
+          "Sale",
+          "Amt",
+          "Sale",
+          "Ret³Damage",
+          "Cl",
+          "Quantity",
+          "Cl",
+          "Amt"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8300000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Quantity",
+          "Sale",
+          "Amt",
+          "Sale",
+          "Ret³Damage",
+          "Cl",
+          "Quantity",
+          "Cl",
+          "Amt"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8296218487394958
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Product Name",
+      "Op",
+      "Purchase",
+      "Purchase",
+      "Quantity",
+      "Sale",
+      "Amt",
+      "Sale",
+      "Ret³Damage",
+      "Cl",
+      "Quantity",
+      "Cl",
+      "Amt"
+    ]
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "pdf_path": "pdfs\\10035849_20260102_131413_abbott.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 3,
+      "y_min": 310.89398193359375,
+      "y_max": 325.1939697265625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 4,
+      "y_min": 184.89398193359375,
+      "y_max": 199.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 6,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5701333333333334,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.634,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "LORSAID",
+        "INJ",
+        "INJ",
+        "-83",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.5969318181818182,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5666666666666667,
+      "data_validation_score": 0.7179924242424242,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "ABBOTT",
+        "INDIA",
+        "INDIA",
+        "LTD.",
+        "INSULINS"
+      ],
+      "combined_confidence": 0.5237672727272727,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.6688363636363637,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "UVOX",
+        "10*10",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.3976550893550894,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5333333333333333,
+      "data_validation_score": 0.7174421134421135,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "LORSAID",
+    "INJ",
+    "INJ",
+    "-83",
+    "-",
+    "-"
+  ],
+  "confidence": 0.5969318181818182,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.5666666666666667,
+    "data_validation_score": 0.7179924242424242,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "LORSAID",
+      "INJ",
+      "INJ",
+      "-83",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "LORSAID",
+      "INJ",
+      "INJ",
+      "-83",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "83"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=6"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5969318181818182,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7179924242424242,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.14285714285714285
+      },
+      "evidence_total": 0.7007838203463203,
+      "evidence_before_penalties": 0.7007838203463203
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7701333333333333
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "KENACORT",
+          "40Mg",
+          "INJ",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.748310294117647
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "LORSAID",
+          "INJ",
+          "INJ",
+          "-83",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7469318181818182
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "INDIA",
+          "LTD.",
+          "INSULINS"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6737672727272728
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "24Mg",
+          "I*7",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.694225272521596
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "UVOX",
+          "10*10",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6976550893550895
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Tot",
+          "614722.00"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7572769230769232
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=4 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=6 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=2 data=8 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=2 data=8 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "LORSAID",
+      "INJ",
+      "INJ",
+      "-83",
+      "-",
+      "-"
+    ]
+  }
+}

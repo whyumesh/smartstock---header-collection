@@ -1,0 +1,502 @@
+{
+  "pdf_path": "pdfs\\10014259_20251231_161550_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 2,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 3,
+      "y_min": 122.23800659179688,
+      "y_max": 133.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 5,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 6,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 7,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 8,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "CALAPTIN",
+        "40Mg",
+        "TAB",
+        "1*30",
+        "STR",
+        "36:0",
+        "680.40",
+        "80:0",
+        "1503.20",
+        "39:0",
+        "805.92",
+        "77:0",
+        "1455.30",
+        "1:0"
+      ],
+      "combined_confidence": 0.49673949579831933,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7336974789915967,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "KENACORT",
+        "10Mg",
+        "ING",
+        "VIAL",
+        "STR",
+        "606.72",
+        "-",
+        "0.00",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.28026874373613503,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.575,
+      "data_validation_score": 0.7263437186806753,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "ESOKEM-D",
+        "TAB",
+        "1X15",
+        "STR",
+        "6:0",
+        "681.30",
+        "-",
+        "0.00",
+        "6:0",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5864192208757427,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5769230769230769,
+      "data_validation_score": 0.7176730274556361,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "INDERAL",
+        "TAB",
+        "1X15",
+        "STR",
+        "40:0",
+        "1572.00",
+        "20:0",
+        "707.00",
+        "16:0",
+        "628.48",
+        "44:0",
+        "1729.20",
+        "-"
+      ],
+      "combined_confidence": 0.4961985977823082,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5923076923076922,
+      "data_validation_score": 0.7386852966038486,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "ESOKEM-D",
+    "TAB",
+    "1X15",
+    "STR",
+    "6:0",
+    "681.30",
+    "-",
+    "0.00",
+    "6:0",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.5864192208757427,
+  "confidence_breakdown": {
+    "visual_score": 0.75,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.5769230769230769,
+    "data_validation_score": 0.7176730274556361,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ESOKEM-D",
+      "TAB",
+      "1X15",
+      "STR",
+      "6:0",
+      "681.30",
+      "-",
+      "0.00",
+      "6:0",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "ESOKEM-D",
+      "TAB",
+      "1X15",
+      "STR",
+      "6:0",
+      "681.30",
+      "-",
+      "0.00",
+      "6:0",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=12"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5864192208757427,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7176730274556361,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.1111111111111111
+      },
+      "evidence_total": 0.5280293679750201,
+      "evidence_before_penalties": 0.5280293679750201
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8256249999999999
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "CALAPTIN",
+          "40Mg",
+          "TAB",
+          "1*30",
+          "STR",
+          "36:0",
+          "680.40",
+          "80:0",
+          "1503.20",
+          "39:0",
+          "805.92",
+          "77:0",
+          "1455.30",
+          "1:0"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7967394957983194
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Cl",
+          "10Mg",
+          "TAB",
+          "1X10",
+          "STR",
+          "10:0",
+          "721.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "10:0",
+          "721.00",
+          "10:0"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7211784906270201
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8313247863247863
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Tot",
+          "Tot",
+          "3440.40",
+          "0.00",
+          "0.00",
+          "2511.12",
+          "2511.12",
+          "565.20",
+          "565.20"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.680590738953239
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "KENACORT",
+          "10Mg",
+          "ING",
+          "VIAL",
+          "STR",
+          "606.72",
+          "-",
+          "0.00",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.730268743736135
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8244117647058824
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "ESOKEM-D",
+          "TAB",
+          "1X15",
+          "STR",
+          "6:0",
+          "681.30",
+          "-",
+          "0.00",
+          "6:0",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7364192208757427
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "INDERAL",
+          "TAB",
+          "1X15",
+          "STR",
+          "40:0",
+          "1572.00",
+          "20:0",
+          "707.00",
+          "16:0",
+          "628.48",
+          "44:0",
+          "1729.20",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7961985977823082
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ESOKEM-D",
+      "TAB",
+      "1X15",
+      "STR",
+      "6:0",
+      "681.30",
+      "-",
+      "0.00",
+      "6:0",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

@@ -1,0 +1,494 @@
+{
+  "pdf_path": "pdfs\\10023761_20260102_112953_ABH.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.82604217529297,
+      "y_max": 105.66566467285156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 59.125389099121094,
+      "y_max": 66.96501159667969,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 242.45155334472656,
+      "y_max": 250.2911834716797,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 194.20790100097656,
+      "y_max": 202.0475311279297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 4,
+      "y_min": 88.0707015991211,
+      "y_max": 95.91032409667969,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    },
+    {
+      "page_no": 5,
+      "y_min": 88.0711898803711,
+      "y_max": 95.91081237792969,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=12"
+    },
+    {
+      "page_no": 6,
+      "y_min": 20.52992820739746,
+      "y_max": 28.369552612304688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 7,
+      "y_min": 97.7203598022461,
+      "y_max": 105.55998229980469,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 8,
+      "y_min": 145.96449279785156,
+      "y_max": 153.8041229248047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 9,
+      "y_min": 30.17860984802246,
+      "y_max": 38.01823425292969,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 10,
+      "y_min": 26.96630096435547,
+      "y_max": 34.80592346191406,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "ORAHEX",
+        "ORAHEX",
+        "PRO",
+        "PRO",
+        "Out.",
+        "Out.",
+        "Out.",
+        "40590.57"
+      ],
+      "combined_confidence": 0.1545982142857143,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.73125,
+      "data_validation_score": 0.6167410714285715,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "NUTRICERAT",
+        "NUTRICERAT",
+        "NUTRICERAT",
+        "NUTRICERAT",
+        "INTENSE",
+        "INTENSE",
+        "INTENSE",
+        "INTENSE"
+      ],
+      "combined_confidence": 0.40867428571428577,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.76,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.5933714285714285,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "LOBATE",
+        "LOBATE",
+        "LOBATE",
+        "OINTMENT",
+        "OINTMENT",
+        "OINTMENT",
+        "OINTMENT",
+        "OINTMENT",
+        "178.32",
+        "1272.17",
+        "1272.17",
+        "7817.51"
+      ],
+      "combined_confidence": 0.2874619275461381,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.5873096377306903,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "ROWASA",
+        "ROWASA",
+        "OD",
+        "OD",
+        "MG",
+        "GST"
+      ],
+      "combined_confidence": 0.287514534883721,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.7999999999999999,
+      "semantic_score": 0.6333333333333333,
+      "data_validation_score": 0.6542393410852713,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "SIAGLIDE-M",
+        "SIAGLIDE-M",
+        "SIAGLIDE-M",
+        "OD",
+        "OD",
+        "OD"
+      ],
+      "combined_confidence": 0.5572,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.74,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.611,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "ALINFEC",
+        "ALINFEC",
+        "500/2Ml",
+        "500/2Ml",
+        "500/2Ml",
+        "INJ"
+      ],
+      "combined_confidence": 0.5624444444444445,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.76,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.6122222222222222,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "ALINFEC",
+    "ALINFEC",
+    "500/2Ml",
+    "500/2Ml",
+    "500/2Ml",
+    "INJ"
+  ],
+  "confidence": 0.5624444444444445,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.76,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.6122222222222222,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ALINFEC",
+      "ALINFEC",
+      "500/2ML",
+      "500/2ML",
+      "500/2ML",
+      "INJ"
+    ],
+    "normalized": [
+      "ALINFEC",
+      "ALINFEC",
+      "500/2Ml",
+      "500/2Ml",
+      "500/2Ml",
+      "INJ"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "ALINFEC",
+        "into": "ALINFEC",
+        "interval_idx": 0
+      },
+      {
+        "split": "ALINFEC",
+        "into": "ALINFEC",
+        "interval_idx": 1
+      },
+      {
+        "split": "500/2ML",
+        "into": "500/2ML",
+        "interval_idx": 2
+      },
+      {
+        "split": "500/2ML",
+        "into": "500/2ML",
+        "interval_idx": 3
+      },
+      {
+        "split": "500/2ML",
+        "into": "500/2ML",
+        "interval_idx": 4
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 5,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=5"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5624444444444445,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6122222222222222,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.07692307692307693
+      },
+      "evidence_total": 0.6232478632478632,
+      "evidence_before_penalties": 0.6232478632478632
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Op",
+          "Rcpt",
+          "NovLa",
+          "NovLastSal",
+          "Sales",
+          "Free Quantity",
+          "Amount",
+          "Adj",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.8066713286713287
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ICIKINASE",
+          "ICIKINASE",
+          "ICIKINASE",
+          "STREPTOKIN",
+          "STREPTOKIN",
+          "STREPTOKIN"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7033627906976745
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ORAHEX",
+          "ORAHEX",
+          "PRO",
+          "PRO",
+          "Out.",
+          "Out.",
+          "Out.",
+          "40590.57"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7045982142857143
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "NUTRICERAT",
+          "NUTRICERAT",
+          "NUTRICERAT",
+          "NUTRICERAT",
+          "INTENSE",
+          "INTENSE",
+          "INTENSE",
+          "INTENSE"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7086742857142858
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "LOBATE",
+          "LOBATE",
+          "LOBATE",
+          "OINTMENT",
+          "OINTMENT",
+          "OINTMENT",
+          "OINTMENT",
+          "OINTMENT",
+          "178.32",
+          "1272.17",
+          "1272.17",
+          "7817.51"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6874619275461381
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "MINICHEK",
+          "Quantity",
+          "HAIR",
+          "11899.56",
+          "8302.65",
+          "9150.18"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7453264411027569
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "ROWASA",
+          "ROWASA",
+          "OD",
+          "OD",
+          "MG",
+          "GST"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.737514534883721
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "SIAGLIDE-M",
+          "SIAGLIDE-M",
+          "SIAGLIDE-M",
+          "OD",
+          "OD",
+          "OD"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7072
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "ALINFEC",
+          "ALINFEC",
+          "500/2Ml",
+          "500/2Ml",
+          "500/2Ml",
+          "INJ"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7124444444444445
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "WYMOX",
+          "WYMOX",
+          "SUSP",
+          "30Ml"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6810690476190476
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "1355259.02",
+          "1457205.87",
+          "3040919.40"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6505714285714286
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=3 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=3 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=6 data=10 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=10 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=6 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=8 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=3 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=6 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ALINFEC",
+      "ALINFEC",
+      "500/2Ml",
+      "500/2Ml",
+      "500/2Ml",
+      "INJ"
+    ]
+  }
+}

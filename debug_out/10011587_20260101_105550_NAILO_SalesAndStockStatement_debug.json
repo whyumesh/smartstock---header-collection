@@ -1,0 +1,283 @@
+{
+  "pdf_path": "pdfs\\10011587_20260101_105550_NAILO_SalesAndStockStatement.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 155.09716796875,
+      "y_max": 162.09716796875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 1,
+      "y_min": 105.20745086669922,
+      "y_max": 112.20745086669922,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 105.20745086669922,
+      "y_max": 112.20745086669922,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 47.09719467163086,
+      "y_max": 54.09719467163086,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "583056.79",
+        "789341.44",
+        "739152.19",
+        "5078.50",
+        "665157.14"
+      ],
+      "combined_confidence": 0.255,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.65,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "GRAND",
+    "Tot",
+    "583056.79",
+    "789341.44",
+    "739152.19",
+    "5078.50",
+    "665157.14"
+  ],
+  "confidence": 0.255,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.65,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "GRAND",
+      "TOTAL",
+      "583056.79",
+      "789341.44",
+      "739152.19",
+      "5078.50",
+      "665157.14"
+    ],
+    "normalized": [
+      "GRAND",
+      "Tot",
+      "583056.79",
+      "789341.44",
+      "739152.19",
+      "5078.50",
+      "665157.14"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "0",
+      "61549",
+      "11920"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.255,
+      "evidence_scores": {
+        "keyword_score": 0.14285714285714285,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.4067142857142857,
+      "evidence_before_penalties": 0.4067142857142857
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate"
+        ],
+        "data_column_count_detected": 19,
+        "combined_confidence": 0.8663448275862069
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate"
+        ],
+        "data_column_count_detected": 19,
+        "combined_confidence": 0.8651333333333334
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Rate"
+        ],
+        "data_column_count_detected": 20,
+        "combined_confidence": 0.8663448275862069
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "583056.79",
+          "789341.44",
+          "739152.19",
+          "5078.50",
+          "665157.14"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.655
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=29 data=19 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=29 data=19 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=30 data=19 diff=11",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=30 data=19 diff=11"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=29 data=20 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=29 data=20 diff=9"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "GRAND",
+      "Tot",
+      "583056.79",
+      "789341.44",
+      "739152.19",
+      "5078.50",
+      "665157.14"
+    ]
+  }
+}

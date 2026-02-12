@@ -1,0 +1,423 @@
+{
+  "pdf_path": "pdfs\\10023224_20260101_122411_Mailattach.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 86.52678680419922,
+      "y_max": 93.22840881347656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 136.01556396484375,
+      "y_max": 142.71717834472656,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 53.44404983520508,
+      "y_max": 60.145668029785156,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 20.451862335205078,
+      "y_max": 27.153480529785156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 4,
+      "y_min": 177.1662139892578,
+      "y_max": 183.86782836914062,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 5,
+      "y_min": 53.44453811645508,
+      "y_max": 60.146156311035156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 6,
+      "y_min": 28.700397491455078,
+      "y_max": 35.402015686035156,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 7,
+      "y_min": 36.94844436645508,
+      "y_max": 43.650062561035156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Oct",
+        "Nov",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Free Quantity",
+        "Adj",
+        "Cl",
+        "Sale",
+        "Cl",
+        "Age",
+        "Quantity"
+      ],
+      "combined_confidence": 0.2900952380952381,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.8642857142857142,
+      "data_validation_score": 0.7361904761904762,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "DUPHASTON",
+        "DUPHASTON",
+        "PRO",
+        "PRO",
+        "10Mg",
+        "10Mg",
+        "4S",
+        "4S"
+      ],
+      "combined_confidence": 0.5764816326530613,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.7999999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.6324081632653061,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "DUPHASTON",
+    "DUPHASTON",
+    "PRO",
+    "PRO",
+    "10Mg",
+    "10Mg",
+    "4S",
+    "4S"
+  ],
+  "confidence": 0.5764816326530613,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.7999999999999999,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.6324081632653061,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "DUPHASTON",
+      "DUPHASTON",
+      "PRO",
+      "PRO",
+      "10MG",
+      "10MG",
+      "4S",
+      "4S"
+    ],
+    "normalized": [
+      "DUPHASTON",
+      "DUPHASTON",
+      "PRO",
+      "PRO",
+      "10Mg",
+      "10Mg",
+      "4S",
+      "4S"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "DUPHASTON",
+        "into": "DUPHASTON",
+        "interval_idx": 0
+      },
+      {
+        "split": "DUPHASTON",
+        "into": "DUPHASTON",
+        "interval_idx": 1
+      },
+      {
+        "split": "PRO",
+        "into": "PRO",
+        "interval_idx": 1
+      },
+      {
+        "split": "PRO",
+        "into": "PRO",
+        "interval_idx": 2
+      },
+      {
+        "split": "10MG",
+        "into": "10MG",
+        "interval_idx": 2
+      },
+      {
+        "split": "10MG",
+        "into": "10MG",
+        "interval_idx": 3
+      },
+      {
+        "split": "4S",
+        "into": "4S",
+        "interval_idx": 3
+      },
+      {
+        "split": "4S",
+        "into": "4S",
+        "interval_idx": 4
+      }
+    ],
+    "noise_tokens_removed": [
+      "T"
+    ],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=8"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5764816326530613,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6324081632653061,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.09090909090909091
+      },
+      "evidence_total": 0.5491929499072356,
+      "evidence_before_penalties": 0.5491929499072356
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Oct",
+          "Nov",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Free Quantity",
+          "Adj",
+          "Cl",
+          "Sale",
+          "Cl",
+          "Age",
+          "Quantity"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8449591836734693
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Oct",
+          "Nov",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Free Quantity",
+          "Adj",
+          "Cl",
+          "Sale",
+          "Cl",
+          "Age",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8400952380952381
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "DIGENE",
+          "DIGENE",
+          "FIZZ",
+          "FIZZ",
+          "FIZZ",
+          "PWD",
+          "PWD",
+          "ORAN",
+          "ORAN",
+          "5Gm",
+          "5Gm"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.6816423923444976
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "DUPHASTON",
+          "DUPHASTON",
+          "PRO",
+          "PRO",
+          "10Mg",
+          "10Mg",
+          "4S",
+          "4S"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7264816326530613
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "LEVEMIR",
+          "LEVEMIR",
+          "Exp",
+          "Exp",
+          "Exp",
+          "INJ",
+          "3Ml",
+          "3Ml"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.6902134520474857
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "PRO",
+          "500Mg",
+          "500Mg",
+          "INJ",
+          "2Ml",
+          "2Ml",
+          "2Ml"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7381466666666667
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "THYRONORM",
+          "THYRONORM",
+          "MG",
+          "TAB",
+          "TAB",
+          "TAB",
+          "120'S",
+          "120'S"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6866059654631083
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "VERTIN",
+          "VERTIN",
+          "OD",
+          "OD",
+          "Mg",
+          "Mg",
+          "TAB",
+          "TAB",
+          "7S",
+          "7S"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7284809266756636
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=11 data=14 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=14 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=8 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=10 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=7 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "DUPHASTON",
+      "DUPHASTON",
+      "PRO",
+      "PRO",
+      "10Mg",
+      "10Mg",
+      "4S",
+      "4S"
+    ]
+  }
+}

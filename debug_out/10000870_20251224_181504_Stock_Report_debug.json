@@ -1,0 +1,182 @@
+{
+  "pdf_path": "pdfs\\10000870_20251224_181504_Stock_Report.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.56607818603516,
+      "y_max": 119.49007415771484,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 366.5660095214844,
+      "y_max": 374.4900207519531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "ROVAMYCIN",
+        "FORTE",
+        "|10'S",
+        "|",
+        "30|",
+        "|",
+        "|",
+        "28|",
+        "17330.88|",
+        "2|",
+        "1237.92"
+      ],
+      "combined_confidence": 0.6296350675016683,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.5727272727272728,
+      "data_validation_score": 0.7504480647810687,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "ROVAMYCIN",
+    "FORTE",
+    "|10'S",
+    "|",
+    "30|",
+    "|",
+    "|",
+    "28|",
+    "17330.88|",
+    "2|",
+    "1237.92"
+  ],
+  "confidence": 0.6296350675016683,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.5727272727272728,
+    "data_validation_score": 0.7504480647810687,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ROVAMYCIN",
+      "FORTE",
+      "|10'S",
+      "|",
+      "30|",
+      "|",
+      "|",
+      "28|",
+      "17330.88|",
+      "2|",
+      "1237.92"
+    ],
+    "normalized": [
+      "ROVAMYCIN",
+      "FORTE",
+      "|10'S",
+      "|",
+      "30|",
+      "|",
+      "|",
+      "28|",
+      "17330.88|",
+      "2|",
+      "1237.92"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "T"
+    ],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=11"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.6296350675016683,
+      "evidence_scores": {
+        "keyword_score": 0.125,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7504480647810687,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.6508620161952672,
+      "evidence_before_penalties": 0.6508620161952672
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particular",
+          "Particular",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Purchase",
+          "Amount",
+          "Sl.Qnt.",
+          "Amount",
+          "Cl",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8042692307692308
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ROVAMYCIN",
+          "FORTE",
+          "|10'S",
+          "|",
+          "30|",
+          "|",
+          "|",
+          "28|",
+          "17330.88|",
+          "2|",
+          "1237.92"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7796350675016683
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=11 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ROVAMYCIN",
+      "FORTE",
+      "|10'S",
+      "|",
+      "30|",
+      "|",
+      "|",
+      "28|",
+      "17330.88|",
+      "2|",
+      "1237.92"
+    ]
+  }
+}

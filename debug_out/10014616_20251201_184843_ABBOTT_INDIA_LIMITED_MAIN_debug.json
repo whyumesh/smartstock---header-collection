@@ -1,0 +1,231 @@
+{
+  "pdf_path": "pdfs\\10014616_20251201_184843_ABBOTT INDIA LIMITED MAIN.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 92.5074462890625,
+      "y_max": 98.29431915283203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 1,
+      "y_min": 110.5167236328125,
+      "y_max": 116.30359649658203,
+      "confidence": 0.9,
+      "reason": "header_keywords=11 tokens=16"
+    },
+    {
+      "page_no": 2,
+      "y_min": 141.3897705078125,
+      "y_max": 147.17665100097656,
+      "confidence": 0.9,
+      "reason": "header_keywords=11 tokens=16"
+    },
+    {
+      "page_no": 3,
+      "y_min": 20.39169692993164,
+      "y_max": 26.178516387939453,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "CITRO",
+        "SODA",
+        "UTI",
+        "SACHET",
+        "5G",
+        "5G"
+      ],
+      "combined_confidence": 0.7034872951609794,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7049364758048968,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "CITRO",
+    "SODA",
+    "UTI",
+    "SACHET",
+    "5G",
+    "5G"
+  ],
+  "confidence": 0.7034872951609794,
+  "confidence_breakdown": {
+    "visual_score": 0.75,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.7049364758048968,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "CITRO",
+      "SODA",
+      "UTI",
+      "SACHET",
+      "5G",
+      "5G"
+    ],
+    "normalized": [
+      "CITRO",
+      "SODA",
+      "UTI",
+      "SACHET",
+      "5G",
+      "5G"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=6"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7034872951609794,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7049364758048968,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.1
+      },
+      "evidence_total": 0.5862341189512242,
+      "evidence_before_penalties": 0.5862341189512242
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "Octprv",
+          "Inst",
+          "Adj",
+          "Sales",
+          "Cl",
+          "Stock",
+          "Sale",
+          "Amount",
+          "Transit",
+          "Order",
+          "Quantity",
+          "Age"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.843858695652174
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "Octprv",
+          "Inst",
+          "Adj",
+          "Sales",
+          "Cl",
+          "Stock",
+          "Sale",
+          "Amount",
+          "Transit",
+          "Order",
+          "Quantity",
+          "Age"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8422265625
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "Octprv",
+          "Inst",
+          "Adj",
+          "Sales",
+          "Cl",
+          "Stock",
+          "Sale",
+          "Amount",
+          "Transit",
+          "Order",
+          "Quantity",
+          "Age"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.8389090909090909
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "CITRO",
+          "SODA",
+          "UTI",
+          "SACHET",
+          "5G",
+          "5G"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7034872951609794
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=16 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=16 data=3 diff=13",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=3 diff=13"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "CITRO",
+      "SODA",
+      "UTI",
+      "SACHET",
+      "5G",
+      "5G"
+    ]
+  }
+}

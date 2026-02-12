@@ -1,0 +1,149 @@
+{
+  "pdf_path": "pdfs\\10032872_20251231_112745_stockandsalessummarised abbott.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 94.30000305175781,
+      "y_max": 103.65000915527344,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sale",
+        "Closing",
+        "Amount",
+        "Sale",
+        "Amount",
+        "Closing",
+        "Amount"
+      ],
+      "combined_confidence": 0.34711904761904755,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.9833333333333334,
+      "data_validation_score": 0.6772619047619047,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Tot",
+    "Sale",
+    "Closing",
+    "Amount",
+    "Sale",
+    "Amount",
+    "Closing",
+    "Amount"
+  ],
+  "confidence": 0.34711904761904755,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.9833333333333334,
+    "data_validation_score": 0.6772619047619047,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "PRODUCT",
+      "PACK",
+      "OPENING",
+      "PURCHASE",
+      "TOTAL",
+      "SALE",
+      "CLOSING",
+      "PUR.VALUE",
+      "SALE",
+      "VALUE",
+      "CLOSING",
+      "VALUE"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Tot",
+      "Sale",
+      "Closing",
+      "Amount",
+      "Sale",
+      "Amount",
+      "Closing",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=11"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.34711904761904755,
+      "evidence_scores": {
+        "keyword_score": 1.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6772619047619047,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8568154761904762,
+      "evidence_before_penalties": 0.8568154761904762
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sale",
+          "Closing",
+          "Amount",
+          "Sale",
+          "Amount",
+          "Closing",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8971190476190476
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Tot",
+      "Sale",
+      "Closing",
+      "Amount",
+      "Sale",
+      "Amount",
+      "Closing",
+      "Amount"
+    ]
+  }
+}

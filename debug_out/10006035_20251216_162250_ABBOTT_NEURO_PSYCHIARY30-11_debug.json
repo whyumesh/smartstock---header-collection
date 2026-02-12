@@ -1,0 +1,194 @@
+{
+  "pdf_path": "pdfs\\10006035_20251216_162250_ABBOTT NEURO PSYCHIARY30-11.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "SZETALO",
+        "LS",
+        "TAB",
+        "15'S",
+        "225.01",
+        "4500.20",
+        "-",
+        "0.00",
+        "4500.20",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.2552083333333334,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.575,
+      "data_validation_score": 0.7260416666666667,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "SZETALO",
+    "LS",
+    "TAB",
+    "15'S",
+    "225.01",
+    "4500.20",
+    "-",
+    "0.00",
+    "4500.20",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.2552083333333334,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.575,
+    "data_validation_score": 0.7260416666666667,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SZETALO",
+      "LS",
+      "TAB",
+      "15'S",
+      "225.01",
+      "4500.20",
+      "-",
+      "0.00",
+      "4500.20",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "SZETALO",
+      "LS",
+      "TAB",
+      "15'S",
+      "225.01",
+      "4500.20",
+      "-",
+      "0.00",
+      "4500.20",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "20",
+      "20"
+    ],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=11"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.2552083333333334,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7260416666666667,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.5330104166666667,
+      "evidence_before_penalties": 0.5330104166666667
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8164705882352941
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "SZETALO",
+          "LS",
+          "TAB",
+          "15'S",
+          "225.01",
+          "4500.20",
+          "-",
+          "0.00",
+          "4500.20",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7052083333333334
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "SZETALO",
+      "LS",
+      "TAB",
+      "15'S",
+      "225.01",
+      "4500.20",
+      "-",
+      "0.00",
+      "4500.20",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

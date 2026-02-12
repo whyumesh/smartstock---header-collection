@@ -1,0 +1,194 @@
+{
+  "pdf_path": "pdfs\\10000862_20260101_150949_Stock_Report.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 116.51602935791016,
+      "y_max": 124.44002532958984,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 243.11602783203125,
+      "y_max": 251.0400390625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 24.71603775024414,
+      "y_max": 32.640037536621094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Particular",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sl.Qnt.",
+        "Amount",
+        "Cl",
+        "Amount"
+      ],
+      "combined_confidence": 0.627909090909091,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.8624999999999999,
+      "data_validation_score": 0.8020454545454545,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "HUMAN",
+        "INSULATARD",
+        "INJ",
+        "1X10",
+        "ML",
+        "3.00",
+        "3.00",
+        "400.50"
+      ],
+      "combined_confidence": 0.7167666666666668,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7838333333333334,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "HUMAN",
+    "INSULATARD",
+    "INJ",
+    "1X10",
+    "ML",
+    "3.00",
+    "3.00",
+    "400.50"
+  ],
+  "confidence": 0.7667666666666667,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.7838333333333334,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "HUMAN",
+      "INSULATARD",
+      "INJ",
+      "1X10",
+      "ML",
+      "3.00",
+      "3.00",
+      "400.50"
+    ],
+    "per_page": [
+      [
+        "Particular",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sl.Qnt.",
+        "Amount",
+        "Cl",
+        "Amount"
+      ],
+      [
+        "HUMAN",
+        "INSULATARD",
+        "INJ",
+        "1X10",
+        "ML",
+        "3.00",
+        "3.00",
+        "400.50"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particular",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sl.Qnt.",
+          "Amount",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8279090909090909
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "HUMAN",
+          "INSULATARD",
+          "INJ",
+          "1X10",
+          "ML",
+          "3.00",
+          "3.00",
+          "400.50"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7167666666666668
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "RILIGOL",
+          "RILIGOL",
+          "INJ",
+          "1X1",
+          "1X1",
+          "ML",
+          "ML",
+          "30.00",
+          "30.00",
+          "30.00",
+          "8998.03"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7463636363636365
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=11 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=8 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "HUMAN",
+      "INSULATARD",
+      "INJ",
+      "1X10",
+      "ML",
+      "3.00",
+      "3.00",
+      "400.50"
+    ],
+    "data_column_count_detected": 8,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

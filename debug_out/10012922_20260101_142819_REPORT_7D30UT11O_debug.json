@@ -1,0 +1,128 @@
+{
+  "pdf_path": "pdfs\\10012922_20260101_142819_REPORT_7D30UT11O.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 79.89398193359375,
+      "y_max": 94.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "ANALYSIS",
+        "(Abbott",
+        "INDIA",
+        "LTD.,[METABOLICS])",
+        "-"
+      ],
+      "combined_confidence": 0.38214021887824895,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.675,
+      "data_validation_score": 0.7107010943912448,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "&",
+    "Sales",
+    "ANALYSIS",
+    "(Abbott",
+    "INDIA",
+    "LTD.,[METABOLICS])",
+    "-"
+  ],
+  "confidence": 0.38214021887824895,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.675,
+    "data_validation_score": 0.7107010943912448,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "STOCK",
+      "&",
+      "SALES",
+      "ANALYSIS",
+      "(ABBOTT",
+      "INDIA",
+      "LTD.,[METABOLICS])",
+      "-"
+    ],
+    "normalized": [
+      "Stock",
+      "&",
+      "Sales",
+      "ANALYSIS",
+      "(Abbott",
+      "INDIA",
+      "LTD.,[METABOLICS])",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "01-12-2025",
+      "31-12-2025"
+    ],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.38214021887824895,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7107010943912448,
+        "lexical_purity_score": 0.92,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7281752735978112,
+      "evidence_before_penalties": 0.7281752735978112
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "(Abbott",
+          "INDIA",
+          "LTD.,[METABOLICS])",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.832140218878249
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Stock",
+      "&",
+      "Sales",
+      "ANALYSIS",
+      "(Abbott",
+      "INDIA",
+      "LTD.,[METABOLICS])",
+      "-"
+    ]
+  }
+}

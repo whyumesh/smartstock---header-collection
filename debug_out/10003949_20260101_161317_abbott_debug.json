@@ -1,0 +1,142 @@
+{
+  "pdf_path": "pdfs\\10003949_20260101_161317_abbott.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 90.52139282226562,
+      "y_max": 98.32139587402344,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 90.52139282226562,
+      "y_max": 98.32139587402344,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 90.52139282226562,
+      "y_max": 98.32139587402344,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SNo",
+          "PTS",
+          "Mgn",
+          "Recpt",
+          "Sch.",
+          "Product Name",
+          "Product Name",
+          "Stock",
+          "A.S.",
+          "Sale",
+          "Sale",
+          "Order",
+          "..",
+          "S.60",
+          "S.LY",
+          "SS",
+          "Stock",
+          "Amt"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.8165860990860991
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "SNo",
+          "PTS",
+          "Mgn",
+          "Recpt",
+          "Sch.",
+          "Product Name",
+          "Product Name",
+          "Stock",
+          "A.S.",
+          "Sale",
+          "Sale",
+          "Order",
+          "..",
+          "S.60",
+          "S.LY",
+          "SS",
+          "Stock",
+          "Amt"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.8231076988145953
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "SNo",
+          "PTS",
+          "Mgn",
+          "Recpt",
+          "Sch.",
+          "Product Name",
+          "Product Name",
+          "Stock",
+          "A.S.",
+          "Sale",
+          "Sale",
+          "Order",
+          "..",
+          "S.60",
+          "S.LY",
+          "SS",
+          "Stock",
+          "Amt"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8146296296296296
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=16 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=16 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=18 data=15 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=15 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=18 data=14 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=14 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

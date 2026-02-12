@@ -1,0 +1,146 @@
+{
+  "pdf_path": "pdfs\\10028814_20251226_182207_REPORT_7CV133XV2.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "SR.",
+        "Product Name",
+        "Product Name",
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Order",
+        "Quantity"
+      ],
+      "combined_confidence": 0.29149999999999987,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.9375,
+      "data_validation_score": 0.62,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "SR.",
+    "Product Name",
+    "Product Name",
+    "Product Name",
+    "Product Name",
+    "Pack",
+    "Order",
+    "Quantity"
+  ],
+  "confidence": 0.29149999999999987,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.9375,
+    "data_validation_score": 0.62,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "SR.",
+      "ITEM",
+      "ITEM",
+      "NAME",
+      "NAME",
+      "PACK",
+      "ORDER",
+      "QTY"
+    ],
+    "normalized": [
+      "SR.",
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Order",
+      "Quantity"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "ITEM",
+        "into": "ITEM",
+        "interval_idx": 1
+      },
+      {
+        "split": "ITEM",
+        "into": "ITEM",
+        "interval_idx": 2
+      },
+      {
+        "split": "NAME",
+        "into": "NAME",
+        "interval_idx": 2
+      },
+      {
+        "split": "NAME",
+        "into": "NAME",
+        "interval_idx": 3
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.29149999999999987,
+      "evidence_scores": {
+        "keyword_score": 0.9166666666666666,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.62,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8216666666666667,
+      "evidence_before_penalties": 0.8216666666666667
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SR.",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Order",
+          "Quantity"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8414999999999999
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "SR.",
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Order",
+      "Quantity"
+    ]
+  }
+}

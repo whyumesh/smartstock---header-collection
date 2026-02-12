@@ -1,0 +1,178 @@
+{
+  "pdf_path": "pdfs\\10035025_20251210_145247_10035025 )ramachandra pharma.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 87.98307800292969,
+      "y_max": 93.40860748291016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 87.07768249511719,
+      "y_max": 92.50321197509766,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Op",
+        "Purchase",
+        "Sales",
+        "OctIL",
+        "SepII",
+        "Sale",
+        "Tot",
+        "Stock",
+        "Sale",
+        "Age"
+      ],
+      "combined_confidence": 0.637909090909091,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.859090909090909,
+      "data_validation_score": 0.7804545454545455,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Op",
+    "Purchase",
+    "Sales",
+    "OctIL",
+    "SepII",
+    "Sale",
+    "Tot",
+    "Stock",
+    "Sale",
+    "Age"
+  ],
+  "confidence": 0.637909090909091,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.859090909090909,
+    "data_validation_score": 0.7804545454545455,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ProductName",
+      "Openi",
+      "Purch",
+      "Sales",
+      "OctIL",
+      "SepII",
+      "SaleQuanti",
+      "TotalStock",
+      "StockV",
+      "SaleV",
+      "Age"
+    ],
+    "normalized": [
+      "Product Name",
+      "Op",
+      "Purchase",
+      "Sales",
+      "OctIL",
+      "SepII",
+      "Sale",
+      "Tot",
+      "Stock",
+      "Sale",
+      "Age"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=11"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.637909090909091,
+      "evidence_scores": {
+        "keyword_score": 0.75,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7804545454545455,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.8076136363636364,
+      "evidence_before_penalties": 0.8076136363636364
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Op",
+          "Purchase",
+          "Sales",
+          "OctIL",
+          "SepII",
+          "Sale",
+          "Tot",
+          "Stock",
+          "Sale",
+          "Age"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8379090909090909
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Op",
+          "Purchase",
+          "Sales",
+          "OctIL",
+          "SepII",
+          "Sale",
+          "Tot",
+          "Stock",
+          "Sale",
+          "Age"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8301969696969698
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=9 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=9 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Op",
+      "Purchase",
+      "Sales",
+      "OctIL",
+      "SepII",
+      "Sale",
+      "Tot",
+      "Stock",
+      "Sale",
+      "Age"
+    ]
+  }
+}

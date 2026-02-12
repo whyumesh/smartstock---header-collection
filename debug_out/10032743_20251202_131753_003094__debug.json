@@ -1,0 +1,603 @@
+{
+  "pdf_path": "pdfs\\10032743_20251202_131753_003094_.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 1,
+      "y_min": 37.2198600769043,
+      "y_max": 166.74398803710938,
+      "confidence": 0.5161690729685903,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.88; separator_below"
+    },
+    {
+      "page_no": 2,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 3,
+      "y_min": 37.2198600769043,
+      "y_max": 166.74398803710938,
+      "confidence": 0.4873965298020523,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.83; separator_below"
+    },
+    {
+      "page_no": 4,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 5,
+      "y_min": 37.2198600769043,
+      "y_max": 166.74398803710938,
+      "confidence": 0.4977039699328672,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.85; separator_below"
+    },
+    {
+      "page_no": 6,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 7,
+      "y_min": 37.2198600769043,
+      "y_max": 166.74398803710938,
+      "confidence": 0.5131158296808547,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.87; separator_below"
+    },
+    {
+      "page_no": 8,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 9,
+      "y_min": 37.2198600769043,
+      "y_max": 166.74398803710938,
+      "confidence": 0.5320421022858893,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.91; separator_below"
+    },
+    {
+      "page_no": 10,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 11,
+      "y_min": 37.2198600769043,
+      "y_max": 152.6448211669922,
+      "confidence": 0.5131158296808547,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.87; separator_below"
+    },
+    {
+      "page_no": 12,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 13,
+      "y_min": 37.2198600769043,
+      "y_max": 166.74398803710938,
+      "confidence": 0.4741211573344361,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.81; separator_below"
+    },
+    {
+      "page_no": 14,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 15,
+      "y_min": 37.2198600769043,
+      "y_max": 166.74398803710938,
+      "confidence": 0.4183470924613669,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.71; separator_below"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "URI-734001 SVal 388 0 4831 0",
+        "Order"
+      ],
+      "combined_confidence": 0.6260128564774418,
+      "visual_score": 0.5161690729685903,
+      "reconstruction_score": 0.5099999999999999,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.8223529411764705,
+      "data_column_count_detected": 2
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "URI-734001 SVal 0 0 0 0",
+        "Order"
+      ],
+      "combined_confidence": 0.6163491324505131,
+      "visual_score": 0.4873965298020523,
+      "reconstruction_score": 0.5099999999999999,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.81,
+      "data_column_count_detected": 2
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "URI-734001 SVal 1597 0 0 0",
+        "Order"
+      ],
+      "combined_confidence": 0.6199259924832169,
+      "visual_score": 0.4977039699328672,
+      "reconstruction_score": 0.5099999999999999,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.815,
+      "data_column_count_detected": 2
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "URI-734001 SVal 0 0 0 6668",
+        "Order"
+      ],
+      "combined_confidence": 0.6250289574202137,
+      "visual_score": 0.5131158296808547,
+      "reconstruction_score": 0.5099999999999999,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.82125,
+      "data_column_count_detected": 2
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "URI-734001 SVal 0 0 10998 0",
+        "Order"
+      ],
+      "combined_confidence": 0.6310105255714723,
+      "visual_score": 0.5320421022858893,
+      "reconstruction_score": 0.5099999999999999,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.8274999999999999,
+      "data_column_count_detected": 2
+    },
+    {
+      "page_no": 11,
+      "headers": [
+        "URI-734001 SVal 0 6197 11361",
+        "Order"
+      ],
+      "combined_confidence": 0.6349717678777301,
+      "visual_score": 0.5131158296808547,
+      "reconstruction_score": 0.5488888888888889,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.8223529411764705,
+      "data_column_count_detected": 2
+    },
+    {
+      "page_no": 13,
+      "headers": [
+        "URI-734001 SVal 4414 620 6380 0",
+        "Order"
+      ],
+      "combined_confidence": 0.611530289333609,
+      "visual_score": 0.4741211573344361,
+      "reconstruction_score": 0.5099999999999999,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.8025,
+      "data_column_count_detected": 2
+    },
+    {
+      "page_no": 15,
+      "headers": [
+        "Order"
+      ],
+      "combined_confidence": 0.32808677311534173,
+      "visual_score": 0.4183470924613669,
+      "reconstruction_score": 0.5099999999999999,
+      "semantic_score": 0.95,
+      "data_validation_score": 0.7799999999999999,
+      "data_column_count_detected": 2
+    }
+  ],
+  "final_selected_header": [
+    "URI-734001 SVal 0 6197 11361",
+    "Order"
+  ],
+  "confidence": 0.6349717678777301,
+  "confidence_breakdown": {
+    "visual_score": 0.5131158296808547,
+    "reconstruction_score": 0.5488888888888889,
+    "semantic_score": 0.7749999999999999,
+    "data_validation_score": 0.8223529411764705,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "URI-734001 SVal 0 6197 11361",
+      "Order -8 -50 -106"
+    ],
+    "normalized": [
+      "URI-734001 SVal 0 6197 11361",
+      "Order"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "URI-734001 SVal Order 0 -8 6197 -50 11361 -106",
+        "into": "URI-734001 SVal 0 6197 11361",
+        "interval_idx": 0
+      },
+      {
+        "split": "URI-734001 SVal Order 0 -8 6197 -50 11361 -106",
+        "into": "Order -8 -50 -106",
+        "interval_idx": 1
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 2,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=2 data=2"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.6349717678777301,
+      "evidence_scores": {
+        "keyword_score": 0.4,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.8223529411764705,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.0625
+      },
+      "evidence_total": 0.7118382352941176,
+      "evidence_before_penalties": 0.7118382352941176
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Oct",
+          "Sep",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8117285714285715
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "URI-734001 SVal 388 0 4831 0",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6260128564774418
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Oct",
+          "Sep",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8089146341463416
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "URI-734001 SVal 0 0 0 0",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6163491324505131
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Oct",
+          "Sep",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8110341736694678
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "URI-734001 SVal 1597 0 0 0",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6199259924832169
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "Oct",
+          "Sep",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8078317281770209
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "URI-734001 SVal 0 0 0 6668",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6250289574202137
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "Oct",
+          "Sep",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8075458646616542
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "URI-734001 SVal 0 0 10998 0",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6310105255714723
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Product Name",
+          "Oct",
+          "Sep",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8152822136693424
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "URI-734001 SVal 0 6197 11361",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6349717678777301
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Product Name",
+          "Oct",
+          "Sep",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8104753817610961
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "URI-734001 SVal 4414 620 6380 0",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.611530289333609
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "Product Name",
+          "Oct",
+          "Sep",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8065892084106371
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6280867731153418
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=9 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=9 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=14 data=10 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=10 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=14 data=10 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=10 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=14 data=9 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=9 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=14 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=14 data=10 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=10 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "URI-734001 SVal 0 6197 11361",
+      "Order"
+    ]
+  }
+}

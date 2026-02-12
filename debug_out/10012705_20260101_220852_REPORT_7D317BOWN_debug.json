@@ -1,0 +1,310 @@
+{
+  "pdf_path": "pdfs\\10012705_20260101_220852_REPORT_7D317BOWN.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 101.510009765625,
+      "y_max": 110.6100082397461,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 122.510009765625,
+      "y_max": 131.61001586914062,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 91.010009765625,
+      "y_max": 100.1100082397461,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 3,
+      "y_min": 59.510009765625,
+      "y_max": 68.6100082397461,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 4,
+      "y_min": 28.010009765625,
+      "y_max": 37.110008239746094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 5,
+      "y_min": 38.510009765625,
+      "y_max": 47.610008239746094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.37676368848542763,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8214285714285714,
+      "data_validation_score": 0.6123898709985667,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.3470662554836469,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8214285714285714,
+      "data_validation_score": 0.6139027059896626,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.3768474308300396,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8214285714285714,
+      "data_validation_score": 0.6128085827216262,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.37128412698412705,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8214285714285714,
+      "data_validation_score": 0.5849920634920636,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.3717476190476191,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8214285714285714,
+      "data_validation_score": 0.5873095238095238,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "ESGIPYRIN-AQ",
+        "1Ml",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.4296230158730159,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5333333333333333,
+      "data_validation_score": 0.6647817460317461,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "ESGIPYRIN-AQ",
+    "1Ml",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.4296230158730159,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.5333333333333333,
+    "data_validation_score": 0.6647817460317461,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ESGIPYRIN-AQ",
+      "1ML",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "ESGIPYRIN-AQ",
+      "1Ml",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "8583"
+    ],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.4296230158730159,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6647817460317461,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.6273621031746033,
+      "evidence_before_penalties": 0.6273621031746033
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7767636884854277
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7470662554836469
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7768474308300396
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7712841269841271
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7717476190476191
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ESGIPYRIN-AQ",
+          "1Ml",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7296230158730159
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "ESGIPYRIN-AQ",
+      "1Ml",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

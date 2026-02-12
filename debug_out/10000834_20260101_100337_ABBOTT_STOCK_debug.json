@@ -1,0 +1,351 @@
+{
+  "pdf_path": "pdfs\\10000834_20260101_100337_ABBOTT STOCK.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 2,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 4,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    },
+    {
+      "page_no": 6,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=8"
+    },
+    {
+      "page_no": 7,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 7,
+      "headers": [
+        "ABBOTT",
+        "HEALTHCARE",
+        "PVT",
+        "LTD",
+        "3066.00"
+      ],
+      "combined_confidence": 0.10773333333333335,
+      "visual_score": 0.5,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7386666666666667,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "ABBOTT",
+    "HEALTHCARE",
+    "PVT",
+    "LTD",
+    "3066.00"
+  ],
+  "confidence": 0.10773333333333335,
+  "confidence_breakdown": {
+    "visual_score": 0.5,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.7386666666666667,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ABBOTT",
+      "HEALTHCARE",
+      "PVT",
+      "LTD",
+      "3066.00"
+    ],
+    "normalized": [
+      "ABBOTT",
+      "HEALTHCARE",
+      "PVT",
+      "LTD",
+      "3066.00"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "3184623142",
+      "27-12-2025",
+      "27-12-2025"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.10773333333333335,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7386666666666667,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 0.125
+      },
+      "evidence_total": 0.48066666666666663,
+      "evidence_before_penalties": 0.48066666666666663
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8405
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "NICHOLAS",
+          "NICHOLAS",
+          "(Cardex)",
+          "(Cardex)",
+          "PIRAMAL"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6701913043478261
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "CAP",
+          "15'S",
+          "291.02",
+          "1455.10",
+          "580.30",
+          "1164.08",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7289237429710576
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "ANAFORTAN",
+          "TAB",
+          "10'S",
+          "850.98",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "850.98"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6961788045832163
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8376666666666668
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ELOCON",
+          "OINT",
+          "10Gm",
+          "2482.04",
+          "-",
+          "0.00",
+          "2128.53",
+          "451.28",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7160668807934031
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "SUPPLIER",
+          "Product Name",
+          "Invoice No",
+          "NO.",
+          "Date",
+          "RECEIVE",
+          "Date",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7799930124223603
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "ABBOTT",
+          "HEALTHCARE",
+          "PVT",
+          "LTD",
+          "3066.00"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6577333333333334
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=11 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=11 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ABBOTT",
+      "HEALTHCARE",
+      "PVT",
+      "LTD",
+      "3066.00"
+    ]
+  }
+}

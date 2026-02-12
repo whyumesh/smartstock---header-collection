@@ -1,0 +1,95 @@
+%PDF-1.2 
+%MGF
+1 0 obj
+<<
+/Creator  (Micropro Software Solutions Pvt. Ltd.)
+/Producer (www.microproindia.com)
+/Title    (Micropro_PDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >>  /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 802 Tm
+11 TL
+T* () Tj
+T* (-------------------------------------------------------------------------------------------------) Tj
+T* (Last Month Sales           0.00  Open. Value            0.00) Tj
+T* (Receipt Value              0.00  Sales Value            0.00) Tj
+T* (Closing Value              0.00  [Order Value +0.00 0.00 ]) Tj
+T* (-------------------------------------------------------------------------------------------------) Tj
+T* ( * - Near Expiry Product, # - Scheme On Product ) Tj
+ET
+endstream
+endobj
+9 0 obj
+533
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 595 842 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+0 10
+0000000000 65535 f
+0000000017 00000 n
+0000001111 00000 n
+0000001190 00000 n
+0000000154 00000 n
+0000000257 00000 n
+0000000331 00000 n
+0000000407 00000 n
+0000000495 00000 n
+0000001089 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+1283
+%%EOF

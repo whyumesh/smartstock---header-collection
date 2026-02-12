@@ -1,0 +1,49 @@
+{
+  "pdf_path": "pdfs\\10033266_20251213_125326_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Amount",
+          "Closing",
+          "Cl Val"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8835901027077497
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=9 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=7 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

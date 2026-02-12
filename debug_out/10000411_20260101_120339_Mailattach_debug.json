@@ -1,0 +1,387 @@
+{
+  "pdf_path": "pdfs\\10000411_20260101_120339_Mailattach.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 99.0247802734375,
+      "y_max": 107.2729263305664,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 66.95240020751953,
+      "y_max": 75.20054626464844,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 2,
+      "y_min": 94.78980255126953,
+      "y_max": 103.03794860839844,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 3,
+      "y_min": 29.8359432220459,
+      "y_max": 38.08408737182617,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 4,
+      "y_min": 20.5571346282959,
+      "y_max": 28.805278778076172,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 5,
+      "y_min": 84.6588134765625,
+      "y_max": 92.9069595336914,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 6,
+      "y_min": 29.8367977142334,
+      "y_max": 38.08494186401367,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "HYDENT",
+        "PRO",
+        "PASTE",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.3303364293085655,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.525,
+      "data_validation_score": 0.7516821465428277,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Free Quantity",
+        "Cl",
+        "C_Sal",
+        "Free Quantity",
+        "Repl",
+        "Adj",
+        "Stk",
+        "Fr",
+        "Sale",
+        "Purchase",
+        "Age"
+      ],
+      "combined_confidence": 0.27585000000000004,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.82,
+      "data_validation_score": 0.65925,
+      "data_column_count_detected": 14
+    }
+  ],
+  "final_selected_header": [
+    "HYDENT",
+    "PRO",
+    "PASTE",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.3303364293085655,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.525,
+    "data_validation_score": 0.7516821465428277,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "HYDENT",
+      "PRO",
+      "PASTE",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "HYDENT",
+      "PRO",
+      "PASTE",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "40",
+      "G"
+    ],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=13"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.3303364293085655,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7516821465428277,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 0.1
+      },
+      "evidence_total": 0.49942053663570696,
+      "evidence_before_penalties": 0.49942053663570696
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Free Quantity",
+          "Cl",
+          "C_Sal",
+          "Free Quantity",
+          "Repl",
+          "Adj",
+          "Stk",
+          "Fr",
+          "Sale",
+          "Purchase",
+          "Age"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.825883529336161
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "DELETUS",
+          "DELETUS",
+          "LS",
+          "LS",
+          "SYR",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7197338345864662
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "FINECEF",
+          "1Gm",
+          "INJ",
+          "INJ",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7779693262496467
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "HYDENT",
+          "PRO",
+          "PASTE",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7803364293085655
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "MYSOLINE",
+          "250Mg",
+          "TAB",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.7739278656126483
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Free Quantity",
+          "Cl",
+          "C_Sal",
+          "Free Quantity",
+          "Repl",
+          "Adj",
+          "Stk",
+          "Fr",
+          "Sale",
+          "Purchase",
+          "Age"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8258500000000001
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "TOOTHMIN--AF--150ML",
+          "TOOTHMIN--AF--150ML",
+          "TOOTHMIN--AF--150ML",
+          "TOOTHMIN--AF--150ML",
+          "TOOTHMIN--AF--150ML",
+          "150M",
+          "150M",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7493875211293897
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=9 data=3 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=3 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "HYDENT",
+      "PRO",
+      "PASTE",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

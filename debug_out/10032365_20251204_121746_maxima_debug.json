@@ -1,0 +1,80 @@
+{
+  "pdf_path": "pdfs\\10032365_20251204_121746_maxima.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 118.3071517944336,
+      "y_max": 128.30715942382812,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 18.99998664855957,
+      "y_max": 32.9999885559082,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Op",
+          "Amount",
+          "Amount",
+          "Sales",
+          "Sales",
+          "Amount",
+          "On",
+          "Rate"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8052229706290472
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "MUZEEB",
+          "MUZEEB",
+          "MEDICAL",
+          "MEDICAL",
+          "MEDICAL",
+          "DISTRIBUTORS",
+          "DISTRIBUTORS",
+          "DISTRIBUTORS"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6085714285714287
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=8 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=10 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

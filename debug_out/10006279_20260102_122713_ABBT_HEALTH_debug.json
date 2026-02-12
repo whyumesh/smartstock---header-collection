@@ -1,0 +1,264 @@
+{
+  "pdf_path": "pdfs\\10006279_20260102_122713_ABBT HEALTH.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.8602294921875,
+      "y_max": 105.62337493896484,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 97.8602294921875,
+      "y_max": 105.62337493896484,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 2,
+      "y_min": 97.8602294921875,
+      "y_max": 105.62337493896484,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 3,
+      "y_min": 97.8602294921875,
+      "y_max": 105.62337493896484,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 4,
+      "y_min": 72.39097595214844,
+      "y_max": 81.10357666015625,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 4,
+      "headers": [
+        "Stock",
+        "And",
+        "Sales",
+        "Report",
+        "From",
+        "01/Dec/2025",
+        "Tot",
+        "31/Dec/2025"
+      ],
+      "combined_confidence": 0.7398000000000001,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.725,
+      "data_validation_score": 0.649,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "And",
+    "Sales",
+    "Report",
+    "From",
+    "01/Dec/2025",
+    "Tot",
+    "31/Dec/2025"
+  ],
+  "confidence": 0.7398000000000001,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.725,
+    "data_validation_score": 0.649,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Stock",
+      "And",
+      "Sales",
+      "Report",
+      "from",
+      "01/Dec/2025",
+      "to",
+      "31/Dec/2025"
+    ],
+    "normalized": [
+      "Stock",
+      "And",
+      "Sales",
+      "Report",
+      "From",
+      "01/Dec/2025",
+      "Tot",
+      "31/Dec/2025"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=8"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7398000000000001,
+      "evidence_scores": {
+        "keyword_score": 0.375,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.649,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.676,
+      "evidence_before_penalties": 0.676
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8683429752066116
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8760622924901186
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8755698701298701
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8761927272727272
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Stock",
+          "And",
+          "Sales",
+          "Report",
+          "From",
+          "01/Dec/2025",
+          "Tot",
+          "31/Dec/2025"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7398000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=18 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=18 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=18 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=18 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=11 data=18 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=18 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=11 data=18 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=18 diff=7"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Stock",
+      "And",
+      "Sales",
+      "Report",
+      "From",
+      "01/Dec/2025",
+      "Tot",
+      "31/Dec/2025"
+    ]
+  }
+}

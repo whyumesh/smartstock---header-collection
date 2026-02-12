@@ -1,0 +1,300 @@
+{
+  "pdf_path": "pdfs\\10013232_20260101_154134_AB.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 122.23800659179688,
+      "y_max": 133.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 2,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 4,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "BRUFEN",
+        "SUSP",
+        "1X100",
+        "ML",
+        "32.09",
+        "-3",
+        "-96.27",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-3",
+        "-96.27",
+        "-"
+      ],
+      "combined_confidence": 0.4123355028430218,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5785714285714285,
+      "data_validation_score": 0.7331060856436796,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "BRUFEN",
+    "SUSP",
+    "1X100",
+    "ML",
+    "32.09",
+    "-3",
+    "-96.27",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-3",
+    "-96.27",
+    "-"
+  ],
+  "confidence": 0.4123355028430218,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.5785714285714285,
+    "data_validation_score": 0.7331060856436796,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "BRUFEN",
+      "SUSP",
+      "1X100",
+      "ML",
+      "32.09",
+      "-3",
+      "-96.27",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-3",
+      "-96.27",
+      "-"
+    ],
+    "normalized": [
+      "BRUFEN",
+      "SUSP",
+      "1X100",
+      "ML",
+      "32.09",
+      "-3",
+      "-96.27",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-3",
+      "-96.27",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "P"
+    ],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=14 data=13"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.4123355028430218,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7331060856436796,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.5227765214109199,
+      "evidence_before_penalties": 0.5227765214109199
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8383529411764705
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "BRUFEN",
+          "SUSP",
+          "1X100",
+          "ML",
+          "32.09",
+          "-3",
+          "-96.27",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-3",
+          "-96.27",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7123355028430218
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ABBOTT",
+          "GI",
+          "PRIMA",
+          "PRIMA",
+          "(Org",
+          "1)"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6871
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "EPTOIN",
+          "ER",
+          "TAB",
+          "1X30",
+          "144.27",
+          "3751.02",
+          "6412.40",
+          "4168.06",
+          "5770.80"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7357649024522089
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "SUPPLIER",
+          "Product Name",
+          "Invoice No",
+          "NO.",
+          "Date",
+          "RECEIVE",
+          "Date",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7811071428571429
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=6 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=9 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "BRUFEN",
+      "SUSP",
+      "1X100",
+      "ML",
+      "32.09",
+      "-3",
+      "-96.27",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-3",
+      "-96.27",
+      "-"
+    ]
+  }
+}

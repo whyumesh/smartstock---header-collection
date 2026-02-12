@@ -1,0 +1,258 @@
+{
+  "pdf_path": "pdfs\\10000779_20251231_154409_STOCK STATEMENT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 133.010009765625,
+      "y_max": 142.11001586914062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 133.010009765625,
+      "y_max": 142.11001586914062,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 38.510009765625,
+      "y_max": 47.610008239746094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 3,
+      "y_min": 259.010009765625,
+      "y_max": 268.1100158691406,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 17.510009765625,
+      "y_max": 26.610010147094727,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 17.510009765625,
+      "y_max": 26.610010147094727,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 5,
+      "headers": [
+        "Tot"
+      ],
+      "combined_confidence": 0.355,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.95,
+      "data_validation_score": 0.8,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Tot"
+  ],
+  "confidence": 0.355,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.95,
+    "data_validation_score": 0.8,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "TOTAL"
+    ],
+    "normalized": [
+      "Tot"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "2162",
+      "239632",
+      "3317",
+      "468726",
+      "110021"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.355,
+      "evidence_scores": {
+        "keyword_score": 1.0,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.8,
+        "lexical_purity_score": 0.4,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.6516666666666667,
+      "evidence_before_penalties": 0.6516666666666667
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Order"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8008923076923078
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Order"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7945562987736902
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Order"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7989874125874127
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "REJOINT",
+          "REJOINT",
+          "UC",
+          "10Caps",
+          "10Caps",
+          "4.5"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.6919833333333334
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "SURBEX",
+          "CV",
+          "15Tabs",
+          "-"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.6825
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.755
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=8 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=8 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=13 data=8 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=8 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=13 data=9 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=9 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=6 data=9 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=9 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=4 data=8 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=8 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Tot"
+    ]
+  }
+}

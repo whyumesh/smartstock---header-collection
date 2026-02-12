@@ -1,0 +1,121 @@
+{
+  "pdf_path": "pdfs\\10000167_20251204_121747_report.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 32.27680587768555,
+      "y_max": 45.876808166503906,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 1,
+      "y_min": 77.36308288574219,
+      "y_max": 89.2630844116211,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=17"
+    },
+    {
+      "page_no": 2,
+      "y_min": 77.36308288574219,
+      "y_max": 89.2630844116211,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=17"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "RAJA",
+          "ENTERPRISES",
+          "ENTERPRISES"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.6761
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl",
+          "NM60D val",
+          "Quantity",
+          "Quantity",
+          "Val",
+          "NE"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8508555260831123
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl",
+          "NM60D val",
+          "Quantity",
+          "Quantity",
+          "Val",
+          "NE"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8375919191919192
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=3 data=9 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=9 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=15 data=9 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=9 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=15 data=9 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=9 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

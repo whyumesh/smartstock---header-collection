@@ -1,0 +1,173 @@
+{
+  "pdf_path": "pdfs\\10032828_20251204_112144_ABBOTT INDIA [ METABOLICS ].PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 87.98321533203125,
+      "y_max": 93.40904998779297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Pend",
+        "Ord",
+        "Product Name",
+        "Pack",
+        "Rcpt",
+        "Sales",
+        "Free Quantity",
+        "Sale",
+        "Adj",
+        "Cl",
+        "StkVl(Cs",
+        "IIIL",
+        "IILa",
+        "ILas",
+        "Age",
+        "Batch No"
+      ],
+      "combined_confidence": 0.48987770270270276,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.771875,
+      "data_validation_score": 0.7775135135135135,
+      "data_column_count_detected": 15
+    }
+  ],
+  "final_selected_header": [
+    "Pend",
+    "Ord",
+    "Product Name",
+    "Pack",
+    "Rcpt",
+    "Sales",
+    "Free Quantity",
+    "Sale",
+    "Adj",
+    "Cl",
+    "StkVl(Cs",
+    "IIIL",
+    "IILa",
+    "ILas",
+    "Age",
+    "Batch No"
+  ],
+  "confidence": 0.48987770270270276,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.771875,
+    "data_validation_score": 0.7775135135135135,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "PenOrd",
+      "ord",
+      "ProductName",
+      "PackOpStk",
+      "Rcpt",
+      "Sales",
+      "Free",
+      "SaleValu",
+      "Adj",
+      "Cl.St",
+      "StkVl(Cs",
+      "IIIL",
+      "IILa",
+      "ILas",
+      "Age",
+      "BatchE"
+    ],
+    "normalized": [
+      "Pend",
+      "Ord",
+      "Product Name",
+      "Pack",
+      "Rcpt",
+      "Sales",
+      "Free Quantity",
+      "Sale",
+      "Adj",
+      "Cl",
+      "StkVl(Cs",
+      "IIIL",
+      "IILa",
+      "ILas",
+      "Age",
+      "Batch No"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 15,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=16 data=15"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.48987770270270276,
+      "evidence_scores": {
+        "keyword_score": 0.5263157894736842,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7775135135135135,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7134573257467994,
+      "evidence_before_penalties": 0.7134573257467994
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Pend",
+          "Ord",
+          "Product Name",
+          "Pack",
+          "Rcpt",
+          "Sales",
+          "Free Quantity",
+          "Sale",
+          "Adj",
+          "Cl",
+          "StkVl(Cs",
+          "IIIL",
+          "IILa",
+          "ILas",
+          "Age",
+          "Batch No"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.8398777027027028
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Pend",
+      "Ord",
+      "Product Name",
+      "Pack",
+      "Rcpt",
+      "Sales",
+      "Free Quantity",
+      "Sale",
+      "Adj",
+      "Cl",
+      "StkVl(Cs",
+      "IIIL",
+      "IILa",
+      "ILas",
+      "Age",
+      "Batch No"
+    ]
+  }
+}

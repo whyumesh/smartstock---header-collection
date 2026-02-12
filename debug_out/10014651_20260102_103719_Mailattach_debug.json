@@ -1,0 +1,178 @@
+{
+  "pdf_path": "pdfs\\10014651_20260102_103719_Mailattach.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.63228607177734,
+      "y_max": 103.05792236328125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 70.11894989013672,
+      "y_max": 75.54454040527344,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "VERTIN",
+        "VERTIN",
+        "OD",
+        "TAB",
+        "TAB",
+        "15'S"
+      ],
+      "combined_confidence": 0.2305164602839022,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.6525823014195108,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "VERTIN",
+    "VERTIN",
+    "OD",
+    "TAB",
+    "TAB",
+    "15'S"
+  ],
+  "confidence": 0.2305164602839022,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.6525823014195108,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "VERTIN",
+      "VERTIN",
+      "OD",
+      "TAB",
+      "TAB",
+      "15'S"
+    ],
+    "normalized": [
+      "VERTIN",
+      "VERTIN",
+      "OD",
+      "TAB",
+      "TAB",
+      "15'S"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "VERTIN",
+        "into": "VERTIN",
+        "interval_idx": 0
+      },
+      {
+        "split": "VERTIN",
+        "into": "VERTIN",
+        "interval_idx": 1
+      },
+      {
+        "split": "TAB",
+        "into": "TAB",
+        "interval_idx": 1
+      },
+      {
+        "split": "TAB",
+        "into": "TAB",
+        "interval_idx": 2
+      }
+    ],
+    "noise_tokens_removed": [
+      "107307",
+      "24"
+    ],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.2305164602839022,
+      "evidence_scores": {
+        "keyword_score": 0.3333333333333333,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6525823014195108,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.572978908688211,
+      "evidence_before_penalties": 0.572978908688211
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Op",
+          "Stk",
+          "Purchase",
+          "NovPrv",
+          "Sales",
+          "Free Quantity",
+          "Adjst",
+          "Cl",
+          "Stk",
+          "Free Quantity",
+          "Stock",
+          "Sale",
+          "Val",
+          "Age"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.838297619047619
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "VERTIN",
+          "VERTIN",
+          "OD",
+          "TAB",
+          "TAB",
+          "15'S"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6805164602839022
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=7 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=7 diff=9"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "VERTIN",
+      "VERTIN",
+      "OD",
+      "TAB",
+      "TAB",
+      "15'S"
+    ]
+  }
+}

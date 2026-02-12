@@ -1,0 +1,1435 @@
+{
+  "pdf_path": "pdfs\\10014311_20260101_132040_abbott india & abbott healthcare dec-25.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 37.249961853027344,
+      "y_max": 45.249961853027344,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    },
+    {
+      "page_no": 5,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 6,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 7,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 8,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 9,
+      "y_min": 37.249961853027344,
+      "y_max": 45.249961853027344,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    },
+    {
+      "page_no": 10,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 11,
+      "y_min": 37.249961853027344,
+      "y_max": 45.249961853027344,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    },
+    {
+      "page_no": 12,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 13,
+      "y_min": 37.249961853027344,
+      "y_max": 45.249961853027344,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    },
+    {
+      "page_no": 14,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 15,
+      "y_min": 37.249961853027344,
+      "y_max": 45.249961853027344,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    },
+    {
+      "page_no": 16,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 17,
+      "y_min": 37.249961853027344,
+      "y_max": 45.249961853027344,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    },
+    {
+      "page_no": 18,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 19,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 20,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 21,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 22,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 23,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 24,
+      "y_min": 37.249961853027344,
+      "y_max": 45.249961853027344,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    },
+    {
+      "page_no": 25,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 26,
+      "y_min": 37.249961853027344,
+      "y_max": 45.249961853027344,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    },
+    {
+      "page_no": 27,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 28,
+      "y_min": 37.249961853027344,
+      "y_max": 45.249961853027344,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    },
+    {
+      "page_no": 29,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 30,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 31,
+      "y_min": 37.249961853027344,
+      "y_max": 45.249961853027344,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    },
+    {
+      "page_no": 32,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 33,
+      "y_min": 103.42542266845703,
+      "y_max": 113.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 5,
+      "headers": [
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Amount",
+        "A3Mn",
+        "A3Mn",
+        "E/E",
+        "Age",
+        "Exp"
+      ],
+      "combined_confidence": 0.8310137362637363,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.8730769230769231,
+      "data_validation_score": 0.7569917582417582,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Amount",
+    "A3Mn",
+    "A3Mn",
+    "E/E",
+    "Age",
+    "Exp"
+  ],
+  "confidence": 0.8310137362637363,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.8730769230769231,
+    "data_validation_score": 0.7569917582417582,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Qty",
+      "Qty",
+      "Qty",
+      "Qty",
+      "mount",
+      "Qty",
+      "Amount",
+      "Amount",
+      "A3Mn",
+      "A3Mn",
+      "E/E",
+      "Age",
+      "Exp"
+    ],
+    "normalized": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Amount",
+      "A3Mn",
+      "A3Mn",
+      "E/E",
+      "Age",
+      "Exp"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 4
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 5
+      },
+      {
+        "split": "Amount",
+        "into": "Amount",
+        "interval_idx": 8
+      },
+      {
+        "split": "Amount",
+        "into": "Amount",
+        "interval_idx": 9
+      },
+      {
+        "split": "A3Mn",
+        "into": "A3Mn",
+        "interval_idx": 9
+      },
+      {
+        "split": "A3Mn",
+        "into": "A3Mn",
+        "interval_idx": 10
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.8310137362637363,
+      "evidence_scores": {
+        "keyword_score": 0.6923076923076923,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7569917582417582,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.029411764705882353
+      },
+      "evidence_total": 0.7652660391079509,
+      "evidence_before_penalties": 0.7652660391079509
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8170441176470588
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8198972222222223
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8186388888888889
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8216218708827405
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "JYOTI",
+          "BLDG",
+          "PLOT",
+          "NO:-188,",
+          "HOSPITAL",
+          "ROAD,",
+          "VIJAY",
+          "NAGAR"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6447727272727273
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8310137362637363
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8151176470588236
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8288000000000001
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8163744107744108
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "JYOTI",
+          "BLDG",
+          "PLOT",
+          "NO:-188,",
+          "HOSPITAL",
+          "ROAD,",
+          "VIJAY",
+          "NAGAR"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6448750000000001
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8171144781144781
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "JYOTI",
+          "BLDG",
+          "PLOT",
+          "NO:-188,",
+          "HOSPITAL",
+          "ROAD,",
+          "VIJAY",
+          "NAGAR"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6447727272727273
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8063734335839599
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "JYOTI",
+          "BLDG",
+          "PLOT",
+          "NO:-188,",
+          "HOSPITAL",
+          "ROAD,",
+          "VIJAY",
+          "NAGAR"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6466428571428572
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.815425
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "JYOTI",
+          "BLDG",
+          "PLOT",
+          "NO:-188,",
+          "HOSPITAL",
+          "ROAD,",
+          "VIJAY",
+          "NAGAR"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6446428571428572
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8155882352941177
+      },
+      {
+        "page_no": 17,
+        "headers": [
+          "JYOTI",
+          "BLDG",
+          "PLOT",
+          "NO:-188,",
+          "HOSPITAL",
+          "ROAD,",
+          "VIJAY",
+          "NAGAR"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.6446428571428572
+      },
+      {
+        "page_no": 18,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8086249999999999
+      },
+      {
+        "page_no": 19,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8095079365079365
+      },
+      {
+        "page_no": 20,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8169111111111111
+      },
+      {
+        "page_no": 21,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.81628655098403
+      },
+      {
+        "page_no": 22,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8163797619047619
+      },
+      {
+        "page_no": 23,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8158666666666667
+      },
+      {
+        "page_no": 24,
+        "headers": [
+          "JYOTI",
+          "BLDG",
+          "PLOT",
+          "NO:-188,",
+          "HOSPITAL",
+          "ROAD,",
+          "VIJAY",
+          "NAGAR"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.6443913043478261
+      },
+      {
+        "page_no": 25,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8217714285714286
+      },
+      {
+        "page_no": 26,
+        "headers": [
+          "JYOTI",
+          "BLDG",
+          "PLOT",
+          "NO:-188,",
+          "HOSPITAL",
+          "ROAD,",
+          "VIJAY",
+          "NAGAR"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.6463913043478261
+      },
+      {
+        "page_no": 27,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.816827731092437
+      },
+      {
+        "page_no": 28,
+        "headers": [
+          "JYOTI",
+          "BLDG",
+          "PLOT",
+          "NO:-188,",
+          "HOSPITAL",
+          "ROAD,",
+          "VIJAY",
+          "NAGAR"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.6568977272727273
+      },
+      {
+        "page_no": 29,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8142842105263158
+      },
+      {
+        "page_no": 30,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "A3Mn",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8159333333333333
+      },
+      {
+        "page_no": 31,
+        "headers": [
+          "JYOTI",
+          "BLDG",
+          "PLOT",
+          "NO:-188,",
+          "HOSPITAL",
+          "ROAD,",
+          "VIJAY",
+          "NAGAR"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.6464318181818182
+      },
+      {
+        "page_no": 32,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8300000000000001
+      },
+      {
+        "page_no": 33,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "A3Mn",
+          "E/E",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8270000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=8 data=3 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=3 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=10 data=6 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=6 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=8 data=3 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=3 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=8 data=3 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=3 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=8 data=3 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=3 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 15,
+        "reason": "column_count_mismatch: header=8 data=3 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=3 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 16,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 17,
+        "reason": "column_count_mismatch: header=8 data=3 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=3 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 18,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 19,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 20,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 21,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 22,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 23,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 24,
+        "reason": "column_count_mismatch: header=8 data=5 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=5 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 25,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 26,
+        "reason": "column_count_mismatch: header=8 data=4 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=4 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 27,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 28,
+        "reason": "column_count_mismatch: header=8 data=5 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=5 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 29,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 30,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 31,
+        "reason": "column_count_mismatch: header=8 data=5 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=5 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 32,
+        "reason": "column_count_mismatch: header=10 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=8 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 33,
+        "reason": "column_count_mismatch: header=10 data=6 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=6 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Amount",
+      "A3Mn",
+      "A3Mn",
+      "E/E",
+      "Age",
+      "Exp"
+    ]
+  }
+}

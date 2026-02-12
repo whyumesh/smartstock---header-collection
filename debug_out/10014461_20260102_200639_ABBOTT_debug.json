@@ -1,0 +1,302 @@
+{
+  "pdf_path": "pdfs\\10014461_20260102_200639_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "TELPRES",
+        "CT",
+        "40/12.5Mg",
+        "TAB",
+        "10'S",
+        "2179.20",
+        "-",
+        "0.00",
+        "1282.13",
+        "980.64",
+        "-"
+      ],
+      "combined_confidence": 0.16436829836829836,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5818181818181818,
+      "data_validation_score": 0.7400233100233101,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "SELSUN",
+        "SHAMPOO",
+        "120Ml",
+        "1103.79",
+        "-",
+        "0.00",
+        "1177.40",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.1513365384615385,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5700000000000001,
+      "data_validation_score": 0.7366826923076923,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "TELPRES",
+    "CT",
+    "40/12.5Mg",
+    "TAB",
+    "10'S",
+    "2179.20",
+    "-",
+    "0.00",
+    "1282.13",
+    "980.64",
+    "-"
+  ],
+  "confidence": 0.16436829836829836,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.5818181818181818,
+    "data_validation_score": 0.7400233100233101,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "TELPRES",
+      "CT",
+      "40/12.5MG",
+      "TAB",
+      "10'S",
+      "2179.20",
+      "-",
+      "0.00",
+      "1282.13",
+      "980.64",
+      "-"
+    ],
+    "normalized": [
+      "TELPRES",
+      "CT",
+      "40/12.5Mg",
+      "TAB",
+      "10'S",
+      "2179.20",
+      "-",
+      "0.00",
+      "1282.13",
+      "980.64",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "20",
+      "11",
+      "9",
+      "7/27"
+    ],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=12"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.16436829836829836,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7400233100233101,
+        "lexical_purity_score": 0.52,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.47050582750582753,
+      "evidence_before_penalties": 0.47050582750582753
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8424444444444444
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "TELPRES",
+          "CT",
+          "40/12.5Mg",
+          "TAB",
+          "10'S",
+          "2179.20",
+          "-",
+          "0.00",
+          "1282.13",
+          "980.64",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7143682983682984
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "SELSUN",
+          "SHAMPOO",
+          "120Ml",
+          "1103.79",
+          "-",
+          "0.00",
+          "1177.40",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7013365384615385
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Tot",
+          "Tot",
+          "100608.55",
+          "100608.55",
+          "56712.96",
+          "56712.96",
+          "24238.27",
+          "139776.95",
+          "139776.95"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6807165311653117
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "ELOCON",
+          "OINT",
+          "10Gm",
+          "1805.12",
+          "-",
+          "0.00",
+          "1381.52",
+          "451.28",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7230565047153283
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "TELPRES",
+      "CT",
+      "40/12.5Mg",
+      "TAB",
+      "10'S",
+      "2179.20",
+      "-",
+      "0.00",
+      "1282.13",
+      "980.64",
+      "-"
+    ]
+  }
+}

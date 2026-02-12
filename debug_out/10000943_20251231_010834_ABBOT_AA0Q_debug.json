@@ -1,0 +1,44 @@
+{
+  "pdf_path": "pdfs\\10000943_20251231_010834_ABBOT_AA0Q.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 58.500038146972656,
+      "y_max": 68.81404113769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sales",
+          "Amount",
+          "Closing",
+          "Amount"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8251
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=4 data=8 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=8 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

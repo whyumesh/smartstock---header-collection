@@ -1,0 +1,169 @@
+{
+  "pdf_path": "pdfs\\10000393_20251231_185806_Mailattach.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.82616424560547,
+      "y_max": 105.66578674316406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 68.7744369506836,
+      "y_max": 76.61405944824219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 30.17946434020996,
+      "y_max": 38.01908874511719,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "BECOMAX",
+        "FORTE",
+        "Str",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.20551166862389236,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5599999999999999,
+      "data_validation_score": 0.7425583431194619,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Cl",
+        "500Mg",
+        "500Mg",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.43699999999999994,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.63,
+      "data_validation_score": 0.6799999999999999,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Cl",
+    "500Mg",
+    "500Mg",
+    "-",
+    "-"
+  ],
+  "confidence": 0.7869999999999999,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.63,
+    "data_validation_score": 0.6799999999999999,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Cl",
+      "500Mg",
+      "500Mg",
+      "-",
+      "-"
+    ],
+    "per_page": [
+      [
+        "BECOMAX",
+        "FORTE",
+        "Str",
+        "-",
+        "-"
+      ],
+      [
+        "Cl",
+        "500Mg",
+        "500Mg",
+        "-",
+        "-"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Manufacturer",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Stk",
+          "Rcpt",
+          "Sales",
+          "Cl",
+          "Stk",
+          "Sales",
+          "Val",
+          "TraOrd"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8086926866237211
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "BECOMAX",
+          "FORTE",
+          "Str",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7555116686238924
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Cl",
+          "500Mg",
+          "500Mg",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.737
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=5 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=5 diff=8"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Cl",
+      "500Mg",
+      "500Mg",
+      "-",
+      "-"
+    ],
+    "data_column_count_detected": 6,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

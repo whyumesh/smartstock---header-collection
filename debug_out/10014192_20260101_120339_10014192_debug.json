@@ -1,0 +1,727 @@
+{
+  "pdf_path": "pdfs\\10014192_20260101_120339_10014192.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 5,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=12"
+    },
+    {
+      "page_no": 6,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 7,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 8,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=12"
+    },
+    {
+      "page_no": 9,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 10,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 11,
+      "y_min": 77.91316223144531,
+      "y_max": 84.15316772460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      "combined_confidence": 0.4264843073593073,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7365882034632034,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      "combined_confidence": 0.41851785714285716,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.6967559523809523,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      "combined_confidence": 0.41828431372549024,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.6955882352941177,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      "combined_confidence": 0.42885119047619047,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7484226190476191,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      "combined_confidence": 0.4004305555555555,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.6063194444444444,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      "combined_confidence": 0.40288239538239534,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.6185786435786436,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      "combined_confidence": 0.42873809523809525,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7478571428571429,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 11,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      "combined_confidence": 0.41507142857142865,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.6795238095238095,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Product Name",
+    "Pack",
+    "Op",
+    "Receipt",
+    "Company",
+    "C.Month",
+    "Sales",
+    "Repl.",
+    "Goods",
+    "In",
+    "Cl"
+  ],
+  "confidence": 0.8788511904761904,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.8208333333333333,
+    "data_validation_score": 0.7484226190476191,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Company",
+      "C.Month",
+      "Sales",
+      "Repl.",
+      "Goods",
+      "In",
+      "Cl"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Company",
+        "C.Month",
+        "Sales",
+        "Repl.",
+        "Goods",
+        "In",
+        "Cl"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Company",
+          "C.Month",
+          "Sales",
+          "Repl.",
+          "Goods",
+          "In",
+          "Cl"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8264843073593073
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Company",
+          "C.Month",
+          "Sales",
+          "Repl.",
+          "Goods",
+          "In",
+          "Cl"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8185178571428572
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Company",
+          "C.Month",
+          "Sales",
+          "Repl.",
+          "Goods",
+          "In",
+          "Cl"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8182843137254903
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Company",
+          "C.Month",
+          "Sales",
+          "Repl.",
+          "Goods",
+          "In",
+          "Cl"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8288511904761905
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Company",
+          "C.Month",
+          "Sales",
+          "Repl.",
+          "Goods",
+          "In",
+          "Cl"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8004305555555555
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Company",
+          "C.Month",
+          "Sales",
+          "Repl.",
+          "Goods",
+          "In",
+          "Cl"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8020833333333334
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Company",
+          "C.Month",
+          "Sales",
+          "Repl.",
+          "Goods",
+          "In",
+          "Cl"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7960178571428572
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Company",
+          "Company",
+          "C.Month",
+          "C.Month",
+          "Sales",
+          "Sales",
+          "Repl.",
+          "Repl.",
+          "Goods",
+          "In",
+          "In",
+          "Cl",
+          "Cl"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8006032776747063
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Company",
+          "C.Month",
+          "Sales",
+          "Repl.",
+          "Goods",
+          "In",
+          "Cl"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8020833333333334
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Company",
+          "C.Month",
+          "Sales",
+          "Repl.",
+          "Goods",
+          "In",
+          "Cl"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8028823953823954
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Company",
+          "C.Month",
+          "Sales",
+          "Repl.",
+          "Goods",
+          "In",
+          "Cl"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8287380952380953
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Company",
+          "C.Month",
+          "Sales",
+          "Repl.",
+          "Goods",
+          "In",
+          "Cl"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8150714285714287
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=12 data=7 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=7 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=12 data=7 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=7 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=22 data=13 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=13 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=12 data=7 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=7 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Company",
+      "C.Month",
+      "Sales",
+      "Repl.",
+      "Goods",
+      "In",
+      "Cl"
+    ],
+    "data_column_count_detected": 12,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

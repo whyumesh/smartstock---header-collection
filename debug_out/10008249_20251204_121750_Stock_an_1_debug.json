@@ -1,0 +1,336 @@
+{
+  "pdf_path": "pdfs\\10008249_20251204_121750_Stock an_1.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 119.21466827392578,
+      "y_max": 128.9646759033203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 119.21466827392578,
+      "y_max": 128.9646759033203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 119.21466827392578,
+      "y_max": 128.9646759033203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 119.21466827392578,
+      "y_max": 128.9646759033203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 119.21466827392578,
+      "y_max": 128.9646759033203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 119.21466827392578,
+      "y_max": 128.9646759033203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Name",
+        "Quantity",
+        "Op",
+        "Quantity",
+        "Recd.",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Age"
+      ],
+      "combined_confidence": 0.40410476190476197,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.915,
+      "data_validation_score": 0.5805238095238094,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "Quantity",
+        "Op",
+        "Quantity",
+        "Recd.",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Age"
+      ],
+      "combined_confidence": 0.4034214285714286,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.915,
+      "data_validation_score": 0.5771071428571428,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Product Name",
+        "Quantity",
+        "Op",
+        "Quantity",
+        "Recd.",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Age"
+      ],
+      "combined_confidence": 0.40307450980392157,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.915,
+      "data_validation_score": 0.5753725490196079,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Quantity",
+    "Op",
+    "Quantity",
+    "Recd.",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Age"
+  ],
+  "confidence": 0.8541047619047619,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.915,
+    "data_validation_score": 0.5805238095238094,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Quantity",
+      "Op",
+      "Quantity",
+      "Recd.",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Age"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Quantity",
+        "Op",
+        "Quantity",
+        "Recd.",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Age"
+      ],
+      [
+        "Product Name",
+        "Quantity",
+        "Op",
+        "Quantity",
+        "Recd.",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Age"
+      ],
+      [
+        "Product Name",
+        "Quantity",
+        "Op",
+        "Quantity",
+        "Recd.",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Age"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Quantity",
+          "Op",
+          "Quantity",
+          "Recd.",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Age"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8013000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Quantity",
+          "Op",
+          "Quantity",
+          "Recd.",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Age"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8025818181818183
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Quantity",
+          "Op",
+          "Quantity",
+          "Recd.",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Age"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.802855462184874
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Quantity",
+          "Op",
+          "Quantity",
+          "Recd.",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Age"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.804104761904762
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Quantity",
+          "Op",
+          "Quantity",
+          "Recd.",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Age"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8034214285714286
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Quantity",
+          "Op",
+          "Quantity",
+          "Recd.",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Age"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8030745098039216
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=10 data=6 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=6 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=10 data=6 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=6 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=10 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=8 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Quantity",
+      "Op",
+      "Quantity",
+      "Recd.",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Age"
+    ],
+    "data_column_count_detected": 10,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

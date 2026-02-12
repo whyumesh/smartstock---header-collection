@@ -1,0 +1,348 @@
+{
+  "pdf_path": "pdfs\\10004436_20260101_222910_ABT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 67.84645080566406,
+      "y_max": 78.23876190185547,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 222.7244415283203,
+      "y_max": 233.1167449951172,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 325.9764709472656,
+      "y_max": 336.3687744140625,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 119.47242736816406,
+      "y_max": 129.86473083496094,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "Op",
+        "Op",
+        "Amount",
+        "Amount",
+        "61,377.54",
+        "61,377.54",
+        "61,377.54",
+        "Purchase",
+        "Purchase",
+        "Amount",
+        "Amount",
+        "1,65,379.41",
+        "1,65,379.41"
+      ],
+      "combined_confidence": 0.0,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.8307692307692307,
+      "data_validation_score": 0.5586117832896417,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Op",
+        "Amount",
+        "48,549.67",
+        "Purchase",
+        "Amount",
+        "1,72,659.59"
+      ],
+      "combined_confidence": 0.0,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.5936111111111111,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "Op",
+    "Op",
+    "Amount",
+    "Amount",
+    "61,377.54",
+    "61,377.54",
+    "61,377.54",
+    "Purchase",
+    "Purchase",
+    "Amount",
+    "Amount",
+    "1,65,379.41",
+    "1,65,379.41"
+  ],
+  "confidence": 0.0,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.8307692307692307,
+    "data_validation_score": 0.5586117832896417,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "OPENING",
+      "OPENING",
+      "VALUE",
+      "VALUE",
+      "61,377.54",
+      "61,377.54",
+      "61,377.54",
+      "PURCHASE",
+      "PURCHASE",
+      "VALUE",
+      "VALUE",
+      "1,65,379.41",
+      "1,65,379.41"
+    ],
+    "normalized": [
+      "Op",
+      "Op",
+      "Amount",
+      "Amount",
+      "61,377.54",
+      "61,377.54",
+      "61,377.54",
+      "Purchase",
+      "Purchase",
+      "Amount",
+      "Amount",
+      "1,65,379.41",
+      "1,65,379.41"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "OPENING",
+        "into": "OPENING",
+        "interval_idx": 0
+      },
+      {
+        "split": "OPENING",
+        "into": "OPENING",
+        "interval_idx": 1
+      },
+      {
+        "split": "VALUE",
+        "into": "VALUE",
+        "interval_idx": 1
+      },
+      {
+        "split": "VALUE",
+        "into": "VALUE",
+        "interval_idx": 2
+      },
+      {
+        "split": "61,377.54",
+        "into": "61,377.54",
+        "interval_idx": 4
+      },
+      {
+        "split": "61,377.54",
+        "into": "61,377.54",
+        "interval_idx": 5
+      },
+      {
+        "split": "61,377.54",
+        "into": "61,377.54",
+        "interval_idx": 6
+      },
+      {
+        "split": "PURCHASE",
+        "into": "PURCHASE",
+        "interval_idx": 6
+      },
+      {
+        "split": "PURCHASE",
+        "into": "PURCHASE",
+        "interval_idx": 7
+      },
+      {
+        "split": "VALUE",
+        "into": "VALUE",
+        "interval_idx": 7
+      },
+      {
+        "split": "VALUE",
+        "into": "VALUE",
+        "interval_idx": 8
+      },
+      {
+        "split": "1,65,379.41",
+        "into": "1,65,379.41",
+        "interval_idx": 9
+      },
+      {
+        "split": "1,65,379.41",
+        "into": "1,65,379.41",
+        "interval_idx": 10
+      }
+    ],
+    "noise_tokens_removed": [
+      ":",
+      ":"
+    ],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=12"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.3,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.0,
+      "evidence_scores": {
+        "keyword_score": 0.6153846153846154,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.5586117832896417,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.6559990996685643,
+      "evidence_before_penalties": 0.6559990996685643
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7983104575163398
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8003788138825325
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Op",
+          "Op",
+          "Amount",
+          "Amount",
+          "61,377.54",
+          "61,377.54",
+          "61,377.54",
+          "Purchase",
+          "Purchase",
+          "Amount",
+          "Amount",
+          "1,65,379.41",
+          "1,65,379.41"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7678762028117745
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Op",
+          "Amount",
+          "48,549.67",
+          "Purchase",
+          "Amount",
+          "1,72,659.59"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7787222222222223
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Op",
+      "Op",
+      "Amount",
+      "Amount",
+      "61,377.54",
+      "61,377.54",
+      "61,377.54",
+      "Purchase",
+      "Purchase",
+      "Amount",
+      "Amount",
+      "1,65,379.41",
+      "1,65,379.41"
+    ]
+  }
+}

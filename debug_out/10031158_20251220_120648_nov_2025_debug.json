@@ -1,0 +1,125 @@
+{
+  "pdf_path": "pdfs\\10031158_20251220_120648_nov 2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 204.3699951171875,
+      "y_max": 216.76300048828125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=15"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Op",
+        "Balance",
+        "Inwards",
+        "Out.",
+        "Closing",
+        "Balance"
+      ],
+      "combined_confidence": 0.31773919413919416,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.7833333333333333,
+      "data_validation_score": 0.6553626373626373,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Op",
+    "Balance",
+    "Inwards",
+    "Out.",
+    "Closing",
+    "Balance"
+  ],
+  "confidence": 0.31773919413919416,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.7833333333333333,
+    "data_validation_score": 0.6553626373626373,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Opening",
+      "Balance",
+      "Inwards",
+      "Outwards",
+      "Closing",
+      "Balance"
+    ],
+    "normalized": [
+      "Op",
+      "Balance",
+      "Inwards",
+      "Out.",
+      "Closing",
+      "Balance"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "P",
+      "a",
+      "r",
+      "t",
+      "i",
+      "c",
+      "u",
+      "l",
+      "a",
+      "r",
+      "s"
+    ],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.31773919413919416,
+      "evidence_scores": {
+        "keyword_score": 0.6666666666666666,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6553626373626373,
+        "lexical_purity_score": 0.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.6180073260073259,
+      "evidence_before_penalties": 0.6180073260073259
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Op",
+          "Balance",
+          "Inwards",
+          "Out.",
+          "Closing",
+          "Balance"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8677391941391942
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Op",
+      "Balance",
+      "Inwards",
+      "Out.",
+      "Closing",
+      "Balance"
+    ]
+  }
+}

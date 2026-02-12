@@ -1,0 +1,1110 @@
+{
+  "pdf_path": "pdfs\\10034597_20251211_124019_REPORT_7CG0R09UV.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 3,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 4,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 5,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 6,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 7,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 8,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 9,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 10,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 11,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 12,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 13,
+      "y_min": 122.23800659179688,
+      "y_max": 133.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 14,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 15,
+      "y_min": 195.73800659179688,
+      "y_max": 207.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 16,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 17,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 18,
+      "y_min": 237.73800659179688,
+      "y_max": 249.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 19,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 20,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 21,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Op",
+        "TABLET",
+        "10'S",
+        "2.34",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5619012779076128,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5884615384615384,
+      "data_validation_score": 0.7710448510765253,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "ICIKINASE",
+        "1.5I.U.Vial",
+        "Vial",
+        "650.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.43590025359256124,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7679628064243449,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "KERTYOL",
+        "SHAMPOO",
+        "60Ml",
+        "111.36",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5563575655114118,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7452493660185968,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "TIXYLIX",
+        "SYRUP",
+        "60Ml",
+        "62.94",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.556315863623556,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7450408565793182,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "KENACORT",
+        "HEXA",
+        "INJ",
+        "20Ml",
+        "352.86",
+        "1058.58",
+        "-",
+        "0.00",
+        "1160.92",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.43063540163540165,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.575,
+      "data_validation_score": 0.7281770081770081,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "Cl",
+        "10Mg",
+        "TABLETS",
+        "10'S",
+        "70.84",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5622244897959184,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5892857142857143,
+      "data_validation_score": 0.7468367346938776,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 12,
+      "headers": [
+        "ZOBID",
+        "50Mg",
+        "TABLET",
+        "10'S",
+        "13.65",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.4166343537414967,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5642857142857143,
+      "data_validation_score": 0.7688860544217687,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 13,
+      "headers": [
+        "TOOTHMIN",
+        "AF",
+        "Out.",
+        "150Ml",
+        "114.71",
+        "2867.75",
+        "-25",
+        "-2867.75",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.4392909974640744,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.6038461538461538,
+      "data_validation_score": 0.7426088334742181,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 14,
+      "headers": [
+        "BECOMAX",
+        "FORTE",
+        "TABLET",
+        "15'S",
+        "32.64",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.4442551020408163,
+      "visual_score": 0.7,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5642857142857143,
+      "data_validation_score": 0.7819897959183674,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 16,
+      "headers": [
+        "Amount",
+        "TABLET",
+        "10'S",
+        "30.65",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5044239222316147,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5923076923076923,
+      "data_validation_score": 0.7298119188503804,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 17,
+      "headers": [
+        "ALDINE",
+        "TABLET",
+        "10'S",
+        "26.65",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5819230769230769,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7480769230769231,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 19,
+      "headers": [
+        "MALATRIT",
+        "INJ.",
+        "2Ml",
+        "44.67",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5891483516483517,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7842032967032968,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 20,
+      "headers": [
+        "NICORT",
+        "4Mg",
+        "TABLET",
+        "10'S",
+        "9.56",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5664285714285715,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5642857142857143,
+      "data_validation_score": 0.7928571428571429,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 21,
+      "headers": [
+        "Op",
+        "SP",
+        "TABLET",
+        "10'S",
+        "36.21",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.571357142857143,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5892857142857143,
+      "data_validation_score": 0.7925000000000001,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "MALATRIT",
+    "INJ.",
+    "2Ml",
+    "44.67",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.5891483516483517,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.5615384615384615,
+    "data_validation_score": 0.7842032967032968,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "MALATRIT",
+      "INJ.",
+      "2ml",
+      "44.67",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "MALATRIT",
+      "INJ.",
+      "2Ml",
+      "44.67",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "E"
+    ],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5891483516483517,
+      "evidence_scores": {
+        "keyword_score": 0.125,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7842032967032968,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.043478260869565216
+      },
+      "evidence_total": 0.6136486502627807,
+      "evidence_before_penalties": 0.6136486502627807
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8164705882352941
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Op",
+          "TABLET",
+          "10'S",
+          "2.34",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7119012779076128
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot",
+          "Tot",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6828888888888889
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "STATOR",
+          "CV",
+          "20Mg",
+          "TAB",
+          "15'S",
+          "162.23",
+          "1135.61",
+          "1622.30",
+          "1620.16",
+          "1297.84",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7106983016983017
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "ICIKINASE",
+          "1.5I.U.Vial",
+          "Vial",
+          "650.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7359002535925613
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "KERTYOL",
+          "SHAMPOO",
+          "60Ml",
+          "111.36",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7063575655114118
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "GLUFORMIN",
+          "TABLET",
+          "10'S",
+          "13.32",
+          "226.44",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "226.44"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.6996218837025138
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "NICHOLAS",
+          "NICHOLAS",
+          "{",
+          "GEN.MEDICINE",
+          "GEN.MEDICINE",
+          "}"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7224333333333334
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "TIXYLIX",
+          "SYRUP",
+          "60Ml",
+          "62.94",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.706315863623556
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "KENACORT",
+          "HEXA",
+          "INJ",
+          "20Ml",
+          "352.86",
+          "1058.58",
+          "-",
+          "0.00",
+          "1160.92",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7306354016354016
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Cl",
+          "10Mg",
+          "TABLETS",
+          "10'S",
+          "70.84",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7122244897959185
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Tot",
+          "Tot",
+          "123079.66",
+          "83136.01",
+          "83136.01",
+          "70308.94",
+          "70308.94",
+          "144049.48",
+          "144049.48"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.6821225885225886
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "ZOBID",
+          "50Mg",
+          "TABLET",
+          "10'S",
+          "13.65",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7166343537414968
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "TOOTHMIN",
+          "AF",
+          "Out.",
+          "150Ml",
+          "114.71",
+          "2867.75",
+          "-25",
+          "-2867.75",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7392909974640745
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "BECOMAX",
+          "FORTE",
+          "TABLET",
+          "15'S",
+          "32.64",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7442551020408164
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "PHENSEDYL",
+          "LINCTUS",
+          "SHRINK",
+          "{N",
+          "100Ml",
+          "90.16",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7414561403508773
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "Amount",
+          "TABLET",
+          "10'S",
+          "30.65",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7044239222316147
+      },
+      {
+        "page_no": 17,
+        "headers": [
+          "ALDINE",
+          "TABLET",
+          "10'S",
+          "26.65",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7319230769230769
+      },
+      {
+        "page_no": 18,
+        "headers": [
+          "ERTYCIN",
+          "250Mg",
+          "TABLET",
+          "6'S",
+          "58.22",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7406991504735866
+      },
+      {
+        "page_no": 19,
+        "headers": [
+          "MALATRIT",
+          "INJ.",
+          "2Ml",
+          "44.67",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7391483516483517
+      },
+      {
+        "page_no": 20,
+        "headers": [
+          "NICORT",
+          "4Mg",
+          "TABLET",
+          "10'S",
+          "9.56",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7164285714285715
+      },
+      {
+        "page_no": 21,
+        "headers": [
+          "Op",
+          "SP",
+          "TABLET",
+          "10'S",
+          "36.21",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.721357142857143
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=11 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=13 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=10 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=6 data=13 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=13 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=9 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 15,
+        "reason": "column_count_mismatch: header=15 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=13 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 18,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "MALATRIT",
+      "INJ.",
+      "2Ml",
+      "44.67",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

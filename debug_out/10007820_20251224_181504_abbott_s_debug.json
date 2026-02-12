@@ -1,0 +1,317 @@
+{
+  "pdf_path": "pdfs\\10007820_20251224_181504_abbott s.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 118.10713958740234,
+      "y_max": 128.10714721679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 106.70711517333984,
+      "y_max": 116.70711517333984,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 2,
+      "y_min": 106.70711517333984,
+      "y_max": 116.70711517333984,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 3,
+      "y_min": 106.70711517333984,
+      "y_max": 116.70711517333984,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 4,
+      "y_min": 35.54997634887695,
+      "y_max": 44.54997634887695,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Op",
+        "Amount",
+        "Amount",
+        "Sales",
+        "Sales",
+        "Amount",
+        "On",
+        "On",
+        "Rate"
+      ],
+      "combined_confidence": 0.8037102804288913,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.8999999999999999,
+      "data_validation_score": 0.6935514021444562,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Op",
+        "Amount",
+        "Amount",
+        "Sales",
+        "Sales",
+        "Amount",
+        "On",
+        "Rate",
+        "Rate"
+      ],
+      "combined_confidence": 0.6038391762007833,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.9388888888888888,
+      "data_validation_score": 0.6553069921150279,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Op",
+        "Op",
+        "Amount",
+        "Amount",
+        "Sales",
+        "Sales",
+        "Amount",
+        "On",
+        "Rate",
+        "Rate"
+      ],
+      "combined_confidence": 0.6002552009456266,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.9400000000000001,
+      "data_validation_score": 0.6362760047281324,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Op",
+        "Op",
+        "Amount",
+        "Sales",
+        "Amount",
+        "On",
+        "Rate",
+        "Rate"
+      ],
+      "combined_confidence": 0.6717066869300913,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.9249999999999999,
+      "data_validation_score": 0.758533434650456,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "Op",
+    "Amount",
+    "Amount",
+    "Sales",
+    "Sales",
+    "Amount",
+    "On",
+    "On",
+    "Rate"
+  ],
+  "confidence": 0.8037102804288913,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.8999999999999999,
+    "data_validation_score": 0.6935514021444562,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Opening",
+      "Value",
+      "Value",
+      "Sales",
+      "Sales",
+      "Value",
+      "On",
+      "On",
+      "prate"
+    ],
+    "normalized": [
+      "Op",
+      "Amount",
+      "Amount",
+      "Sales",
+      "Sales",
+      "Amount",
+      "On",
+      "On",
+      "Rate"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Value",
+        "into": "Value",
+        "interval_idx": 2
+      },
+      {
+        "split": "Value",
+        "into": "Value",
+        "interval_idx": 3
+      },
+      {
+        "split": "Sales",
+        "into": "Sales",
+        "interval_idx": 5
+      },
+      {
+        "split": "Sales",
+        "into": "Sales",
+        "interval_idx": 6
+      },
+      {
+        "split": "On",
+        "into": "On",
+        "interval_idx": 6
+      },
+      {
+        "split": "On",
+        "into": "On",
+        "interval_idx": 7
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 9,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=9 data=9"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.8037102804288913,
+      "evidence_scores": {
+        "keyword_score": 0.7777777777777778,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6935514021444562,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.7878322949805585,
+      "evidence_before_penalties": 0.7878322949805585
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Op",
+          "Amount",
+          "Amount",
+          "Sales",
+          "Sales",
+          "Amount",
+          "On",
+          "On",
+          "Rate"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8037102804288913
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Op",
+          "Amount",
+          "Amount",
+          "Sales",
+          "Sales",
+          "Amount",
+          "On",
+          "Rate",
+          "Rate"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8038391762007834
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Op",
+          "Op",
+          "Amount",
+          "Amount",
+          "Sales",
+          "Sales",
+          "Amount",
+          "On",
+          "Rate",
+          "Rate"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8002552009456265
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Op",
+          "Op",
+          "Amount",
+          "Sales",
+          "Amount",
+          "On",
+          "Rate",
+          "Rate"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8217066869300913
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "DOOR.NO",
+          "LANE,OFFICIAL",
+          "COLONY,",
+          "VISAKHAPATNAM"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6725000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=4 data=2 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=2 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Op",
+      "Amount",
+      "Amount",
+      "Sales",
+      "Sales",
+      "Amount",
+      "On",
+      "On",
+      "Rate"
+    ]
+  }
+}

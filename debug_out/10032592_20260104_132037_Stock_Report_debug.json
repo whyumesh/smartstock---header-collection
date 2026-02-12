@@ -1,0 +1,226 @@
+{
+  "pdf_path": "pdfs\\10032592_20260104_132037_Stock_Report.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.5660171508789,
+      "y_max": 119.4900131225586,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 168.47299194335938,
+      "y_max": 176.39700317382812,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=11"
+    },
+    {
+      "page_no": 2,
+      "y_min": 209.06600952148438,
+      "y_max": 216.99002075195312,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 20.06601333618164,
+      "y_max": 27.990015029907227,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "Invoice No",
+        "CP/03559",
+        "Date",
+        "-",
+        "Amount",
+        "-",
+        "1,15,060.00"
+      ],
+      "combined_confidence": 0.002395604395604378,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.7428571428571429,
+      "data_validation_score": 0.5691208791208792,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Invoice No",
+    "CP/03559",
+    "Date",
+    "-",
+    "Amount",
+    "-",
+    "1,15,060.00"
+  ],
+  "confidence": 0.002395604395604378,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.7428571428571429,
+    "data_validation_score": 0.5691208791208792,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Inv.No.-",
+      "CP/03559",
+      "Date",
+      "-",
+      "Value",
+      "-",
+      "1,15,060.00"
+    ],
+    "normalized": [
+      "Invoice No",
+      "CP/03559",
+      "Date",
+      "-",
+      "Amount",
+      "-",
+      "1,15,060.00"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "24/12/25"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.002395604395604378,
+      "evidence_scores": {
+        "keyword_score": 0.3333333333333333,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.5691208791208792,
+        "lexical_purity_score": 0.96,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.5821135531135532,
+      "evidence_before_penalties": 0.5821135531135532
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Op",
+          "Particular",
+          "Amount",
+          "Purchase",
+          "Amount",
+          "Sl.Qnt.",
+          "Amount",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8519259259259259
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "2485.00",
+          "Company",
+          "Tot",
+          "227793.99",
+          "3965.00",
+          "362128.88",
+          "3055.00",
+          "333964.30",
+          "3388.00",
+          "255490.57"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7407542857142858
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "10.00",
+          "VERTIN",
+          "VERTIN",
+          "OD",
+          "OD",
+          "24Mg",
+          "24Mg",
+          "TAB",
+          "4300.90",
+          "10.00",
+          "10.00",
+          "4300.90"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.6957478632478633
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Invoice No",
+          "CP/03559",
+          "Date",
+          "-",
+          "Amount",
+          "-",
+          "1,15,060.00"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7023956043956044
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=9 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=10 data=6 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=6 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=12 data=9 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=9 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Invoice No",
+      "CP/03559",
+      "Date",
+      "-",
+      "Amount",
+      "-",
+      "1,15,060.00"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "pdf_path": "pdfs\\10014665_20260101_164448_abbott healthcare.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 69.80367279052734,
+      "y_max": 74.44181060791016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Order",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Quantity",
+          "Cl",
+          "Amount",
+          "Sale",
+          "NovSa",
+          "Amount",
+          "Age",
+          "Sales",
+          "Replaceme"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8354888682745826
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=8 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=8 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

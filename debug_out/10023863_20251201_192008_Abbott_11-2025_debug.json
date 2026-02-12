@@ -1,0 +1,130 @@
+{
+  "pdf_path": "pdfs\\10023863_20251201_192008_Abbott 11-2025.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 41.05280685424805,
+      "y_max": 48.010704040527344,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 41.05280685424805,
+      "y_max": 48.010704040527344,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 41.05280685424805,
+      "y_max": 48.010704040527344,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "&",
+          "Pack",
+          "LMS",
+          "Op",
+          "PRS",
+          "SLS",
+          "Cl",
+          "PRN",
+          "SRN",
+          "BRK",
+          "Amount",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8168214285714286
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "&",
+          "Pack",
+          "LMS",
+          "Op",
+          "PRS",
+          "SLS",
+          "Cl",
+          "PRN",
+          "SRN",
+          "BRK",
+          "Amount",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8172142857142858
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "&",
+          "Pack",
+          "LMS",
+          "Op",
+          "PRS",
+          "SLS",
+          "Cl",
+          "PRN",
+          "SRN",
+          "BRK",
+          "Amount",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8199387755102041
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=14 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=14 data=10 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=10 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

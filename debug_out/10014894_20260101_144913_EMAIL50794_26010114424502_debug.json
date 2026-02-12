@@ -1,0 +1,226 @@
+{
+  "pdf_path": "pdfs\\10014894_20260101_144913_EMAIL50794_26010114424502.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=16"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "DIGENE",
+        "TAB",
+        "(Mint",
+        ")",
+        "15T",
+        "15T",
+        "Pack",
+        "4172.57",
+        "-",
+        "0.00",
+        "4140.82",
+        "371.65"
+      ],
+      "combined_confidence": 0.1627777777777778,
+      "visual_score": 0.64,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.6166666666666666,
+      "data_validation_score": 0.6472222222222223,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "DIGENE",
+    "TAB",
+    "(Mint",
+    ")",
+    "15T",
+    "15T",
+    "Pack",
+    "4172.57",
+    "-",
+    "0.00",
+    "4140.82",
+    "371.65"
+  ],
+  "confidence": 0.1627777777777778,
+  "confidence_breakdown": {
+    "visual_score": 0.64,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.6166666666666666,
+    "data_validation_score": 0.6472222222222223,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "DIGENE",
+      "TAB",
+      "(MINT",
+      ")",
+      "15T",
+      "15T",
+      "PACK",
+      "4172.57",
+      "-",
+      "0.00",
+      "4140.82",
+      "371.65"
+    ],
+    "normalized": [
+      "DIGENE",
+      "TAB",
+      "(Mint",
+      ")",
+      "15T",
+      "15T",
+      "Pack",
+      "4172.57",
+      "-",
+      "0.00",
+      "4140.82",
+      "371.65"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "247",
+      "225",
+      "22",
+      "22"
+    ],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=11"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.1627777777777778,
+      "evidence_scores": {
+        "keyword_score": 0.2,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6472222222222223,
+        "lexical_purity_score": 0.6,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.5226388888888889,
+      "evidence_before_penalties": 0.5226388888888889
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8458775510204082
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "EPTOIN",
+          "INJ.",
+          "5*2Ml.",
+          "134.53",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "134.53"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7133782235041265
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "DIGENE",
+          "TAB",
+          "(Mint",
+          ")",
+          "15T",
+          "15T",
+          "Pack",
+          "4172.57",
+          "-",
+          "0.00",
+          "4140.82",
+          "371.65"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7127777777777778
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "DIGENE",
+      "TAB",
+      "(Mint",
+      ")",
+      "15T",
+      "15T",
+      "Pack",
+      "4172.57",
+      "-",
+      "0.00",
+      "4140.82",
+      "371.65"
+    ]
+  }
+}

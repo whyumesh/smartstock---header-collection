@@ -1,0 +1,95 @@
+{
+  "pdf_path": "pdfs\\10034008_20260110_130726_rptMonthlySalesAndStock7160202673310102.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=12"
+    },
+    {
+      "page_no": 1,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "2091.14",
+          "2091.14",
+          "2152.32",
+          "2152.32",
+          "14784.00",
+          "14784.00",
+          "3189.94",
+          "3189.94",
+          "5133.45",
+          "5133.45",
+          "5866.70",
+          "5866.70",
+          "51801.20",
+          "51801.20",
+          "1639.31",
+          "1639.31",
+          "1839.04",
+          "1839.04",
+          "1516.00"
+        ],
+        "data_column_count_detected": 28,
+        "combined_confidence": 0.7160090344438171
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "1428.44",
+          "1428.44",
+          "96130.70",
+          "96130.70",
+          "96130.70"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.744964569031274
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=23 data=28 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=23 data=28 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

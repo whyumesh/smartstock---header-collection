@@ -1,0 +1,366 @@
+{
+  "pdf_path": "pdfs\\10014340_20260101_203507_HEALTHYCCCCCCCC.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 24.606273651123047,
+      "y_max": 33.991092681884766,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 0.6062731742858887,
+      "y_max": 9.991093635559082,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 25.37512969970703,
+      "y_max": 33.769309997558594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=38"
+    },
+    {
+      "page_no": 3,
+      "y_min": 1.3751296997070312,
+      "y_max": 9.769308090209961,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=38"
+    },
+    {
+      "page_no": 4,
+      "y_min": 1.3751296997070312,
+      "y_max": 9.769308090209961,
+      "confidence": 0.9,
+      "reason": "header_keywords=6 tokens=21"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "GST",
+        "OCK",
+        "OCK",
+        "GST",
+        "GST",
+        "AT",
+        "AT",
+        "EMENT",
+        "OR",
+        "OR",
+        "HE",
+        "Amount",
+        "DECEMBER",
+        "DECEMBER",
+        "DECEMBER"
+      ],
+      "combined_confidence": 0.0,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.6533333333333334,
+      "data_validation_score": 0.5500595704604992,
+      "data_column_count_detected": 14
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "GST",
+        "OCK",
+        "OCK",
+        "GST",
+        "AT",
+        "EMENT",
+        "EMENT",
+        "OR",
+        "OR",
+        "HE",
+        "Amount",
+        "Amount",
+        "DECEMBER",
+        "DECEMBER",
+        "DECEMBER"
+      ],
+      "combined_confidence": 0.0,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.6533333333333334,
+      "data_validation_score": 0.5500595704604992,
+      "data_column_count_detected": 15
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "PTR",
+        "Na",
+        "Me",
+        "Pa",
+        "Op",
+        "GST",
+        "Re",
+        "S.",
+        "Re",
+        "Sa",
+        "P.",
+        "Re",
+        "Cl",
+        "GST",
+        "Or"
+      ],
+      "combined_confidence": 0.050573881673881715,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.6933333333333334,
+      "data_validation_score": 0.659536075036075,
+      "data_column_count_detected": 16
+    }
+  ],
+  "final_selected_header": [
+    "PTR",
+    "Na",
+    "Me",
+    "Pa",
+    "Op",
+    "GST",
+    "Re",
+    "S.",
+    "Re",
+    "Sa",
+    "P.",
+    "Re",
+    "Cl",
+    "GST",
+    "Or"
+  ],
+  "confidence": 0.8505738816738817,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.6933333333333334,
+    "data_validation_score": 0.659536075036075,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "PTR",
+      "Na",
+      "Me",
+      "Pa",
+      "Op",
+      "GST",
+      "Re",
+      "S.",
+      "Re",
+      "Sa",
+      "P.",
+      "Re",
+      "Cl",
+      "GST",
+      "Or"
+    ],
+    "per_page": [
+      [
+        "GST",
+        "OCK",
+        "OCK",
+        "GST",
+        "GST",
+        "AT",
+        "AT",
+        "EMENT",
+        "OR",
+        "OR",
+        "HE",
+        "Amount",
+        "DECEMBER",
+        "DECEMBER",
+        "DECEMBER"
+      ],
+      [
+        "GST",
+        "OCK",
+        "OCK",
+        "GST",
+        "AT",
+        "EMENT",
+        "EMENT",
+        "OR",
+        "OR",
+        "HE",
+        "Amount",
+        "Amount",
+        "DECEMBER",
+        "DECEMBER",
+        "DECEMBER"
+      ],
+      [
+        "PTR",
+        "Na",
+        "Me",
+        "Pa",
+        "Op",
+        "GST",
+        "Re",
+        "S.",
+        "Re",
+        "Sa",
+        "P.",
+        "Re",
+        "Cl",
+        "GST",
+        "Or"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "GST",
+          "OCK",
+          "OCK",
+          "GST",
+          "GST",
+          "AT",
+          "AT",
+          "EMENT",
+          "OR",
+          "OR",
+          "HE",
+          "Amount",
+          "DECEMBER",
+          "DECEMBER",
+          "DECEMBER"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.7606785807587666
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GST",
+          "OCK",
+          "OCK",
+          "GST",
+          "AT",
+          "EMENT",
+          "EMENT",
+          "OR",
+          "OR",
+          "HE",
+          "Amount",
+          "Amount",
+          "DECEMBER",
+          "DECEMBER",
+          "DECEMBER"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.7606785807587666
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "PTR",
+          "Na",
+          "Me",
+          "Pa",
+          "Op",
+          "GST",
+          "Re",
+          "S.",
+          "Re",
+          "Sa",
+          "P.",
+          "Re",
+          "Cl",
+          "GST",
+          "Or"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.7955751082251084
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "PTR",
+          "Na",
+          "Me",
+          "Pa",
+          "Op",
+          "GST",
+          "Re",
+          "S.",
+          "Re",
+          "Sa",
+          "P.",
+          "Re",
+          "Cl",
+          "GST",
+          "Or"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.8005738816738818
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Co",
+          "MRP",
+          "MRP",
+          "MRP",
+          "(",
+          "(",
+          "Quantity",
+          "Quantity",
+          ")"
+        ],
+        "data_column_count_detected": 39,
+        "combined_confidence": 0.7657919191919191
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=15 data=17 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=17 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=9 data=39 diff=30",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=39 diff=30"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "PTR",
+      "Na",
+      "Me",
+      "Pa",
+      "Op",
+      "GST",
+      "Re",
+      "S.",
+      "Re",
+      "Sa",
+      "P.",
+      "Re",
+      "Cl",
+      "GST",
+      "Or"
+    ],
+    "data_column_count_detected": 14,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

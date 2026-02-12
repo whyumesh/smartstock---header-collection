@@ -1,0 +1,194 @@
+{
+  "pdf_path": "pdfs\\10014566_20260112_211651_REPORT_7DE15MTAB.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "DESCRIPTION",
+        "Op",
+        "Op",
+        "RECEIPT",
+        "RECEIPT",
+        "ISSUE",
+        "ISSUE",
+        "Closing",
+        "Closing"
+      ],
+      "combined_confidence": 0.4571383963862225,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7727272727272727,
+      "data_validation_score": 0.5879647092038397,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "DESCRIPTION",
+    "DESCRIPTION",
+    "Op",
+    "Op",
+    "RECEIPT",
+    "RECEIPT",
+    "ISSUE",
+    "ISSUE",
+    "Closing",
+    "Closing"
+  ],
+  "confidence": 0.4571383963862225,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.7727272727272727,
+    "data_validation_score": 0.5879647092038397,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "ITEM",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "OPENING",
+      "OPENING",
+      "RECEIPT",
+      "RECEIPT",
+      "ISSUE",
+      "ISSUE",
+      "CLOSING",
+      "CLOSING"
+    ],
+    "normalized": [
+      "Product Name",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "Op",
+      "Op",
+      "RECEIPT",
+      "RECEIPT",
+      "ISSUE",
+      "ISSUE",
+      "Closing",
+      "Closing"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "DESCRIPTION",
+        "into": "DESCRIPTION",
+        "interval_idx": 1
+      },
+      {
+        "split": "DESCRIPTION",
+        "into": "DESCRIPTION",
+        "interval_idx": 2
+      },
+      {
+        "split": "OPENING",
+        "into": "OPENING",
+        "interval_idx": 5
+      },
+      {
+        "split": "OPENING",
+        "into": "OPENING",
+        "interval_idx": 6
+      },
+      {
+        "split": "RECEIPT",
+        "into": "RECEIPT",
+        "interval_idx": 6
+      },
+      {
+        "split": "RECEIPT",
+        "into": "RECEIPT",
+        "interval_idx": 7
+      },
+      {
+        "split": "ISSUE",
+        "into": "ISSUE",
+        "interval_idx": 7
+      },
+      {
+        "split": "ISSUE",
+        "into": "ISSUE",
+        "interval_idx": 8
+      },
+      {
+        "split": "CLOSING",
+        "into": "CLOSING",
+        "interval_idx": 8
+      },
+      {
+        "split": "CLOSING",
+        "into": "CLOSING",
+        "interval_idx": 9
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=10"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.4571383963862225,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.5879647092038397,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7094911773009599,
+      "evidence_before_penalties": 0.7094911773009599
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing",
+          "Closing"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8071383963862225
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "Op",
+      "Op",
+      "RECEIPT",
+      "RECEIPT",
+      "ISSUE",
+      "ISSUE",
+      "Closing",
+      "Closing"
+    ]
+  }
+}

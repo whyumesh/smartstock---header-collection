@@ -1,0 +1,48 @@
+{
+  "pdf_path": "pdfs\\10009893_20251227_160416_Order12966.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 99.41999816894531,
+      "y_max": 113.18999481201172,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sr.No.",
+          "Product Name",
+          "Pack",
+          "Order",
+          "Quantity",
+          "Scm",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8604999999999999
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=8 data=5 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=5 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

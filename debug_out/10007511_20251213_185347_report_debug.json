@@ -1,0 +1,185 @@
+{
+  "pdf_path": "pdfs\\10007511_20251213_185347_report.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Quantity",
+        "Quantity",
+        "Amount",
+        "Amount",
+        "Quantity",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Exp"
+      ],
+      "combined_confidence": 0.4803846153846153,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9961538461538461,
+      "data_validation_score": 0.6307692307692307,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "Quantity",
+    "Quantity",
+    "Amount",
+    "Amount",
+    "Quantity",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Exp"
+  ],
+  "confidence": 0.4803846153846153,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.9961538461538461,
+    "data_validation_score": 0.6307692307692307,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "QTY.",
+      "QTY.",
+      "VALUE",
+      "VALUE",
+      "QTY.",
+      "QTY.",
+      "VALUE",
+      "QTY.",
+      "VALUE",
+      "QTY.",
+      "VALUE",
+      "QTY.",
+      "M.EXP"
+    ],
+    "normalized": [
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Amount",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Exp"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "QTY.",
+        "into": "QTY.",
+        "interval_idx": 5
+      },
+      {
+        "split": "QTY.",
+        "into": "QTY.",
+        "interval_idx": 6
+      },
+      {
+        "split": "VALUE",
+        "into": "VALUE",
+        "interval_idx": 6
+      },
+      {
+        "split": "VALUE",
+        "into": "VALUE",
+        "interval_idx": 7
+      },
+      {
+        "split": "QTY.",
+        "into": "QTY.",
+        "interval_idx": 7
+      },
+      {
+        "split": "QTY.",
+        "into": "QTY.",
+        "interval_idx": 8
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.4803846153846153,
+      "evidence_scores": {
+        "keyword_score": 1.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6307692307692307,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.9076923076923077,
+      "evidence_before_penalties": 0.9076923076923077
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8803846153846153
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Amount",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Exp"
+    ]
+  }
+}

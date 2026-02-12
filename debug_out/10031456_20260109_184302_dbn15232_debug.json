@@ -1,0 +1,45 @@
+{
+  "pdf_path": "pdfs\\10031456_20260109_184302_dbn15232.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 23.988018035888672,
+      "y_max": 43.26601791381836,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=4"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Pend",
+          "Pend",
+          "Debit",
+          "Note",
+          "List"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.717
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

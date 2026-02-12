@@ -1,0 +1,236 @@
+{
+  "pdf_path": "pdfsamples\\10000599_20251231_193448_Stock_&_Sales_Statement_01012026_192557_1_C66.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 36.944000244140625,
+      "y_max": 48.14400100708008,
+      "confidence": 0.9,
+      "reason": "header_keywords=8 tokens=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Age",
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Pack",
+        "O.Stk",
+        "O.Stk",
+        "Purchase",
+        "Purchase",
+        "Tot",
+        "Tot",
+        "Sale",
+        "Qoh",
+        "Qoh",
+        "Amount"
+      ],
+      "combined_confidence": 0.29785349650349635,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.8566666666666667,
+      "data_validation_score": 0.6576008158508159,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Age",
+    "Product Name",
+    "Product Name",
+    "Pack",
+    "Pack",
+    "O.Stk",
+    "O.Stk",
+    "Purchase",
+    "Purchase",
+    "Tot",
+    "Tot",
+    "Sale",
+    "Qoh",
+    "Qoh",
+    "Amount"
+  ],
+  "confidence": 0.29785349650349635,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.8566666666666667,
+    "data_validation_score": 0.6576008158508159,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Age",
+      "Product",
+      "Name",
+      "Pack",
+      "Pack",
+      "O.Stk",
+      "O.Stk",
+      "Purc",
+      "Purc",
+      "Tot",
+      "Tot",
+      "Sale",
+      "Qoh",
+      "Qoh",
+      "Value"
+    ],
+    "normalized": [
+      "Age",
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Pack",
+      "O.Stk",
+      "O.Stk",
+      "Purchase",
+      "Purchase",
+      "Tot",
+      "Tot",
+      "Sale",
+      "Qoh",
+      "Qoh",
+      "Amount"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "Name"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [
+      {
+        "split": "Product Name",
+        "into": "Product",
+        "interval_idx": 1
+      },
+      {
+        "split": "Product Name",
+        "into": "Name",
+        "interval_idx": 2
+      },
+      {
+        "split": "Pack",
+        "into": "Pack",
+        "interval_idx": 3
+      },
+      {
+        "split": "Pack",
+        "into": "Pack",
+        "interval_idx": 4
+      },
+      {
+        "split": "O.Stk",
+        "into": "O.Stk",
+        "interval_idx": 4
+      },
+      {
+        "split": "O.Stk",
+        "into": "O.Stk",
+        "interval_idx": 5
+      },
+      {
+        "split": "Purc",
+        "into": "Purc",
+        "interval_idx": 5
+      },
+      {
+        "split": "Purc",
+        "into": "Purc",
+        "interval_idx": 6
+      },
+      {
+        "split": "Tot",
+        "into": "Tot",
+        "interval_idx": 6
+      },
+      {
+        "split": "Tot",
+        "into": "Tot",
+        "interval_idx": 7
+      },
+      {
+        "split": "Qoh",
+        "into": "Qoh",
+        "interval_idx": 8
+      },
+      {
+        "split": "Qoh",
+        "into": "Qoh",
+        "interval_idx": 9
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok_header_ge_data: header=15 data=10"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.29785349650349635,
+      "evidence_scores": {
+        "keyword_score": 0.8235294117647058,
+        "column_alignment_score": 0.0,
+        "data_validation_score": 0.6576008158508159,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.6202825569038805,
+      "evidence_before_penalties": 0.6202825569038805
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Age",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "O.Stk",
+          "O.Stk",
+          "Purchase",
+          "Purchase",
+          "Tot",
+          "Tot",
+          "Sale",
+          "Qoh",
+          "Qoh",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8478534965034964
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Age",
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Pack",
+      "O.Stk",
+      "O.Stk",
+      "Purchase",
+      "Purchase",
+      "Tot",
+      "Tot",
+      "Sale",
+      "Qoh",
+      "Qoh",
+      "Amount"
+    ]
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "pdf_path": "pdfs\\10030441_20260102_180101_10001014.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 53.80036544799805,
+      "y_max": 64.84081268310547,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 53.80036544799805,
+      "y_max": 64.84081268310547,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 53.80036544799805,
+      "y_max": 64.84081268310547,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 53.80036544799805,
+      "y_max": 64.84081268310547,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 53.80036544799805,
+      "y_max": 64.84081268310547,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 5,
+      "y_min": 53.80036544799805,
+      "y_max": 64.84081268310547,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 6,
+      "y_min": 53.80036544799805,
+      "y_max": 64.84081268310547,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 7,
+      "y_min": 53.80036544799805,
+      "y_max": 64.84081268310547,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 8,
+      "y_min": 53.80036544799805,
+      "y_max": 64.84081268310547,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 9,
+      "y_min": 53.80036544799805,
+      "y_max": 64.84081268310547,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Sales",
+        "Stock",
+        "STATMENT",
+        "FROM",
+        "Tot"
+      ],
+      "combined_confidence": 0.4350000000000001,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8,
+      "data_validation_score": 0.575,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Sales",
+    "Stock",
+    "STATMENT",
+    "FROM",
+    "Tot"
+  ],
+  "confidence": 0.4350000000000001,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8,
+    "data_validation_score": 0.575,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SALES",
+      "STOCK",
+      "STATMENT",
+      "FROM",
+      "TO"
+    ],
+    "normalized": [
+      "Sales",
+      "Stock",
+      "STATMENT",
+      "FROM",
+      "Tot"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "01/12/2025",
+      "31/12/2025"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.4350000000000001,
+      "evidence_scores": {
+        "keyword_score": 0.6,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.575,
+        "lexical_purity_score": 0.92,
+        "multi_page_presence_score": 0.1
+      },
+      "evidence_total": 0.5667500000000001,
+      "evidence_before_penalties": 0.5667500000000001
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7350000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7743045454545455
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7743045454545455
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7743045454545455
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7743045454545455
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7743045454545455
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7743045454545455
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7743045454545455
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7743045454545455
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7743045454545455
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Sales",
+      "Stock",
+      "STATMENT",
+      "FROM",
+      "Tot"
+    ]
+  }
+}

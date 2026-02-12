@@ -1,0 +1,196 @@
+{
+  "pdf_path": "pdfs\\10036152_20260101_114249_AI12.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.39398193359375,
+      "y_max": 125.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "ANALYSIS",
+        "(Abbott",
+        "INDIA",
+        "LTD)",
+        "-"
+      ],
+      "combined_confidence": 0.33411562499999997,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.675,
+      "data_validation_score": 0.720578125,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "ANALYSIS",
+        "(Abbott",
+        "INDIA",
+        "LTD)"
+      ],
+      "combined_confidence": 0.5887142857142859,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.7000000000000001,
+      "data_validation_score": 0.6935714285714286,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.4353333333333333,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.71,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "&",
+    "Sales",
+    "ANALYSIS",
+    "(Abbott",
+    "INDIA",
+    "LTD)"
+  ],
+  "confidence": 0.5887142857142859,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.7000000000000001,
+    "data_validation_score": 0.6935714285714286,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "STOCK",
+      "&",
+      "SALES",
+      "ANALYSIS",
+      "(ABBOTT",
+      "INDIA",
+      "LTD)"
+    ],
+    "normalized": [
+      "Stock",
+      "&",
+      "Sales",
+      "ANALYSIS",
+      "(Abbott",
+      "INDIA",
+      "LTD)"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5887142857142859,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6935714285714286,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.6692261904761905,
+      "evidence_before_penalties": 0.6692261904761905
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "(Abbott",
+          "INDIA",
+          "LTD)",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.784115625
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "(Abbott",
+          "INDIA",
+          "LTD)"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7387142857142859
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7853333333333333
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Stock",
+      "&",
+      "Sales",
+      "ANALYSIS",
+      "(Abbott",
+      "INDIA",
+      "LTD)"
+    ]
+  }
+}

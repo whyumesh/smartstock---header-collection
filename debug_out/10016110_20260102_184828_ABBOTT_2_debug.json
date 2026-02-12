@@ -1,0 +1,147 @@
+{
+  "pdf_path": "pdfs\\10016110_20260102_184828_ABBOTT_2.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=11"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS",
+          "ANALYSIS",
+          "(Abbott",
+          "(Abbott",
+          "INDIA)",
+          "INDIA)",
+          "-"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.774180303030303
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ESGIPYRIN",
+          "15Tab",
+          "PCS",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7058428571428572
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "MIXTARD",
+          "30Hm",
+          "3Ml",
+          "Pcs",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7203480263157895
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "15Cap",
+          "Pcs",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7104986822001529
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=10 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=7 data=10 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=10 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=8 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=10 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=8 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=10 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

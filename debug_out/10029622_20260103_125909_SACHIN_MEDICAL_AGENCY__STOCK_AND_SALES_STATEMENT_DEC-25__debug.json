@@ -1,0 +1,189 @@
+{
+  "pdf_path": "pdfs\\10029622_20260103_125909_SACHIN MEDICAL AGENCY (STOCK AND SALES STATEMENT DEC-25).pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5839450980392156,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.7030588235294117,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.5857600000000001,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.82,
+      "data_validation_score": 0.7588,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.5820652100840337,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.82,
+      "data_validation_score": 0.7403260504201681,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "&",
+    "Sales",
+    "Sales",
+    "ANALYSIS"
+  ],
+  "confidence": 0.5857600000000001,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.82,
+    "data_validation_score": 0.7588,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "STOCK",
+      "&",
+      "SALES",
+      "SALES",
+      "ANALYSIS"
+    ],
+    "normalized": [
+      "Stock",
+      "&",
+      "Sales",
+      "Sales",
+      "ANALYSIS"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "SALES",
+        "into": "SALES",
+        "interval_idx": 0
+      },
+      {
+        "split": "SALES",
+        "into": "SALES",
+        "interval_idx": 1
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5857600000000001,
+      "evidence_scores": {
+        "keyword_score": 0.75,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7588,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.7480333333333333,
+      "evidence_before_penalties": 0.7480333333333333
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7839450980392156
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7357600000000001
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7320652100840337
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Stock",
+      "&",
+      "Sales",
+      "Sales",
+      "ANALYSIS"
+    ]
+  }
+}

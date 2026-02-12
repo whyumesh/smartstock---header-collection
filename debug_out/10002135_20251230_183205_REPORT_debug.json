@@ -1,0 +1,316 @@
+{
+  "pdf_path": "pdfs\\10002135_20251230_183205_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 4,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 5,
+      "y_min": 79.89398193359375,
+      "y_max": 94.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 6,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "DIABETROL",
+        "TAB",
+        "10'S",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.2531239495798319,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.5599999999999999,
+      "data_validation_score": 0.7181197478991597,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "NEO",
+        "MERCAZOLE",
+        "5Mg",
+        "TAB",
+        "100S",
+        "-"
+      ],
+      "combined_confidence": 0.17644126984126984,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.5833333333333334,
+      "data_validation_score": 0.761373015873016,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "KENACORT",
+        "40Mg",
+        "INJ.",
+        "1Ml",
+        "-"
+      ],
+      "combined_confidence": 0.2080238383838383,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.58,
+      "data_validation_score": 0.735119191919192,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "ANAFORTAN",
+        "TAB",
+        "10;S",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.19737624421831634,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5599999999999999,
+      "data_validation_score": 0.7018812210915819,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "DIABETROL",
+    "TAB",
+    "10'S",
+    "-",
+    "-"
+  ],
+  "confidence": 0.2531239495798319,
+  "confidence_breakdown": {
+    "visual_score": 0.75,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.5599999999999999,
+    "data_validation_score": 0.7181197478991597,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "DIABETROL",
+      "TAB",
+      "10'S",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "DIABETROL",
+      "TAB",
+      "10'S",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "60",
+      "60"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.2531239495798319,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7181197478991597,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 0.14285714285714285
+      },
+      "evidence_total": 0.4953156512605042,
+      "evidence_before_penalties": 0.4953156512605042
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7493844155844156
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7491123966942149
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "DIABETROL",
+          "TAB",
+          "10'S",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7031239495798319
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "NEO",
+          "MERCAZOLE",
+          "5Mg",
+          "TAB",
+          "100S",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7264412698412699
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "ABBOTT",
+          "ABBOTT",
+          "INDIA",
+          "INSULI"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7242111111111111
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "KENACORT",
+          "40Mg",
+          "INJ.",
+          "1Ml",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7580238383838384
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "ANAFORTAN",
+          "TAB",
+          "10;S",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7473762442183164
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "DIABETROL",
+      "TAB",
+      "10'S",
+      "-",
+      "-"
+    ]
+  }
+}

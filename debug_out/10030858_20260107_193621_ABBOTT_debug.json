@@ -1,0 +1,426 @@
+{
+  "pdf_path": "pdfs\\10030858_20260107_193621_ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 197.31626892089844,
+      "y_max": 209.32228088378906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 138.35557556152344,
+      "y_max": 150.36158752441406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 138.35557556152344,
+      "y_max": 150.36158752441406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 138.35557556152344,
+      "y_max": 150.36158752441406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 138.35557556152344,
+      "y_max": 150.36158752441406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 5,
+      "y_min": 138.35557556152344,
+      "y_max": 150.36158752441406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 6,
+      "y_min": 138.35557556152344,
+      "y_max": 150.36158752441406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 7,
+      "y_min": 138.35557556152344,
+      "y_max": 150.36158752441406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 8,
+      "y_min": 138.35557556152344,
+      "y_max": 150.36158752441406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Retrn",
+          "Retrn",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Retrn",
+          "Retrn",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7955343915343915
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Retrn",
+          "Retrn",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Retrn",
+          "Retrn",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7960761904761905
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Retrn",
+          "Retrn",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Retrn",
+          "Retrn",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7934992360580597
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Retrn",
+          "Retrn",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Retrn",
+          "Retrn",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7910909090909092
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Retrn",
+          "Retrn",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Retrn",
+          "Retrn",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7963388429752067
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Retrn",
+          "Retrn",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Retrn",
+          "Retrn",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7910909090909092
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Retrn",
+          "Retrn",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Retrn",
+          "Retrn",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7964628099173554
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Retrn",
+          "Retrn",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Retrn",
+          "Retrn",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7910909090909092
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Retrn",
+          "Retrn",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Retrn",
+          "Retrn",
+          "Expiry Date",
+          "Closing",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7876642857142857
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=21 data=12 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=12 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=21 data=12 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=12 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=20 data=12 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=12 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

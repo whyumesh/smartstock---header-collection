@@ -1,0 +1,191 @@
+{
+  "pdf_path": "pdfs\\10000964_20260101_113229_ABB ALL ST.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.35065460205078,
+      "y_max": 67.53007507324219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 57.35065460205078,
+      "y_max": 67.53007507324219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 2,
+      "y_min": 57.35065460205078,
+      "y_max": 67.53007507324219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 3,
+      "y_min": 57.35065460205078,
+      "y_max": 67.53007507324219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 4,
+      "y_min": 57.35065460205078,
+      "y_max": 67.53007507324219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7859474747474747
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7838863636363635
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7982363636363636
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7963433942401684
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Repl.",
+          "Issue",
+          "Closing",
+          "Exp",
+          "Liqudation",
+          "From"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7995148601398601
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=8 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=11 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=8 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

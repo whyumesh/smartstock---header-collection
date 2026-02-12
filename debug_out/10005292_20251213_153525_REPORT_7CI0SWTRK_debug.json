@@ -1,0 +1,346 @@
+{
+  "pdf_path": "pdfs\\10005292_20251213_153525_REPORT_7CI0SWTRK.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 174.73800659179688,
+      "y_max": 186.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 4,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=16"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "KENACORT",
+        "10Mg/Ml",
+        "INJ",
+        "1*10Ml",
+        "61.18",
+        "978.88",
+        "-",
+        "0.00",
+        "1019.70",
+        "61.18",
+        "-"
+      ],
+      "combined_confidence": 0.18323027615400123,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5818181818181818,
+      "data_validation_score": 0.7343331989518241,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "VALANCE",
+        "OD",
+        "EAZY",
+        "GLIDE",
+        "500Mg",
+        "1*15",
+        "262.15",
+        "2621.50",
+        "2621.50",
+        "-",
+        "0.00",
+        "5243.00"
+      ],
+      "combined_confidence": 0.16437499999999994,
+      "visual_score": 0.64,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5916666666666667,
+      "data_validation_score": 0.6802083333333333,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "KENACORT",
+    "10Mg/Ml",
+    "INJ",
+    "1*10Ml",
+    "61.18",
+    "978.88",
+    "-",
+    "0.00",
+    "1019.70",
+    "61.18",
+    "-"
+  ],
+  "confidence": 0.18323027615400123,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.5818181818181818,
+    "data_validation_score": 0.7343331989518241,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "KENACORT",
+      "10MG/ML",
+      "INJ",
+      "1*10ML",
+      "61.18",
+      "978.88",
+      "-",
+      "0.00",
+      "1019.70",
+      "61.18",
+      "-"
+    ],
+    "normalized": [
+      "KENACORT",
+      "10Mg/Ml",
+      "INJ",
+      "1*10Ml",
+      "61.18",
+      "978.88",
+      "-",
+      "0.00",
+      "1019.70",
+      "61.18",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "16",
+      "15",
+      "1"
+    ],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=12"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.18323027615400123,
+      "evidence_scores": {
+        "keyword_score": 0.2222222222222222,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7343331989518241,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.5393055219601783,
+      "evidence_before_penalties": 0.5393055219601783
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8301680672268907
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ELOCON",
+          "OINT",
+          "1*10Gm",
+          "201.60",
+          "1814.36",
+          "-",
+          "0.00",
+          "685.71",
+          "1209.57"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7259826042431934
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "KENACORT",
+          "10Mg/Ml",
+          "INJ",
+          "1*10Ml",
+          "61.18",
+          "978.88",
+          "-",
+          "0.00",
+          "1019.70",
+          "61.18",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7332302761540013
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "NICODUCE",
+          "INJ",
+          "48Mg",
+          "1*1",
+          "255.00",
+          "2550.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "2550.00"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7353084809926915
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8323928571428572
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "EAZY",
+          "GLIDE",
+          "500Mg",
+          "1*15",
+          "262.15",
+          "2621.50",
+          "2621.50",
+          "-",
+          "0.00",
+          "5243.00"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.714375
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=11 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=13 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "KENACORT",
+      "10Mg/Ml",
+      "INJ",
+      "1*10Ml",
+      "61.18",
+      "978.88",
+      "-",
+      "0.00",
+      "1019.70",
+      "61.18",
+      "-"
+    ]
+  }
+}

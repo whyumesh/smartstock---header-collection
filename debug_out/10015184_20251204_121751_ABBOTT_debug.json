@@ -1,0 +1,749 @@
+{
+  "pdf_path": "pdfs\\10015184_20251204_121751_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 2,
+      "y_min": 164.23800659179688,
+      "y_max": 175.93800354003906,
+      "confidence": 0.71,
+      "reason": "header_keywords=3 tokens=17"
+    },
+    {
+      "page_no": 3,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 4,
+      "y_min": 206.23800659179688,
+      "y_max": 217.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=11"
+    },
+    {
+      "page_no": 5,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=16"
+    },
+    {
+      "page_no": 6,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 7,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 8,
+      "y_min": 195.73800659179688,
+      "y_max": 207.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=11"
+    },
+    {
+      "page_no": 9,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 10,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 11,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 12,
+      "y_min": 185.23800659179688,
+      "y_max": 196.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=11"
+    },
+    {
+      "page_no": 13,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 14,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=16"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "XARB",
+        "10'S",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.1516034079145493,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.6996837062394127,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "GLUFORMIN",
+        "0.5",
+        "10'S",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.17654298031887938,
+      "visual_score": 0.64,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7711764400559352,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "NEBASULF",
+        "OINTMENT",
+        "5Gm.",
+        "31.50",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.4108589743589745,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7427564102564103,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "GAROIN",
+        "TAB",
+        "15'S",
+        "52.84",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.26383875739644974,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.757655325443787,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 13,
+      "headers": [
+        "REJOINT",
+        "15'S",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.1878871906082532,
+      "visual_score": 0.7,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5583333333333333,
+      "data_validation_score": 0.7561026197079328,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "NEBASULF",
+    "OINTMENT",
+    "5Gm.",
+    "31.50",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.4108589743589745,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.5615384615384615,
+    "data_validation_score": 0.7427564102564103,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "NEBASULF",
+      "OINTMENT",
+      "5GM.",
+      "31.50",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "normalized": [
+      "NEBASULF",
+      "OINTMENT",
+      "5Gm.",
+      "31.50",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "0",
+      "0"
+    ],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.4108589743589745,
+      "evidence_scores": {
+        "keyword_score": 0.125,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7427564102564103,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 0.06666666666666667
+      },
+      "evidence_total": 0.5876057692307692,
+      "evidence_before_penalties": 0.5876057692307692
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "OCT",
+          "SEP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8350000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "XARB",
+          "10'S",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7016034079145493
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "EASY",
+          "15'S",
+          "145.51",
+          "4365.30",
+          "-",
+          "0.00",
+          "485.04",
+          "3928.77"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7419403146853147
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "OCT",
+          "OCT",
+          "SEP"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8181578947368422
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "OCT",
+          "OCT",
+          "SEP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8138888888888889
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "GLUFORMIN",
+          "0.5",
+          "10'S",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7265429803188794
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "NEBASULF",
+          "OINTMENT",
+          "5Gm.",
+          "31.50",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7108589743589745
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "OCT",
+          "OCT",
+          "SEP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8318803418803419
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "OCT",
+          "OCT",
+          "SEP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8138888888888889
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "POLIEXAR",
+          "10'S",
+          "109.29",
+          "983.61",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "983.61"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7069306874211674
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "GAROIN",
+          "TAB",
+          "15'S",
+          "52.84",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7138387573964498
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "DELETUS",
+          "100Ml",
+          "110.87",
+          "7206.55",
+          "-",
+          "0.00",
+          "111.99",
+          "7095.68"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7132830357142859
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "OCT",
+          "OCT",
+          "SEP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.813421052631579
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "REJOINT",
+          "15'S",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7378871906082533
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "LINGRETIN",
+          "2.5/1",
+          "10'S",
+          "69.12",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7145054945054946
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=10 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=9 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=8 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=19 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=13 data=10 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=10 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "NEBASULF",
+      "OINTMENT",
+      "5Gm.",
+      "31.50",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ]
+  }
+}

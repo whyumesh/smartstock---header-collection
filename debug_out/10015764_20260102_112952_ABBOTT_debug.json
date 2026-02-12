@@ -1,0 +1,287 @@
+{
+  "pdf_path": "pdfs\\10015764_20260102_112952_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 69.81124877929688,
+      "y_max": 79.7249984741211,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 69.81124877929688,
+      "y_max": 79.7249984741211,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 2,
+      "y_min": 13.311250686645508,
+      "y_max": 23.225000381469727,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=6"
+    },
+    {
+      "page_no": 3,
+      "y_min": 267.3112487792969,
+      "y_max": 277.2250061035156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "SNO",
+        "Product Name",
+        "DESCRIPTION",
+        "Pack",
+        "OB",
+        "Purchase",
+        "FR",
+        "Sale",
+        "FR",
+        "CB",
+        "Rate",
+        "Amount"
+      ],
+      "combined_confidence": 0.6236414565826331,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.7880952380952381,
+      "data_validation_score": 0.7551120448179272,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "SNO",
+        "Product Name",
+        "DESCRIPTION",
+        "Pack",
+        "OB",
+        "Purchase",
+        "FR",
+        "Sale",
+        "FR",
+        "CB",
+        "Rate",
+        "Amount"
+      ],
+      "combined_confidence": 0.6278775093370683,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.7880952380952381,
+      "data_validation_score": 0.7762923085901027,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Tot",
+        "Tot",
+        "VAL.",
+        "VAL.",
+        "50442.43",
+        "50442.43",
+        "95556.22",
+        "95556.22",
+        "90726.50",
+        "90726.50",
+        "90726.50",
+        "49125.89",
+        "49125.89"
+      ],
+      "combined_confidence": 0.5326424689651433,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.6538461538461539,
+      "data_validation_score": 0.609366190979563,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "SNO",
+    "Product Name",
+    "DESCRIPTION",
+    "Pack",
+    "OB",
+    "Purchase",
+    "FR",
+    "Sale",
+    "FR",
+    "CB",
+    "Rate",
+    "Amount"
+  ],
+  "confidence": 0.6278775093370683,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.7880952380952381,
+    "data_validation_score": 0.7762923085901027,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SNO",
+      "ITEM",
+      "DESCRIPTION",
+      "PACK",
+      "OB",
+      "PUR",
+      "FR",
+      "SAL",
+      "FR",
+      "CB",
+      "RATE",
+      "VALUE"
+    ],
+    "normalized": [
+      "SNO",
+      "Product Name",
+      "DESCRIPTION",
+      "Pack",
+      "OB",
+      "Purchase",
+      "FR",
+      "Sale",
+      "FR",
+      "CB",
+      "Rate",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=12"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.6278775093370683,
+      "evidence_scores": {
+        "keyword_score": 0.5384615384615384,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7762923085901027,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.7536884617629103,
+      "evidence_before_penalties": 0.7536884617629103
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SNO",
+          "Product Name",
+          "DESCRIPTION",
+          "Pack",
+          "OB",
+          "Purchase",
+          "FR",
+          "Sale",
+          "FR",
+          "CB",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8236414565826331
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "SNO",
+          "Product Name",
+          "DESCRIPTION",
+          "Pack",
+          "OB",
+          "Purchase",
+          "FR",
+          "Sale",
+          "FR",
+          "CB",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8278775093370683
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot",
+          "Tot",
+          "VAL.",
+          "VAL.",
+          "50442.43",
+          "50442.43",
+          "95556.22",
+          "95556.22",
+          "90726.50",
+          "90726.50",
+          "90726.50",
+          "49125.89",
+          "49125.89"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6826424689651434
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Tot",
+          "Tot",
+          "VAL.",
+          "VAL.",
+          "122692.89",
+          "122692.89",
+          "206080.46",
+          "206080.46",
+          "206080.46",
+          "142964.39",
+          "142964.39",
+          "142964.39",
+          "189460.68",
+          "189460.68"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6790440356744705
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "SNO",
+      "Product Name",
+      "DESCRIPTION",
+      "Pack",
+      "OB",
+      "Purchase",
+      "FR",
+      "Sale",
+      "FR",
+      "CB",
+      "Rate",
+      "Amount"
+    ]
+  }
+}

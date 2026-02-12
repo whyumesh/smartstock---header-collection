@@ -1,0 +1,136 @@
+{
+  "pdf_path": "pdfs\\10014673_20251204_121749_Mailattach.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 102.75062561035156,
+      "y_max": 111.08627319335938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Op",
+        "Rcpt",
+        "Prv",
+        "Sales",
+        "Free Quantity",
+        "Adj",
+        "Cl",
+        "Amount",
+        "Amount"
+      ],
+      "combined_confidence": 0.40799340659340644,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.8549999999999999,
+      "data_validation_score": 0.6599670329670329,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Op",
+    "Rcpt",
+    "Prv",
+    "Sales",
+    "Free Quantity",
+    "Adj",
+    "Cl",
+    "Amount",
+    "Amount"
+  ],
+  "confidence": 0.40799340659340644,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.8549999999999999,
+    "data_validation_score": 0.6599670329670329,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ProductName",
+      "OpStk",
+      "Rcpt",
+      "Prv",
+      "Sales",
+      "Free",
+      "Adj",
+      "Cl.St",
+      "SalesValue",
+      "StockValue"
+    ],
+    "normalized": [
+      "Product Name",
+      "Op",
+      "Rcpt",
+      "Prv",
+      "Sales",
+      "Free Quantity",
+      "Adj",
+      "Cl",
+      "Amount",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=10"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.40799340659340644,
+      "evidence_scores": {
+        "keyword_score": 0.6666666666666666,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6599670329670329,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.781658424908425,
+      "evidence_before_penalties": 0.781658424908425
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Op",
+          "Rcpt",
+          "Prv",
+          "Sales",
+          "Free Quantity",
+          "Adj",
+          "Cl",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8079934065934065
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Op",
+      "Rcpt",
+      "Prv",
+      "Sales",
+      "Free Quantity",
+      "Adj",
+      "Cl",
+      "Amount",
+      "Amount"
+    ]
+  }
+}

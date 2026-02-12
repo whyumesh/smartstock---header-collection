@@ -1,0 +1,133 @@
+{
+  "pdf_path": "pdfs\\10015274_20251226_131638_308483_.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 83.48060607910156,
+      "y_max": 92.7954330444336,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 83.51651763916016,
+      "y_max": 92.7451171875,
+      "confidence": 0.71,
+      "reason": "header_keywords=3 tokens=3"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "BVal",
+        "SVal",
+        "Order"
+      ],
+      "combined_confidence": 0.7177115384615385,
+      "visual_score": 0.71,
+      "reconstruction_score": 0.76,
+      "semantic_score": 0.7333333333333334,
+      "data_validation_score": 0.767724358974359,
+      "data_column_count_detected": 3
+    }
+  ],
+  "final_selected_header": [
+    "BVal",
+    "SVal",
+    "Order"
+  ],
+  "confidence": 0.7177115384615385,
+  "confidence_breakdown": {
+    "visual_score": 0.71,
+    "reconstruction_score": 0.76,
+    "semantic_score": 0.7333333333333334,
+    "data_validation_score": 0.767724358974359,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "BVal",
+      "SVal",
+      "Order"
+    ],
+    "normalized": [
+      "BVal",
+      "SVal",
+      "Order"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 3,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=3 data=3"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7177115384615385,
+      "evidence_scores": {
+        "keyword_score": 1.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.767724358974359,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.8919310897435898,
+      "evidence_before_penalties": 0.8919310897435898
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Bsc",
+          "Quantity",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal."
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8073231355042016
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "BVal",
+          "SVal",
+          "Order"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.7177115384615385
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=6 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=6 diff=10"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "BVal",
+      "SVal",
+      "Order"
+    ]
+  }
+}

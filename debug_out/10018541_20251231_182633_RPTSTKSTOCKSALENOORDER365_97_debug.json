@@ -1,0 +1,253 @@
+{
+  "pdf_path": "pdfs\\10018541_20251231_182633_RPTSTKSTOCKSALENOORDER365_97.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 112.06143951416016,
+      "y_max": 123.40499877929688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 112.06143951416016,
+      "y_max": 123.40499877929688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 112.06143951416016,
+      "y_max": 123.40499877929688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 112.06143951416016,
+      "y_max": 123.40499877929688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Particulars",
+        "Pkg.",
+        "Op",
+        "Purchase",
+        "Sales",
+        "Sales",
+        "Misc",
+        "Cl",
+        "Closing",
+        "Sales"
+      ],
+      "combined_confidence": 0.8305925188743994,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.865,
+      "data_validation_score": 0.7629625943719972,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Particulars",
+        "Pkg.",
+        "Op",
+        "Purchase",
+        "Sales",
+        "Sales",
+        "Misc",
+        "Cl",
+        "Closing",
+        "Sales"
+      ],
+      "combined_confidence": 0.8362616666666667,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.865,
+      "data_validation_score": 0.7913083333333333,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Particulars",
+    "Pkg.",
+    "Op",
+    "Purchase",
+    "Sales",
+    "Sales",
+    "Misc",
+    "Cl",
+    "Closing",
+    "Sales"
+  ],
+  "confidence": 0.8862616666666666,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.865,
+    "data_validation_score": 0.7913083333333333,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Particulars",
+      "Pkg.",
+      "Op",
+      "Purchase",
+      "Sales",
+      "Sales",
+      "Misc",
+      "Cl",
+      "Closing",
+      "Sales"
+    ],
+    "per_page": [
+      [
+        "Particulars",
+        "Pkg.",
+        "Op",
+        "Purchase",
+        "Sales",
+        "Sales",
+        "Misc",
+        "Cl",
+        "Closing",
+        "Sales"
+      ],
+      [
+        "Particulars",
+        "Pkg.",
+        "Op",
+        "Purchase",
+        "Sales",
+        "Sales",
+        "Misc",
+        "Cl",
+        "Closing",
+        "Sales"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particulars",
+          "Particulars",
+          "Pkg.",
+          "Pkg.",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Misc",
+          "Misc",
+          "Cl",
+          "Cl",
+          "Closing",
+          "Closing",
+          "Sales"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8057153439153439
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Particulars",
+          "Pkg.",
+          "Op",
+          "Purchase",
+          "Sales",
+          "Sales",
+          "Misc",
+          "Cl",
+          "Closing",
+          "Sales"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8305925188743994
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Particulars",
+          "Pkg.",
+          "Op",
+          "Purchase",
+          "Sales",
+          "Sales",
+          "Misc",
+          "Cl",
+          "Closing",
+          "Sales"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8362616666666667
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Particulars",
+          "Pkg.",
+          "Op",
+          "Purchase",
+          "Sales",
+          "Sales",
+          "Misc",
+          "Cl",
+          "Closing",
+          "Sales"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8306737722048068
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=11 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=11 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=10 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=7 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Particulars",
+      "Pkg.",
+      "Op",
+      "Purchase",
+      "Sales",
+      "Sales",
+      "Misc",
+      "Cl",
+      "Closing",
+      "Sales"
+    ],
+    "data_column_count_detected": 10,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

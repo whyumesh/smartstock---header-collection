@@ -1,0 +1,388 @@
+{
+  "pdf_path": "pdfs\\10034008_20260110_130727_rptMonthlySalesAndStock716020267321238.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 1,
+      "y_min": 57.0,
+      "y_max": 86.29998779296875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Closing",
+        "Closing",
+        "PTR",
+        "PTR",
+        "2278.60",
+        "2278.60",
+        "2171.36",
+        "2171.36",
+        "82554.72",
+        "82554.72",
+        "3142.56",
+        "3142.56",
+        "1956.40",
+        "1956.40",
+        "9323.48",
+        "9323.48",
+        "3363.39",
+        "3363.39",
+        "4594.32",
+        "4594.32",
+        "6731.13",
+        "6731.13",
+        "12595.20",
+        "12595.20",
+        "22410.00",
+        "4781.07"
+      ],
+      "combined_confidence": 0.37366652578191034,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.6615384615384615,
+      "data_validation_score": 0.6067941673710904,
+      "data_column_count_detected": 25
+    }
+  ],
+  "final_selected_header": [
+    "Closing",
+    "Closing",
+    "PTR",
+    "PTR",
+    "2278.60",
+    "2278.60",
+    "2171.36",
+    "2171.36",
+    "82554.72",
+    "82554.72",
+    "3142.56",
+    "3142.56",
+    "1956.40",
+    "1956.40",
+    "9323.48",
+    "9323.48",
+    "3363.39",
+    "3363.39",
+    "4594.32",
+    "4594.32",
+    "6731.13",
+    "6731.13",
+    "12595.20",
+    "12595.20",
+    "22410.00",
+    "4781.07"
+  ],
+  "confidence": 0.37366652578191034,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.6615384615384615,
+    "data_validation_score": 0.6067941673710904,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Closing",
+      "Closing",
+      "(PTR)",
+      "(PTR)",
+      "2278.60",
+      "2278.60",
+      "2171.36",
+      "2171.36",
+      "82554.72",
+      "82554.72",
+      "3142.56",
+      "3142.56",
+      "1956.40",
+      "1956.40",
+      "9323.48",
+      "9323.48",
+      "3363.39",
+      "3363.39",
+      "4594.32",
+      "4594.32",
+      "6731.13",
+      "6731.13",
+      "12595.20",
+      "12595.20",
+      "22410.00",
+      "4781.07"
+    ],
+    "normalized": [
+      "Closing",
+      "Closing",
+      "PTR",
+      "PTR",
+      "2278.60",
+      "2278.60",
+      "2171.36",
+      "2171.36",
+      "82554.72",
+      "82554.72",
+      "3142.56",
+      "3142.56",
+      "1956.40",
+      "1956.40",
+      "9323.48",
+      "9323.48",
+      "3363.39",
+      "3363.39",
+      "4594.32",
+      "4594.32",
+      "6731.13",
+      "6731.13",
+      "12595.20",
+      "12595.20",
+      "22410.00",
+      "4781.07"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Closing",
+        "into": "Closing",
+        "interval_idx": 1
+      },
+      {
+        "split": "Closing",
+        "into": "Closing",
+        "interval_idx": 2
+      },
+      {
+        "split": "(PTR)",
+        "into": "(PTR)",
+        "interval_idx": 2
+      },
+      {
+        "split": "(PTR)",
+        "into": "(PTR)",
+        "interval_idx": 3
+      },
+      {
+        "split": "2278.60",
+        "into": "2278.60",
+        "interval_idx": 4
+      },
+      {
+        "split": "2278.60",
+        "into": "2278.60",
+        "interval_idx": 5
+      },
+      {
+        "split": "2171.36",
+        "into": "2171.36",
+        "interval_idx": 6
+      },
+      {
+        "split": "2171.36",
+        "into": "2171.36",
+        "interval_idx": 7
+      },
+      {
+        "split": "82554.72",
+        "into": "82554.72",
+        "interval_idx": 7
+      },
+      {
+        "split": "82554.72",
+        "into": "82554.72",
+        "interval_idx": 8
+      },
+      {
+        "split": "3142.56",
+        "into": "3142.56",
+        "interval_idx": 10
+      },
+      {
+        "split": "3142.56",
+        "into": "3142.56",
+        "interval_idx": 11
+      },
+      {
+        "split": "1956.40",
+        "into": "1956.40",
+        "interval_idx": 12
+      },
+      {
+        "split": "1956.40",
+        "into": "1956.40",
+        "interval_idx": 13
+      },
+      {
+        "split": "9323.48",
+        "into": "9323.48",
+        "interval_idx": 13
+      },
+      {
+        "split": "9323.48",
+        "into": "9323.48",
+        "interval_idx": 14
+      },
+      {
+        "split": "3363.39",
+        "into": "3363.39",
+        "interval_idx": 14
+      },
+      {
+        "split": "3363.39",
+        "into": "3363.39",
+        "interval_idx": 15
+      },
+      {
+        "split": "4594.32",
+        "into": "4594.32",
+        "interval_idx": 15
+      },
+      {
+        "split": "4594.32",
+        "into": "4594.32",
+        "interval_idx": 16
+      },
+      {
+        "split": "6731.13",
+        "into": "6731.13",
+        "interval_idx": 17
+      },
+      {
+        "split": "6731.13",
+        "into": "6731.13",
+        "interval_idx": 18
+      },
+      {
+        "split": "12595.20",
+        "into": "12595.20",
+        "interval_idx": 23
+      },
+      {
+        "split": "12595.20",
+        "into": "12595.20",
+        "interval_idx": 24
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 25,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=26 data=25"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.37366652578191034,
+      "evidence_scores": {
+        "keyword_score": 0.15384615384615385,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6067941673710904,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.5776600803043112,
+      "evidence_before_penalties": 0.5776600803043112
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "2278.60",
+          "2278.60",
+          "2171.36",
+          "2171.36",
+          "82554.72",
+          "82554.72",
+          "3142.56",
+          "3142.56",
+          "1956.40",
+          "1956.40",
+          "9323.48",
+          "9323.48",
+          "3363.39",
+          "3363.39",
+          "4594.32",
+          "4594.32",
+          "6731.13",
+          "6731.13",
+          "12595.20",
+          "12595.20",
+          "22410.00",
+          "4781.07"
+        ],
+        "data_column_count_detected": 25,
+        "combined_confidence": 0.7236665257819104
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "3587.43",
+          "3587.43",
+          "6152.47",
+          "6152.47",
+          "3283.95",
+          "3283.95"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.742044927536232
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=7 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Closing",
+      "Closing",
+      "PTR",
+      "PTR",
+      "2278.60",
+      "2278.60",
+      "2171.36",
+      "2171.36",
+      "82554.72",
+      "82554.72",
+      "3142.56",
+      "3142.56",
+      "1956.40",
+      "1956.40",
+      "9323.48",
+      "9323.48",
+      "3363.39",
+      "3363.39",
+      "4594.32",
+      "4594.32",
+      "6731.13",
+      "6731.13",
+      "12595.20",
+      "12595.20",
+      "22410.00",
+      "4781.07"
+    ]
+  }
+}

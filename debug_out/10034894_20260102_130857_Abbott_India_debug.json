@@ -1,0 +1,305 @@
+{
+  "pdf_path": "pdfs\\10034894_20260102_130857_Abbott India.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 58.63251876831055,
+      "y_max": 68.58951568603516,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 58.63251876831055,
+      "y_max": 68.58951568603516,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 2,
+      "y_min": 58.63251876831055,
+      "y_max": 68.58951568603516,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 3,
+      "y_min": 58.63251876831055,
+      "y_max": 68.58951568603516,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Box",
+        "Op",
+        "Receipt",
+        "Issues",
+        "Closing",
+        "Exp",
+        "Sales",
+        "Amount",
+        "Amount"
+      ],
+      "combined_confidence": 0.4271818181818182,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.9136363636363637,
+      "data_validation_score": 0.6722727272727274,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Box",
+        "Op",
+        "Receipt",
+        "Issues",
+        "Closing",
+        "Exp",
+        "Sales",
+        "Amount",
+        "Amount"
+      ],
+      "combined_confidence": 0.42672727272727273,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.9136363636363637,
+      "data_validation_score": 0.67,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Box",
+        "Op",
+        "Receipt",
+        "Issues",
+        "Closing",
+        "Exp",
+        "Sales",
+        "Amount",
+        "Amount"
+      ],
+      "combined_confidence": 0.278,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.9136363636363637,
+      "data_validation_score": 0.6763636363636364,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Box",
+        "Op",
+        "Receipt",
+        "Issues",
+        "Closing",
+        "Exp",
+        "Sales",
+        "Amount",
+        "Amount"
+      ],
+      "combined_confidence": 0.4276363636363637,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.9136363636363637,
+      "data_validation_score": 0.6745454545454546,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Box",
+    "Op",
+    "Receipt",
+    "Issues",
+    "Closing",
+    "Exp",
+    "Sales",
+    "Amount",
+    "Amount"
+  ],
+  "confidence": 0.8776363636363637,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.9136363636363637,
+    "data_validation_score": 0.6745454545454546,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Pack",
+      "Box",
+      "Op",
+      "Receipt",
+      "Issues",
+      "Closing",
+      "Exp",
+      "Sales",
+      "Amount",
+      "Amount"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Pack",
+        "Box",
+        "Op",
+        "Receipt",
+        "Issues",
+        "Closing",
+        "Exp",
+        "Sales",
+        "Amount",
+        "Amount"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Box",
+        "Op",
+        "Receipt",
+        "Issues",
+        "Closing",
+        "Exp",
+        "Sales",
+        "Amount",
+        "Amount"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Box",
+        "Op",
+        "Receipt",
+        "Issues",
+        "Closing",
+        "Exp",
+        "Sales",
+        "Amount",
+        "Amount"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Box",
+        "Op",
+        "Receipt",
+        "Issues",
+        "Closing",
+        "Exp",
+        "Sales",
+        "Amount",
+        "Amount"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Box",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Closing",
+          "Exp",
+          "Sales",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8271818181818182
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Box",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Closing",
+          "Exp",
+          "Sales",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8267272727272728
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Box",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Closing",
+          "Exp",
+          "Sales",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8280000000000001
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Box",
+          "Op",
+          "Receipt",
+          "Issues",
+          "Closing",
+          "Exp",
+          "Sales",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8276363636363637
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Box",
+      "Op",
+      "Receipt",
+      "Issues",
+      "Closing",
+      "Exp",
+      "Sales",
+      "Amount",
+      "Amount"
+    ],
+    "data_column_count_detected": 11,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

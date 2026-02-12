@@ -1,0 +1,184 @@
+{
+  "pdf_path": "pdfs\\10035566_20251204_121747_rad66814.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 106.16124725341797,
+      "y_max": 117.44344329833984,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 1.5212316513061523,
+      "y_max": 12.803426742553711,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Sale",
+        "Sale",
+        "Stock",
+        "Report",
+        "Report",
+        "No.",
+        "No."
+      ],
+      "combined_confidence": 0.1699433650439095,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.7571428571428571,
+      "data_validation_score": 0.6675739680766903,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "Sale",
+    "Sale",
+    "Stock",
+    "Report",
+    "Report",
+    "No.",
+    "No."
+  ],
+  "confidence": 0.1699433650439095,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.7571428571428571,
+    "data_validation_score": 0.6675739680766903,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Saleable",
+      "Saleable",
+      "Stock",
+      "Report",
+      "Report",
+      "No.",
+      "No."
+    ],
+    "normalized": [
+      "Sale",
+      "Sale",
+      "Stock",
+      "Report",
+      "Report",
+      "No.",
+      "No."
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Saleable",
+        "into": "Saleable",
+        "interval_idx": 0
+      },
+      {
+        "split": "Saleable",
+        "into": "Saleable",
+        "interval_idx": 1
+      },
+      {
+        "split": "Report",
+        "into": "Report",
+        "interval_idx": 1
+      },
+      {
+        "split": "Report",
+        "into": "Report",
+        "interval_idx": 2
+      },
+      {
+        "split": "No.",
+        "into": "No.",
+        "interval_idx": 6
+      },
+      {
+        "split": "No.",
+        "into": "No.",
+        "interval_idx": 7
+      }
+    ],
+    "noise_tokens_removed": [
+      "Page",
+      ":",
+      "1"
+    ],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=8"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.1699433650439095,
+      "evidence_scores": {
+        "keyword_score": 0.42857142857142855,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6675739680766903,
+        "lexical_purity_score": 0.72,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.6195363491620298,
+      "evidence_before_penalties": 0.6195363491620298
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Stock",
+          "Report",
+          "Report",
+          "No.",
+          "No."
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7199433650439095
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "KRISHNA",
+          "MEDICOSE",
+          "(From",
+          "(From",
+          "Tot"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.6985000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=8 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Sale",
+      "Sale",
+      "Stock",
+      "Report",
+      "Report",
+      "No.",
+      "No."
+    ]
+  }
+}

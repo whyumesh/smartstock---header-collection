@@ -1,0 +1,158 @@
+{
+  "pdf_path": "pdfs\\10034398_20260102_174524_rad82FB2.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 105.94766998291016,
+      "y_max": 117.27278900146484,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 14.507669448852539,
+      "y_max": 25.83278465270996,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 14.507669448852539,
+      "y_max": 25.83278465270996,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 14.507669448852539,
+      "y_max": 25.83278465270996,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 14.507669448852539,
+      "y_max": 25.83278465270996,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sale",
+          "Stock",
+          "Report",
+          "No."
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.75037012987013
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sale",
+          "Stock",
+          "Stock",
+          "Report",
+          "Report",
+          "No."
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7322356472795497
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Sale",
+          "Stock",
+          "Report",
+          "No."
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7492142857142857
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Sale",
+          "Stock",
+          "Report",
+          "No."
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7473324675324675
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Sale",
+          "Stock",
+          "Report",
+          "No."
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.746742105263158
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=6 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=8 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

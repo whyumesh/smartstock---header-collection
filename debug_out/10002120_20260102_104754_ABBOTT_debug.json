@@ -1,0 +1,248 @@
+{
+  "pdf_path": "pdfs\\10002120_20260102_104754_ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 68.06446838378906,
+      "y_max": 78.45677947998047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 289.0284729003906,
+      "y_max": 299.4207763671875,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 16.072467803955078,
+      "y_max": 26.464773178100586,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 3,
+      "y_min": 146.0514678955078,
+      "y_max": 156.4437713623047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "RECEIPT",
+        "Sales",
+        "ADJMT",
+        "Closing",
+        "Closing",
+        "AGE"
+      ],
+      "combined_confidence": 0.25047795698924724,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.8555555555555556,
+      "data_validation_score": 0.646834229390681,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "RECEIPT",
+    "Sales",
+    "ADJMT",
+    "Closing",
+    "Closing",
+    "AGE"
+  ],
+  "confidence": 0.25047795698924724,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.8555555555555556,
+    "data_validation_score": 0.646834229390681,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "PACKG",
+      "OPENING",
+      "RECEIPT",
+      "<-----SALES---->",
+      "ADJMT",
+      "CLOSING",
+      "CLOSING",
+      "AGE"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "RECEIPT",
+      "Sales",
+      "ADJMT",
+      "Closing",
+      "Closing",
+      "AGE"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=9 data=8"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.25047795698924724,
+      "evidence_scores": {
+        "keyword_score": 0.7,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.646834229390681,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.6992085573476703,
+      "evidence_before_penalties": 0.6992085573476703
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "RECEIPT",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8004779569892473
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Op",
+          "Amount",
+          "65,206.66",
+          "Purchase",
+          "Amount",
+          "67,530.65"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7749210263289408
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "THYRONORM",
+          "137Mcg",
+          "50'S",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7638324782744138
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.7983888888888888
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=6 data=4 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=4 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=12 data=4 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=4 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=18 data=14 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=14 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "RECEIPT",
+      "Sales",
+      "ADJMT",
+      "Closing",
+      "Closing",
+      "AGE"
+    ]
+  }
+}

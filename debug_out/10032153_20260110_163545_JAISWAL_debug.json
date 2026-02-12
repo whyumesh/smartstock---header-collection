@@ -1,0 +1,232 @@
+{
+  "pdf_path": "pdfs\\10032153_20260110_163545_JAISWAL.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=17"
+    },
+    {
+      "page_no": 2,
+      "y_min": 164.23800659179688,
+      "y_max": 175.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 3,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=11"
+    },
+    {
+      "page_no": 4,
+      "y_min": 237.73800659179688,
+      "y_max": 249.43800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "NOV",
+          "NOV",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8218421052631579
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "TAB.",
+          "15'S",
+          "STR",
+          "6451.35",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "6451.35"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7207403984903986
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ABBOTT",
+          "GI",
+          "GI",
+          "Op",
+          "Op",
+          "INDIA)",
+          "INDIA)"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.6881727272727274
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "NOV",
+          "NOV",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.836421052631579
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Tot",
+          "Tot",
+          "324862.84",
+          "324862.84",
+          "184828.78",
+          "184828.78",
+          "328630.22",
+          "185297.94",
+          "185297.94",
+          "0K"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.6829559483994267
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Tot",
+          "311092.53",
+          "0.00",
+          "57601.63",
+          "248991.01",
+          "0K"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.7051111111111112
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=13 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=7 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=10 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=6 data=2 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=2 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

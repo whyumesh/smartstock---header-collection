@@ -1,0 +1,198 @@
+{
+  "pdf_path": "pdfs\\10014021_20260110_153300_55290989.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 86.61199951171875,
+      "y_max": 97.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 1,
+      "y_min": 86.61199951171875,
+      "y_max": 97.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 2,
+      "y_min": 86.61199951171875,
+      "y_max": 97.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 3,
+      "y_min": 86.61199951171875,
+      "y_max": 97.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Pack",
+          "LstSL",
+          "LstSL",
+          "Op",
+          "Op",
+          "Recd.",
+          "Recd.",
+          "Sales",
+          "Sales",
+          "Stk.Sl",
+          "Stk.Sl",
+          "Cl",
+          "Cl",
+          "Order",
+          "Order",
+          "Pend",
+          "Pend",
+          "LstMove"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8295979249011858
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "LstSL",
+          "LstSL",
+          "Op",
+          "Op",
+          "Recd.",
+          "Recd.",
+          "Sales",
+          "Sales",
+          "Stk.Sl",
+          "Stk.Sl",
+          "Cl",
+          "Cl",
+          "Order",
+          "Order",
+          "Pend",
+          "Pend",
+          "LstMove"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.831992303992304
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Pack",
+          "LstSL",
+          "LstSL",
+          "Op",
+          "Op",
+          "Recd.",
+          "Recd.",
+          "Sales",
+          "Sales",
+          "Stk.Sl",
+          "Stk.Sl",
+          "Cl",
+          "Cl",
+          "Order",
+          "Order",
+          "Pend",
+          "Pend",
+          "LstMove"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8242245496439045
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "LstSL",
+          "LstSL",
+          "Op",
+          "Op",
+          "Recd.",
+          "Recd.",
+          "Sales",
+          "Sales",
+          "Stk.Sl",
+          "Stk.Sl",
+          "Cl",
+          "Cl",
+          "Order",
+          "Order",
+          "Pend",
+          "Pend",
+          "LstMove"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.827047619047619
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=22 data=13 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=13 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=21 data=13 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=13 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=22 data=13 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=13 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=21 data=13 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=13 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "pdf_path": "pdfs\\10030525_20251213_120114_SOLVAY 1 NOV MONTH STOCK& SALES.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=20"
+    },
+    {
+      "page_no": 1,
+      "y_min": 208.9959716796875,
+      "y_max": 229.41998291015625,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=4"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "41408.62",
+          "41408.62",
+          "1915.20",
+          "1915.20",
+          "1603.00",
+          "1603.00",
+          "1538.19",
+          "1538.19",
+          "9697.60",
+          "9697.60",
+          "6279.00",
+          "6279.00",
+          "9691.11",
+          "9691.11",
+          "5538.00",
+          "5538.00",
+          "5302.80",
+          "5302.80",
+          "15378.00",
+          "15378.00",
+          "9911.88",
+          "9911.88",
+          "16901.20",
+          "16901.20",
+          "2121.39",
+          "2121.39",
+          "3954.24",
+          "3954.24",
+          "44717.66",
+          "44717.66",
+          "5061.24",
+          "5061.24",
+          "27239.16",
+          "27239.16",
+          "23442.88"
+        ],
+        "data_column_count_detected": 28,
+        "combined_confidence": 0.7084888444888445
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Ret",
+          "Quantity"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.6554
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=39 data=28 diff=11",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=39 data=28 diff=11"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=2 data=4 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=2 data=4 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

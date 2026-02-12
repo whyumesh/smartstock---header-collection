@@ -1,0 +1,53 @@
+{
+  "pdf_path": "pdfs\\10014172_20251219_113206_Neurolife.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 127.47000122070312,
+      "y_max": 140.96432495117188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SrNo",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sales",
+          "Closing",
+          "Sale",
+          "Amt",
+          "Stock",
+          "Amt"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8791346153846153
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=11 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "pdf_path": "pdfs\\10019739_20251219_121814_vac.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 71.74920654296875,
+      "y_max": 79.76408386230469,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "No",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Free Quantity",
+          "Free Quantity",
+          "Purchase",
+          "Sep",
+          "Sep",
+          "Oct",
+          "Sale",
+          "Sale",
+          "Free Quantity",
+          "Free Quantity",
+          "SRet",
+          "Repl",
+          "Repl",
+          "CurStk",
+          "CurStk",
+          "Stk.Value",
+          "Exp"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8686011250654108
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=28 data=18 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=28 data=18 diff=10"
+          }
+        }
+      }
+    ]
+  }
+}

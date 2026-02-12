@@ -1,0 +1,118 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                                                            ) Tj
+T* (                                   SOL PHARMA                                                                                     ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                               PALAKKAD. - 678001                                                                                 ) Tj
+T* (                                                                                                                                            ) Tj
+T* (Stock & Sales Report From 01/12/2025 To 31/12/2025                                                                               ) Tj
+T* (Company Name : ABBOTT GI - OPTIMA - .                                                                                                       ) Tj
+T* (============================================================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur PFree   Nov      Sale     SFree SRet    Repl CurStk    StkVal    SalVal Exp     Rate ) Tj
+T* (============================================================================================================================================) Tj
+T* (1   DIGENE GEL MINT 200 ML    200ML      34        36     4     8        27         -    -       -     47   4833.66   3632.78   -   123.94 ) Tj
+T* (2   DIGENE TAB 15`S           15`S      116       108    12    13        92         9    -       -    135   2454.36   1864.20   -    20.43 ) Tj
+T* (3   DUPHALAC BULK             1`S        10        40     -    10        13         -    -       -     37  11152.54   4263.49   -   301.42 ) Tj
+T* (4   DUPHALAC SYRUP 150 ML     150 ML     38        50     -    40        42         -    -       -     46   6210.00   6114.00   -   135.00 ) Tj
+T* (5   DUPHALAC SYRUP 250 ML     250 ML     36         -     -     9        18         -    -       -     19   4275.00   4147.50   -   225.00 ) Tj
+T* (6   DUPHALAC SYRUP 450 ML     450 ML     17        20     -    13        16         -    -       -     22   8910.00   6538.50   -   405.00 ) Tj
+T* (7   FIDONAL CREAM             30 GM      14         -     -     4         2         -    -       -     12   2672.90    485.10   -   222.74 ) Tj
+T* (8   GANATON 50MG TAB          10`S       54        20     -    71        17         -    -       -     57   8162.97   2617.52   -   143.21 ) Tj
+T* (9   GANATON TOTAL CAP         10`S       15        20     -     9        13         -    -       -     22   7568.54   4585.11   -   344.02 ) Tj
+T* (--------------------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                               334       294    16   177       240         9    -       -    397         -         -   -        - ) Tj
+T* (--------------------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:    44587.27 Purc.Value: :    43372.36 Sales Value::    34927.20                                                                ) Tj
+T* (Cl.Stk Val:     56239.97 Pur.RetVal ::        0.00 SalRet Val: :        0.00                                                                ) Tj
+T* (Nov Sal:        31042.00 Oct Sal:    :    37676.00 NetSal\(GVal\):    34927.20                                                              ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:        0.00                                                                ) Tj
+T* (                                     :             DC.Sales:   :     -679.00                                                                ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                                       *** END OF REPORT ***                                                                                ) Tj
+T* (                                                                                                                                            ) Tj
+ET
+endstream
+endobj
+9 0 obj
+2745
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 940 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000003311 00000 n
+0000003390 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000003288 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+3483
+%%EOF

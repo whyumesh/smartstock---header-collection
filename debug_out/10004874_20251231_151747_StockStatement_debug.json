@@ -1,0 +1,293 @@
+{
+  "pdf_path": "pdfs\\10004874_20251231_151747_StockStatement.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 122.54399871826172,
+      "y_max": 132.53599548339844,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 122.54399871826172,
+      "y_max": 132.53599548339844,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 2,
+      "y_min": 122.54399871826172,
+      "y_max": 132.53599548339844,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 3,
+      "y_min": 122.54399871826172,
+      "y_max": 132.53599548339844,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 4,
+      "y_min": 122.54399871826172,
+      "y_max": 132.53599548339844,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Unit",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing"
+      ],
+      "combined_confidence": 0.2573560090702949,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.9714285714285714,
+      "data_validation_score": 0.6153514739229025,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Unit",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing"
+      ],
+      "combined_confidence": 0.4079682539682541,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.9714285714285714,
+      "data_validation_score": 0.6184126984126984,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Unit",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing"
+      ],
+      "combined_confidence": 0.25490259740259746,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.9714285714285714,
+      "data_validation_score": 0.6030844155844156,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Unit",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing"
+      ],
+      "combined_confidence": 0.2539460415745246,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.9714285714285714,
+      "data_validation_score": 0.5983016364440513,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Unit",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing"
+      ],
+      "combined_confidence": 0.25796825396825407,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.9714285714285714,
+      "data_validation_score": 0.6184126984126984,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Product Name",
+    "Unit",
+    "Op",
+    "Purchase",
+    "Sale",
+    "Closing"
+  ],
+  "confidence": 0.857968253968254,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.9714285714285714,
+    "data_validation_score": 0.6184126984126984,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Product Name",
+      "Unit",
+      "Op",
+      "Purchase",
+      "Sale",
+      "Closing"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Product Name",
+        "Unit",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Unit",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Unit",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Unit",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Unit",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8073560090702949
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8079682539682541
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8049025974025975
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8039460415745247
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8079682539682541
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Product Name",
+      "Unit",
+      "Op",
+      "Purchase",
+      "Sale",
+      "Closing"
+    ],
+    "data_column_count_detected": 6,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

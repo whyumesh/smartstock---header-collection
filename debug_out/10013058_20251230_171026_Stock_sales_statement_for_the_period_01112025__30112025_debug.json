@@ -1,0 +1,230 @@
+{
+  "pdf_path": "pdfs\\10013058_20251230_171026_Stock sales statement for the period 01112025  30112025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 34.0,
+      "y_max": 104.33612060546875,
+      "confidence": 0.6,
+      "reason": "first_multi_token_with_keyword"
+    },
+    {
+      "page_no": 1,
+      "y_min": 34.0,
+      "y_max": 122.239990234375,
+      "confidence": 0.29333333333333333,
+      "reason": "density=2.7 font_boost=1.0 top_score=1.00; separator_below"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Amount",
+        "1402.83",
+        "2794.6",
+        "5869.76",
+        "1056.55",
+        "18683.66",
+        "2917.4",
+        "10147.02",
+        "14052.83",
+        "3262.84",
+        "5917.03",
+        "2587.23",
+        "17264.25",
+        "18703.5",
+        "1273.59",
+        "23539.59",
+        "5360.19",
+        "3764.14",
+        "3543.84",
+        "142140.85"
+      ],
+      "combined_confidence": 0.3509952380952382,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.6174999999999999,
+      "data_validation_score": 0.6374761904761905,
+      "data_column_count_detected": 20
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Amount",
+        "142140.85",
+        "2 Page"
+      ],
+      "combined_confidence": 0.21609523809523806,
+      "visual_score": 0.29333333333333333,
+      "reconstruction_score": 0.76,
+      "semantic_score": 0.7166666666666667,
+      "data_validation_score": 0.5471428571428572,
+      "data_column_count_detected": 2
+    }
+  ],
+  "final_selected_header": [
+    "Amount",
+    "1402.83",
+    "2794.6",
+    "5869.76",
+    "1056.55",
+    "18683.66",
+    "2917.4",
+    "10147.02",
+    "14052.83",
+    "3262.84",
+    "5917.03",
+    "2587.23",
+    "17264.25",
+    "18703.5",
+    "1273.59",
+    "23539.59",
+    "5360.19",
+    "3764.14",
+    "3543.84",
+    "142140.85"
+  ],
+  "confidence": 0.3509952380952382,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.6174999999999999,
+    "data_validation_score": 0.6374761904761905,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Cl.Value",
+      "1402.83",
+      "2794.6",
+      "5869.76",
+      "1056.55",
+      "18683.66",
+      "2917.4",
+      "10147.02",
+      "14052.83",
+      "3262.84",
+      "5917.03",
+      "2587.23",
+      "17264.25",
+      "18703.5",
+      "1273.59",
+      "23539.59",
+      "5360.19",
+      "3764.14",
+      "3543.84",
+      "142140.85"
+    ],
+    "normalized": [
+      "Amount",
+      "1402.83",
+      "2794.6",
+      "5869.76",
+      "1056.55",
+      "18683.66",
+      "2917.4",
+      "10147.02",
+      "14052.83",
+      "3262.84",
+      "5917.03",
+      "2587.23",
+      "17264.25",
+      "18703.5",
+      "1273.59",
+      "23539.59",
+      "5360.19",
+      "3764.14",
+      "3543.84",
+      "142140.85"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "Dt.26/11/2025"
+    ],
+    "data_column_count_detected": 20,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=20 data=20"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.3509952380952382,
+      "evidence_scores": {
+        "keyword_score": 0.05,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6374761904761905,
+        "lexical_purity_score": 0.96,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.6158690476190477,
+      "evidence_before_penalties": 0.6158690476190477
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Amount",
+          "1402.83",
+          "2794.6",
+          "5869.76",
+          "1056.55",
+          "18683.66",
+          "2917.4",
+          "10147.02",
+          "14052.83",
+          "3262.84",
+          "5917.03",
+          "2587.23",
+          "17264.25",
+          "18703.5",
+          "1273.59",
+          "23539.59",
+          "5360.19",
+          "3764.14",
+          "3543.84",
+          "142140.85"
+        ],
+        "data_column_count_detected": 20,
+        "combined_confidence": 0.7009952380952382
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Amount",
+          "142140.85",
+          "2 Page"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.5660952380952381
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Amount",
+      "1402.83",
+      "2794.6",
+      "5869.76",
+      "1056.55",
+      "18683.66",
+      "2917.4",
+      "10147.02",
+      "14052.83",
+      "3262.84",
+      "5917.03",
+      "2587.23",
+      "17264.25",
+      "18703.5",
+      "1273.59",
+      "23539.59",
+      "5360.19",
+      "3764.14",
+      "3543.84",
+      "142140.85"
+    ]
+  }
+}

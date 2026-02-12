@@ -1,0 +1,276 @@
+{
+  "pdf_path": "pdfs\\10000734_20260101_132040_ABBOTT HELTH CARE. S.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 79.89398193359375,
+      "y_max": 94.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 142.89398193359375,
+      "y_max": 157.19398498535156,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=3"
+    },
+    {
+      "page_no": 4,
+      "y_min": 195.39398193359375,
+      "y_max": 209.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 5,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5802857142857143,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.7916666666666666,
+      "data_validation_score": 0.6847619047619048,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "Sales",
+        "ANALYSIS"
+      ],
+      "combined_confidence": 0.5805572413793104,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.82,
+      "data_validation_score": 0.7327862068965517,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "ABBOTT",
+        "ABBOTT",
+        "HEALTHCARE",
+        "HEALTHCARE",
+        "PVT",
+        "KOLKATA",
+        "KOLKATA",
+        "12759.00"
+      ],
+      "combined_confidence": 0.09194999999999998,
+      "visual_score": 0.5,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.6597500000000001,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "&",
+    "Sales",
+    "Sales",
+    "ANALYSIS"
+  ],
+  "confidence": 0.5805572413793104,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.82,
+    "data_validation_score": 0.7327862068965517,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "STOCK",
+      "&",
+      "SALES",
+      "SALES",
+      "ANALYSIS"
+    ],
+    "normalized": [
+      "Stock",
+      "&",
+      "Sales",
+      "Sales",
+      "ANALYSIS"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "SALES",
+        "into": "SALES",
+        "interval_idx": 0
+      },
+      {
+        "split": "SALES",
+        "into": "SALES",
+        "interval_idx": 1
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5805572413793104,
+      "evidence_scores": {
+        "keyword_score": 0.75,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7327862068965517,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.7248632183908047,
+      "evidence_before_penalties": 0.7248632183908047
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7802857142857142
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7305572413793104
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "IVABID",
+          "OD",
+          "10S"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6815585585585586
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "7.Cognex-Neuro",
+          "7.Cognex-Neuro",
+          "PSYCHIATRY"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6448
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          ".Lingretin",
+          "10Tab"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7024
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ABBOTT",
+          "ABBOTT",
+          "HEALTHCARE",
+          "HEALTHCARE",
+          "PVT",
+          "KOLKATA",
+          "KOLKATA",
+          "12759.00"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.64195
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=3 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=3 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=2 data=6 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=2 data=6 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Stock",
+      "&",
+      "Sales",
+      "Sales",
+      "ANALYSIS"
+    ]
+  }
+}

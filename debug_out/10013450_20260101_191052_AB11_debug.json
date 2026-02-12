@@ -1,0 +1,140 @@
+{
+  "pdf_path": "pdfs\\10013450_20260101_191052_AB11.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 38.510009765625,
+      "y_max": 47.610008239746094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 28.010009765625,
+      "y_max": 37.110008239746094,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "THYRONORM",
+        "150Mcg",
+        "TAB",
+        "12.00",
+        "0.00"
+      ],
+      "combined_confidence": 0.5024614420062695,
+      "visual_score": 0.5,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7623072100313479,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "THYRONORM",
+    "150Mcg",
+    "TAB",
+    "12.00",
+    "0.00"
+  ],
+  "confidence": 0.5024614420062695,
+  "confidence_breakdown": {
+    "visual_score": 0.5,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.7623072100313479,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "THYRONORM",
+      "150MCG",
+      "TAB",
+      "12.00",
+      "0.00"
+    ],
+    "normalized": [
+      "THYRONORM",
+      "150Mcg",
+      "TAB",
+      "12.00",
+      "0.00"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "100"
+    ],
+    "data_column_count_detected": 5,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=5"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5024614420062695,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7623072100313479,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.6225768025078371,
+      "evidence_before_penalties": 0.6225768025078371
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "GSETHI",
+          "PHARMA",
+          "DISTRIBUTORS",
+          "PVT",
+          ".Ltd",
+          "Purchase",
+          "Order"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8009234250221828
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "THYRONORM",
+          "150Mcg",
+          "TAB",
+          "12.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.6524614420062695
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=7 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=5 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "THYRONORM",
+      "150Mcg",
+      "TAB",
+      "12.00",
+      "0.00"
+    ]
+  }
+}

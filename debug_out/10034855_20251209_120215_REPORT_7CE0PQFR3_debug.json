@@ -1,0 +1,339 @@
+{
+  "pdf_path": "pdfs\\10034855_20251209_120215_REPORT_7CE0PQFR3.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 79.89398193359375,
+      "y_max": 94.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 163.89398193359375,
+      "y_max": 178.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 3,
+      "y_min": 69.39398193359375,
+      "y_max": 83.69398498535156,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=5"
+    },
+    {
+      "page_no": 4,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 5,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 6,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "FINECEF",
+        "1Gm",
+        "INJ",
+        "VIAL",
+        "PCS",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.6118026418026419,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.5555555555555556,
+      "data_validation_score": 0.7534576534576535,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "NIVAQUINE",
+        "INJ",
+        "2Ml",
+        "PCS",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.6100519403347077,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.55,
+      "data_validation_score": 0.7502597016735387,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Cl",
+        "OD",
+        "500Mg",
+        "TAB",
+        "7'S",
+        "PCS",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.4749166666666667,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.61875,
+      "data_validation_score": 0.7308333333333333,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "NERVUP",
+        "OD",
+        "CAP",
+        "15'S",
+        "PCS",
+        "-"
+      ],
+      "combined_confidence": 0.20783499455337695,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.5833333333333334,
+      "data_validation_score": 0.7058416394335513,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "ESGIPYRIN",
+        "INSTAGEL",
+        "50Gm",
+        "PCS",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.692560105383911,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.55,
+      "data_validation_score": 0.7128005269195545,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "ESGIPYRIN",
+    "INSTAGEL",
+    "50Gm",
+    "PCS",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.692560105383911,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.55,
+    "data_validation_score": 0.7128005269195545,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ESGIPYRIN",
+      "INSTAGEL",
+      "50GM",
+      "PCS",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "ESGIPYRIN",
+      "INSTAGEL",
+      "50Gm",
+      "PCS",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=8"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.692560105383911,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7128005269195545,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.14285714285714285
+      },
+      "evidence_total": 0.717485846015603,
+      "evidence_before_penalties": 0.717485846015603
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7351579209979211
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "FINECEF",
+          "1Gm",
+          "INJ",
+          "VIAL",
+          "PCS",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7618026418026419
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "NIVAQUINE",
+          "INJ",
+          "2Ml",
+          "PCS",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7600519403347077
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7368000000000001
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Cl",
+          "OD",
+          "500Mg",
+          "TAB",
+          "7'S",
+          "PCS",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7749166666666667
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "NERVUP",
+          "OD",
+          "CAP",
+          "15'S",
+          "PCS",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.757834994553377
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "ESGIPYRIN",
+          "INSTAGEL",
+          "50Gm",
+          "PCS",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.692560105383911
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=1 data=7 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=1 data=7 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ESGIPYRIN",
+      "INSTAGEL",
+      "50Gm",
+      "PCS",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "pdf_path": "pdfs\\10011538_20251227_123732_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=14 tokens=15"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "SNo.",
+        "Order",
+        "Quantity",
+        "Unit"
+      ],
+      "combined_confidence": 0.14685714285714285,
+      "visual_score": 0.9,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.9,
+      "data_validation_score": 0.7092857142857143,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "SNo.",
+    "Order",
+    "Quantity",
+    "Unit"
+  ],
+  "confidence": 0.14685714285714285,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.9,
+    "data_validation_score": 0.7092857142857143,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "SNo.",
+      "Order",
+      "Qty.",
+      "Unit"
+    ],
+    "normalized": [
+      "SNo.",
+      "Order",
+      "Quantity",
+      "Unit"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "D",
+      "e",
+      "s",
+      "c",
+      "r",
+      "i",
+      "p",
+      "t",
+      "i",
+      "o",
+      "n"
+    ],
+    "data_column_count_detected": 5,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=4 data=5"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.14685714285714285,
+      "evidence_scores": {
+        "keyword_score": 0.75,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7092857142857143,
+        "lexical_purity_score": 0.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.6523214285714286,
+      "evidence_before_penalties": 0.6523214285714286
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SNo.",
+          "Order",
+          "Quantity",
+          "Unit"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8968571428571429
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "SNo.",
+      "Order",
+      "Quantity",
+      "Unit"
+    ]
+  }
+}

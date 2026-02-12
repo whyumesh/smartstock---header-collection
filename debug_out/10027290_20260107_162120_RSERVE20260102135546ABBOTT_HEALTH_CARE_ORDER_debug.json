@@ -1,0 +1,210 @@
+{
+  "pdf_path": "pdfs\\10027290_20260107_162120_RSERVE20260102135546ABBOTT HEALTH CARE ORDER.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 233.96401977539062,
+      "y_max": 247.30401611328125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 1,
+      "y_min": 123.41287231445312,
+      "y_max": 136.75286865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 123.41287231445312,
+      "y_max": 136.75286865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 3,
+      "y_min": 123.41287231445312,
+      "y_max": 136.75286865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "SNO.",
+        "PARTICULARS",
+        "Pack",
+        "Quantity",
+        "CASE",
+        "Rate",
+        "Amount"
+      ],
+      "combined_confidence": 0.8265898617511521,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8142857142857143,
+      "data_validation_score": 0.8686635944700462,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "SNO.",
+    "PARTICULARS",
+    "Pack",
+    "Quantity",
+    "CASE",
+    "Rate",
+    "Amount"
+  ],
+  "confidence": 0.8265898617511521,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8142857142857143,
+    "data_validation_score": 0.8686635944700462,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "SNO.",
+      "PARTICULARS",
+      "PACKING",
+      "QTY+FREE",
+      "CASE",
+      "RATE",
+      "AMOUNT"
+    ],
+    "normalized": [
+      "SNO.",
+      "PARTICULARS",
+      "Pack",
+      "Quantity",
+      "CASE",
+      "Rate",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.8265898617511521,
+      "evidence_scores": {
+        "keyword_score": 0.5714285714285714,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.8686635944700462,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.7850230414746544,
+      "evidence_before_penalties": 0.7850230414746544
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SNO.",
+          "PARTICULARS",
+          "Pack",
+          "Quantity",
+          "CASE",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8265898617511521
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "SNO.",
+          "PARTICULARS",
+          "Pack",
+          "Quantity",
+          "CASE",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8250757763975156
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "SNO.",
+          "PARTICULARS",
+          "Pack",
+          "Quantity",
+          "CASE",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8084
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "SNO.",
+          "PARTICULARS",
+          "Pack",
+          "Quantity",
+          "CASE",
+          "Rate",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8339438775510205
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=7 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=5 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=7 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=5 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=7 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=5 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "SNO.",
+      "PARTICULARS",
+      "Pack",
+      "Quantity",
+      "CASE",
+      "Rate",
+      "Amount"
+    ]
+  }
+}

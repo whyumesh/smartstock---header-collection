@@ -1,0 +1,275 @@
+{
+  "pdf_path": "pdfs\\10030204_20260101_094758_Stock Statement.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 3,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 5,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 6,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.831781910397295
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8327741935483871
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8304615384615385
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8286196581196581
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8316033321517192
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.831774914740432
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.833923076923077
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=6 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=6 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=13 data=5 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=5 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=13 data=6 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=6 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=13 data=5 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=5 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=13 data=5 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=5 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=13 data=7 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=7 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=13 data=8 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=8 diff=5"
+          }
+        }
+      }
+    ]
+  }
+}

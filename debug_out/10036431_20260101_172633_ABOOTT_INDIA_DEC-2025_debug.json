@@ -1,0 +1,241 @@
+{
+  "pdf_path": "pdfs\\10036431_20260101_172633_ABOOTT INDIA DEC-2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    },
+    {
+      "page_no": 2,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    },
+    {
+      "page_no": 3,
+      "y_min": 164.23800659179688,
+      "y_max": 175.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=11"
+    },
+    {
+      "page_no": 4,
+      "y_min": 174.73800659179688,
+      "y_max": 186.43800354003906,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=17"
+    },
+    {
+      "page_no": 5,
+      "y_min": 164.23800659179688,
+      "y_max": 175.93800354003906,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=17"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "NOV",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8380000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Tot",
+          "176379.19",
+          "176379.19",
+          "158604.10",
+          "170789.09",
+          "170789.09",
+          "180807.68",
+          "178K",
+          "178K"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6879893162393163
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot",
+          "64450.76",
+          "64450.76",
+          "109283.30",
+          "105111.12",
+          "105111.12",
+          "80694.27",
+          "80694.27",
+          "106K",
+          "106K"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.684005745132061
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "NOV",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8327894736842105
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "PRO",
+          "INJ",
+          "2Ml",
+          "2Ml",
+          "227.65",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7173494808762667
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "EPTOIN",
+          "ER",
+          "30S",
+          "30S",
+          "144.27",
+          "2019.78",
+          "5770.80",
+          "4648.99",
+          "3606.75",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7191940194737797
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=19 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

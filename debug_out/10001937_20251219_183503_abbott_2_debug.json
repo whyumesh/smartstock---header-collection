@@ -1,0 +1,51 @@
+{
+  "pdf_path": "pdfs\\10001937_20251219_183503_abbott 2.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 103.0071029663086,
+      "y_max": 111.36856079101562,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "Free Quantity",
+          "Quantity",
+          "Stk",
+          "Amount",
+          "Stock",
+          "Amount",
+          "Age"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8394545454545455
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=5 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=5 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

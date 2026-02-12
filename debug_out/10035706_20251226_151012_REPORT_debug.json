@@ -1,0 +1,517 @@
+{
+  "pdf_path": "pdfs\\10035706_20251226_151012_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 5,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    },
+    {
+      "page_no": 6,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 7,
+      "y_min": 185.23800659179688,
+      "y_max": 196.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=10"
+    },
+    {
+      "page_no": 8,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 6,
+      "headers": [
+        "Tot",
+        "Tot",
+        "7455.79",
+        "7455.79",
+        "0.00",
+        "0.00",
+        "145.08",
+        "145.08",
+        "7310.71",
+        "7310.71"
+      ],
+      "combined_confidence": 0.13175991285403055,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.6699999999999999,
+      "data_validation_score": 0.6137995642701525,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Tot",
+    "Tot",
+    "7455.79",
+    "7455.79",
+    "0.00",
+    "0.00",
+    "145.08",
+    "145.08",
+    "7310.71",
+    "7310.71"
+  ],
+  "confidence": 0.13175991285403055,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.6699999999999999,
+    "data_validation_score": 0.6137995642701525,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "TOTAL",
+      "TOTAL",
+      "7455.79",
+      "7455.79",
+      "0.00",
+      "0.00",
+      "145.08",
+      "145.08",
+      "7310.71",
+      "7310.71"
+    ],
+    "normalized": [
+      "Tot",
+      "Tot",
+      "7455.79",
+      "7455.79",
+      "0.00",
+      "0.00",
+      "145.08",
+      "145.08",
+      "7310.71",
+      "7310.71"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "TOTAL",
+        "into": "TOTAL",
+        "interval_idx": 0
+      },
+      {
+        "split": "TOTAL",
+        "into": "TOTAL",
+        "interval_idx": 1
+      },
+      {
+        "split": "198",
+        "into": "198",
+        "interval_idx": 2
+      },
+      {
+        "split": "198",
+        "into": "198",
+        "interval_idx": 3
+      },
+      {
+        "split": "7455.79",
+        "into": "7455.79",
+        "interval_idx": 3
+      },
+      {
+        "split": "7455.79",
+        "into": "7455.79",
+        "interval_idx": 4
+      },
+      {
+        "split": "0",
+        "into": "0",
+        "interval_idx": 4
+      },
+      {
+        "split": "0",
+        "into": "0",
+        "interval_idx": 5
+      },
+      {
+        "split": "0.00",
+        "into": "0.00",
+        "interval_idx": 5
+      },
+      {
+        "split": "0.00",
+        "into": "0.00",
+        "interval_idx": 6
+      },
+      {
+        "split": "13",
+        "into": "13",
+        "interval_idx": 6
+      },
+      {
+        "split": "13",
+        "into": "13",
+        "interval_idx": 7
+      },
+      {
+        "split": "145.08",
+        "into": "145.08",
+        "interval_idx": 7
+      },
+      {
+        "split": "145.08",
+        "into": "145.08",
+        "interval_idx": 8
+      },
+      {
+        "split": "185",
+        "into": "185",
+        "interval_idx": 8
+      },
+      {
+        "split": "185",
+        "into": "185",
+        "interval_idx": 9
+      },
+      {
+        "split": "7310.71",
+        "into": "7310.71",
+        "interval_idx": 9
+      },
+      {
+        "split": "7310.71",
+        "into": "7310.71",
+        "interval_idx": 10
+      }
+    ],
+    "noise_tokens_removed": [
+      "198",
+      "198",
+      "0",
+      "0",
+      "13",
+      "13",
+      "185",
+      "185",
+      "0"
+    ],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=11"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.13175991285403055,
+      "evidence_scores": {
+        "keyword_score": 0.2,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6137995642701525,
+        "lexical_purity_score": 0.0,
+        "multi_page_presence_score": 0.1111111111111111
+      },
+      "evidence_total": 0.4020610021786492,
+      "evidence_before_penalties": 0.4020610021786492
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8508888888888889
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Tot",
+          "Tot",
+          "32447.70",
+          "32447.70",
+          "14119.10",
+          "14119.10",
+          "16081.98",
+          "16081.98",
+          "30484.82",
+          "30484.82"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6771473559120619
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "TYZA",
+          "CREAM",
+          "10Gm",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7012116144018583
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8508888888888889
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "ABBOTT",
+          "GENERAL",
+          "MEDICINE"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7369504273504275
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "XKENACORT",
+          "4Mg",
+          "10Tab",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6944857142857144
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Tot",
+          "Tot",
+          "7455.79",
+          "7455.79",
+          "0.00",
+          "0.00",
+          "145.08",
+          "145.08",
+          "7310.71",
+          "7310.71"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6817599128540306
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8458888888888889
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "ABBOTT",
+          "ABBOTT",
+          "PAN",
+          "BIO",
+          "BIO"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.683475
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=11 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=11 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=7 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=18 data=11 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=11 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=3 data=11 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=11 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=7 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=18 data=11 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=11 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=5 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=12 diff=7"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Tot",
+      "Tot",
+      "7455.79",
+      "7455.79",
+      "0.00",
+      "0.00",
+      "145.08",
+      "145.08",
+      "7310.71",
+      "7310.71"
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "pdf_path": "pdfs\\10032828_20251210_173653_PIRAMAL HEALTHCARE [ OTC ].PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 87.98272705078125,
+      "y_max": 93.40856170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 45.9967155456543,
+      "y_max": 51.42251968383789,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 25.793712615966797,
+      "y_max": 31.21951675415039,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "OURDAILY",
+        "TAB",
+        "TAB",
+        "15'S",
+        "15'S",
+        "15'S"
+      ],
+      "combined_confidence": 0.6899191304347826,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.6870956521739131,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "OURDAILY",
+    "TAB",
+    "TAB",
+    "15'S",
+    "15'S",
+    "15'S"
+  ],
+  "confidence": 0.6899191304347826,
+  "confidence_breakdown": {
+    "visual_score": 0.75,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.6870956521739131,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "OURDAILY",
+      "TAB",
+      "TAB",
+      "15'S",
+      "15'S",
+      "15'S"
+    ],
+    "normalized": [
+      "OURDAILY",
+      "TAB",
+      "TAB",
+      "15'S",
+      "15'S",
+      "15'S"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "TAB",
+        "into": "TAB",
+        "interval_idx": 0
+      },
+      {
+        "split": "TAB",
+        "into": "TAB",
+        "interval_idx": 1
+      },
+      {
+        "split": "15'S",
+        "into": "15'S",
+        "interval_idx": 2
+      },
+      {
+        "split": "15'S",
+        "into": "15'S",
+        "interval_idx": 3
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=6"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.6899191304347826,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6870956521739131,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.5917739130434783,
+      "evidence_before_penalties": 0.5917739130434783
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Pend",
+          "Ord",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Pack",
+          "Rcpt",
+          "Sales",
+          "Sales",
+          "Free Quantity",
+          "Free Quantity",
+          "Sale",
+          "Sale",
+          "Adj",
+          "Cl",
+          "Cl",
+          "StkVl(Cs",
+          "IIIL",
+          "IIIL",
+          "IILa",
+          "IILa",
+          "ILas",
+          "ILas",
+          "Age",
+          "Batch No"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8231612606395216
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "LITTLES",
+          "Cl",
+          "MINI",
+          "FEEDING",
+          "1'S",
+          "2838.36",
+          "-15"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.789351424086118
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "OURDAILY",
+          "TAB",
+          "TAB",
+          "15'S",
+          "15'S",
+          "15'S"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6899191304347826
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=28 data=17 diff=11",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=28 data=17 diff=11"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=7 data=10 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=10 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "OURDAILY",
+      "TAB",
+      "TAB",
+      "15'S",
+      "15'S",
+      "15'S"
+    ]
+  }
+}

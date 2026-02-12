@@ -1,0 +1,317 @@
+{
+  "pdf_path": "pdfs\\10027993_20260103_211411_abbott ssd.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 128.0190887451172,
+      "y_max": 140.0251007080078,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 70.19231414794922,
+      "y_max": 82.19831085205078,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 70.19231414794922,
+      "y_max": 82.19831085205078,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 70.19231414794922,
+      "y_max": 82.19831085205078,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 4,
+      "y_min": 70.19231414794922,
+      "y_max": 82.19831085205078,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 5,
+      "y_min": 12.082082748413086,
+      "y_max": 24.08808135986328,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 5,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "537551.10",
+        "687165.02",
+        "651626.47",
+        "0.00",
+        "589921.92"
+      ],
+      "combined_confidence": 0.64,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.65,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "GRAND",
+    "Tot",
+    "537551.10",
+    "687165.02",
+    "651626.47",
+    "0.00",
+    "589921.92"
+  ],
+  "confidence": 0.64,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.65,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "GRAND",
+      "TOTAL",
+      "537551.10",
+      "687165.02",
+      "651626.47",
+      "0.00",
+      "589921.92"
+    ],
+    "normalized": [
+      "GRAND",
+      "Tot",
+      "537551.10",
+      "687165.02",
+      "651626.47",
+      "0.00",
+      "589921.92"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.64,
+      "evidence_scores": {
+        "keyword_score": 0.14285714285714285,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.4523809523809524,
+      "evidence_before_penalties": 0.4523809523809524
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8517714285714286
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8456250000000001
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8456250000000001
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8524184782608696
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Bal",
+          "Receipt",
+          "Purchase",
+          "Tot",
+          "Issue",
+          "Sale",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Bala"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8488392857142858
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "537551.10",
+          "687165.02",
+          "651626.47",
+          "0.00",
+          "589921.92"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.64
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=14 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=14 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=16 data=14 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=14 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=16 data=14 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=14 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=16 data=14 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=14 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=16 data=14 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=14 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "GRAND",
+      "Tot",
+      "537551.10",
+      "687165.02",
+      "651626.47",
+      "0.00",
+      "589921.92"
+    ]
+  }
+}

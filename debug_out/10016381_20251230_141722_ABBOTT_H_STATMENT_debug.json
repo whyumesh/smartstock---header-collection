@@ -1,0 +1,389 @@
+{
+  "pdf_path": "pdfs\\10016381_20251230_141722_ABBOTT H STATMENT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 2,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 3,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 4,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 6,
+      "y_min": 27.39398193359375,
+      "y_max": 41.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 7,
+      "y_min": 247.89398193359375,
+      "y_max": 262.1939697265625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 8,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.4,
+      "reason": "fallback_first_lines"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "TELPRES",
+        "CT",
+        "TAB",
+        "10*10",
+        "STR",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.36746443642986637,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.5714285714285714,
+      "data_validation_score": 0.7408936107207601,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "ZOLEPHOS",
+        "INJ",
+        "VAIL",
+        "VIA",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.7593408653846154,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.55,
+      "data_validation_score": 0.7717043269230769,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "------------------------------------------------------------------------------"
+      ],
+      "combined_confidence": 0.53,
+      "visual_score": 0.4,
+      "reconstruction_score": 0.72,
+      "semantic_score": 0.5,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "ZOLEPHOS",
+    "INJ",
+    "VAIL",
+    "VIA",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.7593408653846154,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.55,
+    "data_validation_score": 0.7717043269230769,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ZOLEPHOS",
+      "INJ",
+      "VAIL",
+      "VIA",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "ZOLEPHOS",
+      "INJ",
+      "VAIL",
+      "VIA",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=8"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.7593408653846154,
+      "evidence_scores": {
+        "keyword_score": 0.25,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7717043269230769,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.1111111111111111
+      },
+      "evidence_total": 0.6665371928418803,
+      "evidence_before_penalties": 0.6665371928418803
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7516630303030303
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "TELPRES",
+          "CT",
+          "TAB",
+          "10*10",
+          "STR",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7674644364298664
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7256500000000001
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7567583987890001
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7481813341937567
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7528272031559392
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "MYSOLINE",
+          "250Mg",
+          "TAB",
+          "30*10",
+          "STR",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7625931293612453
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "ZOLEPHOS",
+          "INJ",
+          "VAIL",
+          "VIA",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7593408653846154
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "------------------------------------------------------------------------------"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.53
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=10 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=10 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=11 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=8 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=11 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=8 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=9 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=7 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ZOLEPHOS",
+      "INJ",
+      "VAIL",
+      "VIA",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

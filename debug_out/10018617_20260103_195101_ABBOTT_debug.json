@@ -1,0 +1,245 @@
+{
+  "pdf_path": "pdfs\\10018617_20260103_195101_ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "ESOKEM-40",
+        "TAB",
+        "1X15Tab",
+        "TAB",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.7463351648351649,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7826373626373626,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "REZFURAN-100",
+        "TAB",
+        "1X14Tab",
+        "TAB",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      "combined_confidence": 0.5813461538461538,
+      "visual_score": 0.75,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5615384615384615,
+      "data_validation_score": 0.7076923076923077,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "ESOKEM-40",
+    "TAB",
+    "1X15Tab",
+    "TAB",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-"
+  ],
+  "confidence": 0.7963351648351649,
+  "confidence_breakdown": {
+    "visual_score": 0.75,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.5615384615384615,
+    "data_validation_score": 0.7826373626373626,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "ESOKEM-40",
+      "TAB",
+      "1X15Tab",
+      "TAB",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "per_page": [
+      [
+        "ESOKEM-40",
+        "TAB",
+        "1X15Tab",
+        "TAB",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ],
+      [
+        "REZFURAN-100",
+        "TAB",
+        "1X14Tab",
+        "TAB",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8296470588235294
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ESOKEM-40",
+          "TAB",
+          "1X15Tab",
+          "TAB",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7463351648351649
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "REZFURAN-100",
+          "TAB",
+          "1X14Tab",
+          "TAB",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7313461538461539
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ESOKEM-40",
+      "TAB",
+      "1X15Tab",
+      "TAB",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-"
+    ],
+    "data_column_count_detected": 13,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "pdf_path": "pdfs\\10004139_20251212_131144_REPORT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 133.21798706054688,
+      "y_max": 141.0179901123047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 385.218017578125,
+      "y_max": 393.01800537109375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.718017578125,
+      "y_max": 25.518016815185547,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=9"
+    },
+    {
+      "page_no": 3,
+      "y_min": 17.718017578125,
+      "y_max": 25.518016815185547,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Description",
+        "Op",
+        "Sales",
+        "Sale",
+        "Sales",
+        "Sales",
+        "Purchase",
+        "Purchase",
+        "Purchase",
+        "Purchase",
+        "Other",
+        "Closing",
+        "Closing",
+        "Expiry Date",
+        "Expiry Date"
+      ],
+      "combined_confidence": 0.4627303685897436,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.934375,
+      "data_validation_score": 0.729276842948718,
+      "data_column_count_detected": 16
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "KUKREJA",
+        "MEDICAL",
+        "GST",
+        "GANAUR",
+        "*A010579",
+        "1398.00",
+        "1398.001005"
+      ],
+      "combined_confidence": 0.25785714285714284,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.6285714285714287,
+      "data_validation_score": 0.6857142857142857,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "KUKREJA",
+        "MEDICAL",
+        "GST",
+        "GANAUR",
+        "*A005875",
+        "1512.00",
+        "1512.00"
+      ],
+      "combined_confidence": 0.03285714285714292,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.6285714285714287,
+      "data_validation_score": 0.6857142857142857,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "KUKREJA",
+        "MEDICAL",
+        "GST",
+        "GANAUR",
+        "A006654",
+        "405.00",
+        "405.00"
+      ],
+      "combined_confidence": 0.033324675324675423,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.6285714285714287,
+      "data_validation_score": 0.688051948051948,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Description",
+    "Op",
+    "Sales",
+    "Sale",
+    "Sales",
+    "Sales",
+    "Purchase",
+    "Purchase",
+    "Purchase",
+    "Purchase",
+    "Other",
+    "Closing",
+    "Closing",
+    "Expiry Date",
+    "Expiry Date"
+  ],
+  "confidence": 0.4627303685897436,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.934375,
+    "data_validation_score": 0.729276842948718,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Item",
+      "Description",
+      "Opening",
+      "Sales",
+      "Sale",
+      "Sales",
+      "Sales",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Other",
+      "Closing",
+      "Closing",
+      "Expiry",
+      "Expiry"
+    ],
+    "normalized": [
+      "Product Name",
+      "Description",
+      "Op",
+      "Sales",
+      "Sale",
+      "Sales",
+      "Sales",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Other",
+      "Closing",
+      "Closing",
+      "Expiry Date",
+      "Expiry Date"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 16,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=16 data=16"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.4627303685897436,
+      "evidence_scores": {
+        "keyword_score": 0.7894736842105263,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.729276842948718,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.8046876317898111,
+      "evidence_before_penalties": 0.8046876317898111
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Description",
+          "Op",
+          "Sales",
+          "Sale",
+          "Sales",
+          "Sales",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Other",
+          "Closing",
+          "Closing",
+          "Expiry Date",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.8627303685897436
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "KUKREJA",
+          "MEDICAL",
+          "GST",
+          "GANAUR",
+          "*A010579",
+          "1398.00",
+          "1398.001005"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7578571428571429
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "KUKREJA",
+          "MEDICAL",
+          "GST",
+          "GANAUR",
+          "*A005875",
+          "1512.00",
+          "1512.00"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6828571428571429
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "KUKREJA",
+          "MEDICAL",
+          "GST",
+          "GANAUR",
+          "A006654",
+          "405.00",
+          "405.00"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6833246753246754
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Description",
+      "Op",
+      "Sales",
+      "Sale",
+      "Sales",
+      "Sales",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Purchase",
+      "Other",
+      "Closing",
+      "Closing",
+      "Expiry Date",
+      "Expiry Date"
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                                                            ) Tj
+T* (                                   SOL PHARMA                                                                                     ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                               PALAKKAD. - 678001                                                                                 ) Tj
+T* (                                                                                                                                            ) Tj
+T* (Stock & Sales Report From 01/12/2025 To 31/12/2025                                                                               ) Tj
+T* (Company Name : ABBOTT NEURO-PSYCHIATRY - .                                                                                                  ) Tj
+T* (============================================================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur PFree   Nov      Sale     SFree SRet    Repl CurStk    StkVal    SalVal Exp     Rate ) Tj
+T* (============================================================================================================================================) Tj
+T* (1   DEPSONIL 25MG TAB         10`S       78         -     -    33        39         -    -       -     39    478.53    522.41   -    12.27 ) Tj
+T* (2   EPILEX 200 TAB            15`S       12        20     -     8        18         -    -       -     14    551.88    759.76   -    39.42 ) Tj
+T* (3   EPILEX 500 TAB 15`S       15`S        0         -     -     0         -         -    -       -      0         -      0.00   Y     0.00 ) Tj
+T* (4   EPILEX CHRONO 200 TAB     15`S       14         -     -     0         -         -    -       -     14   1386.70      0.00   -    99.05 ) Tj
+T* (5   EPILEX CHRONO 300TAB      15`S       23         -     -     3        11         -    -       -     12    801.56    786.29   -    66.80 ) Tj
+T* (6   EPILEX CHRONO 500TAB      15`S       15         -     -     9        13         -    -       -      2    203.90   1449.98   -   101.95 ) Tj
+T* (7   EPILEX ORAL SOLU 200 ML   200ML      20         -     -     8        20         -    -       -      0         -   2095.11   -    95.04 ) Tj
+T* (8   GAROIN TAB                100`S      37         -     -     0         -         -    -       -     37   5034.96      0.00   Y   136.08 ) Tj
+T* (9   LIBRIUM 10 TAB            15`S       29        70     -    79        36         -    -       -     63   6956.46   4308.83   -   110.42 ) Tj
+T* (10  LIBRIUM 25 TAB            15`S       11         -     -     5         4         -    -       -      7   1069.95    679.36   -   152.85 ) Tj
+T* (11  LIBRIUM 5 MG TAB          15`S        0         -     -     0         -         -    -       -      0         -      0.00   Y    86.79 ) Tj
+T* (12  MAZETOL 100 MG TAB        10`S       46         -     -    23         -         -    -       -     46    351.16      0.00   -     7.63 ) Tj
+T* (13  MAZETOL 200 MG TAB        10`S      140         -     -    61        64         -    -       -     76    873.24    788.54   -    11.49 ) Tj
+T* (14  MAZETOL 400 MG TAB        10`S       15         -     -    10         5         -    -       -     10    255.60    136.32   -    25.56 ) Tj
+T* (15  MAZETOL SR 200            15TAB      32         -     -     8         5         -    -       -     27    711.45    140.55   -    26.35 ) Tj
+T* (16  MYSOLINE 250MG TAB 10 TAB 10 TAB     24        30     -    12        25         -    -       -     29   2990.48   2807.26   -   103.12 ) Tj
+T* (17  RIVOTRIL 0.25 TAB 10 TAB  10 TAB      0         -     -    12         -         -    -       -      0         -      0.00   -    14.47 ) Tj
+T* (18  RIVOTRIL 2  TAB           15`S       15         -     -     0         -         -    -       -     15   2552.25      0.00   X   170.15 ) Tj
+T* (--------------------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                               511       120     -   271       240         -    -       -    391         -         -   -        - ) Tj
+T* (--------------------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:    25863.85 Purc.Value: :    11611.40 Sales Value::    14474.41                                                                ) Tj
+T* (Cl.Stk Val:     24218.12 Pur.RetVal ::        0.00 SalRet Val: :        0.00                                                                ) Tj
+T* (Nov Sal:        16172.00 Oct Sal:    :     9466.00 NetSal\(GVal\):    14474.41                                                              ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:        0.00                                                                ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                                                                                                                                            ) Tj
+T* (Non Moving items Report Non Move Days > 90                                                                                                  ) Tj
+T* (========================================================================================                                                    ) Tj
+T* (Prod.Name                 Packing    Batch      Qty       Days                                                                              ) Tj
+T* (========================================================================================                                                    ) Tj
+T* (Company Name : ABBOTT NEURO-PSYCHIATRY                                                                                                      ) Tj
+T* (GAROIN TAB                100`S      GNB23003   37        218                                                                               ) Tj
+T* (----------------------------------------------------------------------------------------                                                    ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                                       *** END OF REPORT ***                                                                                ) Tj
+T* (                                                                                                                                            ) Tj
+ET
+endstream
+endobj
+9 0 obj
+4455
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 940 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000005021 00000 n
+0000005100 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000004998 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+5193
+%%EOF

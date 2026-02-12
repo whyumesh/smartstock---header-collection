@@ -1,0 +1,124 @@
+{
+  "pdf_path": "pdfs\\10014318_20260109_131733_O_000329-11A009-33.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 23.469955444335938,
+      "y_max": 32.80880355834961,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "MAHAVIR",
+        "Sales",
+        "CORPORATION",
+        "Order",
+        "Given",
+        "Tot",
+        "11A009"
+      ],
+      "combined_confidence": 0.27818769325912174,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.7428571428571429,
+      "data_validation_score": 0.7480813234384662,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "MAHAVIR",
+    "Sales",
+    "CORPORATION",
+    "Order",
+    "Given",
+    "Tot",
+    "11A009"
+  ],
+  "confidence": 0.27818769325912174,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.7428571428571429,
+    "data_validation_score": 0.7480813234384662,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "MAHAVIR",
+      "SALES",
+      "CORPORATION",
+      "Order",
+      "Given",
+      "To:",
+      "11A009"
+    ],
+    "normalized": [
+      "MAHAVIR",
+      "Sales",
+      "CORPORATION",
+      "Order",
+      "Given",
+      "Tot",
+      "11A009"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "Page",
+      "1",
+      "of",
+      "1"
+    ],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=8"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.27818769325912174,
+      "evidence_scores": {
+        "keyword_score": 0.5714285714285714,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7480813234384662,
+        "lexical_purity_score": 0.68,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7193774737167593,
+      "evidence_before_penalties": 0.7193774737167593
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "MAHAVIR",
+          "Sales",
+          "CORPORATION",
+          "Order",
+          "Given",
+          "Tot",
+          "11A009"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8281876932591218
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "MAHAVIR",
+      "Sales",
+      "CORPORATION",
+      "Order",
+      "Given",
+      "Tot",
+      "11A009"
+    ]
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "pdf_path": "pdfs\\10005726_20260110_090740_ABBOTT HEALTH CARE(GENERAL MED_StockAndSales_Jan_2026.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 95.71025085449219,
+      "y_max": 103.47339630126953,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Tran",
+        "Recd.",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Amount",
+        "Amount",
+        "Quantity"
+      ],
+      "combined_confidence": 0.7635383458646616,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.955639097744361,
+      "data_validation_score": 0.7870526315789474,
+      "data_column_count_detected": 20
+    }
+  ],
+  "final_selected_header": [
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Tran",
+    "Recd.",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Amount",
+    "Amount",
+    "Quantity"
+  ],
+  "confidence": 0.7635383458646616,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.955639097744361,
+    "data_validation_score": 0.7870526315789474,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Qty",
+      "Qty",
+      "Qty",
+      "F.Qty",
+      "F.Qty",
+      "Qty",
+      "Qty",
+      "F.Qty",
+      "F.Qty",
+      "Qty",
+      "Qty",
+      "Tran",
+      "Rec",
+      "Qty",
+      "Qty",
+      "Qty",
+      "F.Value",
+      "F.Value",
+      "Qty"
+    ],
+    "normalized": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Tran",
+      "Recd.",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Amount",
+      "Quantity"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 6
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 7
+      },
+      {
+        "split": "F.Qty",
+        "into": "F.Qty",
+        "interval_idx": 7
+      },
+      {
+        "split": "F.Qty",
+        "into": "F.Qty",
+        "interval_idx": 8
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 8
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 9
+      },
+      {
+        "split": "F.Qty",
+        "into": "F.Qty",
+        "interval_idx": 9
+      },
+      {
+        "split": "F.Qty",
+        "into": "F.Qty",
+        "interval_idx": 10
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 10
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 11
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 13
+      },
+      {
+        "split": "Qty",
+        "into": "Qty",
+        "interval_idx": 14
+      },
+      {
+        "split": "F.Value",
+        "into": "F.Value",
+        "interval_idx": 16
+      },
+      {
+        "split": "F.Value",
+        "into": "F.Value",
+        "interval_idx": 17
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 20,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=19 data=20"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.7635383458646616,
+      "evidence_scores": {
+        "keyword_score": 0.9473684210526315,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7870526315789474,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8711052631578947,
+      "evidence_before_penalties": 0.8711052631578947
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Tran",
+          "Recd.",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 20,
+        "combined_confidence": 0.9135383458646616
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Tran",
+      "Recd.",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Amount",
+      "Amount",
+      "Quantity"
+    ]
+  }
+}

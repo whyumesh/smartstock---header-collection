@@ -1,0 +1,121 @@
+{
+  "pdf_path": "pdfs\\10034960_20251226_191901_stock statement.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 85.0660400390625,
+      "y_max": 96.9315414428711,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 85.0660400390625,
+      "y_max": 96.9315414428711,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 2,
+      "y_min": 85.0660400390625,
+      "y_max": 96.9315414428711,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sl.|",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "MRP",
+          "|",
+          "Rate",
+          "|",
+          "Amount",
+          "|"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8272207792207793
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sl.|",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "MRP",
+          "|",
+          "Rate",
+          "|",
+          "Amount",
+          "|"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8270207792207793
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Sl.|",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "MRP",
+          "|",
+          "Rate",
+          "|",
+          "Amount",
+          "|"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8201168831168832
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=8 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=11 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=8 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

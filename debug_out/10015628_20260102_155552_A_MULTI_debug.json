@@ -1,0 +1,156 @@
+{
+  "pdf_path": "pdfs\\10015628_20260102_155552_A MULTI.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 137.52798461914062,
+      "y_max": 146.86598205566406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 30.094881057739258,
+      "y_max": 39.43288040161133,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "197732.18",
+        "150266.44",
+        "133146.12",
+        "224905.86"
+      ],
+      "combined_confidence": 0.4916666666666667,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.6583333333333333,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "GRAND",
+    "Tot",
+    "197732.18",
+    "150266.44",
+    "133146.12",
+    "224905.86"
+  ],
+  "confidence": 0.4916666666666667,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.6583333333333333,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "GRAND",
+      "TOTAL",
+      "197732.18",
+      "150266.44",
+      "133146.12",
+      "224905.86"
+    ],
+    "normalized": [
+      "GRAND",
+      "Tot",
+      "197732.18",
+      "150266.44",
+      "133146.12",
+      "224905.86"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "11328"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.4916666666666667,
+      "evidence_scores": {
+        "keyword_score": 0.16666666666666666,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.4736666666666666,
+      "evidence_before_penalties": 0.4736666666666666
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8551176470588236
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "197732.18",
+          "150266.44",
+          "133146.12",
+          "224905.86"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.6416666666666667
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "GRAND",
+      "Tot",
+      "197732.18",
+      "150266.44",
+      "133146.12",
+      "224905.86"
+    ]
+  }
+}

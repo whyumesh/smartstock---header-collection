@@ -1,0 +1,1346 @@
+{
+  "pdf_path": "pdfs\\10000473_20251216_183209_Stock Statement.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 1,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 2,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 3,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 4,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 5,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 6,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 7,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 8,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 9,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 10,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 11,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 12,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 13,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 14,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 15,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 16,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 17,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.9,
+      "reason": "header_keywords=11 tokens=15"
+    },
+    {
+      "page_no": 18,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 19,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.9,
+      "reason": "header_keywords=11 tokens=15"
+    },
+    {
+      "page_no": 20,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 21,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.9,
+      "reason": "header_keywords=11 tokens=15"
+    },
+    {
+      "page_no": 22,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 23,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 24,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 25,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 26,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 27,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 28,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 29,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 30,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 31,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 32,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 33,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 34,
+      "y_min": 120.74999237060547,
+      "y_max": 128.7161865234375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8285714285714286
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8410779220779221
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8356576099339257
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8320119047619048
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8303380656610471
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8357028265851796
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8357973098330241
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8342391774891775
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8444716117216118
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8419670686456401
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8442942176870748
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.840953231292517
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8406150278293135
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.842280612244898
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8448166525503482
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8319231601731601
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8449050235478807
+      },
+      {
+        "page_no": 17,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8323968253968254
+      },
+      {
+        "page_no": 18,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8355962732919254
+      },
+      {
+        "page_no": 19,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8342857142857143
+      },
+      {
+        "page_no": 20,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8392142857142857
+      },
+      {
+        "page_no": 21,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8327619047619048
+      },
+      {
+        "page_no": 22,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8327142857142857
+      },
+      {
+        "page_no": 23,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8347755102040817
+      },
+      {
+        "page_no": 24,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8320714285714286
+      },
+      {
+        "page_no": 25,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8380323129251701
+      },
+      {
+        "page_no": 26,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8357380952380953
+      },
+      {
+        "page_no": 27,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.8380000000000001
+      },
+      {
+        "page_no": 28,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8351428571428572
+      },
+      {
+        "page_no": 29,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8372142857142857
+      },
+      {
+        "page_no": 30,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8358571428571429
+      },
+      {
+        "page_no": 31,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8335714285714286
+      },
+      {
+        "page_no": 32,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8361428571428572
+      },
+      {
+        "page_no": 33,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8373599257884973
+      },
+      {
+        "page_no": 34,
+        "headers": [
+          "Sl",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "SLRT",
+          "PRRT",
+          "Exp",
+          "Sale",
+          "Quantity",
+          "Cl",
+          "P.Mon",
+          "Stock",
+          "Cost",
+          "Rate"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.834047619047619
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=14 data=8 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=8 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=14 data=10 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=10 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=14 data=10 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=10 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=14 data=9 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=9 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 15,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 16,
+        "reason": "column_count_mismatch: header=14 data=8 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=8 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 17,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 18,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 19,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 20,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 21,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 22,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 23,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 24,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 25,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 26,
+        "reason": "column_count_mismatch: header=14 data=7 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=7 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 27,
+        "reason": "column_count_mismatch: header=14 data=3 diff=11",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=3 diff=11"
+          }
+        }
+      },
+      {
+        "page_no": 28,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 29,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 30,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 31,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 32,
+        "reason": "column_count_mismatch: header=14 data=6 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=6 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 33,
+        "reason": "column_count_mismatch: header=14 data=5 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=5 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 34,
+        "reason": "column_count_mismatch: header=14 data=10 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=10 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

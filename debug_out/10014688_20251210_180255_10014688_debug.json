@@ -1,0 +1,207 @@
+{
+  "pdf_path": "pdfs\\10014688_20251210_180255_10014688.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 469.5024719238281,
+      "y_max": 479.894775390625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 155.22145080566406,
+      "y_max": 165.61375427246094,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=6"
+    },
+    {
+      "page_no": 2,
+      "y_min": 4.365436553955078,
+      "y_max": 14.75774097442627,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 3,
+      "y_min": 419.21746826171875,
+      "y_max": 429.6097717285156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 4,
+      "y_min": 117.50746154785156,
+      "y_max": 127.89977264404297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 5,
+      "y_min": 42.07942581176758,
+      "y_max": 52.47172927856445,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Sales",
+          "Sales",
+          "Closing",
+          "Closing",
+          "DAY"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7869598086124402
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Sales",
+          "Sales",
+          "Closing",
+          "Closing",
+          "DAY"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7844589307048985
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "TELPRES",
+          "CT",
+          "40/12.5",
+          "15'S"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7503297297297298
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Sales",
+          "Sales",
+          "Closing",
+          "Closing",
+          "DAY"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7881839638622248
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Sales",
+          "Sales",
+          "Closing",
+          "Closing",
+          "DAY"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7879713261648746
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "*Mazetol",
+          "200Mg",
+          "TAB",
+          "10'S",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7051314109419992
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=10 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=4 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=6 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=10 data=6 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=6 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

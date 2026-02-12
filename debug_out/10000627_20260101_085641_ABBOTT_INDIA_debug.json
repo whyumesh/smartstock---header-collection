@@ -1,0 +1,426 @@
+{
+  "pdf_path": "pdfs\\10000627_20260101_085641_ABBOTT INDIA.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 59.678165435791016,
+      "y_max": 67.177978515625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 59.678165435791016,
+      "y_max": 67.177978515625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 59.678165435791016,
+      "y_max": 67.177978515625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 59.678165435791016,
+      "y_max": 67.177978515625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 59.678165435791016,
+      "y_max": 67.177978515625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 59.678165435791016,
+      "y_max": 67.177978515625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Product Code",
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SVal",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.28503124999999996,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.79375,
+      "data_validation_score": 0.73140625,
+      "data_column_count_detected": 15
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Product Code",
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SVal",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.2874374999999999,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.79375,
+      "data_validation_score": 0.7434375,
+      "data_column_count_detected": 15
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "Product Code",
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SVal",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.2878124999999999,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.79375,
+      "data_validation_score": 0.7453125,
+      "data_column_count_detected": 15
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Product Code",
+    "Product Name",
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "SP",
+    "Sale",
+    "SVal",
+    "SS",
+    "Br",
+    "Cr",
+    "Db",
+    "Bal.",
+    "BVal"
+  ],
+  "confidence": 0.8878124999999999,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.79375,
+    "data_validation_score": 0.7453125,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Product Code",
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "SP",
+      "Sale",
+      "SVal",
+      "SS",
+      "Br",
+      "Cr",
+      "Db",
+      "Bal.",
+      "BVal"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Product Code",
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SVal",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Product Code",
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SVal",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Product Code",
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SVal",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Bal.",
+        "BVal"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Code",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SVal",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.83503125
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Code",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SVal",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8443125
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Code",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SVal",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.8374375
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Code",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SVal",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.839
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Product Code",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SVal",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.8378125
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Product Code",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SVal",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8218630952380952
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=16 data=14 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=14 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=16 data=14 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=14 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=16 data=6 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=6 diff=10"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Product Code",
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "SP",
+      "Sale",
+      "SVal",
+      "SS",
+      "Br",
+      "Cr",
+      "Db",
+      "Bal.",
+      "BVal"
+    ],
+    "data_column_count_detected": 15,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

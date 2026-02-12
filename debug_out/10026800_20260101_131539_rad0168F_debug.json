@@ -1,0 +1,103 @@
+{
+  "pdf_path": "pdfs\\10026800_20260101_131539_rad0168F.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 93.27418518066406,
+      "y_max": 103.03306579589844,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 12.634052276611328,
+      "y_max": 22.392929077148438,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 12.634052276611328,
+      "y_max": 22.392929077148438,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sale",
+          "Stock",
+          "Report",
+          "No."
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.741993006993007
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sale",
+          "Stock",
+          "Stock",
+          "Report",
+          "Report",
+          "No."
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7255111111111112
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Sale",
+          "Stock",
+          "Report",
+          "Report",
+          "No."
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7206363025210085
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=6 data=9 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=9 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=9 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=9 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

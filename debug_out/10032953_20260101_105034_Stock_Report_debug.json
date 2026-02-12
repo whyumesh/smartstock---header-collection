@@ -1,0 +1,382 @@
+{
+  "pdf_path": "pdfs\\10032953_20260101_105034_Stock_Report.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 66.5660171508789,
+      "y_max": 74.4900131225586,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 20.06601333618164,
+      "y_max": 27.990015029907227,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 2,
+      "y_min": 105.4729995727539,
+      "y_max": 113.3969955444336,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 30.56601333618164,
+      "y_max": 38.490013122558594,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 4,
+      "y_min": 42.47299575805664,
+      "y_max": 50.396995544433594,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 51.56601333618164,
+      "y_max": 59.490013122558594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "COMPANY",
+        "COMPANY",
+        "Tot",
+        "3347.000",
+        "3347.000",
+        "569278.39",
+        "881.000",
+        "881.000",
+        "166504.04",
+        "2468.000"
+      ],
+      "combined_confidence": 0.40214657342657345,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.635,
+      "data_validation_score": 0.6757328671328671,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "COMPANY",
+        "Tot",
+        "3886.000",
+        "324934.39",
+        "2566.000",
+        "175221.28",
+        "1320.000"
+      ],
+      "combined_confidence": 0.41987518796992485,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.65,
+      "data_validation_score": 0.7493759398496241,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "337.",
+        "337.",
+        "FINECEF",
+        "FINECEF",
+        "500Mg",
+        "500Mg",
+        "VIAL",
+        "1*1Vial",
+        "1*1Vial",
+        "0.",
+        "0.",
+        "0."
+      ],
+      "combined_confidence": 0.588673407875547,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.6433670393777345,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "337.",
+    "337.",
+    "FINECEF",
+    "FINECEF",
+    "500Mg",
+    "500Mg",
+    "VIAL",
+    "1*1Vial",
+    "1*1Vial",
+    "0.",
+    "0.",
+    "0."
+  ],
+  "confidence": 0.588673407875547,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.6433670393777345,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "337.",
+      "337.",
+      "FINECEF",
+      "FINECEF",
+      "500MG",
+      "500MG",
+      "VIAL",
+      "1*1VIAL",
+      "1*1VIAL",
+      "0.",
+      "0.",
+      "0."
+    ],
+    "normalized": [
+      "337.",
+      "337.",
+      "FINECEF",
+      "FINECEF",
+      "500Mg",
+      "500Mg",
+      "VIAL",
+      "1*1Vial",
+      "1*1Vial",
+      "0.",
+      "0.",
+      "0."
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "337.",
+        "into": "337.",
+        "interval_idx": 0
+      },
+      {
+        "split": "337.",
+        "into": "337.",
+        "interval_idx": 1
+      },
+      {
+        "split": "FINECEF",
+        "into": "FINECEF",
+        "interval_idx": 1
+      },
+      {
+        "split": "FINECEF",
+        "into": "FINECEF",
+        "interval_idx": 2
+      },
+      {
+        "split": "500MG",
+        "into": "500MG",
+        "interval_idx": 2
+      },
+      {
+        "split": "500MG",
+        "into": "500MG",
+        "interval_idx": 3
+      },
+      {
+        "split": "1*1VIAL",
+        "into": "1*1VIAL",
+        "interval_idx": 4
+      },
+      {
+        "split": "1*1VIAL",
+        "into": "1*1VIAL",
+        "interval_idx": 5
+      },
+      {
+        "split": "0.",
+        "into": "0.",
+        "interval_idx": 9
+      },
+      {
+        "split": "0.",
+        "into": "0.",
+        "interval_idx": 10
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=11"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.588673407875547,
+      "evidence_scores": {
+        "keyword_score": 0.16666666666666666,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6433670393777345,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.556675093177767,
+      "evidence_before_penalties": 0.556675093177767
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "S/N",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Amount",
+          "Purchase",
+          "Cs.Pc.Pu",
+          "Amount",
+          "Sl.Qnt.",
+          "Cs.Pc.Sa",
+          "Amount",
+          "Cl"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8501666666666667
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "62.",
+          "AQUAVIRON",
+          "INJ",
+          "1Ml",
+          "1Amp",
+          "0.",
+          "0."
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7628497217068647
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "COMPANY",
+          "COMPANY",
+          "Tot",
+          "3347.000",
+          "3347.000",
+          "569278.39",
+          "881.000",
+          "881.000",
+          "166504.04",
+          "2468.000"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7021465734265735
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "197.",
+          "DUPHALAC",
+          "FIBER",
+          "200Ml",
+          "200Ml",
+          "0.",
+          "0."
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7193285714285714
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "COMPANY",
+          "Tot",
+          "3886.000",
+          "324934.39",
+          "2566.000",
+          "175221.28",
+          "1320.000"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7198751879699249
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "337.",
+          "337.",
+          "FINECEF",
+          "FINECEF",
+          "500Mg",
+          "500Mg",
+          "VIAL",
+          "1*1Vial",
+          "1*1Vial",
+          "0.",
+          "0.",
+          "0."
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.738673407875547
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=9 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=9 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=7 data=4 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=4 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=7 data=4 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=4 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "337.",
+      "337.",
+      "FINECEF",
+      "FINECEF",
+      "500Mg",
+      "500Mg",
+      "VIAL",
+      "1*1Vial",
+      "1*1Vial",
+      "0.",
+      "0.",
+      "0."
+    ]
+  }
+}

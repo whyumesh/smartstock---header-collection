@@ -1,0 +1,650 @@
+{
+  "pdf_path": "pdfs\\10015168_20260101_103959_ABBOTT DEC.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 5,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 6,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 7,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 8,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 9,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 10,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 11,
+      "y_min": 110.55999755859375,
+      "y_max": 124.41000366210938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      "combined_confidence": 0.42814550395256923,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.94375,
+      "data_validation_score": 0.7219775197628459,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      "combined_confidence": 0.26830569201965093,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.94375,
+      "data_validation_score": 0.6727784600982541,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      "combined_confidence": 0.42799512987013,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.94375,
+      "data_validation_score": 0.7212256493506494,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      "combined_confidence": 0.26852870813397134,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.94375,
+      "data_validation_score": 0.6738935406698564,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      "combined_confidence": 0.28475000000000006,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.94375,
+      "data_validation_score": 0.755,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      "combined_confidence": 0.4189380764163374,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.94375,
+      "data_validation_score": 0.6759403820816864,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      "combined_confidence": 0.26788636363636364,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.94375,
+      "data_validation_score": 0.6706818181818182,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      "combined_confidence": 0.28475000000000006,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.94375,
+      "data_validation_score": 0.755,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      "combined_confidence": 0.26884496753246756,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.94375,
+      "data_validation_score": 0.6754748376623376,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      "combined_confidence": 0.4307733448616601,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.94375,
+      "data_validation_score": 0.7351167243083003,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 11,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      "combined_confidence": 0.4768491758241759,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.94375,
+      "data_validation_score": 0.7154958791208791,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Rate",
+    "Op",
+    "Reciept",
+    "Sales",
+    "Free Quantity",
+    "Closing"
+  ],
+  "confidence": 0.8768491758241759,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.94375,
+    "data_validation_score": 0.7154958791208791,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Pack",
+      "Rate",
+      "Op",
+      "Reciept",
+      "Sales",
+      "Free Quantity",
+      "Closing"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Rate",
+        "Op",
+        "Reciept",
+        "Sales",
+        "Free Quantity",
+        "Closing"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8281455039525693
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.818305692019651
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.82799512987013
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8185287081339714
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8347500000000001
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8189380764163374
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.819575698757764
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8178863636363637
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8347500000000001
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8188449675324676
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8307733448616601
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Rate",
+          "Op",
+          "Reciept",
+          "Sales",
+          "Free Quantity",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8268491758241759
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Rate",
+      "Op",
+      "Reciept",
+      "Sales",
+      "Free Quantity",
+      "Closing"
+    ],
+    "data_column_count_detected": 8,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

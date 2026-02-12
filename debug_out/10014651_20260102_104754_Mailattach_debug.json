@@ -1,0 +1,84 @@
+{
+  "pdf_path": "pdfs\\10014651_20260102_104754_Mailattach.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.63228607177734,
+      "y_max": 103.05792236328125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 91.82866668701172,
+      "y_max": 97.25425720214844,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Op",
+          "Stk",
+          "Purchase",
+          "NovPrv",
+          "Sales",
+          "Free Quantity",
+          "Adjst",
+          "Cl",
+          "Stk",
+          "Free Quantity",
+          "Stock",
+          "Sale",
+          "Val",
+          "Age"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8409232600732601
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "NERVUP",
+          "INJ",
+          "1Ml",
+          "871.20"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.67
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=9 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=9 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=4 data=8 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=8 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

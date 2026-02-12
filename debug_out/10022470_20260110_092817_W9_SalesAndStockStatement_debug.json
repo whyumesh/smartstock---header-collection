@@ -1,0 +1,211 @@
+{
+  "pdf_path": "pdfs\\10022470_20260110_092817_W9_SalesAndStockStatement.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 145.58631896972656,
+      "y_max": 156.25831604003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 91.16120910644531,
+      "y_max": 101.83320617675781,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 27.948619842529297,
+      "y_max": 38.62062072753906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "253125.84",
+        "51768.10",
+        "38928.66",
+        "3841.65",
+        "264973.51"
+      ],
+      "combined_confidence": 0.35000000000000003,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.65,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "GRAND",
+    "Tot",
+    "253125.84",
+    "51768.10",
+    "38928.66",
+    "3841.65",
+    "264973.51"
+  ],
+  "confidence": 0.35000000000000003,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.65,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "GRAND",
+      "TOTAL",
+      "253125.84",
+      "51768.10",
+      "38928.66",
+      "3841.65",
+      "264973.51"
+    ],
+    "normalized": [
+      "GRAND",
+      "Tot",
+      "253125.84",
+      "51768.10",
+      "38928.66",
+      "3841.65",
+      "264973.51"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "0",
+      "79286"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.35000000000000003,
+      "evidence_scores": {
+        "keyword_score": 0.14285714285714285,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.433047619047619,
+      "evidence_before_penalties": 0.433047619047619
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Breakage",
+          "Breakage",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Stock"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8615925925925926
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Breakage",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Stock"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8455714285714286
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "253125.84",
+          "51768.10",
+          "38928.66",
+          "3841.65",
+          "264973.51"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.65
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=27 data=18 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=27 data=18 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=14 data=7 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=7 diff=7"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "GRAND",
+      "Tot",
+      "253125.84",
+      "51768.10",
+      "38928.66",
+      "3841.65",
+      "264973.51"
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "pdf_path": "pdfs\\10015865_20251229_164205_AB.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 53.81724548339844,
+      "y_max": 64.83631896972656,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 53.81724548339844,
+      "y_max": 64.83631896972656,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 53.81724548339844,
+      "y_max": 64.83631896972656,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 5,
+      "y_min": 11.097246170043945,
+      "y_max": 22.116321563720703,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Sales",
+        "Stock",
+        "STATMENT",
+        "FROM",
+        "Tot"
+      ],
+      "combined_confidence": 0.4350000000000001,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8,
+      "data_validation_score": 0.575,
+      "data_column_count_detected": 0
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Sales",
+        "Stock",
+        "STATMENT",
+        "FROM",
+        "Tot"
+      ],
+      "combined_confidence": 0.4350000000000001,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8,
+      "data_validation_score": 0.575,
+      "data_column_count_detected": 0
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Tot",
+        "Closing",
+        "Stock",
+        "64368.88"
+      ],
+      "combined_confidence": 0.5775,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.7999999999999999,
+      "semantic_score": 0.8875,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Tot",
+    "Closing",
+    "Stock",
+    "64368.88"
+  ],
+  "confidence": 0.5775,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.7999999999999999,
+    "semantic_score": 0.8875,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "TOTAL",
+      "CLOSING",
+      "STOCK",
+      "64368.88"
+    ],
+    "normalized": [
+      "Tot",
+      "Closing",
+      "Stock",
+      "64368.88"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      ":"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5775,
+      "evidence_scores": {
+        "keyword_score": 0.75,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 0.96,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.5981666666666667,
+      "evidence_before_penalties": 0.5981666666666667
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7350000000000001
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7350000000000001
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.7675428571428573
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Tot",
+          "Closing",
+          "Stock",
+          "64368.88"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7275
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=5 data=2 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=2 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Tot",
+      "Closing",
+      "Stock",
+      "64368.88"
+    ]
+  }
+}

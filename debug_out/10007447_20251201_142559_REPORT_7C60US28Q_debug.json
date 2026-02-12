@@ -1,0 +1,199 @@
+{
+  "pdf_path": "pdfs\\10007447_20251201_142559_REPORT_7C60US28Q.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 101.510009765625,
+      "y_max": 110.6100082397461,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 59.510009765625,
+      "y_max": 68.6100082397461,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=3"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.510009765625,
+      "y_max": 26.610010147094727,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "ABBOTT",
+        "INDIA",
+        "INDIA",
+        "LIMITED(INSULIN)",
+        "LIMITED(INSULIN)",
+        "LIMITED(INSULIN)"
+      ],
+      "combined_confidence": 0.5045499999999999,
+      "visual_score": 0.64,
+      "reconstruction_score": 0.76,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.67275,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "ABBOTT",
+    "INDIA",
+    "INDIA",
+    "LIMITED(INSULIN)",
+    "LIMITED(INSULIN)",
+    "LIMITED(INSULIN)"
+  ],
+  "confidence": 0.5045499999999999,
+  "confidence_breakdown": {
+    "visual_score": 0.64,
+    "reconstruction_score": 0.76,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.67275,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ABBOTT",
+      "INDIA",
+      "INDIA",
+      "LIMITED(INSULIN)",
+      "LIMITED(INSULIN)",
+      "LIMITED(INSULIN)"
+    ],
+    "normalized": [
+      "ABBOTT",
+      "INDIA",
+      "INDIA",
+      "LIMITED(INSULIN)",
+      "LIMITED(INSULIN)",
+      "LIMITED(INSULIN)"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "INDIA",
+        "into": "INDIA",
+        "interval_idx": 0
+      },
+      {
+        "split": "INDIA",
+        "into": "INDIA",
+        "interval_idx": 1
+      },
+      {
+        "split": "LIMITED(INSULIN)",
+        "into": "LIMITED(INSULIN)",
+        "interval_idx": 1
+      },
+      {
+        "split": "LIMITED(INSULIN)",
+        "into": "LIMITED(INSULIN)",
+        "interval_idx": 2
+      },
+      {
+        "split": "LIMITED(INSULIN)",
+        "into": "LIMITED(INSULIN)",
+        "interval_idx": 3
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5045499999999999,
+      "evidence_scores": {
+        "keyword_score": 0.8333333333333334,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.67275,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.7473541666666668,
+      "evidence_before_penalties": 0.7473541666666668
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7527581027667984
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "INDIA",
+          "LIMITED(INSULIN)",
+          "LIMITED(INSULIN)",
+          "LIMITED(INSULIN)"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.65455
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7200000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=1 data=5 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=1 data=5 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ABBOTT",
+      "INDIA",
+      "INDIA",
+      "LIMITED(INSULIN)",
+      "LIMITED(INSULIN)",
+      "LIMITED(INSULIN)"
+    ]
+  }
+}

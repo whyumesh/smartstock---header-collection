@@ -1,0 +1,164 @@
+{
+  "pdf_path": "pdfs\\10015586_20251201_173024_ABBOTT INDIA STOCK.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 209.54608154296875,
+      "y_max": 217.55007934570312,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 164.19183349609375,
+      "y_max": 172.19583129882812,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 2,
+      "y_min": 164.19183349609375,
+      "y_max": 172.19583129882812,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 3,
+      "y_min": 164.19183349609375,
+      "y_max": 172.19583129882812,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Code",
+          "Rate",
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8310461538461539
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Code",
+          "Product Code",
+          "Rate",
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8227449392712551
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Code",
+          "Product Code",
+          "Rate",
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8232064777327935
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Code",
+          "Product Code",
+          "Rate",
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8225846153846155
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=10 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=10 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=13 data=10 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=10 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=13 data=10 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=10 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=13 data=10 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=10 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

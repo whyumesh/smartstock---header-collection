@@ -1,0 +1,47 @@
+{
+  "pdf_path": "pdfs\\10004454_20251204_121745_PO2102_5154_20112025141134.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 171.00250244140625,
+      "y_max": 181.05551147460938,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "S.No",
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Free Quantity",
+          "Scheme",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8556153846153846
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=7 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=5 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

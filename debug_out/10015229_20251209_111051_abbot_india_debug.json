@@ -1,0 +1,267 @@
+{
+  "pdf_path": "pdfs\\10015229_20251209_111051_abbot india.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 80.4000015258789,
+      "y_max": 89.19999694824219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 80.4000015258789,
+      "y_max": 89.19999694824219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 80.4000015258789,
+      "y_max": 89.19999694824219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 80.4000015258789,
+      "y_max": 89.19999694824219,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "PTS",
+        "P.Ret",
+        "Sales",
+        "Hos.Sal",
+        "Brk",
+        "Repl",
+        "Cl",
+        "Amount"
+      ],
+      "combined_confidence": 0.26322459349593486,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8541666666666666,
+      "data_validation_score": 0.6369563008130081,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "PTS",
+        "P.Ret",
+        "Sales",
+        "Hos.Sal",
+        "Brk",
+        "Repl",
+        "Cl",
+        "Amount"
+      ],
+      "combined_confidence": 0.27322270114942526,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8541666666666666,
+      "data_validation_score": 0.6869468390804597,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Product Code",
+    "Product Name",
+    "Pack",
+    "Op",
+    "PTS",
+    "P.Ret",
+    "Sales",
+    "Hos.Sal",
+    "Brk",
+    "Repl",
+    "Cl",
+    "Amount"
+  ],
+  "confidence": 0.8732227011494252,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.8541666666666666,
+    "data_validation_score": 0.6869468390804597,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Code",
+      "Product Name",
+      "Pack",
+      "Op",
+      "PTS",
+      "P.Ret",
+      "Sales",
+      "Hos.Sal",
+      "Brk",
+      "Repl",
+      "Cl",
+      "Amount"
+    ],
+    "per_page": [
+      [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "PTS",
+        "P.Ret",
+        "Sales",
+        "Hos.Sal",
+        "Brk",
+        "Repl",
+        "Cl",
+        "Amount"
+      ],
+      [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "PTS",
+        "P.Ret",
+        "Sales",
+        "Hos.Sal",
+        "Brk",
+        "Repl",
+        "Cl",
+        "Amount"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "PTS",
+          "P.Ret",
+          "Sales",
+          "Hos.Sal",
+          "Brk",
+          "Repl",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8132245934959349
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "PTS",
+          "P.Ret",
+          "Sales",
+          "Hos.Sal",
+          "Brk",
+          "Repl",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8232227011494253
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "PTS",
+          "P.Ret",
+          "Sales",
+          "Hos.Sal",
+          "Brk",
+          "Repl",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8135833333333333
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "PTS",
+          "P.Ret",
+          "Sales",
+          "Hos.Sal",
+          "Brk",
+          "Repl",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8083809523809524
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=12 data=6 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=6 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=12 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=10 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Code",
+      "Product Name",
+      "Pack",
+      "Op",
+      "PTS",
+      "P.Ret",
+      "Sales",
+      "Hos.Sal",
+      "Brk",
+      "Repl",
+      "Cl",
+      "Amount"
+    ],
+    "data_column_count_detected": 11,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

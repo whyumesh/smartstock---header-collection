@@ -1,0 +1,472 @@
+{
+  "pdf_path": "pdfs\\10000784_20251231_163625_HCS SS.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 221.04640197753906,
+      "y_max": 231.71839904785156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 166.62123107910156,
+      "y_max": 177.29322814941406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 166.62123107910156,
+      "y_max": 177.29322814941406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 166.62123107910156,
+      "y_max": 177.29322814941406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 166.62123107910156,
+      "y_max": 177.29322814941406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 166.62123107910156,
+      "y_max": 177.29322814941406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 6,
+      "y_min": 166.62123107910156,
+      "y_max": 177.29322814941406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 7,
+      "y_min": 166.62123107910156,
+      "y_max": 177.29322814941406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 8,
+      "y_min": 166.62123107910156,
+      "y_max": 177.29322814941406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 9,
+      "y_min": 252.51100158691406,
+      "y_max": 263.1829833984375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Dump",
+          "Dump",
+          "Near",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7956136363636364
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Dump",
+          "Dump",
+          "Near",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7898996932106175
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Dump",
+          "Dump",
+          "Near",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7983636363636364
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Dump",
+          "Dump",
+          "Near",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7922838338132456
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Dump",
+          "Dump",
+          "Near",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7983636363636364
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Dump",
+          "Dump",
+          "Near",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7983636363636364
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Dump",
+          "Dump",
+          "Near",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7952066826730692
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Dump",
+          "Dump",
+          "Near",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7954047619047618
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Dump",
+          "Dump",
+          "Near",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7982857142857143
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Receipt",
+          "Receipt",
+          "Tot",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Expiry Date",
+          "Expiry Date",
+          "Closing",
+          "Closing",
+          "Dump",
+          "Dump",
+          "Near",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7983636363636364
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=21 data=12 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=12 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=21 data=12 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=12 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=21 data=12 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=12 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=21 data=12 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=12 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=22 data=12 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=12 diff=10"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "pdf_path": "pdfsamples\\10000029_20251204_121749_ABBOTT GENERAL NOV 2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 146.0669403076172,
+      "y_max": 157.96694946289062,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 1,
+      "y_min": 95.09074401855469,
+      "y_max": 106.9907455444336,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Unit",
+        "Co Op Qty",
+        "InQty",
+        "OutQty",
+        "Cl Qty",
+        "Cl Val"
+      ],
+      "combined_confidence": 0.8182392026578074,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 1.0,
+      "data_validation_score": 0.6411960132890365
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Unit",
+        "Co Op Qty",
+        "InQty",
+        "OutQty",
+        "Cl Qty",
+        "Cl Val"
+      ],
+      "combined_confidence": 0.817857142857143,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 1.0,
+      "data_validation_score": 0.6392857142857142
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Unit",
+    "Co Op Qty",
+    "InQty",
+    "OutQty",
+    "Cl Qty",
+    "Cl Val"
+  ],
+  "confidence": 0.8682392026578073,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 1.0,
+    "data_validation_score": 0.6411960132890365,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Unit",
+      "Co Op Qty",
+      "InQty",
+      "OutQty",
+      "Cl Qty",
+      "Cl Val"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Unit",
+        "Co Op Qty",
+        "InQty",
+        "OutQty",
+        "Cl Qty",
+        "Cl Val"
+      ],
+      [
+        "Product Name",
+        "Unit",
+        "Co Op Qty",
+        "InQty",
+        "OutQty",
+        "Cl Qty",
+        "Cl Val"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "pdf_path": "pdfs\\10004226_20260101_162904_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 20.623992919921875,
+      "y_max": 30.114316940307617,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 1,
+      "y_min": 20.623992919921875,
+      "y_max": 30.114316940307617,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "GANESH",
+          "GANESH",
+          "PL.A.",
+          "AGENCIES"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.6820121212121213
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GANESH",
+          "GANESH",
+          "PL.A.",
+          "AGENCIES",
+          "AGENCIES"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6812666666666667
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=4 data=13 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=13 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=12 diff=7"
+          }
+        }
+      }
+    ]
+  }
+}

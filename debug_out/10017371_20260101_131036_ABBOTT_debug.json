@@ -1,0 +1,779 @@
+{
+  "pdf_path": "pdfs\\10017371_20260101_131036_ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 62.28402328491211,
+      "y_max": 71.95873260498047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 209.94003295898438,
+      "y_max": 219.61474609375,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 136.11203002929688,
+      "y_max": 145.7867431640625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 271.4630432128906,
+      "y_max": 281.13775634765625,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=11"
+    },
+    {
+      "page_no": 4,
+      "y_min": 185.33004760742188,
+      "y_max": 195.0047607421875,
+      "confidence": 0.9,
+      "reason": "header_keywords=6 tokens=7"
+    },
+    {
+      "page_no": 5,
+      "y_min": 49.97903060913086,
+      "y_max": 59.65373992919922,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 6,
+      "y_min": 123.80703735351562,
+      "y_max": 133.48175048828125,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=8"
+    },
+    {
+      "page_no": 7,
+      "y_min": 345.2900390625,
+      "y_max": 354.9647521972656,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=11"
+    },
+    {
+      "page_no": 8,
+      "y_min": 111.50308227539062,
+      "y_max": 121.17778778076172,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 9,
+      "y_min": 13.066067695617676,
+      "y_max": 22.74077796936035,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 10,
+      "y_min": 160.72103881835938,
+      "y_max": 170.395751953125,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=11"
+    },
+    {
+      "page_no": 11,
+      "y_min": 296.0720520019531,
+      "y_max": 305.74676513671875,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=8"
+    },
+    {
+      "page_no": 12,
+      "y_min": 74.58908081054688,
+      "y_max": 84.26378631591797,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 13,
+      "y_min": 62.28402328491211,
+      "y_max": 71.95873260498047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Op",
+        "Amount",
+        "4,08,306.38",
+        "Purchase",
+        "Amount",
+        "2,43,889.00"
+      ],
+      "combined_confidence": 0.07648746612466123,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.5824373306233063,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Pack",
+        "Batch No",
+        "Batch No",
+        "Batch No",
+        "NO.",
+        "NO.",
+        "Expiry Date",
+        "Expiry Date",
+        "Quantity"
+      ],
+      "combined_confidence": 0.3565054945054945,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.9230769230769231,
+      "data_validation_score": 0.4594505494505494,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 11,
+      "headers": [
+        "Op",
+        "Op",
+        "Amount",
+        "4,13,530.09",
+        "4,13,530.09",
+        "Purchase",
+        "Purchase",
+        "Amount",
+        "1,69,760.13",
+        "1,69,760.13"
+      ],
+      "combined_confidence": 0.0,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.82,
+      "data_validation_score": 0.5676001840349666,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Product Name",
+    "Product Name",
+    "Pack",
+    "Pack",
+    "Batch No",
+    "Batch No",
+    "Batch No",
+    "NO.",
+    "NO.",
+    "Expiry Date",
+    "Expiry Date",
+    "Quantity"
+  ],
+  "confidence": 0.3565054945054945,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.9230769230769231,
+    "data_validation_score": 0.4594505494505494,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "PRODUCT",
+      "NAME",
+      "NAME",
+      "PACKING",
+      "PACKING",
+      "BATCH",
+      "BATCH",
+      "BATCH",
+      "NO.",
+      "NO.",
+      "EXPIRY",
+      "EXPIRY",
+      "QTY"
+    ],
+    "normalized": [
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Pack",
+      "Batch No",
+      "Batch No",
+      "Batch No",
+      "NO.",
+      "NO.",
+      "Expiry Date",
+      "Expiry Date",
+      "Quantity"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [
+      {
+        "split": "Product Name",
+        "into": "PRODUCT",
+        "interval_idx": 0
+      },
+      {
+        "split": "Product Name",
+        "into": "NAME",
+        "interval_idx": 1
+      },
+      {
+        "split": "Product Name",
+        "into": "NAME",
+        "interval_idx": 2
+      },
+      {
+        "split": "PACKING",
+        "into": "PACKING",
+        "interval_idx": 4
+      },
+      {
+        "split": "PACKING",
+        "into": "PACKING",
+        "interval_idx": 5
+      },
+      {
+        "split": "BATCH",
+        "into": "BATCH",
+        "interval_idx": 5
+      },
+      {
+        "split": "BATCH",
+        "into": "BATCH",
+        "interval_idx": 6
+      },
+      {
+        "split": "BATCH",
+        "into": "BATCH",
+        "interval_idx": 7
+      },
+      {
+        "split": "NO.",
+        "into": "NO.",
+        "interval_idx": 7
+      },
+      {
+        "split": "NO.",
+        "into": "NO.",
+        "interval_idx": 8
+      },
+      {
+        "split": "EXPIRY",
+        "into": "EXPIRY",
+        "interval_idx": 8
+      },
+      {
+        "split": "EXPIRY",
+        "into": "EXPIRY",
+        "interval_idx": 9
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.3565054945054945,
+      "evidence_scores": {
+        "keyword_score": 0.6666666666666666,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.4594505494505494,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.07142857142857142
+      },
+      "evidence_total": 0.6886721611721611,
+      "evidence_before_penalties": 0.6886721611721611
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "RETAIL",
+          "RETAIL",
+          "CASH",
+          "CASH",
+          "Cl",
+          "Cl",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7917632131800089
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Op",
+          "Amount",
+          "4,08,306.38",
+          "Purchase",
+          "Amount",
+          "2,43,889.00"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7764874661246612
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "RETAIL",
+          "RETAIL",
+          "CASH",
+          "CASH",
+          "Cl",
+          "Cl",
+          "Cl",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7898909313725491
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "RETAIL",
+          "RETAIL",
+          "CASH",
+          "CASH",
+          "Cl",
+          "Cl",
+          "Cl",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.788439484004128
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Batch No",
+          "Batch No",
+          "Batch No",
+          "NO.",
+          "NO.",
+          "Expiry Date",
+          "Expiry Date",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7565054945054945
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "RECEIPT",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "RETAIL",
+          "RETAIL",
+          "CASH",
+          "CASH",
+          "Cl",
+          "Cl",
+          "Cl",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7930770975056689
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Op",
+          "Amount",
+          "36,415.60",
+          "Purchase",
+          "Amount",
+          "12,919.00"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.7767000462616989
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "RECEIPT",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "RETAIL",
+          "RETAIL",
+          "CASH",
+          "CASH",
+          "Cl",
+          "Cl",
+          "Cl",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7885127103472969
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "RECEIPT",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "RETAIL",
+          "RETAIL",
+          "CASH",
+          "CASH",
+          "Cl",
+          "Cl",
+          "Cl",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.7933553967321618
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "RETAIL",
+          "RETAIL",
+          "CASH",
+          "CASH",
+          "Cl",
+          "Cl",
+          "Cl",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7841814087044932
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "RECEIPT",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "RETAIL",
+          "RETAIL",
+          "CASH",
+          "Cl",
+          "Cl",
+          "Cl",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7888053969226018
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Op",
+          "Op",
+          "Amount",
+          "4,13,530.09",
+          "4,13,530.09",
+          "Purchase",
+          "Purchase",
+          "Amount",
+          "1,69,760.13",
+          "1,69,760.13"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7675200368069933
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "RETAIL",
+          "RETAIL",
+          "CASH",
+          "CASH",
+          "Cl",
+          "Cl",
+          "Cl",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7966569852941177
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "RETAIL",
+          "RETAIL",
+          "CASH",
+          "CASH",
+          "Cl",
+          "Cl",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7879642375168691
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=20 data=13 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=13 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=20 data=13 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=13 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=21 data=13 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=13 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=6 data=4 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=4 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=21 data=13 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=13 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=22 data=14 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=22 data=14 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=20 data=13 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=13 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=21 data=13 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=13 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=20 data=13 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=13 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Pack",
+      "Batch No",
+      "Batch No",
+      "Batch No",
+      "NO.",
+      "NO.",
+      "Expiry Date",
+      "Expiry Date",
+      "Quantity"
+    ]
+  }
+}

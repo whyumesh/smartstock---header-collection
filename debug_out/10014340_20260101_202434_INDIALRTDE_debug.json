@@ -1,0 +1,188 @@
+{
+  "pdf_path": "pdfs\\10014340_20260101_202434_INDIALRTDE.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 24.606273651123047,
+      "y_max": 33.991092681884766,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 0.6062731742858887,
+      "y_max": 9.991093635559082,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "GST",
+        "OCK",
+        "GST",
+        "AT",
+        "EMENT",
+        "OR",
+        "HE",
+        "Amount",
+        "DECEMBER"
+      ],
+      "combined_confidence": 0.0,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.6666666666666666,
+      "data_validation_score": 0.5705988667335417,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "GST",
+    "OCK",
+    "GST",
+    "AT",
+    "EMENT",
+    "OR",
+    "HE",
+    "Amount",
+    "DECEMBER"
+  ],
+  "confidence": 0.0,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.6666666666666666,
+    "data_validation_score": 0.5705988667335417,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ST",
+      "OCK",
+      "ST",
+      "AT",
+      "EMENT",
+      "OR",
+      "HE",
+      "MONT",
+      "DECEMBER"
+    ],
+    "normalized": [
+      "GST",
+      "OCK",
+      "GST",
+      "AT",
+      "EMENT",
+      "OR",
+      "HE",
+      "Amount",
+      "DECEMBER"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "F",
+      "T",
+      "H",
+      "OF"
+    ],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=9 data=10"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.0,
+      "evidence_scores": {
+        "keyword_score": 0.1111111111111111,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.5705988667335417,
+        "lexical_purity_score": 0.6,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.4979274944611632,
+      "evidence_before_penalties": 0.4979274944611632
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "GST",
+          "OCK",
+          "GST",
+          "AT",
+          "EMENT",
+          "OR",
+          "HE",
+          "Amount",
+          "DECEMBER"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7674531066800416
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GST",
+          "OCK",
+          "OCK",
+          "OCK",
+          "GST",
+          "GST",
+          "AT",
+          "AT",
+          "AT",
+          "EMENT",
+          "EMENT",
+          "EMENT",
+          "EMENT",
+          "OR",
+          "OR",
+          "HE",
+          "HE",
+          "Amount",
+          "Amount",
+          "Amount",
+          "DECEMBER",
+          "DECEMBER",
+          "DECEMBER",
+          "DECEMBER",
+          "DECEMBER",
+          "DECEMBER"
+        ],
+        "data_column_count_detected": 40,
+        "combined_confidence": 0.7552821006650728
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=26 data=40 diff=14",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=26 data=40 diff=14"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "GST",
+      "OCK",
+      "GST",
+      "AT",
+      "EMENT",
+      "OR",
+      "HE",
+      "Amount",
+      "DECEMBER"
+    ]
+  }
+}

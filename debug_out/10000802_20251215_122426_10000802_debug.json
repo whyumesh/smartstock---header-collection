@@ -1,0 +1,321 @@
+{
+  "pdf_path": "pdfs\\10000802_20251215_122426_10000802.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 180.2274932861328,
+      "y_max": 190.8994903564453,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 125.80232238769531,
+      "y_max": 136.4743194580078,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 125.80232238769531,
+      "y_max": 136.4743194580078,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 125.80232238769531,
+      "y_max": 136.4743194580078,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 125.80232238769531,
+      "y_max": 136.4743194580078,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 4,
+      "headers": [
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Breakage",
+        "Balance",
+        "Stock",
+        "Expiry Date",
+        "Rate"
+      ],
+      "combined_confidence": 0.46025454545454547,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.9272727272727272,
+      "data_validation_score": 0.8240000000000001,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Breakage",
+    "Balance",
+    "Stock",
+    "Expiry Date",
+    "Rate"
+  ],
+  "confidence": 0.46025454545454547,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.9272727272727272,
+    "data_validation_score": 0.8240000000000001,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Qty.",
+      "Qty.",
+      "Qty",
+      "Qty.",
+      "Qty.",
+      "Qty",
+      "Breakage",
+      "Balance",
+      "Stock",
+      "Expiry",
+      "Price"
+    ],
+    "normalized": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Breakage",
+      "Balance",
+      "Stock",
+      "Expiry Date",
+      "Rate"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=11"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.46025454545454547,
+      "evidence_scores": {
+        "keyword_score": 0.75,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.8240000000000001,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.8135,
+      "evidence_before_penalties": 0.8135
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Breakage",
+          "Breakage",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8303809523809524
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Breakage",
+          "Breakage",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8290622710622711
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Breakage",
+          "Breakage",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8325263157894737
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Breakage",
+          "Breakage",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8277142857142857
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Breakage",
+          "Balance",
+          "Stock",
+          "Expiry Date",
+          "Rate"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8602545454545455
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=21 data=14 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=14 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=21 data=14 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=14 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=19 data=14 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=14 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=21 data=14 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=14 diff=7"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Breakage",
+      "Balance",
+      "Stock",
+      "Expiry Date",
+      "Rate"
+    ]
+  }
+}

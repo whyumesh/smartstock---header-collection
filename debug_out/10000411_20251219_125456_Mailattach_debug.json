@@ -1,0 +1,291 @@
+{
+  "pdf_path": "pdfs\\10000411_20251219_125456_Mailattach.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 99.0255126953125,
+      "y_max": 107.2736587524414,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 228.933837890625,
+      "y_max": 237.18199157714844,
+      "confidence": 0.9,
+      "reason": "header_keywords=7 tokens=15"
+    },
+    {
+      "page_no": 2,
+      "y_min": 20.5576229095459,
+      "y_max": 28.805767059326172,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 85.51221466064453,
+      "y_max": 93.76036071777344,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Free Quantity",
+        "OctL_Sal",
+        "C_Sal",
+        "Free Quantity",
+        "Repl",
+        "Adj",
+        "Stk",
+        "Fr",
+        "Sale",
+        "Purchase",
+        "Age"
+      ],
+      "combined_confidence": 0.2699157894736842,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.7966666666666666,
+      "data_validation_score": 0.6529122807017543,
+      "data_column_count_detected": 14
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Free Quantity",
+    "OctL_Sal",
+    "C_Sal",
+    "Free Quantity",
+    "Repl",
+    "Adj",
+    "Stk",
+    "Fr",
+    "Sale",
+    "Purchase",
+    "Age"
+  ],
+  "confidence": 0.2699157894736842,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.7966666666666666,
+    "data_validation_score": 0.6529122807017543,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ProductName",
+      "Pack",
+      "Op.Qt",
+      "Purch",
+      "Free",
+      "OctL_Sal",
+      "C_Sal",
+      "Free",
+      "Repl",
+      "Adj",
+      "Stk",
+      "Fr",
+      "Sale_Val",
+      "PurRt",
+      "age"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Free Quantity",
+      "OctL_Sal",
+      "C_Sal",
+      "Free Quantity",
+      "Repl",
+      "Adj",
+      "Stk",
+      "Fr",
+      "Sale",
+      "Purchase",
+      "Age"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 14,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=15 data=14"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.2699157894736842,
+      "evidence_scores": {
+        "keyword_score": 0.5555555555555556,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6529122807017543,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.6596169590643275,
+      "evidence_before_penalties": 0.6596169590643275
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Free Quantity",
+          "OctL_Sal",
+          "C_Sal",
+          "Free Quantity",
+          "Repl",
+          "Adj",
+          "Stk",
+          "Fr",
+          "Sale",
+          "Purchase",
+          "Age"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8199157894736843
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Free Quantity",
+          "Free Quantity",
+          "OctL_Sal",
+          "OctL_Sal",
+          "C_Sal",
+          "C_Sal",
+          "Free Quantity",
+          "Free Quantity",
+          "Repl",
+          "Repl",
+          "Adj",
+          "Adj",
+          "Stk",
+          "Stk",
+          "Fr",
+          "Fr",
+          "Sale",
+          "Sale",
+          "Purchase",
+          "Purchase",
+          "Age"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.8023315649867375
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Exp",
+          "Exp",
+          "1S",
+          "1S",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "5634.92",
+          "5634.92",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.6780222426763348
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Op",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.683861673414305
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=29 data=16 diff=13",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=29 data=16 diff=13"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=18 data=14 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=14 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=4 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=6 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Free Quantity",
+      "OctL_Sal",
+      "C_Sal",
+      "Free Quantity",
+      "Repl",
+      "Adj",
+      "Stk",
+      "Fr",
+      "Sale",
+      "Purchase",
+      "Age"
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "pdf_path": "pdfs\\10014092_20251209_103417_ail.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 82.89997863769531,
+      "y_max": 89.89997863769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Amount",
+        "PSQ",
+        "PFQ",
+        "Amount",
+        "SSQ",
+        "SFQ",
+        "Amount",
+        "PRV",
+        "RPSQ",
+        "RPFQ",
+        "CQ",
+        "Amount",
+        "ROL"
+      ],
+      "combined_confidence": 0.4919999999999999,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.7625,
+      "data_validation_score": 0.7975,
+      "data_column_count_detected": 16
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Amount",
+    "PSQ",
+    "PFQ",
+    "Amount",
+    "SSQ",
+    "SFQ",
+    "Amount",
+    "PRV",
+    "RPSQ",
+    "RPFQ",
+    "CQ",
+    "Amount",
+    "ROL"
+  ],
+  "confidence": 0.4919999999999999,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.7625,
+    "data_validation_score": 0.7975,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "PRODUCT",
+      "PACK",
+      "OPQ",
+      "VALUE",
+      "PSQ",
+      "PFQ",
+      "VALUE",
+      "SSQ",
+      "SFQ",
+      "VALUE",
+      "PRV",
+      "RPSQ",
+      "RPFQ",
+      "CQ",
+      "VALUE",
+      "ROL"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Amount",
+      "PSQ",
+      "PFQ",
+      "Amount",
+      "SSQ",
+      "SFQ",
+      "Amount",
+      "PRV",
+      "RPSQ",
+      "RPFQ",
+      "CQ",
+      "Amount",
+      "ROL"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 16,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=16 data=16"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.4919999999999999,
+      "evidence_scores": {
+        "keyword_score": 0.47058823529411764,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7975,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8170220588235294,
+      "evidence_before_penalties": 0.8170220588235294
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Amount",
+          "PSQ",
+          "PFQ",
+          "Amount",
+          "SSQ",
+          "SFQ",
+          "Amount",
+          "PRV",
+          "RPSQ",
+          "RPFQ",
+          "CQ",
+          "Amount",
+          "ROL"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.8919999999999999
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Amount",
+      "PSQ",
+      "PFQ",
+      "Amount",
+      "SSQ",
+      "SFQ",
+      "Amount",
+      "PRV",
+      "RPSQ",
+      "RPFQ",
+      "CQ",
+      "Amount",
+      "ROL"
+    ]
+  }
+}

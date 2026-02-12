@@ -1,0 +1,559 @@
+{
+  "pdf_path": "pdfs\\10014684_20251213_145833_10014684.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 2,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    },
+    {
+      "page_no": 3,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=8 tokens=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 5,
+      "y_min": 122.23800659179688,
+      "y_max": 133.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 6,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 7,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 8,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    },
+    {
+      "page_no": 9,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 10,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "LOT",
+        "10S",
+        "44.99",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00"
+      ],
+      "combined_confidence": 0.16000810165444312,
+      "visual_score": 0.6,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5636363636363636,
+      "data_validation_score": 0.736404144635852,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "LINGRETIN",
+        "10S",
+        "64.58",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00"
+      ],
+      "combined_confidence": 0.1866366966366967,
+      "visual_score": 0.7,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.5636363636363636,
+      "data_validation_score": 0.7445471195471196,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "LIMCEE",
+        "ZINC",
+        "10S",
+        "41.26",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00"
+      ],
+      "combined_confidence": 0.4071649110048878,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5666666666666667,
+      "data_validation_score": 0.7441578883577722,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "ESGIPYRIN",
+        "INSTAGEL",
+        "50Gm",
+        "145.02",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00"
+      ],
+      "combined_confidence": 0.4255033038856569,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.5666666666666667,
+      "data_validation_score": 0.7108498527616175,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "ESGIPYRIN",
+    "INSTAGEL",
+    "50Gm",
+    "145.02",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00"
+  ],
+  "confidence": 0.4255033038856569,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.5666666666666667,
+    "data_validation_score": 0.7108498527616175,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ESGIPYRIN",
+      "INSTAGEL",
+      "50GM",
+      "145.02",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00"
+    ],
+    "normalized": [
+      "ESGIPYRIN",
+      "INSTAGEL",
+      "50Gm",
+      "145.02",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "0",
+      "0"
+    ],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=12"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.4255033038856569,
+      "evidence_scores": {
+        "keyword_score": 0.25,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7108498527616175,
+        "lexical_purity_score": 0.76,
+        "multi_page_presence_score": 0.09090909090909091
+      },
+      "evidence_total": 0.6133033722813134,
+      "evidence_before_penalties": 0.6133033722813134
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "OCT",
+          "OCT",
+          "SEP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8357782805429864
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "LOT",
+          "10S",
+          "44.99",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7100081016544432
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot",
+          "Tot",
+          "70080.77",
+          "70080.77",
+          "35221.80",
+          "35221.80",
+          "44556.20",
+          "66291.86",
+          "66291.86"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6897555555555556
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "OCT",
+          "OCT",
+          "SEP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8102222222222222
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "GLUJECT",
+          "10Mg",
+          "10S",
+          "163.35",
+          "12087.90",
+          "-",
+          "0.00",
+          "5445.00",
+          "7187.40"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7141269841269842
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "LINGRETIN",
+          "10S",
+          "64.58",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7366366966366967
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "OCT",
+          "OCT",
+          "SEP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8277008547008546
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "LIMCEE",
+          "ZINC",
+          "10S",
+          "41.26",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7071649110048878
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Tot",
+          "161120.83",
+          "161120.83",
+          "117565.60",
+          "117565.60",
+          "119627.77",
+          "175816.87",
+          "175816.87"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6867465014577261
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "OCT",
+          "OCT",
+          "SEP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.83009243697479
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "ESGIPYRIN",
+          "INSTAGEL",
+          "50Gm",
+          "145.02",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7255033038856569
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ESGIPYRIN",
+      "INSTAGEL",
+      "50Gm",
+      "145.02",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00"
+    ]
+  }
+}

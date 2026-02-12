@@ -1,0 +1,64 @@
+{
+  "pdf_path": "pdfs\\10032808_20251212_162322_C11074Report.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 178.61199951171875,
+      "y_max": 189.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "No",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Free Quantity",
+          "Purchase",
+          "Sep",
+          "Oct",
+          "Sale",
+          "Free Quantity",
+          "OthFr",
+          "SRet",
+          "Repl",
+          "CurStk",
+          "Stk.Value",
+          "OrdQt",
+          "Order",
+          "Pend",
+          "SalVal",
+          "Exp",
+          "Age",
+          "Rate",
+          "Last"
+        ],
+        "data_column_count_detected": 22,
+        "combined_confidence": 0.8872172619047619
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=24 data=22 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=24 data=22 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

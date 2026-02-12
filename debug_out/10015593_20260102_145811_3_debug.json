@@ -1,0 +1,133 @@
+{
+  "pdf_path": "pdfs\\10015593_20260102_145811_3.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 82.68900299072266,
+      "y_max": 93.94232940673828,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Quantity",
+        "Purchase",
+        "Sale",
+        "Cl Qty",
+        "ORD",
+        "Quantity"
+      ],
+      "combined_confidence": 0.32525000000000004,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.93125,
+      "data_validation_score": 0.7200000000000001,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Quantity",
+    "Purchase",
+    "Sale",
+    "Cl Qty",
+    "ORD",
+    "Quantity"
+  ],
+  "confidence": 0.32525000000000004,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.93125,
+    "data_validation_score": 0.7200000000000001,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "PACKING",
+      "OP.QTY",
+      "PURCHASE",
+      "SALE",
+      "CL.QTY",
+      "ORD",
+      "QTY"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Quantity",
+      "Purchase",
+      "Sale",
+      "Cl Qty",
+      "ORD",
+      "Quantity"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.32525000000000004,
+      "evidence_scores": {
+        "keyword_score": 0.9,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7200000000000001,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8425,
+      "evidence_before_penalties": 0.8425
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Quantity",
+          "Purchase",
+          "Sale",
+          "Cl Qty",
+          "ORD",
+          "Quantity"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8752500000000001
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Quantity",
+      "Purchase",
+      "Sale",
+      "Cl Qty",
+      "ORD",
+      "Quantity"
+    ]
+  }
+}

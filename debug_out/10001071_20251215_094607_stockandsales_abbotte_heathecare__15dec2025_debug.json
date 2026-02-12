@@ -1,0 +1,64 @@
+{
+  "pdf_path": "pdfs\\10001071_20251215_094607_stockandsales abbotte heathecare  15dec2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 93.94999694824219,
+      "y_max": 102.79999542236328,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Free Quantity",
+          "Free Quantity",
+          "P.RETURN",
+          "P.RETURN",
+          "Free Quantity",
+          "Free Quantity",
+          "Sale",
+          "Sale",
+          "Free Quantity",
+          "Free Quantity",
+          "S.RETURN",
+          "S.RETURN",
+          "Free Quantity",
+          "Free Quantity",
+          "OTHERS",
+          "OTHERS",
+          "Closing"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.860609943977591
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=24 data=14 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=24 data=14 diff=10"
+          }
+        }
+      }
+    ]
+  }
+}

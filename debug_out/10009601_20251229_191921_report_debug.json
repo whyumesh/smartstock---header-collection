@@ -1,0 +1,134 @@
+{
+  "pdf_path": "pdfs\\10009601_20251229_191921_report.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Stock",
+        "Purchase",
+        "RETURN",
+        "OTHERS",
+        "Stock",
+        "Sales",
+        "RETURN",
+        "OTHERS",
+        "Stock",
+        "Rate"
+      ],
+      "combined_confidence": 0.8891785714285714,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.835,
+      "data_validation_score": 0.8358928571428571,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "Purchase",
+    "RETURN",
+    "OTHERS",
+    "Stock",
+    "Sales",
+    "RETURN",
+    "OTHERS",
+    "Stock",
+    "Rate"
+  ],
+  "confidence": 0.8891785714285714,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.835,
+    "data_validation_score": 0.8358928571428571,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "STOCK",
+      "PURCHASES",
+      "RETURN",
+      "OTHERS",
+      "STOCK",
+      "SALES",
+      "RETURN",
+      "OTHERS",
+      "STOCK",
+      "RATE"
+    ],
+    "normalized": [
+      "Stock",
+      "Purchase",
+      "RETURN",
+      "OTHERS",
+      "Stock",
+      "Sales",
+      "RETURN",
+      "OTHERS",
+      "Stock",
+      "Rate"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=10"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.8891785714285714,
+      "evidence_scores": {
+        "keyword_score": 0.6,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.8358928571428571,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8589732142857143,
+      "evidence_before_penalties": 0.8589732142857143
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "Purchase",
+          "RETURN",
+          "OTHERS",
+          "Stock",
+          "Sales",
+          "RETURN",
+          "OTHERS",
+          "Stock",
+          "Rate"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8891785714285714
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Stock",
+      "Purchase",
+      "RETURN",
+      "OTHERS",
+      "Stock",
+      "Sales",
+      "RETURN",
+      "OTHERS",
+      "Stock",
+      "Rate"
+    ]
+  }
+}

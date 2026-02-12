@@ -1,0 +1,52 @@
+{
+  "pdf_path": "pdfs\\10016110_20260102_154521_PREMIX.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "Stock",
+          "&",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS",
+          "(Abbott",
+          "(Abbott",
+          "INDIA)",
+          "INDIA)",
+          "-"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8239674242424242
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=10 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

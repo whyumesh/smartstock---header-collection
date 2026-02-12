@@ -1,0 +1,278 @@
+{
+  "pdf_path": "pdfs\\10013450_20251231_150208_AB12.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 3,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "DIGECAINE",
+        "SY",
+        "200Ml",
+        "200M",
+        "PCS",
+        "42.00",
+        "6255.08",
+        "0.00",
+        "3.00",
+        "491.38",
+        "39.00",
+        "5808.29",
+        "39.00"
+      ],
+      "combined_confidence": 0.5643956043956044,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.746978021978022,
+      "data_column_count_detected": 13
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "VERTIN",
+        "OD",
+        "24Mg",
+        "TAB",
+        "PCS",
+        "7.00",
+        "3010.63",
+        "0.00",
+        "3.00",
+        "1433.64",
+        "4.00",
+        "1720.36",
+        "4.00"
+      ],
+      "combined_confidence": 0.292518315018315,
+      "visual_score": 0.7,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7375915750915751,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "DIGECAINE",
+    "SY",
+    "200Ml",
+    "200M",
+    "PCS",
+    "42.00",
+    "6255.08",
+    "0.00",
+    "3.00",
+    "491.38",
+    "39.00",
+    "5808.29",
+    "39.00"
+  ],
+  "confidence": 0.7643956043956044,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.746978021978022,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "DIGECAINE",
+      "SY",
+      "200Ml",
+      "200M",
+      "PCS",
+      "42.00",
+      "6255.08",
+      "0.00",
+      "3.00",
+      "491.38",
+      "39.00",
+      "5808.29",
+      "39.00"
+    ],
+    "per_page": [
+      [
+        "DIGECAINE",
+        "SY",
+        "200Ml",
+        "200M",
+        "PCS",
+        "42.00",
+        "6255.08",
+        "0.00",
+        "3.00",
+        "491.38",
+        "39.00",
+        "5808.29",
+        "39.00"
+      ],
+      [
+        "VERTIN",
+        "OD",
+        "24Mg",
+        "TAB",
+        "PCS",
+        "7.00",
+        "3010.63",
+        "0.00",
+        "3.00",
+        "1433.64",
+        "4.00",
+        "1720.36",
+        "4.00"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.84775
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "DIGECAINE",
+          "SY",
+          "200Ml",
+          "200M",
+          "PCS",
+          "42.00",
+          "6255.08",
+          "0.00",
+          "3.00",
+          "491.38",
+          "39.00",
+          "5808.29",
+          "39.00"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7143956043956045
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "INDERAL",
+          "TAB",
+          "PCS",
+          "10.00",
+          "516.30",
+          "0.00",
+          "0.00",
+          "10.00",
+          "516.30",
+          "10.00"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.718308362369338
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "24Mg",
+          "TAB",
+          "PCS",
+          "7.00",
+          "3010.63",
+          "0.00",
+          "3.00",
+          "1433.64",
+          "4.00",
+          "1720.36",
+          "4.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.742518315018315
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=10 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=13 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "DIGECAINE",
+      "SY",
+      "200Ml",
+      "200M",
+      "PCS",
+      "42.00",
+      "6255.08",
+      "0.00",
+      "3.00",
+      "491.38",
+      "39.00",
+      "5808.29",
+      "39.00"
+    ],
+    "data_column_count_detected": 13,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

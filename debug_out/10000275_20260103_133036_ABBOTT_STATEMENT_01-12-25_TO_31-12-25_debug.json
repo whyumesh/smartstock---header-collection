@@ -1,0 +1,568 @@
+{
+  "pdf_path": "pdfs\\10000275_20260103_133036_ABBOTT STATEMENT 01-12-25 TO 31-12-25.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 115.18457794189453,
+      "y_max": 123.49769592285156,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 36.94458770751953,
+      "y_max": 45.2577018737793,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 36.94458770751953,
+      "y_max": 45.2577018737793,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 36.94458770751953,
+      "y_max": 45.2577018737793,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 36.94458770751953,
+      "y_max": 45.2577018737793,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 36.94458770751953,
+      "y_max": 45.2577018737793,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 6,
+      "y_min": 36.94458770751953,
+      "y_max": 45.2577018737793,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 7,
+      "y_min": 36.94458770751953,
+      "y_max": 45.2577018737793,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 8,
+      "y_min": 36.94458770751953,
+      "y_max": 45.2577018737793,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 9,
+      "y_min": 36.94458770751953,
+      "y_max": 45.2577018737793,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    },
+    {
+      "page_no": 10,
+      "y_min": 36.94458770751953,
+      "y_max": 45.2577018737793,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      "combined_confidence": 0.8052791666666668,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.75625,
+      "data_validation_score": 0.8201458333333334,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      "combined_confidence": 0.8066176470588237,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.75625,
+      "data_validation_score": 0.8268382352941177,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      "combined_confidence": 0.8053000000000001,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.75625,
+      "data_validation_score": 0.82025,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      "combined_confidence": 0.8058764705882354,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.75625,
+      "data_validation_score": 0.8231323529411765,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      "combined_confidence": 0.8055382352941177,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.75625,
+      "data_validation_score": 0.8214411764705882,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      "combined_confidence": 0.8076500000000001,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.75625,
+      "data_validation_score": 0.8320000000000001,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      "combined_confidence": 0.8079500000000002,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.75625,
+      "data_validation_score": 0.8335,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "Particular",
+    "Pack",
+    "P.Bill|",
+    "Op",
+    "Purchase",
+    "Sale",
+    "Bal|",
+    "Ord"
+  ],
+  "confidence": 0.8579500000000001,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.75625,
+    "data_validation_score": 0.8335,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Particular",
+      "Pack",
+      "P.Bill|",
+      "Op",
+      "Purchase",
+      "Sale",
+      "Bal|",
+      "Ord"
+    ],
+    "per_page": [
+      [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ],
+      [
+        "Particular",
+        "Pack",
+        "P.Bill|",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Bal|",
+        "Ord"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particular",
+          "Pack",
+          "P.Bill|",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Bal|",
+          "Ord"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8052791666666668
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Particular",
+          "Pack",
+          "P.Bill|",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Bal|",
+          "Ord"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8066176470588237
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Particular",
+          "Pack",
+          "P.Bill|",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Bal|",
+          "Ord"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8053000000000001
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Particular",
+          "Particular",
+          "Pack",
+          "Pack",
+          "P.Bill|",
+          "P.Bill|",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Sale",
+          "Sale",
+          "Bal|",
+          "Bal|",
+          "Ord"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7794381133098401
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Particular",
+          "Particular",
+          "Pack",
+          "Pack",
+          "P.Bill|",
+          "P.Bill|",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Sale",
+          "Sale",
+          "Bal|",
+          "Bal|",
+          "Ord"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7788638655462186
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Particular",
+          "Particular",
+          "Pack",
+          "Pack",
+          "Pack",
+          "P.Bill|",
+          "P.Bill|",
+          "Op",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Sale",
+          "Bal|",
+          "Bal|",
+          "Ord"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7783560784313727
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Particular",
+          "Particular",
+          "Pack",
+          "Pack",
+          "P.Bill|",
+          "P.Bill|",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Sale",
+          "Sale",
+          "Bal|",
+          "Bal|",
+          "Ord"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7785113725490197
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Particular",
+          "Pack",
+          "P.Bill|",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Bal|",
+          "Ord"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8058764705882354
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Particular",
+          "Pack",
+          "P.Bill|",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Bal|",
+          "Ord"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8055382352941177
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Particular",
+          "Pack",
+          "P.Bill|",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Bal|",
+          "Ord"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8076500000000001
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Particular",
+          "Pack",
+          "P.Bill|",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Bal|",
+          "Ord"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8079500000000002
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=14 data=9 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=9 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=14 data=9 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=9 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=15 data=9 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=9 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=15 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=10 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Particular",
+      "Pack",
+      "P.Bill|",
+      "Op",
+      "Purchase",
+      "Sale",
+      "Bal|",
+      "Ord"
+    ],
+    "data_column_count_detected": 8,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

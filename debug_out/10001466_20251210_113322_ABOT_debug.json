@@ -1,0 +1,397 @@
+{
+  "pdf_path": "pdfs\\10001466_20251210_113322_ABOT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 206.6705780029297,
+      "y_max": 218.6765899658203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 147.99339294433594,
+      "y_max": 159.99940490722656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 147.99339294433594,
+      "y_max": 159.99940490722656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 147.99339294433594,
+      "y_max": 159.99940490722656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 147.99339294433594,
+      "y_max": 159.99940490722656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 147.99339294433594,
+      "y_max": 159.99940490722656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 6,
+      "y_min": 147.99339294433594,
+      "y_max": 159.99940490722656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 7,
+      "y_min": 78.82811737060547,
+      "y_max": 90.83411407470703,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 7,
+      "headers": [
+        "GRAND",
+        "Tot"
+      ],
+      "combined_confidence": 0.28,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "GRAND",
+    "Tot"
+  ],
+  "confidence": 0.28,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.7749999999999999,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "GRAND",
+      "TOTAL"
+    ],
+    "normalized": [
+      "GRAND",
+      "Tot"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "1738728",
+      "1103895",
+      "2842624",
+      "1084074",
+      "1926522",
+      "321084",
+      "9293",
+      "3312"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.28,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 0.040000000000000036,
+        "multi_page_presence_score": 0.125
+      },
+      "evidence_total": 0.3935,
+      "evidence_before_penalties": 0.3935
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Rate",
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate",
+          "Rate",
+          "Stock"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8315263157894737
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Rate",
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate",
+          "Rate",
+          "Stock"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8315263157894737
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Rate",
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate",
+          "Rate",
+          "Stock"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8346470588235294
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Rate",
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate",
+          "Rate",
+          "Stock"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8315263157894737
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Rate",
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate",
+          "Rate",
+          "Stock"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8315263157894737
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Rate",
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate",
+          "Rate",
+          "Stock"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8315263157894737
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Rate",
+          "Rate",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Stock",
+          "Stock",
+          "Expiry Date",
+          "Expiry Date",
+          "Rate",
+          "Rate",
+          "Stock"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8315263157894737
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "GRAND",
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.68
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "GRAND",
+      "Tot"
+    ]
+  }
+}

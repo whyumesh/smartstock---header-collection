@@ -1,0 +1,666 @@
+{
+  "pdf_path": "pdfs\\10014092_20251209_102905_ahpl.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 82.89997863769531,
+      "y_max": 89.89997863769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 82.89997863769531,
+      "y_max": 89.89997863769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 82.89997863769531,
+      "y_max": 89.89997863769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 82.89997863769531,
+      "y_max": 89.89997863769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 82.89997863769531,
+      "y_max": 89.89997863769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 5,
+      "y_min": 82.89997863769531,
+      "y_max": 89.89997863769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 6,
+      "y_min": 82.89997863769531,
+      "y_max": 89.89997863769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 7,
+      "y_min": 82.89997863769531,
+      "y_max": 89.89997863769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 8,
+      "y_min": 82.89997863769531,
+      "y_max": 89.89997863769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 9,
+      "y_min": 82.89997863769531,
+      "y_max": 89.89997863769531,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Amount",
+        "PSQ",
+        "PFQ",
+        "Amount",
+        "SSQ",
+        "SFQ",
+        "Amount",
+        "PRV",
+        "RPSQ",
+        "RPFQ",
+        "CQ",
+        "Amount",
+        "ROL"
+      ],
+      "combined_confidence": 0.44199999999999995,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.7625,
+      "data_validation_score": 0.7975,
+      "data_column_count_detected": 16
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Amount",
+        "PSQ",
+        "PFQ",
+        "Amount",
+        "SSQ",
+        "SFQ",
+        "Amount",
+        "PRV",
+        "RPSQ",
+        "RPFQ",
+        "CQ",
+        "Amount",
+        "ROL"
+      ],
+      "combined_confidence": 0.44199999999999995,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.7625,
+      "data_validation_score": 0.7975,
+      "data_column_count_detected": 16
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Amount",
+    "PSQ",
+    "PFQ",
+    "Amount",
+    "SSQ",
+    "SFQ",
+    "Amount",
+    "PRV",
+    "RPSQ",
+    "RPFQ",
+    "CQ",
+    "Amount",
+    "ROL"
+  ],
+  "confidence": 0.8919999999999999,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.7625,
+    "data_validation_score": 0.7975,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Amount",
+      "PSQ",
+      "PFQ",
+      "Amount",
+      "SSQ",
+      "SFQ",
+      "Amount",
+      "PRV",
+      "RPSQ",
+      "RPFQ",
+      "CQ",
+      "Amount",
+      "ROL"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Amount",
+        "PSQ",
+        "PFQ",
+        "Amount",
+        "SSQ",
+        "SFQ",
+        "Amount",
+        "PRV",
+        "RPSQ",
+        "RPFQ",
+        "CQ",
+        "Amount",
+        "ROL"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Amount",
+        "PSQ",
+        "PFQ",
+        "Amount",
+        "SSQ",
+        "SFQ",
+        "Amount",
+        "PRV",
+        "RPSQ",
+        "RPFQ",
+        "CQ",
+        "Amount",
+        "ROL"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Amount",
+          "PSQ",
+          "PSQ",
+          "PFQ",
+          "PFQ",
+          "Amount",
+          "Amount",
+          "SSQ",
+          "SSQ",
+          "SFQ",
+          "SFQ",
+          "Amount",
+          "Amount",
+          "PRV",
+          "PRV",
+          "RPSQ",
+          "RPSQ",
+          "RPFQ",
+          "RPFQ",
+          "CQ",
+          "CQ",
+          "Amount",
+          "Amount",
+          "ROL"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8140000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Amount",
+          "PSQ",
+          "PFQ",
+          "Amount",
+          "SSQ",
+          "SFQ",
+          "Amount",
+          "PRV",
+          "RPSQ",
+          "RPFQ",
+          "CQ",
+          "Amount",
+          "ROL"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.842
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Amount",
+          "Amount",
+          "PSQ",
+          "PSQ",
+          "PFQ",
+          "PFQ",
+          "Amount",
+          "Amount",
+          "SSQ",
+          "SSQ",
+          "SFQ",
+          "SFQ",
+          "Amount",
+          "Amount",
+          "PRV",
+          "PRV",
+          "RPSQ",
+          "RPSQ",
+          "RPFQ",
+          "RPFQ",
+          "CQ",
+          "CQ",
+          "Amount",
+          "Amount",
+          "ROL"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8145517241379311
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Amount",
+          "Amount",
+          "PSQ",
+          "PSQ",
+          "PFQ",
+          "PFQ",
+          "Amount",
+          "Amount",
+          "SSQ",
+          "SSQ",
+          "SFQ",
+          "SFQ",
+          "Amount",
+          "Amount",
+          "PRV",
+          "PRV",
+          "RPSQ",
+          "RPSQ",
+          "RPFQ",
+          "RPFQ",
+          "CQ",
+          "CQ",
+          "Amount",
+          "Amount",
+          "ROL"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.814258064516129
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Amount",
+          "Amount",
+          "PSQ",
+          "PSQ",
+          "PFQ",
+          "PFQ",
+          "Amount",
+          "Amount",
+          "SSQ",
+          "SSQ",
+          "SFQ",
+          "SFQ",
+          "Amount",
+          "Amount",
+          "PRV",
+          "PRV",
+          "RPSQ",
+          "RPSQ",
+          "RPFQ",
+          "RPFQ",
+          "CQ",
+          "CQ",
+          "Amount",
+          "Amount",
+          "ROL"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.814258064516129
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Amount",
+          "PSQ",
+          "PFQ",
+          "Amount",
+          "SSQ",
+          "SFQ",
+          "Amount",
+          "PRV",
+          "RPSQ",
+          "RPFQ",
+          "CQ",
+          "Amount",
+          "ROL"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.842
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Amount",
+          "Amount",
+          "PSQ",
+          "PSQ",
+          "PFQ",
+          "PFQ",
+          "Amount",
+          "Amount",
+          "SSQ",
+          "SSQ",
+          "SFQ",
+          "SFQ",
+          "Amount",
+          "Amount",
+          "PRV",
+          "PRV",
+          "RPSQ",
+          "RPSQ",
+          "RPFQ",
+          "RPFQ",
+          "CQ",
+          "CQ",
+          "Amount",
+          "Amount",
+          "ROL"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.814258064516129
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Amount",
+          "Amount",
+          "PSQ",
+          "PSQ",
+          "PFQ",
+          "PFQ",
+          "Amount",
+          "Amount",
+          "SSQ",
+          "SSQ",
+          "SFQ",
+          "SFQ",
+          "Amount",
+          "Amount",
+          "PRV",
+          "PRV",
+          "RPSQ",
+          "RPSQ",
+          "RPFQ",
+          "RPFQ",
+          "CQ",
+          "CQ",
+          "Amount",
+          "Amount",
+          "ROL"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.814258064516129
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Amount",
+          "Amount",
+          "PSQ",
+          "PSQ",
+          "PFQ",
+          "PFQ",
+          "Amount",
+          "Amount",
+          "SSQ",
+          "SSQ",
+          "SFQ",
+          "SFQ",
+          "Amount",
+          "Amount",
+          "PRV",
+          "PRV",
+          "RPSQ",
+          "RPSQ",
+          "RPFQ",
+          "RPFQ",
+          "CQ",
+          "CQ",
+          "Amount",
+          "Amount",
+          "ROL"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.814258064516129
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Amount",
+          "Amount",
+          "PSQ",
+          "PSQ",
+          "PFQ",
+          "PFQ",
+          "Amount",
+          "Amount",
+          "SSQ",
+          "SSQ",
+          "SFQ",
+          "SFQ",
+          "Amount",
+          "Amount",
+          "PRV",
+          "PRV",
+          "RPSQ",
+          "RPSQ",
+          "RPFQ",
+          "RPFQ",
+          "CQ",
+          "CQ",
+          "Amount",
+          "Amount",
+          "ROL"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.814258064516129
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=28 data=17 diff=11",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=28 data=17 diff=11"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=29 data=17 diff=12",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=29 data=17 diff=12"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=31 data=17 diff=14",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=31 data=17 diff=14"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=31 data=17 diff=14",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=31 data=17 diff=14"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=31 data=17 diff=14",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=31 data=17 diff=14"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=31 data=17 diff=14",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=31 data=17 diff=14"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=31 data=17 diff=14",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=31 data=17 diff=14"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=31 data=17 diff=14",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=31 data=17 diff=14"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Amount",
+      "PSQ",
+      "PFQ",
+      "Amount",
+      "SSQ",
+      "SFQ",
+      "Amount",
+      "PRV",
+      "RPSQ",
+      "RPFQ",
+      "CQ",
+      "Amount",
+      "ROL"
+    ],
+    "data_column_count_detected": 16,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

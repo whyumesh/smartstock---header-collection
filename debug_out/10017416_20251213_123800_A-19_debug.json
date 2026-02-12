@@ -1,0 +1,161 @@
+{
+  "pdf_path": "pdfs\\10017416_20251213_123800_A-19.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.82659149169922,
+      "y_max": 105.66621398925781,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Rcpt",
+        "Oct2025",
+        "Sales",
+        "Adj",
+        "Cl",
+        "Stock",
+        "Val",
+        "Amount",
+        "Order",
+        "Exp",
+        "Exp"
+      ],
+      "combined_confidence": 0.4965743080448963,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.8678571428571429,
+      "data_validation_score": 0.7400143973673385,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Rcpt",
+    "Oct2025",
+    "Sales",
+    "Adj",
+    "Cl",
+    "Stock",
+    "Val",
+    "Amount",
+    "Order",
+    "Exp",
+    "Exp"
+  ],
+  "confidence": 0.4965743080448963,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.8678571428571429,
+    "data_validation_score": 0.7400143973673385,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ProductName",
+      "Pack",
+      "OpStk",
+      "Rcpt",
+      "Oct2025",
+      "Sales",
+      "Adj",
+      "ClsStk",
+      "Stock",
+      "Val",
+      "SaleValue",
+      "Order",
+      "ExpStk",
+      "Exp"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Rcpt",
+      "Oct2025",
+      "Sales",
+      "Adj",
+      "Cl",
+      "Stock",
+      "Val",
+      "Amount",
+      "Order",
+      "Exp",
+      "Exp"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=14 data=13"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.4965743080448963,
+      "evidence_scores": {
+        "keyword_score": 0.8,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7400143973673385,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7725035993418347,
+      "evidence_before_penalties": 0.7725035993418347
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "Oct2025",
+          "Sales",
+          "Adj",
+          "Cl",
+          "Stock",
+          "Val",
+          "Amount",
+          "Order",
+          "Exp",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8465743080448963
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Rcpt",
+      "Oct2025",
+      "Sales",
+      "Adj",
+      "Cl",
+      "Stock",
+      "Val",
+      "Amount",
+      "Order",
+      "Exp",
+      "Exp"
+    ]
+  }
+}

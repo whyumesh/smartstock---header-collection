@@ -1,0 +1,251 @@
+{
+  "pdf_path": "pdfs\\10005292_20260101_100839_REPORT_7D30LOHDG.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "NICODUCE",
+        "INJ",
+        "48Mg",
+        "1*1",
+        "2550.00",
+        "-",
+        "0.00",
+        "-",
+        "0.00",
+        "2550.00"
+      ],
+      "combined_confidence": 0.18195357142857138,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.58,
+      "data_validation_score": 0.7547678571428571,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "NICODUCE",
+    "INJ",
+    "48Mg",
+    "1*1",
+    "2550.00",
+    "-",
+    "0.00",
+    "-",
+    "0.00",
+    "2550.00"
+  ],
+  "confidence": 0.18195357142857138,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.58,
+    "data_validation_score": 0.7547678571428571,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "NICODUCE",
+      "INJ",
+      "48MG",
+      "1*1",
+      "2550.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "2550.00"
+    ],
+    "normalized": [
+      "NICODUCE",
+      "INJ",
+      "48Mg",
+      "1*1",
+      "2550.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "2550.00"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "10",
+      "10",
+      "10"
+    ],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=11"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.18195357142857138,
+      "evidence_scores": {
+        "keyword_score": 0.25,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7547678571428571,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.5596919642857143,
+      "evidence_before_penalties": 0.5596919642857143
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8421333333333333
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "KENACORT",
+          "10Mg/Ml",
+          "INJ",
+          "1*10Ml",
+          "61.18",
+          "3059.00",
+          "67.98",
+          "3059.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7238162451156034
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "NICODUCE",
+          "INJ",
+          "48Mg",
+          "1*1",
+          "2550.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "2550.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7319535714285714
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "TELPRES",
+          "AM",
+          "TAB",
+          "1*15",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7849515190691662
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=11 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=13 data=11 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=11 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "NICODUCE",
+      "INJ",
+      "48Mg",
+      "1*1",
+      "2550.00",
+      "-",
+      "0.00",
+      "-",
+      "0.00",
+      "2550.00"
+    ]
+  }
+}

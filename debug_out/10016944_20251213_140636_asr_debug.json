@@ -1,0 +1,250 @@
+{
+  "pdf_path": "pdfs\\10016944_20251213_140636_asr.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 77.8147201538086,
+      "y_max": 88.87471771240234,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 39.654685974121094,
+      "y_max": 50.714683532714844,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 2,
+      "y_min": 1.4947123527526855,
+      "y_max": 12.554712295532227,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 3,
+      "y_min": 26.934715270996094,
+      "y_max": 37.994712829589844,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Box",
+        "Pack",
+        "Quantity",
+        "Quantity",
+        "REPL",
+        "Quantity",
+        "Quantity"
+      ],
+      "combined_confidence": 0.28200000000000003,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.9277777777777777,
+      "data_validation_score": 0.7322222222222222,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Box",
+        "Pack",
+        "Quantity",
+        "Quantity",
+        "REPL",
+        "Quantity",
+        "Quantity"
+      ],
+      "combined_confidence": 0.43200000000000005,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.9277777777777777,
+      "data_validation_score": 0.7322222222222222,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Box",
+        "Pack",
+        "Quantity",
+        "Quantity",
+        "REPL",
+        "Quantity",
+        "Quantity"
+      ],
+      "combined_confidence": 0.4331111111111111,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.9277777777777777,
+      "data_validation_score": 0.7377777777777778,
+      "data_column_count_detected": 9
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Product Name",
+    "Box",
+    "Pack",
+    "Quantity",
+    "Quantity",
+    "REPL",
+    "Quantity",
+    "Quantity"
+  ],
+  "confidence": 0.8831111111111111,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.9277777777777777,
+    "data_validation_score": 0.7377777777777778,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Product Name",
+      "Box",
+      "Pack",
+      "Quantity",
+      "Quantity",
+      "REPL",
+      "Quantity",
+      "Quantity"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Product Name",
+        "Box",
+        "Pack",
+        "Quantity",
+        "Quantity",
+        "REPL",
+        "Quantity",
+        "Quantity"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Box",
+        "Pack",
+        "Quantity",
+        "Quantity",
+        "REPL",
+        "Quantity",
+        "Quantity"
+      ],
+      [
+        "Product Name",
+        "Product Name",
+        "Box",
+        "Pack",
+        "Quantity",
+        "Quantity",
+        "REPL",
+        "Quantity",
+        "Quantity"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Box",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "REPL",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8320000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Box",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "REPL",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8320000000000001
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Box",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "REPL",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8331111111111111
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "250Mg",
+          "1X15"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7503125000000002
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=4 data=8 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=8 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Product Name",
+      "Box",
+      "Pack",
+      "Quantity",
+      "Quantity",
+      "REPL",
+      "Quantity",
+      "Quantity"
+    ],
+    "data_column_count_detected": 8,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

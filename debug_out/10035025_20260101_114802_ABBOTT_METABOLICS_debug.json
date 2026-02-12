@@ -1,0 +1,148 @@
+{
+  "pdf_path": "pdfs\\10035025_20260101_114802_ABBOTT METABOLICS.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.82671356201172,
+      "y_max": 105.66633605957031,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "OctIIL",
+        "NovILa",
+        "Sales",
+        "CurStk",
+        "Sale",
+        "Age",
+        "Stock",
+        "Sales"
+      ],
+      "combined_confidence": 0.6450227272727274,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.8001136363636363,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "OctIIL",
+    "NovILa",
+    "Sales",
+    "CurStk",
+    "Sale",
+    "Age",
+    "Stock",
+    "Sales"
+  ],
+  "confidence": 0.6450227272727274,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.85,
+    "data_validation_score": 0.8001136363636363,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ProductName",
+      "Pack",
+      "Opstk",
+      "Pur",
+      "OctIIL",
+      "NovILa",
+      "Sales",
+      "CurStk",
+      "SaleVa",
+      "Age",
+      "StockVal",
+      "Sales"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "OctIIL",
+      "NovILa",
+      "Sales",
+      "CurStk",
+      "Sale",
+      "Age",
+      "Stock",
+      "Sales"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=12"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.6450227272727274,
+      "evidence_scores": {
+        "keyword_score": 0.7692307692307693,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.8001136363636363,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.8423361013986014,
+      "evidence_before_penalties": 0.8423361013986014
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "OctIIL",
+          "NovILa",
+          "Sales",
+          "CurStk",
+          "Sale",
+          "Age",
+          "Stock",
+          "Sales"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8450227272727273
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "OctIIL",
+      "NovILa",
+      "Sales",
+      "CurStk",
+      "Sale",
+      "Age",
+      "Stock",
+      "Sales"
+    ]
+  }
+}

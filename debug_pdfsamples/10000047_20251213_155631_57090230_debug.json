@@ -1,0 +1,84 @@
+{
+  "pdf_path": "pdfsamples\\10000047_20251213_155631_57090230.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 88.47599792480469,
+      "y_max": 97.21900177001953,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "LstSL",
+        "Op",
+        "Recd.",
+        "Sales",
+        "Cl",
+        "Order",
+        "Pend",
+        "LstMove",
+        "Stk.Value"
+      ],
+      "combined_confidence": 0.8991493506493506,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.990909090909091,
+      "data_validation_score": 0.7048376623376623
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "LstSL",
+    "Op",
+    "Recd.",
+    "Sales",
+    "Cl",
+    "Order",
+    "Pend",
+    "LstMove",
+    "Stk.Value"
+  ],
+  "confidence": 0.8991493506493506,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.990909090909091,
+    "data_validation_score": 0.7048376623376623,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "Pack",
+      "LstSL",
+      "Open",
+      "Recd.",
+      "Sales",
+      "Close",
+      "Order",
+      "Pend",
+      "LstMove",
+      "Stk.Value"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "LstSL",
+      "Op",
+      "Recd.",
+      "Sales",
+      "Cl",
+      "Order",
+      "Pend",
+      "LstMove",
+      "Stk.Value"
+    ]
+  }
+}

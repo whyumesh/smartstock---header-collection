@@ -1,0 +1,137 @@
+{
+  "pdf_path": "pdfs\\10011639_20260102_130857_REPORT_7D40RYQIE.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 133.21798706054688,
+      "y_max": 141.0179901123047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.718017578125,
+      "y_max": 36.01801681518555,
+      "confidence": 0.4,
+      "reason": "density=4.0 font_boost=1.0 top_score=1.00"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Description",
+        "Op",
+        "Sales",
+        "Sale",
+        "Sales",
+        "Sales",
+        "Purchase",
+        "Purchase",
+        "Purchase",
+        "Purchase",
+        "Other",
+        "Closing",
+        "Closing",
+        "Expiry Date",
+        "Expiry Date"
+      ],
+      "combined_confidence": 0.45693395146520144,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.934375,
+      "data_validation_score": 0.7002947573260073,
+      "data_column_count_detected": 16
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Tot"
+      ],
+      "combined_confidence": 0.6200000000000001,
+      "visual_score": 0.4,
+      "reconstruction_score": 0.72,
+      "semantic_score": 0.95,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Tot"
+  ],
+  "confidence": 0.6200000000000001,
+  "confidence_breakdown": {
+    "visual_score": 0.4,
+    "reconstruction_score": 0.72,
+    "semantic_score": 0.95,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "TOTAL 772357.00 ============================================================================"
+    ],
+    "normalized": [
+      "Tot"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 16,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.6200000000000001,
+      "evidence_scores": {
+        "keyword_score": 1.0,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7000000000000001,
+      "evidence_before_penalties": 0.7000000000000001
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Description",
+          "Op",
+          "Sales",
+          "Sale",
+          "Sales",
+          "Sales",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Other",
+          "Closing",
+          "Closing",
+          "Expiry Date",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.8569339514652015
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.6200000000000001
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Tot"
+    ]
+  }
+}

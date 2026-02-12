@@ -1,0 +1,224 @@
+{
+  "pdf_path": "pdfs\\10033762_20260102_114528_Stock_Report.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 126.9419937133789,
+      "y_max": 137.12998962402344,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    },
+    {
+      "page_no": 1,
+      "y_min": 20.441993713378906,
+      "y_max": 30.629993438720703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 2,
+      "y_min": 30.941993713378906,
+      "y_max": 41.1299934387207,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 3,
+      "y_min": 20.441993713378906,
+      "y_max": 30.629993438720703,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Particular",
+        "Op",
+        "Purchase",
+        "Sl.Qnt.",
+        "Cl",
+        "Amount",
+        "Amount"
+      ],
+      "combined_confidence": 0.8297469387755103,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8499999999999999,
+      "data_validation_score": 0.8487346938775511,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "DURAPAIN",
+        "CAP",
+        "10'S",
+        "10'S",
+        "13.00",
+        "13.00",
+        "13.00",
+        "2556.58"
+      ],
+      "combined_confidence": 0.5974673913043478,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7123369565217391,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Particular",
+    "Op",
+    "Purchase",
+    "Sl.Qnt.",
+    "Cl",
+    "Amount",
+    "Amount"
+  ],
+  "confidence": 0.8297469387755103,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8499999999999999,
+    "data_validation_score": 0.8487346938775511,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Particular",
+      "Op.Qnt.",
+      "Pur.Qnt.",
+      "Sl.Qnt.",
+      "Cl.Qnt.",
+      "Sl.Value",
+      "Cl.Value"
+    ],
+    "normalized": [
+      "Particular",
+      "Op",
+      "Purchase",
+      "Sl.Qnt.",
+      "Cl",
+      "Amount",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.8297469387755103,
+      "evidence_scores": {
+        "keyword_score": 0.7142857142857143,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.8487346938775511,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.8157551020408165,
+      "evidence_before_penalties": 0.8157551020408165
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particular",
+          "Op",
+          "Purchase",
+          "Sl.Qnt.",
+          "Cl",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8297469387755103
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "DURAPAIN",
+          "CAP",
+          "10'S",
+          "10'S",
+          "13.00",
+          "13.00",
+          "13.00",
+          "2556.58"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7474673913043478
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "PPG-0.3",
+          "PPG-0.3",
+          "TAB",
+          "30'S",
+          "10.00",
+          "10.00",
+          "10.00",
+          "10.00",
+          "2825.00"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7003666666666667
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "ANAFORTAN",
+          "TAB",
+          "1*10",
+          "103.00",
+          "144.00",
+          "67.00",
+          "180.00",
+          "4962.39",
+          "12961.80"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6926019296607533
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=9 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=9 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=7 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Particular",
+      "Op",
+      "Purchase",
+      "Sl.Qnt.",
+      "Cl",
+      "Amount",
+      "Amount"
+    ]
+  }
+}

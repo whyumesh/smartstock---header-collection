@@ -1,0 +1,138 @@
+{
+  "pdf_path": "pdfs\\10034655_20251231_132222_abbott.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 105.94766998291016,
+      "y_max": 117.27278900146484,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 1.307596206665039,
+      "y_max": 12.632711410522461,
+      "confidence": 0.4,
+      "reason": "fallback_first_lines"
+    },
+    {
+      "page_no": 2,
+      "y_min": 1.307596206665039,
+      "y_max": 12.632711410522461,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "(P.T.O.)"
+      ],
+      "combined_confidence": 0.55,
+      "visual_score": 0.4,
+      "reconstruction_score": 0.72,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "(P.T.O.)"
+  ],
+  "confidence": 0.55,
+  "confidence_breakdown": {
+    "visual_score": 0.4,
+    "reconstruction_score": 0.72,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "(P.T.O.)"
+    ],
+    "normalized": [
+      "(P.T.O.)"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.55,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.43333333333333335,
+      "evidence_before_penalties": 0.43333333333333335
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sale",
+          "Stock",
+          "Report",
+          "No."
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7496
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "(P.T.O.)"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.55
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "KEDARNATH",
+          "MEDICINE",
+          "COMPANY",
+          "(From",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7405727272727274
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "(P.T.O.)"
+    ]
+  }
+}

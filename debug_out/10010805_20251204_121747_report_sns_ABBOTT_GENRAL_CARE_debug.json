@@ -1,0 +1,94 @@
+{
+  "pdf_path": "pdfs\\10010805_20251204_121747_report_sns_ABBOTT_GENRAL_CARE.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.97349548339844,
+      "y_max": 144.87350463867188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=17"
+    },
+    {
+      "page_no": 1,
+      "y_min": 77.36308288574219,
+      "y_max": 89.2630844116211,
+      "confidence": 0.9,
+      "reason": "header_keywords=17 tokens=19"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl",
+          "NM60D val",
+          "Quantity",
+          "Quantity",
+          "Val",
+          "NE"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8448095238095238
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl",
+          "NM60D val",
+          "Quantity",
+          "Quantity",
+          "Val",
+          "NE"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.817
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=10 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=15 data=5 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=5 diff=10"
+          }
+        }
+      }
+    ]
+  }
+}

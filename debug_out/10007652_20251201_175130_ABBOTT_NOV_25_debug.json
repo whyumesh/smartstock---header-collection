@@ -1,0 +1,246 @@
+{
+  "pdf_path": "pdfs\\10007652_20251201_175130_ABBOTT NOV 25.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 163.89398193359375,
+      "y_max": 178.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 3,
+      "y_min": 342.3940124511719,
+      "y_max": 356.6940002441406,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "ABBOTT",
+        "INDIA",
+        "LTD",
+        "(Gi",
+        "Op",
+        "Op"
+      ],
+      "combined_confidence": 0.6139733333333334,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.7999999999999999,
+      "semantic_score": 0.7166666666666667,
+      "data_validation_score": 0.7032,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "ABBOTT",
+    "INDIA",
+    "LTD",
+    "(Gi",
+    "Op",
+    "Op"
+  ],
+  "confidence": 0.6139733333333334,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.7999999999999999,
+    "semantic_score": 0.7166666666666667,
+    "data_validation_score": 0.7032,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ABBOTT",
+      "INDIA",
+      "LTD",
+      "(GI",
+      "OPTIMA)",
+      "OPTIMA)"
+    ],
+    "normalized": [
+      "ABBOTT",
+      "INDIA",
+      "LTD",
+      "(Gi",
+      "Op",
+      "Op"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "OPTIMA)",
+        "into": "OPTIMA)",
+        "interval_idx": 1
+      },
+      {
+        "split": "OPTIMA)",
+        "into": "OPTIMA)",
+        "interval_idx": 2
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.6139733333333334,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7032,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.6583,
+      "evidence_before_penalties": 0.6583
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "LTD",
+          "(Gi",
+          "Op",
+          "Op"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7639733333333334
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.73162
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "LTD(NEURO-LIFE)",
+          "LTD(NEURO-LIFE)"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7314504201680674
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "SUPPLIER",
+          "Product Name",
+          "Invoice No",
+          "NO.",
+          "Date",
+          "RECEIVE",
+          "Date",
+          "Amount"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7569807692307693
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "SUPPLIER",
+          "Product Name",
+          "DEBIT",
+          "NOTE",
+          "ISSUE",
+          "Date",
+          "Amount",
+          "BALANCE",
+          "DAYS"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7912063492063492
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=4 data=7 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=7 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=9 data=6 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=6 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ABBOTT",
+      "INDIA",
+      "LTD",
+      "(Gi",
+      "Op",
+      "Op"
+    ]
+  }
+}

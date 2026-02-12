@@ -1,0 +1,41 @@
+{
+  "pdf_path": "pdfs\\10013212_20251210_191954_November.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 85.9520034790039,
+      "y_max": 130.85299682617188,
+      "confidence": 1.0,
+      "reason": "density=18.7 font_boost=1.0 top_score=0.89"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SBICOLONY,RAHEJA 30856456/9820956356/9833764847/64827"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.7421059431524548
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=1 data=3 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=1 data=3 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

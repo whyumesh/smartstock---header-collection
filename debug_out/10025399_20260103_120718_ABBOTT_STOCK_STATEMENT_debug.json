@@ -1,0 +1,823 @@
+{
+  "pdf_path": "pdfs\\10025399_20260103_120718_ABBOTT STOCK STATEMENT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 2,
+      "y_min": 122.23800659179688,
+      "y_max": 133.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 3,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=11"
+    },
+    {
+      "page_no": 4,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 6,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 7,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    },
+    {
+      "page_no": 8,
+      "y_min": 174.73800659179688,
+      "y_max": 186.43800354003906,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=16"
+    },
+    {
+      "page_no": 9,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 10,
+      "y_min": 279.7380065917969,
+      "y_max": 291.4380187988281,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=11"
+    },
+    {
+      "page_no": 11,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    },
+    {
+      "page_no": 12,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 13,
+      "y_min": 216.73800659179688,
+      "y_max": 228.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=11"
+    },
+    {
+      "page_no": 14,
+      "y_min": 195.73800659179688,
+      "y_max": 207.43800354003906,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 15,
+      "y_min": 185.23800659179688,
+      "y_max": 196.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 16,
+      "y_min": 153.73800659179688,
+      "y_max": 165.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=11"
+    },
+    {
+      "page_no": 17,
+      "y_min": 195.73800659179688,
+      "y_max": 207.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 18,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "NOV",
+        "OCT"
+      ],
+      "combined_confidence": 0.6769090909090909,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.9272727272727272,
+      "data_validation_score": 0.9072727272727273,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "NOV",
+        "OCT"
+      ],
+      "combined_confidence": 0.6765194805194805,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.9272727272727272,
+      "data_validation_score": 0.9053246753246753,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 9,
+      "headers": [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "NOV",
+        "OCT"
+      ],
+      "combined_confidence": 0.6765194805194805,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.9272727272727272,
+      "data_validation_score": 0.9053246753246753,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "NOV",
+        "OCT"
+      ],
+      "combined_confidence": 0.671909090909091,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.9272727272727272,
+      "data_validation_score": 0.9072727272727273,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 16,
+      "headers": [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "NOV",
+        "OCT"
+      ],
+      "combined_confidence": 0.6715194805194804,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.9272727272727272,
+      "data_validation_score": 0.9053246753246753,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "Amount",
+    "Quantity",
+    "NOV",
+    "OCT"
+  ],
+  "confidence": 0.9269090909090908,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.9272727272727272,
+    "data_validation_score": 0.9072727272727273,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "NOV",
+      "OCT"
+    ],
+    "per_page": [
+      [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "NOV",
+        "OCT"
+      ],
+      [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "NOV",
+        "OCT"
+      ],
+      [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "NOV",
+        "OCT"
+      ],
+      [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "NOV",
+        "OCT"
+      ],
+      [
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "Amount",
+        "Quantity",
+        "NOV",
+        "OCT"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8769090909090909
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "1000Mg",
+          "15Tab",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7361646157763805
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Rate",
+          "INSTA",
+          "TAB",
+          "30Tab",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7285561813186814
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "NOV",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8395263157894738
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "BECOZYM",
+          "FORTE",
+          "20Tab",
+          "446.67",
+          "6381.00",
+          "319.05",
+          "6827.67"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7355481823400867
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "-Cardiac",
+          "ABBOTT",
+          "INFINIA"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7322608695652175
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8765194805194805
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Tot",
+          "19186.67",
+          "0.00",
+          "3942.93",
+          "15243.74",
+          "4K"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7018663714957194
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "LOBATE",
+          "OINTMENT",
+          "GM",
+          "2150.85",
+          "0.00",
+          "661.80",
+          "1489.05"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7281309523809525
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8765194805194805
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.871909090909091
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Tot",
+          "5623.49",
+          "5623.49",
+          "0.00",
+          "0.00",
+          "218.05",
+          "5405.44",
+          "5405.44",
+          "0K",
+          "0K"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6867372372372373
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "PHENERGAN",
+          "INJ",
+          "2Ml",
+          "2408.70",
+          "0.00",
+          "1720.50",
+          "688.20"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7150582633053222
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "NOV",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8393007518796993
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "GAROIN",
+          "10Tab",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6957557032569126
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "1000Mg",
+          "10Tab",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7416499999999999
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "NOV",
+          "OCT"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8715194805194805
+      },
+      {
+        "page_no": 17,
+        "headers": [
+          "BECOMAX",
+          "FORTE",
+          "15Tab",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7346620074901488
+      },
+      {
+        "page_no": 18,
+        "headers": [
+          "NIFEDINE",
+          "10Tab",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7057936484121031
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=8 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=11 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=19 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=7 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=3 data=11 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=11 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=6 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=7 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 12,
+        "reason": "column_count_mismatch: header=7 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "column_count_mismatch: header=19 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 14,
+        "reason": "column_count_mismatch: header=6 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 15,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 17,
+        "reason": "column_count_mismatch: header=7 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 18,
+        "reason": "column_count_mismatch: header=6 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=11 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "Amount",
+      "Quantity",
+      "NOV",
+      "OCT"
+    ],
+    "data_column_count_detected": 11,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

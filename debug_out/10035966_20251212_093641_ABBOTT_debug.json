@@ -1,0 +1,398 @@
+{
+  "pdf_path": "pdfs\\10035966_20251212_093641_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 206.23800659179688,
+      "y_max": 217.93800354003906,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=16"
+    },
+    {
+      "page_no": 2,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    },
+    {
+      "page_no": 3,
+      "y_min": 143.23800659179688,
+      "y_max": 154.93800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    },
+    {
+      "page_no": 4,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 5,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=16"
+    },
+    {
+      "page_no": 6,
+      "y_min": 90.73800659179688,
+      "y_max": 102.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 7,
+      "y_min": 174.73800659179688,
+      "y_max": 186.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 8,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 8,
+      "headers": [
+        "ABBOTT",
+        "INDIA",
+        "LIMITED",
+        "KOLKATA",
+        "194918.00"
+      ],
+      "combined_confidence": 0.13214285714285712,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7357142857142858,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "ABBOTT",
+    "INDIA",
+    "LIMITED",
+    "KOLKATA",
+    "194918.00"
+  ],
+  "confidence": 0.13214285714285712,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.7357142857142858,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ABBOTT",
+      "INDIA",
+      "LIMITED",
+      "KOLKATA",
+      "194918.00"
+    ],
+    "normalized": [
+      "ABBOTT",
+      "INDIA",
+      "LIMITED",
+      "KOLKATA",
+      "194918.00"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "3398453336",
+      "23-11-2025",
+      "23-11-2025"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=5 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.13214285714285712,
+      "evidence_scores": {
+        "keyword_score": 0.2,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7357142857142858,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 0.1111111111111111
+      },
+      "evidence_total": 0.5285396825396825,
+      "evidence_before_penalties": 0.5285396825396825
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8485
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "REJOINT",
+          "UC",
+          "PLUS",
+          "TAB",
+          "713.90",
+          "713.90",
+          "0.00",
+          "713.90",
+          "0.00"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.722485627719374
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot",
+          "Tot",
+          "645592.09",
+          "645592.09",
+          "73814.12",
+          "73814.12",
+          "143855.53",
+          "575550.68",
+          "575550.68",
+          "126K"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.6878828798180205
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8467333333333334
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "TELPRES",
+          "CT",
+          "40/12.5Mg",
+          "10Tab",
+          "108.96",
+          "30181.92",
+          "0.00",
+          "8172.00",
+          "22009.92"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7179376623376624
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "GLUFORMIN",
+          "FORTE",
+          "15Tab",
+          "144.87",
+          "3621.75",
+          "0.00",
+          "289.74",
+          "3332.01"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7200816693999785
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8485
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "VALANCE",
+          "OD",
+          "10Tab",
+          "282.41",
+          "2541.69",
+          "0.00",
+          "1412.05",
+          "1129.64"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7311680161943319
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "LIMITED",
+          "KOLKATA",
+          "194918.00"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.6821428571428572
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=10 data=13 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=13 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=8 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=8 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=10 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ABBOTT",
+      "INDIA",
+      "LIMITED",
+      "KOLKATA",
+      "194918.00"
+    ]
+  }
+}

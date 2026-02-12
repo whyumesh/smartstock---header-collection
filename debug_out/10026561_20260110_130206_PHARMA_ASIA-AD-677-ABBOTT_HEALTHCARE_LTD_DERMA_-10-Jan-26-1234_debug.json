@@ -1,0 +1,136 @@
+{
+  "pdf_path": "pdfs\\10026561_20260110_130206_PHARMA ASIA-AD-677-ABBOTT HEALTHCARE LTD(DERMA)-10-Jan-26-1234.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 34.61100387573242,
+      "y_max": 44.574005126953125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Description",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sales",
+        "Closing",
+        "Amount",
+        "Amount"
+      ],
+      "combined_confidence": 0.48320468987534193,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9349999999999999,
+      "data_validation_score": 0.7060234493767102,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Product Code",
+    "Product Name",
+    "Description",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Sales",
+    "Closing",
+    "Amount",
+    "Amount"
+  ],
+  "confidence": 0.48320468987534193,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.9349999999999999,
+    "data_validation_score": 0.7060234493767102,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Code",
+      "Item",
+      "Description",
+      "Packing",
+      "Opening",
+      "Purchase",
+      "Sales",
+      "Closing",
+      "Stock-Value",
+      "Sales-Value"
+    ],
+    "normalized": [
+      "Product Code",
+      "Product Name",
+      "Description",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Sales",
+      "Closing",
+      "Amount",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=10"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.48320468987534193,
+      "evidence_scores": {
+        "keyword_score": 0.9166666666666666,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7060234493767102,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.9056725290108442,
+      "evidence_before_penalties": 0.9056725290108442
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Description",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sales",
+          "Closing",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.883204689875342
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Code",
+      "Product Name",
+      "Description",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Sales",
+      "Closing",
+      "Amount",
+      "Amount"
+    ]
+  }
+}

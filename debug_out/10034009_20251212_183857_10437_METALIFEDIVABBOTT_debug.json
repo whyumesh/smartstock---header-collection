@@ -1,0 +1,219 @@
+{
+  "pdf_path": "pdfs\\10034009_20251212_183857_10437_METALIFEDIVABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 91.42542266845703,
+      "y_max": 101.17542266845703,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Pack",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Purchase",
+        "Sales",
+        "Cl",
+        "Cl"
+      ],
+      "combined_confidence": 0.2947523809523809,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.82,
+      "semantic_score": 0.9807692307692307,
+      "data_validation_score": 0.567992673992674,
+      "data_column_count_detected": 14
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Product Name",
+    "Product Name",
+    "Product Name",
+    "Pack",
+    "Pack",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Purchase",
+    "Sales",
+    "Cl",
+    "Cl"
+  ],
+  "confidence": 0.2947523809523809,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.82,
+    "semantic_score": 0.9807692307692307,
+    "data_validation_score": 0.567992673992674,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Product",
+      "Product",
+      "Name",
+      "Name",
+      "Pack",
+      "Pack",
+      "Pack",
+      "OpStk",
+      "Pur",
+      "Pur",
+      "Sales",
+      "ClStk",
+      "ClStk"
+    ],
+    "normalized": [
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Pack",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Purchase",
+      "Sales",
+      "Cl",
+      "Cl"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "Name"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [
+      {
+        "split": "Product Name",
+        "into": "Product",
+        "interval_idx": 0
+      },
+      {
+        "split": "Product Name",
+        "into": "Product",
+        "interval_idx": 1
+      },
+      {
+        "split": "Product Name",
+        "into": "Name",
+        "interval_idx": 2
+      },
+      {
+        "split": "Product Name",
+        "into": "Name",
+        "interval_idx": 3
+      },
+      {
+        "split": "Pack",
+        "into": "Pack",
+        "interval_idx": 3
+      },
+      {
+        "split": "Pack",
+        "into": "Pack",
+        "interval_idx": 4
+      },
+      {
+        "split": "Pack",
+        "into": "Pack",
+        "interval_idx": 5
+      },
+      {
+        "split": "Pur",
+        "into": "Pur",
+        "interval_idx": 6
+      },
+      {
+        "split": "Pur",
+        "into": "Pur",
+        "interval_idx": 7
+      },
+      {
+        "split": "ClStk",
+        "into": "ClStk",
+        "interval_idx": 10
+      },
+      {
+        "split": "ClStk",
+        "into": "ClStk",
+        "interval_idx": 11
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 14,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=14"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.2947523809523809,
+      "evidence_scores": {
+        "keyword_score": 1.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.567992673992674,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8294981684981685,
+      "evidence_before_penalties": 0.8294981684981685
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Sales",
+          "Cl",
+          "Cl"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8447523809523809
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Pack",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Purchase",
+      "Sales",
+      "Cl",
+      "Cl"
+    ]
+  }
+}

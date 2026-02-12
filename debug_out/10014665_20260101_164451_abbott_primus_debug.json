@@ -1,0 +1,161 @@
+{
+  "pdf_path": "pdfs\\10014665_20260101_164451_abbott primus.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 69.80367279052734,
+      "y_max": 74.44181060791016,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Order",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Quantity",
+        "Cl",
+        "Amount",
+        "Sale",
+        "NovSa",
+        "Amount",
+        "Age",
+        "Sales",
+        "Replaceme"
+      ],
+      "combined_confidence": 0.5107061224489795,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.8892857142857142,
+      "data_validation_score": 0.7892448979591836,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "Order",
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Quantity",
+    "Cl",
+    "Amount",
+    "Sale",
+    "NovSa",
+    "Amount",
+    "Age",
+    "Sales",
+    "Replaceme"
+  ],
+  "confidence": 0.5107061224489795,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.8892857142857142,
+    "data_validation_score": 0.7892448979591836,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Order",
+      "Product",
+      "Pack",
+      "OpStk",
+      "Purhcas",
+      "SalesQty",
+      "ClStk",
+      "StockValue",
+      "T.Sales",
+      "NovSa",
+      "SaleValue",
+      "Age",
+      "Sales",
+      "Replaceme"
+    ],
+    "normalized": [
+      "Order",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Quantity",
+      "Cl",
+      "Amount",
+      "Sale",
+      "NovSa",
+      "Amount",
+      "Age",
+      "Sales",
+      "Replaceme"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=14 data=13"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.5107061224489795,
+      "evidence_scores": {
+        "keyword_score": 0.8,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7892448979591836,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.784811224489796,
+      "evidence_before_penalties": 0.784811224489796
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Order",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Quantity",
+          "Cl",
+          "Amount",
+          "Sale",
+          "NovSa",
+          "Amount",
+          "Age",
+          "Sales",
+          "Replaceme"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8607061224489796
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Order",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Quantity",
+      "Cl",
+      "Amount",
+      "Sale",
+      "NovSa",
+      "Amount",
+      "Age",
+      "Sales",
+      "Replaceme"
+    ]
+  }
+}

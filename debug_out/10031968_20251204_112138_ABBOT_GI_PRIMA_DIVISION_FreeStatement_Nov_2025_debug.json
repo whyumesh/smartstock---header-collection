@@ -1,0 +1,155 @@
+{
+  "pdf_path": "pdfs\\10031968_20251204_112138_ABBOT GI PRIMA DIVISION_FreeStatement_Nov_2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 86.81844329833984,
+      "y_max": 94.62278747558594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Invoice Date",
+        "Date",
+        "Invoice Date",
+        "No",
+        "Customer",
+        "Product Name",
+        "Manufacture",
+        "MRP",
+        "Quantity",
+        "Quantity",
+        "Free Quantity",
+        "Discount",
+        "SchDisc"
+      ],
+      "combined_confidence": 0.33887179487179475,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.8576923076923078,
+      "data_validation_score": 0.7366666666666666,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "Invoice Date",
+    "Date",
+    "Invoice Date",
+    "No",
+    "Customer",
+    "Product Name",
+    "Manufacture",
+    "MRP",
+    "Quantity",
+    "Quantity",
+    "Free Quantity",
+    "Discount",
+    "SchDisc"
+  ],
+  "confidence": 0.33887179487179475,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.8576923076923078,
+    "data_validation_score": 0.7366666666666666,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Bill",
+      "Date",
+      "Bill",
+      "No",
+      "Customer",
+      "Name",
+      "Manufacture",
+      "MRP",
+      "Qty",
+      "F.Qty",
+      "Amt.Free",
+      "Discount",
+      "SchDisc"
+    ],
+    "normalized": [
+      "Invoice Date",
+      "Date",
+      "Invoice Date",
+      "No",
+      "Customer",
+      "Product Name",
+      "Manufacture",
+      "MRP",
+      "Quantity",
+      "Quantity",
+      "Free Quantity",
+      "Discount",
+      "SchDisc"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=12"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.33887179487179475,
+      "evidence_scores": {
+        "keyword_score": 0.5294117647058824,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7366666666666666,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7540196078431372,
+      "evidence_before_penalties": 0.7540196078431372
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "No",
+          "Customer",
+          "Product Name",
+          "Manufacture",
+          "MRP",
+          "Quantity",
+          "Quantity",
+          "Free Quantity",
+          "Discount",
+          "SchDisc"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8888717948717948
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Invoice Date",
+      "Date",
+      "Invoice Date",
+      "No",
+      "Customer",
+      "Product Name",
+      "Manufacture",
+      "MRP",
+      "Quantity",
+      "Quantity",
+      "Free Quantity",
+      "Discount",
+      "SchDisc"
+    ]
+  }
+}

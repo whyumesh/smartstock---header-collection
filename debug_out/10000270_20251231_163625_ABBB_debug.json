@@ -1,0 +1,321 @@
+{
+  "pdf_path": "pdfs\\10000270_20251231_163625_ABBB.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 121.89398193359375,
+      "y_max": 136.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 2,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 3,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 5,
+      "y_min": 69.39398193359375,
+      "y_max": 83.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "DESCRIPTION",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing"
+      ],
+      "combined_confidence": 0.5781912087912089,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8214285714285714,
+      "data_validation_score": 0.6195274725274725,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "TIN1461",
+        "Cl",
+        "30Ml",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.4662302331814527,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.5928571428571429,
+      "data_validation_score": 0.7382940230501206,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "TIN870",
+        "ESGIPYRIN-TH",
+        "10S",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.44585714285714295,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.5428571428571428,
+      "data_validation_score": 0.7114285714285715,
+      "data_column_count_detected": 6
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "TIN1499",
+        "KENACORT",
+        "SKIN",
+        "15G",
+        "-1",
+        "-",
+        "-",
+        "-1"
+      ],
+      "combined_confidence": 0.5740125,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.575,
+      "data_validation_score": 0.7200624999999999,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "TIN1165",
+        "PARAXIN",
+        "DRAGEE",
+        "10Ca",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.598072174850075,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.55,
+      "data_validation_score": 0.7153608742503748,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "TIN2014",
+        "TOOTHMIN",
+        "AF",
+        "MO",
+        "150M",
+        "-",
+        "-"
+      ],
+      "combined_confidence": 0.3095912172928303,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.5714285714285714,
+      "data_validation_score": 0.7265275150355796,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "TIN1165",
+    "PARAXIN",
+    "DRAGEE",
+    "10Ca",
+    "-",
+    "-",
+    "-",
+    "-"
+  ],
+  "confidence": 0.598072174850075,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.55,
+    "data_validation_score": 0.7153608742503748,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "TIN1165",
+      "PARAXIN",
+      "DRAGEE",
+      "10CA",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "normalized": [
+      "TIN1165",
+      "PARAXIN",
+      "DRAGEE",
+      "10Ca",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=8 data=7"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.598072174850075,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7153608742503748,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.6580068852292604,
+      "evidence_before_penalties": 0.6580068852292604
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "DESCRIPTION",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7781912087912088
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "TIN1461",
+          "Cl",
+          "30Ml",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7662302331814527
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "TIN870",
+          "ESGIPYRIN-TH",
+          "10S",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.745857142857143
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "TIN1499",
+          "KENACORT",
+          "SKIN",
+          "15G",
+          "-1",
+          "-",
+          "-",
+          "-1"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7240125000000001
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "TIN1165",
+          "PARAXIN",
+          "DRAGEE",
+          "10Ca",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.748072174850075
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "TIN2014",
+          "TOOTHMIN",
+          "AF",
+          "MO",
+          "150M",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7595912172928303
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "TIN1165",
+      "PARAXIN",
+      "DRAGEE",
+      "10Ca",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  }
+}

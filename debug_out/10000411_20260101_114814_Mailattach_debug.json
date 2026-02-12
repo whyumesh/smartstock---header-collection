@@ -1,0 +1,158 @@
+{
+  "pdf_path": "pdfs\\10000411_20260101_114814_Mailattach.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 99.0255126953125,
+      "y_max": 107.2736587524414,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 228.933837890625,
+      "y_max": 237.18199157714844,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 20.5576229095459,
+      "y_max": 28.805767059326172,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 3,
+      "y_min": 20.55805015563965,
+      "y_max": 28.806194305419922,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Free Quantity",
+          "Cl",
+          "C_Sal",
+          "Free Quantity",
+          "Repl",
+          "Adj",
+          "Stk",
+          "Fr",
+          "Sale",
+          "Purchase",
+          "Age"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8253147166558932
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Free Quantity",
+          "Cl",
+          "C_Sal",
+          "Free Quantity",
+          "Repl",
+          "Adj",
+          "Stk",
+          "Fr",
+          "Sale",
+          "Purchase",
+          "Age"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8276941176470589
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Exp",
+          "1S",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7790221830286169
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "VERTIN-16MG-TABL",
+          "15`S",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7592825814536341
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=11 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=11 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=15 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=8 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=10 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=8 data=11 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=11 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

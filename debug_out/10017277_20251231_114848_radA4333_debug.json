@@ -1,0 +1,274 @@
+{
+  "pdf_path": "pdfs\\10017277_20251231_114848_radA4333.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 364.1678466796875,
+      "y_max": 450.4974670410156,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 0.1163778305053711,
+      "y_max": 37.939208984375,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=6"
+    },
+    {
+      "page_no": 2,
+      "y_min": 0.1163778305053711,
+      "y_max": 37.939208984375,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=6"
+    },
+    {
+      "page_no": 3,
+      "y_min": 0.1163778305053711,
+      "y_max": 37.939208984375,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=6"
+    },
+    {
+      "page_no": 4,
+      "y_min": 0.1163778305053711,
+      "y_max": 37.939208984375,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=4"
+    },
+    {
+      "page_no": 5,
+      "y_min": 0.1163778305053711,
+      "y_max": 37.939208984375,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=5"
+    },
+    {
+      "page_no": 6,
+      "y_min": 0.1163778305053711,
+      "y_max": 37.939208984375,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=4"
+    },
+    {
+      "page_no": 7,
+      "y_min": 0.1163778305053711,
+      "y_max": 37.939208984375,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=5"
+    },
+    {
+      "page_no": 8,
+      "y_min": 0.1163778305053711,
+      "y_max": 37.939208984375,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "367/20,Palace",
+          "COMPLEX,SUBHASH",
+          "Tot"
+        ],
+        "data_column_count_detected": 36,
+        "combined_confidence": 0.6733333333333333
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Exp",
+          "Exp",
+          "Amt(Q",
+          "Amt(Q",
+          "(P.T."
+        ],
+        "data_column_count_detected": 42,
+        "combined_confidence": 0.6854
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Exp",
+          "Exp",
+          "Amt(Q",
+          "Amt(Q",
+          "(P.T."
+        ],
+        "data_column_count_detected": 42,
+        "combined_confidence": 0.6854
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Exp",
+          "Exp",
+          "Amt(Q",
+          "Amt(Q",
+          "(P.T."
+        ],
+        "data_column_count_detected": 42,
+        "combined_confidence": 0.6854
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Exp",
+          "Exp",
+          "Amt(Q",
+          "Amt(Q",
+          "(P.T."
+        ],
+        "data_column_count_detected": 42,
+        "combined_confidence": 0.6754
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Exp",
+          "Exp",
+          "Amt(Q",
+          "Amt(Q",
+          "(P.T."
+        ],
+        "data_column_count_detected": 42,
+        "combined_confidence": 0.6804000000000001
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Exp",
+          "Exp",
+          "Amt(Q",
+          "Amt(Q",
+          "(P.T."
+        ],
+        "data_column_count_detected": 42,
+        "combined_confidence": 0.6754
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Exp",
+          "Exp",
+          "Amt(Q",
+          "Amt(Q",
+          "(P.T."
+        ],
+        "data_column_count_detected": 42,
+        "combined_confidence": 0.6804000000000001
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Exp",
+          "Exp",
+          "Amt(Q",
+          "Amt(Q"
+        ],
+        "data_column_count_detected": 43,
+        "combined_confidence": 0.6990000000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=3 data=36 diff=33",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=36 diff=33"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=42 diff=37",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=42 diff=37"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=42 diff=37",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=42 diff=37"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=5 data=42 diff=37",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=42 diff=37"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=5 data=42 diff=37",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=42 diff=37"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=5 data=42 diff=37",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=42 diff=37"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=5 data=42 diff=37",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=42 diff=37"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=5 data=42 diff=37",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=42 diff=37"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=4 data=43 diff=39",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=43 diff=39"
+          }
+        }
+      }
+    ]
+  }
+}

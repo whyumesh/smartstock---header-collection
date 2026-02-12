@@ -1,0 +1,967 @@
+{
+  "pdf_path": "pdfs\\10014306_20260101_121907_ABBOTTAL.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 2,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 3,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 4,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 6,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 7,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 8,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 9,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 10,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 11,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 12,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 13,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 14,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 15,
+      "y_min": 111.39795684814453,
+      "y_max": 121.38058471679688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.6435818181818183,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.7769999999999999,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.4405532467532468,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.7618571428571428,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.4405532467532468,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.7618571428571428,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.4373818181818182,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.746,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.44059090909090914,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.7620454545454546,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 7,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.2872818181818182,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.7455,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.4325818181818182,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.722,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.6473928071928072,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.796054945054945,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 11,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.6446376623376624,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.7822792207792209,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 12,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.44052027972027974,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.7616923076923078,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 13,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.6484606334841629,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.8013940765117235,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 14,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.4364689976689977,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.7414358974358974,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 15,
+      "headers": [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      "combined_confidence": 0.43495874125874134,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.890909090909091,
+      "data_validation_score": 0.7338846153846154,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Sr.",
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Tot",
+    "Sl/Iss",
+    "Cl",
+    "Rate",
+    "MRP",
+    "Exp"
+  ],
+  "confidence": 0.8984606334841628,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.890909090909091,
+    "data_validation_score": 0.8013940765117235,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Sr.",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Tot",
+      "Sl/Iss",
+      "Cl",
+      "Rate",
+      "MRP",
+      "Exp"
+    ],
+    "per_page": [
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ],
+      [
+        "Sr.",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sl/Iss",
+        "Cl",
+        "Rate",
+        "MRP",
+        "Exp"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8435818181818182
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Tot",
+          "Tot",
+          "Sl/Iss",
+          "Sl/Iss",
+          "Cl",
+          "Cl",
+          "Rate",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8169282913165267
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Sr.",
+          "Sr.",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8224534313725491
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8405532467532468
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8405532467532468
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8373818181818182
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8405909090909092
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8372818181818182
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8325818181818182
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8337818181818182
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8473928071928072
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8446376623376624
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8405202797202798
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8484606334841629
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8364689976689977
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sl/Iss",
+          "Cl",
+          "Rate",
+          "MRP",
+          "Exp"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8349587412587414
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=21 data=12 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=21 data=12 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=11 data=9 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=9 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Sr.",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Tot",
+      "Sl/Iss",
+      "Cl",
+      "Rate",
+      "MRP",
+      "Exp"
+    ],
+    "data_column_count_detected": 11,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

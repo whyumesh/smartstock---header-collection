@@ -1,0 +1,327 @@
+{
+  "pdf_path": "pdfs\\10000454_20260101_123432_ABBOTT INDIA STATAMENT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 133.35400390625,
+      "y_max": 139.85400390625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.85400390625,
+      "y_max": 45.35400390625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 49.35400390625,
+      "y_max": 55.85400390625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 3,
+      "y_min": 38.85400390625,
+      "y_max": 45.35400390625,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=12"
+    },
+    {
+      "page_no": 4,
+      "y_min": 80.85400390625,
+      "y_max": 87.35400390625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 5,
+      "y_min": 17.85400390625,
+      "y_max": 34.85400390625,
+      "confidence": 0.5333333333333333,
+      "reason": "density=5.3 font_boost=1.0 top_score=1.00"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sale",
+        "Closing",
+        "Stock",
+        "Last",
+        "Month",
+        "REQUIREMENT",
+        "DUMP"
+      ],
+      "combined_confidence": 0.4259814814814815,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.7049074074074074,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Tot",
+        "Amount",
+        "Rs.",
+        "Rs.",
+        "35779.61",
+        "35779.61",
+        "Closing",
+        "Closing",
+        "Amount",
+        "Rs.",
+        "Rs.",
+        "20436.97",
+        "20436.97"
+      ],
+      "combined_confidence": 0.2161333333333333,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.75,
+      "data_validation_score": 0.6056666666666667,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Op",
+        "Amount",
+        "Rs.",
+        "52071.19",
+        "Sales",
+        "Amount",
+        "Rs.",
+        "37826.26",
+        "Requirement",
+        "Amount"
+      ],
+      "combined_confidence": 0.0,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.795,
+      "data_validation_score": 0.6459404761904761,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Tot",
+    "Sale",
+    "Closing",
+    "Stock",
+    "Last",
+    "Month",
+    "REQUIREMENT",
+    "DUMP"
+  ],
+  "confidence": 0.4259814814814815,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.85,
+    "data_validation_score": 0.7049074074074074,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "Packing",
+      "Opening",
+      "PURCHASE",
+      "Total",
+      "Sale",
+      "Closing",
+      "Stock",
+      "Last",
+      "Month",
+      "REQUIREMENT",
+      "DUMP"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Tot",
+      "Sale",
+      "Closing",
+      "Stock",
+      "Last",
+      "Month",
+      "REQUIREMENT",
+      "DUMP"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "Name"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=12"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.4259814814814815,
+      "evidence_scores": {
+        "keyword_score": 0.6923076923076923,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7049074074074074,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.7659704415954417,
+      "evidence_before_penalties": 0.7659704415954417
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sale",
+          "Closing",
+          "Stock",
+          "Last",
+          "Month",
+          "REQUIREMENT",
+          "DUMP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8259814814814815
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Tot",
+          "Amount",
+          "Rs.",
+          "Rs.",
+          "35779.61",
+          "35779.61",
+          "Closing",
+          "Closing",
+          "Amount",
+          "Rs.",
+          "Rs.",
+          "20436.97",
+          "20436.97"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7661333333333333
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ABBOTT",
+          "INDIA",
+          "INDIA",
+          "LTD",
+          "(Vertin)",
+          "(Vertin)"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.73916
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Op",
+          "Amount",
+          "Rs.",
+          "52071.19",
+          "Sales",
+          "Amount",
+          "Rs.",
+          "37826.26",
+          "Requirement",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7981880952380953
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "HUM-INSULATARD",
+          "INJ",
+          "10Ml",
+          "1525.11",
+          "1451.1",
+          "0.000"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7358173635307783
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=6 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=6 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "all_filtered_noise",
+        "noise_removed": [
+          "----------------------------------------------------------------------------------------------------------------------------------- OUR SOFTWARE !!MARG!!NO:9538897112,3,4"
+        ]
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Tot",
+      "Sale",
+      "Closing",
+      "Stock",
+      "Last",
+      "Month",
+      "REQUIREMENT",
+      "DUMP"
+    ]
+  }
+}

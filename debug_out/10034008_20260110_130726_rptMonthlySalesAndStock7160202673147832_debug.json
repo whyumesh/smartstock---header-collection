@@ -1,0 +1,110 @@
+{
+  "pdf_path": "pdfs\\10034008_20260110_130726_rptMonthlySalesAndStock7160202673147832.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=18"
+    },
+    {
+      "page_no": 1,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=6"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "1377.40",
+          "1377.40",
+          "2171.52",
+          "2171.52",
+          "3846.71",
+          "3846.71",
+          "3691.68",
+          "3691.68",
+          "17472.14",
+          "17472.14",
+          "25520.95",
+          "25520.95",
+          "79691.04",
+          "79691.04",
+          "5889.20",
+          "5889.20",
+          "47819.78",
+          "47819.78",
+          "4814.60",
+          "4814.60",
+          "20390.65",
+          "20390.65",
+          "1806.60",
+          "1806.60",
+          "2017.90",
+          "2017.90",
+          "68960.32",
+          "68960.32",
+          "22481.00",
+          "77660.32"
+        ],
+        "data_column_count_detected": 28,
+        "combined_confidence": 0.7101573720397251
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "68178.30",
+          "68178.30",
+          "4424.42",
+          "4424.42",
+          "35246.24",
+          "35246.24",
+          "12426.12",
+          "12426.12"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.6948566798620276
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=34 data=28 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=34 data=28 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=12 data=15 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=15 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

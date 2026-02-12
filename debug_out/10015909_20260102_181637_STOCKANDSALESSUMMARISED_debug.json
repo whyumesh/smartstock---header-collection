@@ -1,0 +1,339 @@
+{
+  "pdf_path": "pdfs\\10015909_20260102_181637_STOCKANDSALESSUMMARISED.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 94.14997863769531,
+      "y_max": 103.49998474121094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 1,
+      "y_min": 94.14997863769531,
+      "y_max": 103.49998474121094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 2,
+      "y_min": 94.14997863769531,
+      "y_max": 103.49998474121094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 3,
+      "y_min": 94.14997863769531,
+      "y_max": 103.49998474121094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 4,
+      "y_min": 94.14997863769531,
+      "y_max": 103.49998474121094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    },
+    {
+      "page_no": 5,
+      "y_min": 94.14997863769531,
+      "y_max": 103.49998474121094,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=12"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sale",
+        "Closing",
+        "Amount",
+        "Sale",
+        "Amount",
+        "Closing",
+        "Amount"
+      ],
+      "combined_confidence": 0.30327450980392157,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.9833333333333334,
+      "data_validation_score": 0.7080392156862745,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sale",
+        "Closing",
+        "Amount",
+        "Sale",
+        "Amount",
+        "Closing",
+        "Amount"
+      ],
+      "combined_confidence": 0.2929295051353875,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.9833333333333334,
+      "data_validation_score": 0.6563141923436041,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Tot",
+    "Sale",
+    "Closing",
+    "Amount",
+    "Sale",
+    "Amount",
+    "Closing",
+    "Amount"
+  ],
+  "confidence": 0.9032745098039215,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.9833333333333334,
+    "data_validation_score": 0.7080392156862745,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Tot",
+      "Sale",
+      "Closing",
+      "Amount",
+      "Sale",
+      "Amount",
+      "Closing",
+      "Amount"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sale",
+        "Closing",
+        "Amount",
+        "Sale",
+        "Amount",
+        "Closing",
+        "Amount"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Tot",
+        "Sale",
+        "Closing",
+        "Amount",
+        "Sale",
+        "Amount",
+        "Closing",
+        "Amount"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sale",
+          "Closing",
+          "Amount",
+          "Sale",
+          "Amount",
+          "Closing",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8532745098039216
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sale",
+          "Closing",
+          "Amount",
+          "Sale",
+          "Amount",
+          "Closing",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8458556931544547
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sale",
+          "Closing",
+          "Amount",
+          "Sale",
+          "Amount",
+          "Closing",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8626633986928105
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sale",
+          "Closing",
+          "Amount",
+          "Sale",
+          "Amount",
+          "Closing",
+          "Amount"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8429295051353876
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sale",
+          "Closing",
+          "Amount",
+          "Sale",
+          "Amount",
+          "Closing",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8447058823529412
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Tot",
+          "Sale",
+          "Closing",
+          "Amount",
+          "Sale",
+          "Amount",
+          "Closing",
+          "Amount"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8520235638114895
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=12 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=10 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=12 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=10 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=12 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=10 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=12 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=10 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Tot",
+      "Sale",
+      "Closing",
+      "Amount",
+      "Sale",
+      "Amount",
+      "Closing",
+      "Amount"
+    ],
+    "data_column_count_detected": 11,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "pdf_path": "pdfs\\10014717_20260101_131539_ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 74.63302612304688,
+      "y_max": 84.30773162841797,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 38.77004623413086,
+      "y_max": 48.44475555419922,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 62.67904281616211,
+      "y_max": 72.35375213623047,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "Op",
+        "Amount",
+        "61,692.22",
+        "Purchase",
+        "Amount",
+        "53,606.49"
+      ],
+      "combined_confidence": 0.08633333333333332,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.6316666666666667,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "Op",
+    "Amount",
+    "61,692.22",
+    "Purchase",
+    "Amount",
+    "53,606.49"
+  ],
+  "confidence": 0.08633333333333332,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.85,
+    "data_validation_score": 0.6316666666666667,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "OPENING",
+      "VALUE",
+      "61,692.22",
+      "PURCHASE",
+      "VALUE",
+      "53,606.49"
+    ],
+    "normalized": [
+      "Op",
+      "Amount",
+      "61,692.22",
+      "Purchase",
+      "Amount",
+      "53,606.49"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      ":",
+      ":"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=6 data=6"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.3,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.08633333333333332,
+      "evidence_scores": {
+        "keyword_score": 0.6666666666666666,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6316666666666667,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.7579166666666667,
+      "evidence_before_penalties": 0.7579166666666667
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7898192635118261
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7915471549323542
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Op",
+          "Amount",
+          "61,692.22",
+          "Purchase",
+          "Amount",
+          "53,606.49"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7863333333333333
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Op",
+      "Amount",
+      "61,692.22",
+      "Purchase",
+      "Amount",
+      "53,606.49"
+    ]
+  }
+}

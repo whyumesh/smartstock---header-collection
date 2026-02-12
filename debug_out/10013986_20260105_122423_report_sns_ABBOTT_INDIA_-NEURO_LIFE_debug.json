@@ -1,0 +1,92 @@
+{
+  "pdf_path": "pdfs\\10013986_20260105_122423_report_sns_ABBOTT_INDIA_-NEURO_LIFE.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 160.77870178222656,
+      "y_max": 172.6787109375,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=15"
+    },
+    {
+      "page_no": 1,
+      "y_min": 77.36314392089844,
+      "y_max": 89.26314544677734,
+      "confidence": 0.9,
+      "reason": "header_keywords=15 tokens=17"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Dec",
+          "Sa",
+          "Nov",
+          "Sa",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl Val",
+          "NE"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.822710463449594
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Dec",
+          "Sa",
+          "Nov",
+          "Sa",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl Val",
+          "NE"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8062857142857143
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=9 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=9 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=14 data=4 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=4 diff=10"
+          }
+        }
+      }
+    ]
+  }
+}

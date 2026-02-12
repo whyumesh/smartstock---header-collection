@@ -1,0 +1,1120 @@
+{
+  "pdf_path": "pdfsamples\\10000365_20260101_083110_001407_.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 1,
+      "y_min": 37.18632507324219,
+      "y_max": 138.24398803710938,
+      "confidence": 0.5540089426818483,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.94; separator_below"
+    },
+    {
+      "page_no": 2,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 37.18632507324219,
+      "y_max": 166.74398803710938,
+      "confidence": 0.5021422087828618,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.86; separator_below"
+    },
+    {
+      "page_no": 4,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 5,
+      "y_min": 37.18632507324219,
+      "y_max": 166.74398803710938,
+      "confidence": 0.49771493585945886,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.85; separator_below"
+    },
+    {
+      "page_no": 6,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 7,
+      "y_min": 37.18632507324219,
+      "y_max": 166.74398803710938,
+      "confidence": 0.5097943320730274,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.87; separator_below"
+    },
+    {
+      "page_no": 8,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 9,
+      "y_min": 37.18632507324219,
+      "y_max": 166.74398803710938,
+      "confidence": 0.48730621253227896,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.83; separator_below"
+    },
+    {
+      "page_no": 10,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 11,
+      "y_min": 37.18632507324219,
+      "y_max": 166.74398803710938,
+      "confidence": 0.48113159781110343,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.82; separator_below"
+    },
+    {
+      "page_no": 12,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 13,
+      "y_min": 37.18632507324219,
+      "y_max": 166.74398803710938,
+      "confidence": 0.5021422087828618,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.86; separator_below"
+    },
+    {
+      "page_no": 14,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 15,
+      "y_min": 37.18632507324219,
+      "y_max": 166.74398803710938,
+      "confidence": 0.5302311080464392,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.90; separator_below"
+    },
+    {
+      "page_no": 16,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 17,
+      "y_min": 37.18632507324219,
+      "y_max": 166.74398803710938,
+      "confidence": 0.4462202141773498,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.76; separator_below"
+    },
+    {
+      "page_no": 18,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 19,
+      "y_min": 37.18632507324219,
+      "y_max": 166.74398803710938,
+      "confidence": 0.5131233254114371,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.87; separator_below"
+    },
+    {
+      "page_no": 20,
+      "y_min": 82.0621109008789,
+      "y_max": 91.18171691894531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=14"
+    },
+    {
+      "page_no": 21,
+      "y_min": 37.18632507324219,
+      "y_max": 166.74398803710938,
+      "confidence": 0.5540656277682137,
+      "reason": "density=5.3 font_boost=1.0 top_score=0.94; separator_below"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.4609036877909059,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.7142857142857143,
+      "data_validation_score": 0.7402327246688148,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.45441142171154186,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.7142857142857143,
+      "data_validation_score": 0.7077713942719945,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.45454592928080323,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.7142857142857143,
+      "data_validation_score": 0.7084439321183018,
+      "data_column_count_detected": 11
+    },
+    {
+      "page_no": 6,
+      "headers": [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.4603448242933537,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.7142857142857143,
+      "data_validation_score": 0.7374384071810542,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 8,
+      "headers": [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.45032942057942066,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.7142857142857143,
+      "data_validation_score": 0.6873613886113886,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 10,
+      "headers": [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.453657770800628,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.7142857142857143,
+      "data_validation_score": 0.7040031397174255,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 12,
+      "headers": [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.4600205582232893,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.7142857142857143,
+      "data_validation_score": 0.7358170768307323,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 14,
+      "headers": [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.458354066985646,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.7142857142857143,
+      "data_validation_score": 0.7274846206425154,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 16,
+      "headers": [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.44854870129870134,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.7142857142857143,
+      "data_validation_score": 0.6784577922077922,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 18,
+      "headers": [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.4548107769423559,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.7142857142857143,
+      "data_validation_score": 0.7097681704260651,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 20,
+      "headers": [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      "combined_confidence": 0.4550571428571429,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.98,
+      "semantic_score": 0.7142857142857143,
+      "data_validation_score": 0.7110000000000001,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Nov",
+    "Oct",
+    "Op",
+    "Purchase",
+    "SP",
+    "Sale",
+    "SS",
+    "Br",
+    "Cr",
+    "Db",
+    "Adj",
+    "Bal.",
+    "BVal"
+  ],
+  "confidence": 0.8609036877909059,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.98,
+    "semantic_score": 0.7142857142857143,
+    "data_validation_score": 0.7402327246688148,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Nov",
+      "Oct",
+      "Op",
+      "Purchase",
+      "SP",
+      "Sale",
+      "SS",
+      "Br",
+      "Cr",
+      "Db",
+      "Adj",
+      "Bal.",
+      "BVal"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ],
+      [
+        "Product Name",
+        "Nov",
+        "Oct",
+        "Op",
+        "Purchase",
+        "SP",
+        "Sale",
+        "SS",
+        "Br",
+        "Cr",
+        "Db",
+        "Adj",
+        "Bal.",
+        "BVal"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8109036877909059
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "SVal ) 593 2863",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6465788640229526
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8044114217115419
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "SVal 1587 1742 4384 21405",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6213926950528583
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8045459292808033
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "SVal 0 554 14341 0",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6198937689298998
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8103448242933537
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "SVal 0 16801 71 9048",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6239307258753998
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Product Name",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8003294205794207
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "SVal 0 15495 18096 9251",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6162659470724637
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Product Name",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8036577708006281
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "SVal 9560 16277 20636 22169",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6140328994527758
+      },
+      {
+        "page_no": 12,
+        "headers": [
+          "Product Name",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8100205582232893
+      },
+      {
+        "page_no": 13,
+        "headers": [
+          "SVal 0 6786 1863 6105",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6213926950528583
+      },
+      {
+        "page_no": 14,
+        "headers": [
+          "Product Name",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.808354066985646
+      },
+      {
+        "page_no": 15,
+        "headers": [
+          "SVal 0 0 21821 510",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6304441406479735
+      },
+      {
+        "page_no": 16,
+        "headers": [
+          "Product Name",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7985487012987014
+      },
+      {
+        "page_no": 17,
+        "headers": [
+          "SVal 4910 1012",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.5995550535443375
+      },
+      {
+        "page_no": 18,
+        "headers": [
+          "Product Name",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8048107769423559
+      },
+      {
+        "page_no": 19,
+        "headers": [
+          "SVal 0 247 12545 38816",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6250308313528593
+      },
+      {
+        "page_no": 20,
+        "headers": [
+          "Product Name",
+          "Nov",
+          "Oct",
+          "Op",
+          "Purchase",
+          "SP",
+          "Sale",
+          "SS",
+          "Br",
+          "Cr",
+          "Db",
+          "Adj",
+          "Bal.",
+          "BVal"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8050571428571429
+      },
+      {
+        "page_no": 21,
+        "headers": [
+          "SVal 0 0 131 1370",
+          "Order"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.6376830736087201
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "too_few_columns: 2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "too_few_columns"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "too_few_columns: 2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "too_few_columns"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "too_few_columns: 2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "too_few_columns"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "too_few_columns: 2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "too_few_columns"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "too_few_columns: 2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "too_few_columns"
+          }
+        }
+      },
+      {
+        "page_no": 11,
+        "reason": "too_few_columns: 2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "too_few_columns"
+          }
+        }
+      },
+      {
+        "page_no": 13,
+        "reason": "too_few_columns: 2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "too_few_columns"
+          }
+        }
+      },
+      {
+        "page_no": 15,
+        "reason": "too_few_columns: 2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "too_few_columns"
+          }
+        }
+      },
+      {
+        "page_no": 17,
+        "reason": "too_few_columns: 2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "too_few_columns"
+          }
+        }
+      },
+      {
+        "page_no": 19,
+        "reason": "too_few_columns: 2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "too_few_columns"
+          }
+        }
+      },
+      {
+        "page_no": 21,
+        "reason": "too_few_columns: 2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "too_few_columns"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Nov",
+      "Oct",
+      "Op",
+      "Purchase",
+      "SP",
+      "Sale",
+      "SS",
+      "Br",
+      "Cr",
+      "Db",
+      "Adj",
+      "Bal.",
+      "BVal"
+    ],
+    "data_column_count_detected": 10,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

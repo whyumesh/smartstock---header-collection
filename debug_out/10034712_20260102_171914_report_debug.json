@@ -1,0 +1,413 @@
+{
+  "pdf_path": "pdfs\\10034712_20260102_171914_report.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 49.698448181152344,
+      "y_max": 59.8984489440918,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 132.97349548339844,
+      "y_max": 144.87350463867188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 132.97349548339844,
+      "y_max": 144.87350463867188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 3,
+      "y_min": 132.97349548339844,
+      "y_max": 144.87350463867188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 4,
+      "y_min": 132.97349548339844,
+      "y_max": 144.87350463867188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 5,
+      "y_min": 132.97349548339844,
+      "y_max": 144.87350463867188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 6,
+      "y_min": 132.97349548339844,
+      "y_max": 144.87350463867188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=14"
+    },
+    {
+      "page_no": 7,
+      "y_min": 50.81367111206055,
+      "y_max": 64.4136734008789,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 6,
+      "headers": [
+        "Product Name",
+        "Unit",
+        "Op",
+        "Purchase",
+        "Purchase",
+        "Val",
+        "Sale",
+        "Sa",
+        "Val",
+        "Cl Qty",
+        "Cl Val"
+      ],
+      "combined_confidence": 0.4846871389480086,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.8818181818181817,
+      "data_validation_score": 0.7416175129218607,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Unit",
+    "Op",
+    "Purchase",
+    "Purchase",
+    "Val",
+    "Sale",
+    "Sa",
+    "Val",
+    "Cl Qty",
+    "Cl Val"
+  ],
+  "confidence": 0.4846871389480086,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.8818181818181817,
+    "data_validation_score": 0.7416175129218607,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "Unit",
+      "Op",
+      "Purc",
+      "Purc",
+      "val",
+      "Sale",
+      "Sa",
+      "val",
+      "Cl Qty",
+      "Cl Val"
+    ],
+    "normalized": [
+      "Product Name",
+      "Unit",
+      "Op",
+      "Purchase",
+      "Purchase",
+      "Val",
+      "Sale",
+      "Sa",
+      "Val",
+      "Cl Qty",
+      "Cl Val"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "name"
+        ],
+        "into": "Product Name"
+      },
+      {
+        "merged": [
+          "Cl",
+          "qty"
+        ],
+        "into": "Cl Qty"
+      },
+      {
+        "merged": [
+          "Cl",
+          "val"
+        ],
+        "into": "Cl Val"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=10"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.4846871389480086,
+      "evidence_scores": {
+        "keyword_score": 0.9285714285714286,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7416175129218607,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.125
+      },
+      "evidence_total": 0.7675472353733223,
+      "evidence_before_penalties": 0.7675472353733223
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Op",
+          "NO.1",
+          "BASEMENT",
+          "FLOOR,",
+          "Near",
+          "CH.SHIVAJI",
+          "MAHARAJ",
+          "STATUE",
+          "JAFRABAD",
+          "ROAD",
+          "BHOKARDAN",
+          "TALUKA",
+          "-Bhokardan",
+          "DIST"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8012428073179952
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Val",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl Val"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.833255485893417
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Val",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl Val"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8220000000000001
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Val",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl Val"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8225950413223141
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Val",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl Val"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8328489736070381
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Val",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl Val"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.833309090909091
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Val",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl Val"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8346871389480086
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Stock",
+          "And",
+          "Sales",
+          "Companies:",
+          "ABBOTT",
+          "HEALTHCARE",
+          "ACUITE",
+          "CARE,",
+          "ABBOTT",
+          "HEALTHCARE"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7650857142857143
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=4 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=4 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=11 data=9 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=9 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=11 data=9 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=9 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=11 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=8 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=10 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=8 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Unit",
+      "Op",
+      "Purchase",
+      "Purchase",
+      "Val",
+      "Sale",
+      "Sa",
+      "Val",
+      "Cl Qty",
+      "Cl Val"
+    ]
+  }
+}

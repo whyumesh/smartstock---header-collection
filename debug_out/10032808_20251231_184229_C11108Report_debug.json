@@ -1,0 +1,180 @@
+{
+  "pdf_path": "pdfs\\10032808_20251231_184229_C11108Report.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 178.61199951171875,
+      "y_max": 189.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "No",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Free Quantity",
+        "Nov",
+        "Sale",
+        "Free Quantity",
+        "SRet",
+        "Repl",
+        "CurStk",
+        "Stk.Value",
+        "SalVal",
+        "Exp",
+        "Rate"
+      ],
+      "combined_confidence": 0.4827337662337662,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.828125,
+      "data_validation_score": 0.6855438311688311,
+      "data_column_count_detected": 16
+    }
+  ],
+  "final_selected_header": [
+    "No",
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Free Quantity",
+    "Nov",
+    "Sale",
+    "Free Quantity",
+    "SRet",
+    "Repl",
+    "CurStk",
+    "Stk.Value",
+    "SalVal",
+    "Exp",
+    "Rate"
+  ],
+  "confidence": 0.4827337662337662,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.828125,
+    "data_validation_score": 0.6855438311688311,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Opstk",
+      "Pur",
+      "PFree",
+      "Nov",
+      "Sale",
+      "SFree",
+      "SRet",
+      "Repl",
+      "CurStk",
+      "StkVal",
+      "SalVal",
+      "Exp",
+      "Rate"
+    ],
+    "normalized": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Free Quantity",
+      "Nov",
+      "Sale",
+      "Free Quantity",
+      "SRet",
+      "Repl",
+      "CurStk",
+      "Stk.Value",
+      "SalVal",
+      "Exp",
+      "Rate"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "Name"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 16,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=16 data=16"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.4827337662337662,
+      "evidence_scores": {
+        "keyword_score": 0.6842105263157895,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.6855438311688311,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8424385893711551,
+      "evidence_before_penalties": 0.8424385893711551
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "No",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Free Quantity",
+          "Nov",
+          "Sale",
+          "Free Quantity",
+          "SRet",
+          "Repl",
+          "CurStk",
+          "Stk.Value",
+          "SalVal",
+          "Exp",
+          "Rate"
+        ],
+        "data_column_count_detected": 16,
+        "combined_confidence": 0.8827337662337662
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Free Quantity",
+      "Nov",
+      "Sale",
+      "Free Quantity",
+      "SRet",
+      "Repl",
+      "CurStk",
+      "Stk.Value",
+      "SalVal",
+      "Exp",
+      "Rate"
+    ]
+  }
+}

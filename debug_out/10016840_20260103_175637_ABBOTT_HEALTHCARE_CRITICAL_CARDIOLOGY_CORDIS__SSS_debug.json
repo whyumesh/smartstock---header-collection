@@ -1,0 +1,55 @@
+{
+  "pdf_path": "pdfs\\10016840_20260103_175637_ABBOTT HEALTHCARE(CRITICAL,CARDIOLOGY,CORDIS) SSS.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 78.9476089477539,
+      "y_max": 86.02082061767578,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "S.Ret",
+          "Sales",
+          "Free Quantity",
+          "P.Ret",
+          "Repl.",
+          "Cl",
+          "Sales",
+          "Amt",
+          "Stock",
+          "Amt"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.9043555555555556
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=13 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

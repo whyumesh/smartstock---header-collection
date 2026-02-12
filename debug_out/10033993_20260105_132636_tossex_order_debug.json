@@ -1,0 +1,48 @@
+{
+  "pdf_path": "pdfs\\10033993_20260105_132636_tossex order.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 78.71376037597656,
+      "y_max": 91.69824981689453,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=9"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "2Nd",
+          "Floor,",
+          "Kashiba",
+          "Complex,",
+          "Gole",
+          "Colony,",
+          "Nashik",
+          "-"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.7479374999999999
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=8 data=2 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=2 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

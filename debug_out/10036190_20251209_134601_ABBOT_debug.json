@@ -1,0 +1,196 @@
+{
+  "pdf_path": "pdfs\\10036190_20251209_134601_ABBOT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 83.02920532226562,
+      "y_max": 91.04408264160156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 14.869209289550781,
+      "y_max": 22.884082794189453,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "No",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sep",
+        "Oct",
+        "Sale",
+        "Free Quantity",
+        "Repl",
+        "CurStk",
+        "Stk.Value",
+        "SalVal"
+      ],
+      "combined_confidence": 0.42400000000000004,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.7923076923076924,
+      "data_validation_score": 0.7276923076923077,
+      "data_column_count_detected": 13
+    }
+  ],
+  "final_selected_header": [
+    "No",
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Sep",
+    "Oct",
+    "Sale",
+    "Free Quantity",
+    "Repl",
+    "CurStk",
+    "Stk.Value",
+    "SalVal"
+  ],
+  "confidence": 0.42400000000000004,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.7923076923076924,
+    "data_validation_score": 0.7276923076923077,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Opstk",
+      "Pur",
+      "Sep",
+      "Oct",
+      "Sale",
+      "SFree",
+      "Repl",
+      "CurStk",
+      "StkVal",
+      "SalVal"
+    ],
+    "normalized": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Sep",
+      "Oct",
+      "Sale",
+      "Free Quantity",
+      "Repl",
+      "CurStk",
+      "Stk.Value",
+      "SalVal"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "Name"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 13,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=13"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.42400000000000004,
+      "evidence_scores": {
+        "keyword_score": 0.6666666666666666,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7276923076923077,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7985897435897437,
+      "evidence_before_penalties": 0.7985897435897437
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "No",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sep",
+          "Oct",
+          "Sale",
+          "Free Quantity",
+          "Repl",
+          "CurStk",
+          "Stk.Value",
+          "SalVal"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8240000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Batch No",
+          "Quantity",
+          "Expiry Date",
+          "Product Name",
+          "Pack",
+          "Batch No",
+          "Quantity"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7624285714285715
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=5 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=5 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "No",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Sep",
+      "Oct",
+      "Sale",
+      "Free Quantity",
+      "Repl",
+      "CurStk",
+      "Stk.Value",
+      "SalVal"
+    ]
+  }
+}

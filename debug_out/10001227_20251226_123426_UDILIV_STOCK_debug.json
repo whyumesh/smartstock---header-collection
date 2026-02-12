@@ -1,0 +1,30 @@
+{
+  "pdf_path": "pdfs\\10001227_20251226_123426_UDILIV STOCK.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 61.55995178222656,
+      "y_max": 795.9573974609375,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "all_filtered_noise",
+        "noise_removed": [
+          "----------------------------------------------------------------------------------------------------------------------------------------",
+          "----------------------------------------------------------------------------------------------------------------------------------------"
+        ]
+      }
+    ]
+  }
+}

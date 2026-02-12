@@ -1,0 +1,53 @@
+{
+  "pdf_path": "pdfs\\10010805_20251201_175628_report.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.97349548339844,
+      "y_max": 144.87350463867188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=16"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Unit",
+          "Op",
+          "Op",
+          "Val",
+          "Purchase",
+          "Purchase",
+          "Val",
+          "Sale",
+          "Sa",
+          "Val",
+          "Cl Qty",
+          "Cl Val"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8848146853146853
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=9 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=9 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

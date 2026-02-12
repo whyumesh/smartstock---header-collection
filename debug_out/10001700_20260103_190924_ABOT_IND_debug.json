@@ -1,0 +1,187 @@
+{
+  "pdf_path": "pdfs\\10001700_20260103_190924_ABOT IND.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 195.0485076904297,
+      "y_max": 207.0545196533203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 79.11150360107422,
+      "y_max": 91.11750030517578,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Closing",
+        "Bala",
+        "Dump",
+        "Near",
+        "MSR"
+      ],
+      "combined_confidence": 0.4201666666666667,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7050000000000001,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "GRAND",
+        "Tot",
+        "156153.12"
+      ],
+      "combined_confidence": 0.2683333333333333,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.7166666666666667,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Receipt",
+    "Tot",
+    "Issue",
+    "Closing",
+    "Closing",
+    "Bala",
+    "Dump",
+    "Near",
+    "MSR"
+  ],
+  "confidence": 0.4201666666666667,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.8208333333333333,
+    "data_validation_score": 0.7050000000000001,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "PACKING",
+      "Op.Bal.",
+      "Receipt",
+      "Total",
+      "Issue",
+      "Closing",
+      "Closing",
+      "Bala",
+      "Dump",
+      "Near",
+      "MSR"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Tot",
+      "Issue",
+      "Closing",
+      "Closing",
+      "Bala",
+      "Dump",
+      "Near",
+      "MSR"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=12"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.4201666666666667,
+      "evidence_scores": {
+        "keyword_score": 0.6153846153846154,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7050000000000001,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7800961538461539,
+      "evidence_before_penalties": 0.7800961538461539
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Closing",
+          "Bala",
+          "Dump",
+          "Near",
+          "MSR"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8201666666666667
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "GRAND",
+          "Tot",
+          "156153.12"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.6683333333333333
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Tot",
+      "Issue",
+      "Closing",
+      "Closing",
+      "Bala",
+      "Dump",
+      "Near",
+      "MSR"
+    ]
+  }
+}

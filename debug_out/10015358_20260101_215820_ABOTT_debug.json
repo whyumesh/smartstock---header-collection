@@ -1,0 +1,454 @@
+{
+  "pdf_path": "pdfs\\10015358_20260101_215820_ABOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 121.4994125366211,
+      "y_max": 133.5054168701172,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 63.67259979248047,
+      "y_max": 75.67859649658203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 63.67259979248047,
+      "y_max": 75.67859649658203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 3,
+      "y_min": 63.67259979248047,
+      "y_max": 75.67859649658203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 4,
+      "y_min": 63.67259979248047,
+      "y_max": 75.67859649658203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 5,
+      "y_min": 63.67259979248047,
+      "y_max": 75.67859649658203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 6,
+      "y_min": 63.67259979248047,
+      "y_max": 75.67859649658203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 7,
+      "y_min": 63.67259979248047,
+      "y_max": 75.67859649658203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 8,
+      "y_min": 63.67259979248047,
+      "y_max": 75.67859649658203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Rate"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8673314285714286
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Rate"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8760400000000002
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Quantity",
+          "Rate",
+          "Amount",
+          "Quantity",
+          "Rate",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Rate"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8886769230769231
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Rate"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8722592592592593
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Rate"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8722592592592593
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Rate"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8780000000000001
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Quantity",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Rate"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8760400000000002
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Rate"
+        ],
+        "data_column_count_detected": 18,
+        "combined_confidence": 0.8759415384615385
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Amount",
+          "Amount",
+          "Rate"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8781666666666668
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=25 data=17 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=25 data=17 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=25 data=17 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=25 data=17 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=20 data=17 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=17 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=27 data=17 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=27 data=17 diff=10"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=27 data=18 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=27 data=18 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=24 data=17 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=24 data=17 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=25 data=17 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=25 data=17 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=25 data=18 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=25 data=18 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=24 data=17 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=24 data=17 diff=7"
+          }
+        }
+      }
+    ]
+  }
+}

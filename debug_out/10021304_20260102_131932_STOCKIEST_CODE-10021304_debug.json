@@ -1,0 +1,95 @@
+{
+  "pdf_path": "pdfs\\10021304_20260102_131932_STOCKIEST CODE-10021304.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 122.85400390625,
+      "y_max": 129.35400390625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 1,
+      "y_min": 59.85400390625,
+      "y_max": 66.35400390625,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Amount",
+          "Amount",
+          "RECIPEPT",
+          "RECIPEPT",
+          "Amount",
+          "Amount",
+          "ISSUE",
+          "ISSUE",
+          "Amount",
+          "Closing",
+          "Closing",
+          "Amount",
+          "Amount",
+          "Exp",
+          "Exp",
+          "DUMP",
+          "Amount"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8250451722190852
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stemetil",
+          "Inj",
+          "1Ml",
+          "963.50",
+          "1927.0",
+          "2038.2",
+          "963.50",
+          "0.00"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.7354545454545455
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=23 data=14 diff=9",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=23 data=14 diff=9"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=14 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=14 diff=6"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "pdf_path": "pdfs\\10022953_20260102_102700_ABBOT MON DEC.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 76.061767578125,
+      "y_max": 81.70891571044922,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Purchase",
+          "Purchase",
+          "Product Name",
+          "Product Name",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Sales",
+          "Sales",
+          "Cl",
+          "Amount",
+          "Amount",
+          "ILast",
+          "ILast"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8000666301637712
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=15 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=10 diff=5"
+          }
+        }
+      }
+    ]
+  }
+}

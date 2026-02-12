@@ -1,0 +1,168 @@
+{
+  "pdf_path": "pdfs\\10001937_20251219_183505_abbott 4.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 103.0071029663086,
+      "y_max": 111.36856079101562,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 20.566059112548828,
+      "y_max": 36.46725845336914,
+      "confidence": 0.4,
+      "reason": "density=4.0 font_boost=1.0 top_score=1.00"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Rcpt",
+        "Free Quantity",
+        "Quantity",
+        "Stk",
+        "Amount",
+        "Stock",
+        "Amount",
+        "Age"
+      ],
+      "combined_confidence": 0.278060606060606,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.868181818181818,
+      "data_validation_score": 0.7221212121212122,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Number:1/1",
+        "Number:1/1",
+        "--------------------------------------------------------------------------------------------------------",
+        "--------------------------------------------------------------------------------------------------------"
+      ],
+      "combined_confidence": 0.42333333333333334,
+      "visual_score": 0.4,
+      "reconstruction_score": 0.72,
+      "semantic_score": 0.55,
+      "data_validation_score": 0.6666666666666666,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "Number:1/1",
+    "Number:1/1",
+    "--------------------------------------------------------------------------------------------------------",
+    "--------------------------------------------------------------------------------------------------------"
+  ],
+  "confidence": 0.42333333333333334,
+  "confidence_breakdown": {
+    "visual_score": 0.4,
+    "reconstruction_score": 0.72,
+    "semantic_score": 0.55,
+    "data_validation_score": 0.6666666666666666,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Number:1/1",
+      "Number:1/1",
+      "--------------------------------------------------------------------------------------------------------",
+      "--------------------------------------------------------------------------------------------------------"
+    ],
+    "normalized": [
+      "Number:1/1",
+      "Number:1/1",
+      "--------------------------------------------------------------------------------------------------------",
+      "--------------------------------------------------------------------------------------------------------"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "-------------------------------------------------------------------------------------------------------- Page Number:1/1",
+        "into": "Number:1/1",
+        "interval_idx": 0
+      },
+      {
+        "split": "-------------------------------------------------------------------------------------------------------- Page Number:1/1",
+        "into": "Number:1/1",
+        "interval_idx": 1
+      },
+      {
+        "split": "-------------------------------------------------------------------------------------------------------- Page Number:1/1",
+        "into": "--------------------------------------------------------------------------------------------------------",
+        "interval_idx": 2
+      },
+      {
+        "split": "-------------------------------------------------------------------------------------------------------- Page Number:1/1",
+        "into": "--------------------------------------------------------------------------------------------------------",
+        "interval_idx": 3
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 5,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=4 data=5"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.42333333333333334,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6666666666666666,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.5541666666666667,
+      "evidence_before_penalties": 0.5541666666666667
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "Free Quantity",
+          "Quantity",
+          "Stk",
+          "Amount",
+          "Stock",
+          "Amount",
+          "Age"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.828060606060606
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Number:1/1",
+          "Number:1/1",
+          "--------------------------------------------------------------------------------------------------------",
+          "--------------------------------------------------------------------------------------------------------"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.5733333333333334
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Number:1/1",
+      "Number:1/1",
+      "--------------------------------------------------------------------------------------------------------",
+      "--------------------------------------------------------------------------------------------------------"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "pdf_path": "pdfs\\10017416_20251213_123752_A-8.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.82659149169922,
+      "y_max": 105.66621398925781,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 1,
+      "y_min": 20.368581771850586,
+      "y_max": 25.79441261291504,
+      "confidence": 0.9,
+      "reason": "header_keywords=5 tokens=13"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "Oct2025",
+          "Sales",
+          "Adj",
+          "Cl",
+          "Stock",
+          "Val",
+          "Amount",
+          "Order",
+          "Exp",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8552147852147853
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Op",
+          "237179.97",
+          "Sales",
+          "Val",
+          "-",
+          "Prv.Mth:",
+          "214627.48",
+          "Cur.Mth:",
+          "111616.66",
+          "Ord.Val:",
+          "0.00",
+          "Purchase",
+          "42268.52"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7779010989010988
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=13 data=5 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=5 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

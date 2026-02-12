@@ -1,0 +1,187 @@
+{
+  "pdf_path": "pdfs\\10015419_20260102_131932_NOVONORDISK.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 237.2039337158203,
+      "y_max": 247.8759307861328,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 182.77870178222656,
+      "y_max": 193.45069885253906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Rcpt",
+        "Oth",
+        "Tot",
+        "Issue",
+        "Issue",
+        "Tot",
+        "Closing"
+      ],
+      "combined_confidence": 0.25109090909090903,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.7863636363636364,
+      "data_validation_score": 0.6690909090909091,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Receipt",
+    "Rcpt",
+    "Oth",
+    "Tot",
+    "Issue",
+    "Issue",
+    "Tot",
+    "Closing"
+  ],
+  "confidence": 0.25109090909090903,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.7863636363636364,
+    "data_validation_score": 0.6690909090909091,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Product Name",
+      "PACKING",
+      "Op.Bal.",
+      "Receipt",
+      "Rcpt",
+      "Oth",
+      "Total",
+      "Issue",
+      "Issue",
+      "Ot",
+      "Closing"
+    ],
+    "normalized": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Rcpt",
+      "Oth",
+      "Tot",
+      "Issue",
+      "Issue",
+      "Tot",
+      "Closing"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=10"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.25109090909090903,
+      "evidence_scores": {
+        "keyword_score": 0.5833333333333334,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6690909090909091,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7006060606060607,
+      "evidence_before_penalties": 0.7006060606060607
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Rcpt",
+          "Oth",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Tot",
+          "Closing"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8010909090909091
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Rcpt",
+          "Oth",
+          "Tot",
+          "Issue",
+          "Issue",
+          "Tot",
+          "Closing"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.7956363636363636
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=11 data=7 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=7 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Rcpt",
+      "Oth",
+      "Tot",
+      "Issue",
+      "Issue",
+      "Tot",
+      "Closing"
+    ]
+  }
+}

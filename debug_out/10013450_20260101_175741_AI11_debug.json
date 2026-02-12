@@ -1,0 +1,124 @@
+{
+  "pdf_path": "pdfs\\10013450_20260101_175741_AI11.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 38.510009765625,
+      "y_max": 47.610008239746094,
+      "confidence": 0.9,
+      "reason": "header_keywords=6 tokens=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "GSETHI",
+        "PHARMA",
+        "DISTRIBUTORS",
+        "PVT",
+        ".Ltd",
+        "Purchase",
+        "Order"
+      ],
+      "combined_confidence": 0.29368012422360246,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.7071428571428572,
+      "data_validation_score": 0.7362577639751553,
+      "data_column_count_detected": 6
+    }
+  ],
+  "final_selected_header": [
+    "GSETHI",
+    "PHARMA",
+    "DISTRIBUTORS",
+    "PVT",
+    ".Ltd",
+    "Purchase",
+    "Order"
+  ],
+  "confidence": 0.29368012422360246,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.9199999999999999,
+    "semantic_score": 0.7071428571428572,
+    "data_validation_score": 0.7362577639751553,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "GSETHI",
+      "PHARMA",
+      "DISTRIBUTORS",
+      "PVT",
+      ".LTD",
+      "GPURCHASE",
+      "ORDER"
+    ],
+    "normalized": [
+      "GSETHI",
+      "PHARMA",
+      "DISTRIBUTORS",
+      "PVT",
+      ".Ltd",
+      "Purchase",
+      "Order"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "M",
+      ".",
+      "H",
+      "H"
+    ],
+    "data_column_count_detected": 6,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=6"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.29368012422360246,
+      "evidence_scores": {
+        "keyword_score": 0.2857142857142857,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7362577639751553,
+        "lexical_purity_score": 0.68,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.6449930124223602,
+      "evidence_before_penalties": 0.6449930124223602
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "GSETHI",
+          "PHARMA",
+          "DISTRIBUTORS",
+          "PVT",
+          ".Ltd",
+          "Purchase",
+          "Order"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.8436801242236025
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "GSETHI",
+      "PHARMA",
+      "DISTRIBUTORS",
+      "PVT",
+      ".Ltd",
+      "Purchase",
+      "Order"
+    ]
+  }
+}

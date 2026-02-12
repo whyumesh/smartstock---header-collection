@@ -1,0 +1,551 @@
+{
+  "pdf_path": "pdfs\\10034539_20251204_112137_AHPL NOVEMBER.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 59.23797607421875,
+      "y_max": 70.93797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 2,
+      "y_min": 48.73797607421875,
+      "y_max": 60.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    },
+    {
+      "page_no": 3,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 195.73800659179688,
+      "y_max": 207.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=11"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 6,
+      "y_min": 174.73800659179688,
+      "y_max": 186.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    },
+    {
+      "page_no": 7,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 8,
+      "y_min": 195.73800659179688,
+      "y_max": 207.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=11"
+    },
+    {
+      "page_no": 9,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=16"
+    },
+    {
+      "page_no": 10,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=14"
+    },
+    {
+      "page_no": 11,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=15"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 11,
+      "headers": [
+        "Finecef",
+        "500Mg.",
+        "Inj.",
+        "1*1",
+        "28277.76",
+        "14212.52",
+        "-",
+        "0.00",
+        "42490.28",
+        "-"
+      ],
+      "combined_confidence": 0.32924999999999993,
+      "visual_score": 0.7,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.58,
+      "data_validation_score": 0.69125,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Finecef",
+    "500Mg.",
+    "Inj.",
+    "1*1",
+    "28277.76",
+    "14212.52",
+    "-",
+    "0.00",
+    "42490.28",
+    "-"
+  ],
+  "confidence": 0.32924999999999993,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.58,
+    "data_validation_score": 0.69125,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Finecef",
+      "500mg.",
+      "Inj.",
+      "1*1",
+      "28277.76",
+      "14212.52",
+      "-",
+      "0.00",
+      "42490.28",
+      "-"
+    ],
+    "normalized": [
+      "Finecef",
+      "500Mg.",
+      "Inj.",
+      "1*1",
+      "28277.76",
+      "14212.52",
+      "-",
+      "0.00",
+      "42490.28",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "768",
+      "386",
+      "1154",
+      "0",
+      "0"
+    ],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=10"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.32924999999999993,
+      "evidence_scores": {
+        "keyword_score": 0.25,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.69125,
+        "lexical_purity_score": 0.4,
+        "multi_page_presence_score": 0.08333333333333333
+      },
+      "evidence_total": 0.5536458333333334,
+      "evidence_before_penalties": 0.5536458333333334
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8471025641025642
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Tyza",
+          "Cream",
+          "1*10Gm.",
+          "468.48",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "468.48"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.708205982905983
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Tot",
+          "113271.56",
+          "81503.75",
+          "81503.75",
+          "83250.80",
+          "83250.80",
+          "119850.17",
+          "119850.17",
+          "0K",
+          "0K"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6800629337134159
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "OCT",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8495372405372406
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "OCT",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8436410256410257
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "ABBOTT",
+          "HEALTHCARE",
+          "HEALTHCARE",
+          "HEALTHCARE",
+          "(Novocare)"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.67186
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Rejoint",
+          "UC",
+          "Cap.",
+          "1*10Cap.",
+          "2044.68",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "2044.68"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7355283791208791
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "OCT",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.841172932330827
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "OCT",
+          "OCT",
+          "Exp"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8361983805668016
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "Eptoin",
+          "ER",
+          "Tab.",
+          "1*30Tab.",
+          "11542.40",
+          "-",
+          "0.00",
+          "6252.09",
+          "5915.48",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7152189911792773
+      },
+      {
+        "page_no": 10,
+        "headers": [
+          "Human",
+          "Insulatard",
+          "1*10Ml",
+          "267.00",
+          "1335.00",
+          "-",
+          "0.00",
+          "1602.00"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7049907814407815
+      },
+      {
+        "page_no": 11,
+        "headers": [
+          "Finecef",
+          "500Mg.",
+          "Inj.",
+          "1*1",
+          "28277.76",
+          "14212.52",
+          "-",
+          "0.00",
+          "42490.28",
+          "-"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.72925
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=18 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=12 diff=6"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=5 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=19 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=19 data=12 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=12 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 10,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Finecef",
+      "500Mg.",
+      "Inj.",
+      "1*1",
+      "28277.76",
+      "14212.52",
+      "-",
+      "0.00",
+      "42490.28",
+      "-"
+    ]
+  }
+}

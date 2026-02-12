@@ -1,0 +1,160 @@
+{
+  "pdf_path": "pdfs\\10029050_20260101_125012_ABBOTT GI PRIMA.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.632080078125,
+      "y_max": 103.05783081054688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "PenOr",
+        "Ord",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Rcpt",
+        "Sales",
+        "Free Quantity",
+        "Amount",
+        "Cl",
+        "StkVl(Cst)",
+        "Age",
+        "Exp"
+      ],
+      "combined_confidence": 0.0,
+      "visual_score": 0.92,
+      "reconstruction_score": 1.0,
+      "semantic_score": 0.8307692307692307,
+      "data_validation_score": 0.6992806637806638,
+      "data_column_count_detected": 14
+    }
+  ],
+  "final_selected_header": [
+    "PenOr",
+    "Ord",
+    "Product Name",
+    "Pack",
+    "Op",
+    "Rcpt",
+    "Sales",
+    "Free Quantity",
+    "Amount",
+    "Cl",
+    "StkVl(Cst)",
+    "Age",
+    "Exp"
+  ],
+  "confidence": 0.0,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 1.0,
+    "semantic_score": 0.8307692307692307,
+    "data_validation_score": 0.6992806637806638,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "PenOr",
+      "ord",
+      "ProductName",
+      "Pack",
+      "OpStk",
+      "Rcpt",
+      "Sales",
+      "Free",
+      "SaleValue",
+      "Cl.Stk",
+      "StkVl(Cst)",
+      "Age",
+      "Exp"
+    ],
+    "normalized": [
+      "PenOr",
+      "Ord",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Rcpt",
+      "Sales",
+      "Free Quantity",
+      "Amount",
+      "Cl",
+      "StkVl(Cst)",
+      "Age",
+      "Exp"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "0925",
+      "1025",
+      "1125"
+    ],
+    "data_column_count_detected": 14,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=13 data=14"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.0,
+      "evidence_scores": {
+        "keyword_score": 0.6666666666666666,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6992806637806638,
+        "lexical_purity_score": 0.96,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.7229868326118326,
+      "evidence_before_penalties": 0.7229868326118326
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "PenOr",
+          "Ord",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "Sales",
+          "Free Quantity",
+          "Amount",
+          "Cl",
+          "StkVl(Cst)",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 14,
+        "combined_confidence": 0.8360099789099789
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "PenOr",
+      "Ord",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Rcpt",
+      "Sales",
+      "Free Quantity",
+      "Amount",
+      "Cl",
+      "StkVl(Cst)",
+      "Age",
+      "Exp"
+    ]
+  }
+}

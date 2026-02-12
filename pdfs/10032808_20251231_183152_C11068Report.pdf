@@ -1,0 +1,136 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                                                            ) Tj
+T* (                                   SOL PHARMA                                                                                     ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                               PALAKKAD. - 678001                                                                                 ) Tj
+T* (                                                                                                                                            ) Tj
+T* (Stock & Sales Report From 01/12/2025 To 31/12/2025                                                                               ) Tj
+T* (Company Name : ABBOTT CARDIAC - .                                                                                                           ) Tj
+T* (============================================================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur PFree   Nov      Sale     SFree SRet    Repl CurStk    StkVal    SalVal Exp     Rate ) Tj
+T* (============================================================================================================================================) Tj
+T* (1   IVABID TAB                10`S       28         -     -    15        28         -    -       -      0         -   8871.78   -   296.06 ) Tj
+T* (2   STATOR 10 MG TAB          15`S       92         -     -    41        32         -    -       -     60   3276.00   1888.05   -    54.60 ) Tj
+T* (3   STATOR 20 MG TAB          15`S       30         -     -     2         6         -    -       -     24   3311.52    893.80   -   137.98 ) Tj
+T* (4   STATOR 40 MG TAB          15`S       19         -     -     4        15         -    -       -      4    848.08   3406.49   -   212.02 ) Tj
+T* (5   STATOR ASP 75 TAB         15`S       49        20     -    35        51         -    -       -     18   1023.48   3156.48   -    56.86 ) Tj
+T* (6   STATOR CV 10 TAB          1          13         -     -     0         5         -    -       -      8   1133.52    771.41   -   141.69 ) Tj
+T* (7   STATOR CV 20TAB           15`S       13         -     -     2         4         -    -       -      9   1460.07    699.40   -   162.23 ) Tj
+T* (8   STATOR F 15`S TAB         15`S       37         -     -    14        18         -    -       -     19   4415.41   4505.77   -   232.39 ) Tj
+T* (9   SURBEX CV TAB             15`s        0         -     -     0         -         -    -       -      0         -      0.00   Y    74.25 ) Tj
+T* (10  TELPRES 20MG              15`S       10         -     -     0         -         -    -       -     10    426.20      0.00   -    42.62 ) Tj
+T* (11  TELPRES 40MG TAB          15`S       13         -     -     3        12         -    -       -      1     74.27    965.49   -    74.27 ) Tj
+T* (12  TELPRES BETA 2.5          10`S        0         -     -     0         -         -    -       -      0         -      0.00   Y    69.48 ) Tj
+T* (13  TELPRES BETA 5            10`S        7         -     -     3         6         -    -       -      1     80.71    517.45   -    80.71 ) Tj
+T* (14  TELPRES H 40 TAB 15`S     15`S       10         -     -     0         -         -    -       -     10   2377.90      0.00   *   237.79 ) Tj
+T* (15  TELPRESS CT 40/12.5  15`S 15`S       25         -     -    17        27         -    -       -      7    762.72   3198.41   -   108.96 ) Tj
+T* (16  TELPRESS CT 40/6.25 15`S  15`S      116        20     -    67       123         -    -       -      4    326.00  10884.43   -    81.50 ) Tj
+T* (17  TELPRESS TRIO 12.5 TAB    15`S        0         -     -     4         -         -    -       -      0         -      0.00   -   157.50 ) Tj
+T* (--------------------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                               462        40     -   207       327         -    -       -    175         -         -   -        - ) Tj
+T* (--------------------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:    53271.66 Purc.Value: :     2767.20 Sales Value::    39758.96                                                                ) Tj
+T* (Cl.Stk Val:     19515.88 Pur.RetVal ::        0.00 SalRet Val: :        0.00                                                                ) Tj
+T* (Nov Sal:        23186.00 Oct Sal:    :    34221.00 NetSal\(GVal\):    39758.96                                                              ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:        0.00                                                                ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                                                                                                                                            ) Tj
+T* (Non Moving items Report Non Move Days > 90                                                                                                  ) Tj
+T* (========================================================================================                                                    ) Tj
+T* (Prod.Name                 Packing    Batch      Qty       Days                                                                              ) Tj
+T* (========================================================================================                                                    ) Tj
+T* (Company Name : ABBOTT CARDIAC                                                                                                               ) Tj
+T* (TELPRES H 40 TAB 15`S     15`S       PCK0319    10        271                                                                               ) Tj
+T* (----------------------------------------------------------------------------------------                                                    ) Tj
+T* (                                                                                                                                            ) Tj
+T* (                                       *** END OF REPORT ***                                                                                ) Tj
+T* (                                                                                                                                            ) Tj
+ET
+endstream
+endobj
+9 0 obj
+4365
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 940 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000004931 00000 n
+0000005010 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000004908 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+5103
+%%EOF

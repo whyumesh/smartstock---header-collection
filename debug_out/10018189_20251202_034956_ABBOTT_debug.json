@@ -1,0 +1,279 @@
+{
+  "pdf_path": "pdfs\\10018189_20251202_034956_ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 65.66047668457031,
+      "y_max": 76.05278778076172,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 13.287433624267578,
+      "y_max": 23.679738998413086,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 2,
+      "y_min": 26.380451202392578,
+      "y_max": 36.77275466918945,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    },
+    {
+      "page_no": 3,
+      "y_min": 13.287433624267578,
+      "y_max": 23.679738998413086,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    },
+    {
+      "page_no": 4,
+      "y_min": 26.380451202392578,
+      "y_max": 36.77275466918945,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 4,
+      "headers": [
+        "Tot",
+        "Purchase",
+        "Amount",
+        "For",
+        "The",
+        "Above",
+        "Month",
+        "1,29,862.00"
+      ],
+      "combined_confidence": 0.5760714285714286,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.7374999999999999,
+      "data_validation_score": 0.5428571428571428,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Tot",
+    "Purchase",
+    "Amount",
+    "For",
+    "The",
+    "Above",
+    "Month",
+    "1,29,862.00"
+  ],
+  "confidence": 0.5760714285714286,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.7374999999999999,
+    "data_validation_score": 0.5428571428571428,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Total",
+      "Purchase",
+      "Value",
+      "for",
+      "the",
+      "above",
+      "month",
+      "1,29,862.00"
+    ],
+    "normalized": [
+      "Tot",
+      "Purchase",
+      "Amount",
+      "For",
+      "The",
+      "Above",
+      "Month",
+      "1,29,862.00"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      ":"
+    ],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.15
+      },
+      "adjusted_confidence": 0.5760714285714286,
+      "evidence_scores": {
+        "keyword_score": 0.375,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5428571428571428,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.5244642857142857,
+      "evidence_before_penalties": 0.5244642857142857
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7908752434464775
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sl.No.",
+          "Invoice Date",
+          "Date",
+          "Invoice Date",
+          "Batch No",
+          "Stock",
+          "Recd.",
+          "Date",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7812927689594356
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "ADJMT",
+          "Closing",
+          "Closing",
+          "AGE"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7895503246753247
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "PROTHIADEN",
+          "15'S",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7579248005216175
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Tot",
+          "Purchase",
+          "Amount",
+          "For",
+          "The",
+          "Above",
+          "Month",
+          "1,29,862.00"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7260714285714286
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=9 data=5 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=5 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=11 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=13 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Tot",
+      "Purchase",
+      "Amount",
+      "For",
+      "The",
+      "Above",
+      "Month",
+      "1,29,862.00"
+    ]
+  }
+}

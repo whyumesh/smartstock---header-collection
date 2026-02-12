@@ -1,0 +1,100 @@
+{
+  "pdf_path": "pdfs\\10000943_20251231_010834_ABBOT_AAUD.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 58.500038146972656,
+      "y_max": 68.81404113769531,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Sales",
+        "Amount",
+        "Closing",
+        "Amount"
+      ],
+      "combined_confidence": 0.7101,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 1.0,
+      "data_validation_score": 0.7005,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "Sales",
+    "Amount",
+    "Closing",
+    "Amount"
+  ],
+  "confidence": 0.7101,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 1.0,
+    "data_validation_score": 0.7005,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Sales",
+      "Amount",
+      "Closing",
+      "Amount"
+    ],
+    "normalized": [
+      "Sales",
+      "Amount",
+      "Closing",
+      "Amount"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 5,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=4 data=5"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.7101,
+      "evidence_scores": {
+        "keyword_score": 1.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7005,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.862625,
+      "evidence_before_penalties": 0.862625
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sales",
+          "Amount",
+          "Closing",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8601
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Sales",
+      "Amount",
+      "Closing",
+      "Amount"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "pdf_path": "pdfs\\10001678_20251224_185111_STK_ACTF.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 112.21143341064453,
+      "y_max": 122.80498504638672,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=7"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Particulars",
+          "Particulars",
+          "Particulars",
+          "Pkg.",
+          "Pkg.",
+          "Op",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Misc.",
+          "Misc.",
+          "Cl",
+          "Cl",
+          "Closing",
+          "Closing",
+          "Sales"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8460214285714286
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=20 data=12 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=12 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

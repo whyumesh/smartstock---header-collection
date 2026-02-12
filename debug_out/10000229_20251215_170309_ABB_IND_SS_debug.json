@@ -1,0 +1,257 @@
+{
+  "pdf_path": "pdfsamples\\10000229_20251215_170309_ABB IND SS.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 100.72930145263672,
+      "y_max": 109.75899505615234,
+      "confidence": 0.9,
+      "reason": "header_keywords=8 tokens=12"
+    },
+    {
+      "page_no": 1,
+      "y_min": 100.72930145263672,
+      "y_max": 109.75899505615234,
+      "confidence": 0.9,
+      "reason": "header_keywords=8 tokens=12"
+    },
+    {
+      "page_no": 2,
+      "y_min": 100.72930145263672,
+      "y_max": 109.75899505615234,
+      "confidence": 0.9,
+      "reason": "header_keywords=8 tokens=12"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Goods",
+        "Ret.",
+        "Tot",
+        "Sale",
+        "Purchase",
+        "Ret.",
+        "Balance"
+      ],
+      "combined_confidence": 0.2698607226107226,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.6993036130536131,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Goods",
+        "Ret.",
+        "Tot",
+        "Sale",
+        "Purchase",
+        "Ret.",
+        "Balance"
+      ],
+      "combined_confidence": 0.2698655303030303,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.6993276515151515,
+      "data_column_count_detected": 8
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Goods",
+        "Ret.",
+        "Tot",
+        "Sale",
+        "Purchase",
+        "Ret.",
+        "Balance"
+      ],
+      "combined_confidence": 0.2695941558441559,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.6979707792207792,
+      "data_column_count_detected": 5
+    }
+  ],
+  "final_selected_header": [
+    "Product Code",
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Goods",
+    "Ret.",
+    "Tot",
+    "Sale",
+    "Purchase",
+    "Ret.",
+    "Balance"
+  ],
+  "confidence": 0.8698655303030303,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.85,
+    "data_validation_score": 0.6993276515151515,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Code",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Goods",
+      "Ret.",
+      "Tot",
+      "Sale",
+      "Purchase",
+      "Ret.",
+      "Balance"
+    ],
+    "per_page": [
+      [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Goods",
+        "Ret.",
+        "Tot",
+        "Sale",
+        "Purchase",
+        "Ret.",
+        "Balance"
+      ],
+      [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Goods",
+        "Ret.",
+        "Tot",
+        "Sale",
+        "Purchase",
+        "Ret.",
+        "Balance"
+      ],
+      [
+        "Product Code",
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Goods",
+        "Ret.",
+        "Tot",
+        "Sale",
+        "Purchase",
+        "Ret.",
+        "Balance"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Goods",
+          "Ret.",
+          "Tot",
+          "Sale",
+          "Purchase",
+          "Ret.",
+          "Balance"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8198607226107226
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Goods",
+          "Ret.",
+          "Tot",
+          "Sale",
+          "Purchase",
+          "Ret.",
+          "Balance"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8198655303030303
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Goods",
+          "Ret.",
+          "Tot",
+          "Sale",
+          "Purchase",
+          "Ret.",
+          "Balance"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.819594155844156
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Code",
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Goods",
+      "Ret.",
+      "Tot",
+      "Sale",
+      "Purchase",
+      "Ret.",
+      "Balance"
+    ],
+    "data_column_count_detected": 7,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

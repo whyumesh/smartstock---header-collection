@@ -1,0 +1,99 @@
+{
+  "pdf_path": "pdfs\\10030525_20251213_120112_ABBOTT INJ NOV MONTH STOCK & SALES.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=11"
+    },
+    {
+      "page_no": 1,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=8"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "2414.97",
+          "2414.97",
+          "2176.65",
+          "2176.65",
+          "3055.99",
+          "3055.99",
+          "14511.00",
+          "14511.00",
+          "11925.84",
+          "11925.84",
+          "29644.16",
+          "29644.16",
+          "1554.61",
+          "1554.61",
+          "6127.44",
+          "12969.26"
+        ],
+        "data_column_count_detected": 27,
+        "combined_confidence": 0.7144931977559608
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "23238.22",
+          "23238.22",
+          "5104.00",
+          "5104.00",
+          "4608.00",
+          "4608.00",
+          "30907.50",
+          "30907.50",
+          "13200.00",
+          "13200.00",
+          "44107.50"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.7003056322470957
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=20 data=27 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=20 data=27 diff=7"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=15 data=13 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=15 data=13 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

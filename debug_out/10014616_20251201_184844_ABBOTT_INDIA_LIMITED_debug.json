@@ -1,0 +1,56 @@
+{
+  "pdf_path": "pdfs\\10014616_20251201_184844_ABBOTT INDIA LIMITED.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 92.50830078125,
+      "y_max": 98.29517364501953,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "Octprv",
+          "Inst",
+          "Adj",
+          "Sales",
+          "Cl",
+          "Stock",
+          "Sale",
+          "Amount",
+          "Transit",
+          "Order",
+          "Quantity",
+          "Age"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.840015625
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=16 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=16 data=12 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "pdf_path": "pdfs\\10026989_20251227_145146_StockReport1011727-Dec-2025-14-44-38.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 108.51272583007812,
+      "y_max": 119.30597686767578,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "HSN",
+        "Description",
+        "Unit",
+        "Op",
+        "In",
+        "Out.",
+        "Balance"
+      ],
+      "combined_confidence": 0.6580173510699825,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.85,
+      "data_validation_score": 0.7400867553499132,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "HSN",
+    "Description",
+    "Unit",
+    "Op",
+    "In",
+    "Out.",
+    "Balance"
+  ],
+  "confidence": 0.6580173510699825,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.85,
+    "data_validation_score": 0.7400867553499132,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "Sn.",
+      "Description",
+      "Unit",
+      "Opening",
+      "In",
+      "Out",
+      "Balance"
+    ],
+    "normalized": [
+      "HSN",
+      "Description",
+      "Unit",
+      "Op",
+      "In",
+      "Out.",
+      "Balance"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.6580173510699825,
+      "evidence_scores": {
+        "keyword_score": 0.5714285714285714,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7400867553499132,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8278788316946212,
+      "evidence_before_penalties": 0.8278788316946212
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "HSN",
+          "Description",
+          "Unit",
+          "Op",
+          "In",
+          "Out.",
+          "Balance"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8580173510699826
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "HSN",
+      "Description",
+      "Unit",
+      "Op",
+      "In",
+      "Out.",
+      "Balance"
+    ]
+  }
+}

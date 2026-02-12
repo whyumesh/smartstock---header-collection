@@ -1,0 +1,446 @@
+{
+  "pdf_path": "pdfs\\10001466_20260101_100337_ABOT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 196.4658660888672,
+      "y_max": 208.4718780517578,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 137.78868103027344,
+      "y_max": 149.79469299316406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 2,
+      "y_min": 137.78868103027344,
+      "y_max": 149.79469299316406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 3,
+      "y_min": 137.78868103027344,
+      "y_max": 149.79469299316406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 4,
+      "y_min": 137.78868103027344,
+      "y_max": 149.79469299316406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 5,
+      "y_min": 137.78868103027344,
+      "y_max": 149.79469299316406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ],
+      "combined_confidence": 0.6322409700722396,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7653715170278638,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ],
+      "combined_confidence": 0.632780701754386,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7680701754385965,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ],
+      "combined_confidence": 0.4225,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7166666666666667,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ],
+      "combined_confidence": 0.42266666666666663,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7174999999999999,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ],
+      "combined_confidence": 0.6316077694235589,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7622055137844611,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ],
+      "combined_confidence": 0.42207142857142854,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.94,
+      "semantic_score": 0.8208333333333333,
+      "data_validation_score": 0.7145238095238096,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "GST",
+    "Pack",
+    "Op",
+    "Receipt",
+    "Tot",
+    "Issue",
+    "Closing",
+    "Near",
+    "MSR",
+    "Remain",
+    "Day"
+  ],
+  "confidence": 0.8827807017543859,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.94,
+    "semantic_score": 0.8208333333333333,
+    "data_validation_score": 0.7680701754385965,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "GST",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Tot",
+      "Issue",
+      "Closing",
+      "Near",
+      "MSR",
+      "Remain",
+      "Day"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ],
+      [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ],
+      [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ],
+      [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ],
+      [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ],
+      [
+        "Product Name",
+        "GST",
+        "Pack",
+        "Op",
+        "Receipt",
+        "Tot",
+        "Issue",
+        "Closing",
+        "Near",
+        "MSR",
+        "Remain",
+        "Day"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "GST",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Near",
+          "MSR",
+          "Remain",
+          "Day"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8322409700722395
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "GST",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Near",
+          "MSR",
+          "Remain",
+          "Day"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.832780701754386
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "GST",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Near",
+          "MSR",
+          "Remain",
+          "Day"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8225
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "GST",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Near",
+          "MSR",
+          "Remain",
+          "Day"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8226666666666667
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "GST",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Near",
+          "MSR",
+          "Remain",
+          "Day"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.831607769423559
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "GST",
+          "Pack",
+          "Op",
+          "Receipt",
+          "Tot",
+          "Issue",
+          "Closing",
+          "Near",
+          "MSR",
+          "Remain",
+          "Day"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8220714285714286
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "GST",
+      "Pack",
+      "Op",
+      "Receipt",
+      "Tot",
+      "Issue",
+      "Closing",
+      "Near",
+      "MSR",
+      "Remain",
+      "Day"
+    ],
+    "data_column_count_detected": 12,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

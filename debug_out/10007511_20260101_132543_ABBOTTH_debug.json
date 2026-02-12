@@ -1,0 +1,405 @@
+{
+  "pdf_path": "pdfs\\10007511_20260101_132543_ABBOTTH.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=15"
+    },
+    {
+      "page_no": 3,
+      "y_min": 195.73800659179688,
+      "y_max": 207.43800354003906,
+      "confidence": 0.71,
+      "reason": "header_keywords=3 tokens=17"
+    },
+    {
+      "page_no": 4,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.9,
+      "reason": "header_keywords=10 tokens=10"
+    },
+    {
+      "page_no": 5,
+      "y_min": 279.7380065917969,
+      "y_max": 291.4380187988281,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=8"
+    },
+    {
+      "page_no": 6,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 5,
+      "headers": [
+        "Product Name",
+        "DESCRIPTION",
+        "DESCRIPTION",
+        "DESCRIPTION",
+        "Rate",
+        "Rate",
+        "Op",
+        "RECEIPT",
+        "ISSUE",
+        "Closing",
+        "DUMP",
+        "DUMP"
+      ],
+      "combined_confidence": 0.5358059163059166,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.7625000000000001,
+      "data_validation_score": 0.5915295815295815,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "DESCRIPTION",
+    "DESCRIPTION",
+    "DESCRIPTION",
+    "Rate",
+    "Rate",
+    "Op",
+    "RECEIPT",
+    "ISSUE",
+    "Closing",
+    "DUMP",
+    "DUMP"
+  ],
+  "confidence": 0.5358059163059166,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.7625000000000001,
+    "data_validation_score": 0.5915295815295815,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ITEM",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "RATE",
+      "RATE",
+      "OPENING",
+      "RECEIPT",
+      "ISSUE",
+      "CLOSING",
+      "DUMP",
+      "DUMP"
+    ],
+    "normalized": [
+      "Product Name",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "Rate",
+      "Rate",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing",
+      "DUMP",
+      "DUMP"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "DESCRIPTION",
+        "into": "DESCRIPTION",
+        "interval_idx": 0
+      },
+      {
+        "split": "DESCRIPTION",
+        "into": "DESCRIPTION",
+        "interval_idx": 1
+      },
+      {
+        "split": "DESCRIPTION",
+        "into": "DESCRIPTION",
+        "interval_idx": 2
+      },
+      {
+        "split": "RATE",
+        "into": "RATE",
+        "interval_idx": 3
+      },
+      {
+        "split": "RATE",
+        "into": "RATE",
+        "interval_idx": 4
+      },
+      {
+        "split": "DUMP",
+        "into": "DUMP",
+        "interval_idx": 10
+      },
+      {
+        "split": "DUMP",
+        "into": "DUMP",
+        "interval_idx": 11
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=12 data=12"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.5358059163059166,
+      "evidence_scores": {
+        "keyword_score": 0.46153846153846156,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.5915295815295815,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.14285714285714285
+      },
+      "evidence_total": 0.677552725052725,
+      "evidence_before_penalties": 0.677552725052725
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8233333333333334
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Tot",
+          "125966.70",
+          "125966.70",
+          "0.00",
+          "0.00",
+          "63846.97",
+          "63846.97",
+          "68233.60"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6746160633484164
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "DIGENE",
+          "GEL",
+          "Pack",
+          "ML",
+          "4.05",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "-"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.71057146529327
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "CREMAFFIN",
+          "MINT",
+          "PLAIN",
+          "SY",
+          "Ml",
+          "218.46",
+          "7646.10",
+          "13107.60",
+          "5583.02",
+          "15729.12"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7431274695985342
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Exp"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8393665158371041
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Rate",
+          "Rate",
+          "Op",
+          "RECEIPT",
+          "ISSUE",
+          "Closing",
+          "DUMP",
+          "DUMP"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7358059163059165
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "JANUVIA",
+          "MG",
+          "NOS",
+          "189.64",
+          "9482.00",
+          "-",
+          "0.00",
+          "1053.55",
+          "8533.80"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6800496762496763
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=18 data=13 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=18 data=13 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=14 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=17 data=13 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=13 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=9 data=12 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=9 data=12 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "DESCRIPTION",
+      "Rate",
+      "Rate",
+      "Op",
+      "RECEIPT",
+      "ISSUE",
+      "Closing",
+      "DUMP",
+      "DUMP"
+    ]
+  }
+}

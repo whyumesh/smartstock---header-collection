@@ -1,0 +1,13 @@
+{
+  "pdf_path": "pdfs\\10026873_20251201_165901_K B Pharmaceuticals-4.pdf",
+  "header_zone_detected": null,
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [],
+    "rejected_candidates_reason": []
+  }
+}

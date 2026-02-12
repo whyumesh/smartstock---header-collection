@@ -1,0 +1,124 @@
+{
+  "pdf_path": "pdfs\\10025622_20251229_100245_slmncol.Pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 20.00405502319336,
+      "y_max": 36.528053283691406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 1,
+      "y_min": 20.00405502319336,
+      "y_max": 36.528053283691406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 20.00405502319336,
+      "y_max": 36.528053283691406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 3,
+      "y_min": 20.00405502319336,
+      "y_max": 36.528053283691406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Out."
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7833555555555556
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Out."
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7829555555555556
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Out."
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7807904761904763
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Sale",
+          "Sale",
+          "Out."
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.7798
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=3 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=5 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=3 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=5 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=3 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=5 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=3 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=3 data=5 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

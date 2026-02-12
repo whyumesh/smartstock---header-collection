@@ -1,0 +1,69 @@
+{
+  "pdf_path": "pdfs\\10012705_20260101_194822_REPORT_7D316DOBI.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 133.21798706054688,
+      "y_max": 141.0179901123047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Description",
+          "Op",
+          "Op",
+          "Sales",
+          "Sales",
+          "Sale",
+          "Sale",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Other",
+          "Other",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Expiry Date",
+          "Expiry Date",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8936046067875153
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=29 data=17 diff=12",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=29 data=17 diff=12"
+          }
+        }
+      }
+    ]
+  }
+}

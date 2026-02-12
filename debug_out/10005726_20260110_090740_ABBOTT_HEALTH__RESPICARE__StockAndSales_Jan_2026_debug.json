@@ -1,0 +1,52 @@
+{
+  "pdf_path": "pdfs\\10005726_20260110_090740_ABBOTT HEALTH (RESPICARE)_StockAndSales_Jan_2026.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 95.71025085449219,
+      "y_max": 103.47339630126953,
+      "confidence": 0.9,
+      "reason": "header_keywords=11 tokens=12"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Tran",
+          "Recd.",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8394523809523808
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=4 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=4 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pdf_path": "pdfs\\10028556_20251210_125107_DOS2USB-20251210-124124.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 27.054304122924805,
+      "y_max": 35.18756866455078,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=22"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "CO",
+          "PA",
+          "IS",
+          "NS",
+          "LI",
+          "AT",
+          "Tot",
+          "CK",
+          "RE",
+          "IS",
+          "ER",
+          "Ag"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.8410279507257448
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=8 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=8 diff=4"
+          }
+        }
+      }
+    ]
+  }
+}

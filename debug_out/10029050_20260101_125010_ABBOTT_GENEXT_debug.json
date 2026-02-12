@@ -1,0 +1,53 @@
+{
+  "pdf_path": "pdfs\\10029050_20260101_125010_ABBOTT GENEXT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.632080078125,
+      "y_max": 103.05783081054688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "PenOr",
+          "Ord",
+          "Product Name",
+          "Pack",
+          "Op",
+          "Rcpt",
+          "Sales",
+          "Free Quantity",
+          "Amount",
+          "Cl",
+          "StkVl(Cst)",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 15,
+        "combined_confidence": 0.828390040962931
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=13 data=15 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=13 data=15 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

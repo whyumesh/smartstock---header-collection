@@ -1,0 +1,130 @@
+{
+  "pdf_path": "pdfs\\10028957_20251226_122924_ABBOTT.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 28.5020751953125,
+      "y_max": 38.346343994140625,
+      "confidence": 0.26666666666666666,
+      "reason": "density=2.7 font_boost=1.0 top_score=1.00"
+    },
+    {
+      "page_no": 1,
+      "y_min": 232.501953125,
+      "y_max": 242.34622192382812,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Unit",
+        "DISTRIBUTORS"
+      ],
+      "combined_confidence": 0.5566666666666666,
+      "visual_score": 0.26666666666666666,
+      "reconstruction_score": 0.74,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Unit",
+    "DISTRIBUTORS"
+  ],
+  "confidence": 0.5566666666666666,
+  "confidence_breakdown": {
+    "visual_score": 0.26666666666666666,
+    "reconstruction_score": 0.74,
+    "semantic_score": 0.7749999999999999,
+    "data_validation_score": 0.5,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "UNITED",
+      "DISTRIBUTORS"
+    ],
+    "normalized": [
+      "Unit",
+      "DISTRIBUTORS"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {},
+      "adjusted_confidence": 0.5566666666666666,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.5,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.5
+      },
+      "evidence_total": 0.5750000000000001,
+      "evidence_before_penalties": 0.5750000000000001
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Unit",
+          "DISTRIBUTORS"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.5566666666666666
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sr.",
+          "Product Name",
+          "Product Name",
+          "Description",
+          "Description",
+          "Description",
+          "Pack",
+          "Pack",
+          "Mfg",
+          "Mfg",
+          "Pack",
+          "Pack",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Rate",
+          "Rate",
+          "Apr.Val"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7895035168566578
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=19 data=11 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=11 diff=8"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Unit",
+      "DISTRIBUTORS"
+    ]
+  }
+}

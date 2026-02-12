@@ -1,0 +1,214 @@
+{
+  "pdf_path": "pdfs\\10023761_20260102_112952_ABI.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.82714080810547,
+      "y_max": 105.66676330566406,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=6"
+    },
+    {
+      "page_no": 1,
+      "y_min": 223.1547393798828,
+      "y_max": 230.99436950683594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 2,
+      "y_min": 68.7745590209961,
+      "y_max": 76.61418151855469,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "PRO",
+        "INJ"
+      ],
+      "combined_confidence": 0.44100000000000006,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.76,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.755,
+      "data_column_count_detected": 3
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "VERTIN",
+        "VERTIN",
+        "OD",
+        "24Mg",
+        "24Mg",
+        "TAB",
+        "TAB"
+      ],
+      "combined_confidence": 0.52075,
+      "visual_score": 0.7,
+      "reconstruction_score": 0.7799999999999999,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.65375,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "VERTIN",
+    "VERTIN",
+    "OD",
+    "24Mg",
+    "24Mg",
+    "TAB",
+    "TAB"
+  ],
+  "confidence": 0.52075,
+  "confidence_breakdown": {
+    "visual_score": 0.7,
+    "reconstruction_score": 0.7799999999999999,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.65375,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "VERTIN",
+      "VERTIN",
+      "OD",
+      "24MG",
+      "24MG",
+      "TAB",
+      "TAB"
+    ],
+    "normalized": [
+      "VERTIN",
+      "VERTIN",
+      "OD",
+      "24Mg",
+      "24Mg",
+      "TAB",
+      "TAB"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [
+      {
+        "split": "VERTIN",
+        "into": "VERTIN",
+        "interval_idx": 0
+      },
+      {
+        "split": "VERTIN",
+        "into": "VERTIN",
+        "interval_idx": 1
+      },
+      {
+        "split": "24MG",
+        "into": "24MG",
+        "interval_idx": 1
+      },
+      {
+        "split": "24MG",
+        "into": "24MG",
+        "interval_idx": 2
+      },
+      {
+        "split": "TAB",
+        "into": "TAB",
+        "interval_idx": 2
+      },
+      {
+        "split": "TAB",
+        "into": "TAB",
+        "interval_idx": 3
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=8"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15
+      },
+      "adjusted_confidence": 0.52075,
+      "evidence_scores": {
+        "keyword_score": 0.2857142857142857,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.65375,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.5973660714285715,
+      "evidence_before_penalties": 0.5973660714285715
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Op",
+          "Rcpt",
+          "NovLa",
+          "NovLastSal",
+          "Sales",
+          "Free Quantity",
+          "Amount",
+          "Adj",
+          "Cl",
+          "Amount"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8291177685950414
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "PRO",
+          "INJ"
+        ],
+        "data_column_count_detected": 3,
+        "combined_confidence": 0.7410000000000001
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "VERTIN",
+          "VERTIN",
+          "OD",
+          "24Mg",
+          "24Mg",
+          "TAB",
+          "TAB"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.6707500000000001
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=11 data=4 diff=7",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=4 diff=7"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "VERTIN",
+      "VERTIN",
+      "OD",
+      "24Mg",
+      "24Mg",
+      "TAB",
+      "TAB"
+    ]
+  }
+}

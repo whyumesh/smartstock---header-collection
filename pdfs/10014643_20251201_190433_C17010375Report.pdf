@@ -1,0 +1,134 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                           ) Tj
+T* (                                  KENT PHARMA                                                    ) Tj
+T* (                                                                                                           ) Tj
+T* (                                CHENNAI. - 600003                                                ) Tj
+T* (                                                                                                           ) Tj
+T* (Stock & Sales Report From 01/11/2025 To 30/11/2025                                              ) Tj
+T* (Company Name : ABBOTT NEURO SCIENCE - THIRU-VI-KA INDUSTRIAL ESTATE, GUINDY                                ) Tj
+T* (===========================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur PFree  PurRet      Sale     SFree OthFr SRet CurStk ) Tj
+T* (===========================================================================================================) Tj
+T* (1   EPTOIN 100MG TAB          120TAB     28         -     -       -         3         -     -    -     25 ) Tj
+T* (2   INDERAL  10MG TAB         15`S      120       200     -       -       124         -     -    -    196 ) Tj
+T* (3   INDERAL  LA 40MG          15`S       30         -     -       -         -         -     -    -     30 ) Tj
+T* (4   INDERAL 20MG              15`s      182        60     -       -        60         -     -    4    186 ) Tj
+T* (5   INDERAL 40                15`S       37         -     -       -        20         -     -    -     17 ) Tj
+T* (6   INDERAL F 5               15`S       10        10     -       -        20         -     -    5      5 ) Tj
+T* (7   INDERAL LA 20MG           15`S        4        30     -       -         4         -     -    -     30 ) Tj
+T* (8   PROTHIADEN  25MG          15`S       50         2     -       -        12         -     -    -     40 ) Tj
+T* (9   PROTHIADEN 50MG TAB 15`S  15`S       35         -     -       -        10         -     -    -     25 ) Tj
+T* (10  PROTHIADEN 75MG           15`S       30         -     -       -         -         -     -    -     30 ) Tj
+T* (11  PROTHIADEN NEU 10MG CAP   10`S       60         -     -       -         -         -     -    -     60 ) Tj
+T* (12  VERTIN 16MG TAB           15`S      211       360     -       -       318         -     -    -    253 ) Tj
+T* (13  VERTIN 24MG TAB           15`S        5        20     -       -         -         -     -    -     20 ) Tj
+T* (14  VERTIN 8MG TAB            15`S      165        20     -       -        57         -     -    -    128 ) Tj
+T* (-----------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                               967       702     -       -       628         -     -    9   1045 ) Tj
+T* (-----------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:   129448.76 Purc.Value: :   111860.28 Sales Value::   108041.82                               ) Tj
+T* (Cl.Stk Val:    141116.54 Pur.RetVal ::        0.00 SalRet Val: :      418.20                               ) Tj
+T* (                                     :             NetSal\(GVal\):   107623.62                             ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:        0.00                               ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (                                                                                                           ) Tj
+T* (Non Moving items Report Non Move Days > 90                                                                 ) Tj
+T* (========================================================================================                   ) Tj
+T* (Prod.Name                 Packing    Batch      Qty       Days                                             ) Tj
+T* (========================================================================================                   ) Tj
+T* (Company Name : ABBOTT NEURO SCIENCE                                                                        ) Tj
+T* (INDERAL  LA 40MG          15`S       PCL0462    30        495                                              ) Tj
+T* (PROTHIADEN 75MG           15`S       723341D7   30        128                                              ) Tj
+T* (----------------------------------------------------------------------------------------                   ) Tj
+T* (                                                                                                           ) Tj
+T* (                                       *** END OF REPORT ***                                               ) Tj
+T* (                                                                                                           ) Tj
+ET
+endstream
+endobj
+9 0 obj
+4185
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 750 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000004751 00000 n
+0000004830 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000004728 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+4923
+%%EOF

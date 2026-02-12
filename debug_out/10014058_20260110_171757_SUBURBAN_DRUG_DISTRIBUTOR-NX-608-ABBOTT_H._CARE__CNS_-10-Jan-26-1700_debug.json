@@ -1,0 +1,54 @@
+{
+  "pdf_path": "pdfs\\10014058_20260110_171757_SUBURBAN DRUG DISTRIBUTOR-NX-608-ABBOTT H. CARE (CNS)-10-Jan-26-1700.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 34.61100387573242,
+      "y_max": 44.574005126953125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Code",
+          "Product Name",
+          "Description",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Out.",
+          "Oct",
+          "Nov",
+          "Sales",
+          "Stock",
+          "Closing",
+          "Amount",
+          "Amount"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8914
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=14 data=4 diff=10",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=14 data=4 diff=10"
+          }
+        }
+      }
+    ]
+  }
+}

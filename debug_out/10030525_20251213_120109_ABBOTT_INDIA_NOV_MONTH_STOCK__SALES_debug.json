@@ -1,0 +1,239 @@
+{
+  "pdf_path": "pdfs\\10030525_20251213_120109_ABBOTT INDIA NOV MONTH STOCK& SALES.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=22"
+    },
+    {
+      "page_no": 1,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=21"
+    },
+    {
+      "page_no": 2,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.64,
+      "reason": "header_keywords=2 tokens=19"
+    },
+    {
+      "page_no": 3,
+      "y_min": 57.0,
+      "y_max": 87.780029296875,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "3036.60",
+          "3036.60",
+          "2116.32",
+          "2116.32",
+          "54670.87",
+          "54670.87",
+          "5182.25",
+          "5182.25",
+          "3306.75",
+          "3306.75",
+          "1790.23",
+          "1790.23",
+          "2821.09",
+          "2821.09",
+          "4853.76",
+          "4853.76",
+          "1877.04",
+          "1877.04",
+          "9571.80",
+          "9571.80",
+          "4600.00",
+          "4600.00",
+          "13500.00",
+          "13500.00",
+          "20400.00",
+          "20400.00",
+          "6698.20",
+          "6698.20",
+          "18750.00",
+          "18750.00",
+          "5134.80",
+          "5134.80",
+          "21528.60",
+          "21528.60",
+          "4296.24",
+          "4296.24",
+          "2523.08",
+          "9597.75"
+        ],
+        "data_column_count_detected": 27,
+        "combined_confidence": 0.708731292517007
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "9411.00",
+          "9411.00",
+          "4714.20",
+          "4714.20",
+          "4183.70",
+          "4183.70",
+          "21146.10",
+          "21146.10",
+          "3889.26",
+          "3889.26",
+          "15667.57",
+          "15667.57",
+          "7014.96",
+          "7014.96",
+          "20080.97",
+          "20080.97",
+          "84932.10",
+          "84932.10",
+          "6507.60",
+          "6507.60",
+          "6507.60",
+          "6507.60",
+          "4943.62",
+          "4943.62",
+          "2300.54",
+          "2300.54",
+          "6683.04",
+          "6683.04",
+          "2315.88",
+          "2315.88",
+          "4682.40",
+          "4682.40",
+          "1511.46",
+          "1511.46",
+          "6976.80",
+          "6976.80",
+          "43659.81"
+        ],
+        "data_column_count_detected": 26,
+        "combined_confidence": 0.7086829268292684
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "4508.24",
+          "4508.24",
+          "2825.68",
+          "2825.68",
+          "1744.50",
+          "1744.50",
+          "48308.85",
+          "48308.85",
+          "13340.80",
+          "13340.80",
+          "4191.00",
+          "4191.00",
+          "6210.20",
+          "6210.20",
+          "7513.28",
+          "7513.28",
+          "65982.06",
+          "65982.06",
+          "8265.57",
+          "8265.57",
+          "23561.65",
+          "23561.65",
+          "10728.25",
+          "10728.25",
+          "12120.19",
+          "12120.19",
+          "11442.06",
+          "11442.06",
+          "3721.12",
+          "3721.12",
+          "13076.70",
+          "10377.18"
+        ],
+        "data_column_count_detected": 28,
+        "combined_confidence": 0.7113165445665447
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Closing",
+          "Closing",
+          "PTR",
+          "PTR",
+          "10512.75",
+          "10512.75",
+          "3702.31",
+          "3702.31"
+        ],
+        "data_column_count_detected": 6,
+        "combined_confidence": 0.7472181818181818
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=42 data=27 diff=15",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=42 data=27 diff=15"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=41 data=26 diff=15",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=41 data=26 diff=15"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=36 data=28 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=36 data=28 diff=8"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=8 data=6 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=6 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

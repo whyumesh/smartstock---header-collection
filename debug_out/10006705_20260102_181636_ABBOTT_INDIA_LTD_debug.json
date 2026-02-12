@@ -1,0 +1,316 @@
+{
+  "pdf_path": "pdfs\\10006705_20260102_181636_ABBOTT INDIA LTD.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 269.2380065917969,
+      "y_max": 280.9380187988281,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=5"
+    },
+    {
+      "page_no": 3,
+      "y_min": 101.23800659179688,
+      "y_max": 112.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 4,
+      "y_min": 38.23797607421875,
+      "y_max": 49.9379768371582,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=13"
+    },
+    {
+      "page_no": 5,
+      "y_min": 27.73797607421875,
+      "y_max": 39.4379768371582,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=1"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "BETONIN",
+        "AST",
+        "SYP",
+        "200Ml",
+        "11196.14",
+        "-",
+        "0.00",
+        "11154.54",
+        "1759.39",
+        "-"
+      ],
+      "combined_confidence": 0.15049757085020243,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.58,
+      "data_validation_score": 0.7224878542510121,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "BETONIN",
+    "AST",
+    "SYP",
+    "200Ml",
+    "11196.14",
+    "-",
+    "0.00",
+    "11154.54",
+    "1759.39",
+    "-"
+  ],
+  "confidence": 0.15049757085020243,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.58,
+    "data_validation_score": 0.7224878542510121,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "BETONIN",
+      "AST",
+      "SYP",
+      "200ML",
+      "11196.14",
+      "-",
+      "0.00",
+      "11154.54",
+      "1759.39",
+      "-"
+    ],
+    "normalized": [
+      "BETONIN",
+      "AST",
+      "SYP",
+      "200Ml",
+      "11196.14",
+      "-",
+      "0.00",
+      "11154.54",
+      "1759.39",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "70",
+      "59",
+      "11"
+    ],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=11"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.15049757085020243,
+      "evidence_scores": {
+        "keyword_score": 0.125,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7224878542510121,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 0.16666666666666666
+      },
+      "evidence_total": 0.5120386302294198,
+      "evidence_before_penalties": 0.5120386302294198
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8164705882352941
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "BETONIN",
+          "AST",
+          "SYP",
+          "200Ml",
+          "11196.14",
+          "-",
+          "0.00",
+          "11154.54",
+          "1759.39",
+          "-"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7004975708502025
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "K(ABBOTT",
+          "K(ABBOTT",
+          "INDIA",
+          "INDIA",
+          "LTD)G",
+          "PROSPERA"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.6770365384615386
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8298823529411764
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "VERTIN",
+          "OD",
+          "15'S",
+          "5591.17",
+          "-",
+          "0.00",
+          "943.76",
+          "4730.99"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7204300595238096
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "K(ABBOTT",
+          "K(ABBOTT",
+          "INDIA",
+          "INDIA",
+          "LTD.)",
+          "(Lenbrk)"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7227083333333333
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=6 data=11 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=11 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=8 data=12 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=12 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 5,
+        "reason": "column_count_mismatch: header=6 data=12 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=12 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "BETONIN",
+      "AST",
+      "SYP",
+      "200Ml",
+      "11196.14",
+      "-",
+      "0.00",
+      "11154.54",
+      "1759.39",
+      "-"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "pdf_path": "pdfs\\10032665_20260112_155612_Jayporian dec 2025 sales n stock statement copy.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 129.74002075195312,
+      "y_max": 140.78001403808594,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=10"
+    },
+    {
+      "page_no": 1,
+      "y_min": 129.74002075195312,
+      "y_max": 140.78001403808594,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=4"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Quantity",
+          "Op",
+          "BaReceipt",
+          "Quantity",
+          "Tot",
+          "Quantity",
+          "Issue",
+          "Quantity",
+          "Sale"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.840452380952381
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Closing",
+          "Quantity",
+          "Balance",
+          "Amount"
+        ],
+        "data_column_count_detected": 2,
+        "combined_confidence": 0.7758333333333334
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=12 data=8 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=12 data=8 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=4 data=2 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=2 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}

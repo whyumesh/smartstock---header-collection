@@ -1,0 +1,161 @@
+{
+  "pdf_path": "pdfs\\10028761_20260102_160053_cmpV0436.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 53.81724548339844,
+      "y_max": 64.83631896972656,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 53.81724548339844,
+      "y_max": 64.83631896972656,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 53.81724548339844,
+      "y_max": 64.83631896972656,
+      "confidence": 0.8,
+      "reason": "header_keywords=3 tokens=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Sales",
+        "Stock",
+        "STATMENT",
+        "FROM",
+        "Tot"
+      ],
+      "combined_confidence": 0.4350000000000001,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8,
+      "data_validation_score": 0.575,
+      "data_column_count_detected": 0
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Sales",
+        "Stock",
+        "STATMENT",
+        "FROM",
+        "Tot"
+      ],
+      "combined_confidence": 0.4350000000000001,
+      "visual_score": 0.8,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8,
+      "data_validation_score": 0.575,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Sales",
+    "Stock",
+    "STATMENT",
+    "FROM",
+    "Tot"
+  ],
+  "confidence": 0.785,
+  "confidence_breakdown": {
+    "visual_score": 0.8,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8,
+    "data_validation_score": 0.575,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Sales",
+      "Stock",
+      "STATMENT",
+      "FROM",
+      "Tot"
+    ],
+    "per_page": [
+      [
+        "Sales",
+        "Stock",
+        "STATMENT",
+        "FROM",
+        "Tot"
+      ],
+      [
+        "Sales",
+        "Stock",
+        "STATMENT",
+        "FROM",
+        "Tot"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7350000000000001
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.7350000000000001
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Sales",
+          "Stock",
+          "STATMENT",
+          "FROM",
+          "Tot"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.770307142857143
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Sales",
+      "Stock",
+      "STATMENT",
+      "FROM",
+      "Tot"
+    ],
+    "data_column_count_detected": 0,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

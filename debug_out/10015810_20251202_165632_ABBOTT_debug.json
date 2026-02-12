@@ -1,0 +1,523 @@
+{
+  "pdf_path": "pdfs\\10015810_20251202_165632_ABBOTT.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 163.89398193359375,
+      "y_max": 178.19398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=10"
+    },
+    {
+      "page_no": 3,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.9,
+      "reason": "header_keywords=9 tokens=10"
+    },
+    {
+      "page_no": 4,
+      "y_min": 69.39398193359375,
+      "y_max": 83.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 5,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 6,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 7,
+      "y_min": 69.39398193359375,
+      "y_max": 83.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=11"
+    },
+    {
+      "page_no": 8,
+      "y_min": 37.89398193359375,
+      "y_max": 52.1939811706543,
+      "confidence": 0.75,
+      "reason": "above_first_data_row"
+    },
+    {
+      "page_no": 9,
+      "y_min": 16.89398193359375,
+      "y_max": 31.193981170654297,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ],
+      "combined_confidence": 0.4339933014354067,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9199999999999999,
+      "data_validation_score": 0.7249665071770335,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ],
+      "combined_confidence": 0.6413933014354067,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9199999999999999,
+      "data_validation_score": 0.7869665071770335,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ],
+      "combined_confidence": 0.6413238095238094,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9199999999999999,
+      "data_validation_score": 0.7866190476190477,
+      "data_column_count_detected": 10
+    },
+    {
+      "page_no": 3,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ],
+      "combined_confidence": 0.49132380952380944,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9199999999999999,
+      "data_validation_score": 0.7866190476190477,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ],
+      "combined_confidence": 0.49637575757575764,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9199999999999999,
+      "data_validation_score": 0.786878787878788,
+      "data_column_count_detected": 9
+    },
+    {
+      "page_no": 5,
+      "headers": [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ],
+      "combined_confidence": 0.6455933014354067,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9199999999999999,
+      "data_validation_score": 0.7829665071770335,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Pack",
+    "Op",
+    "Purchase",
+    "Sale",
+    "Closing",
+    "Closing",
+    "Exp",
+    "|",
+    "Order"
+  ],
+  "confidence": 0.8955933014354067,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.9199999999999999,
+    "data_validation_score": 0.7829665071770335,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Sale",
+      "Closing",
+      "Closing",
+      "Exp",
+      "|",
+      "Order"
+    ],
+    "per_page": [
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ],
+      [
+        "Product Name",
+        "Pack",
+        "Op",
+        "Purchase",
+        "Sale",
+        "Closing",
+        "Closing",
+        "Exp",
+        "|",
+        "Order"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Exp",
+          "|",
+          "Order"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8339933014354067
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Exp",
+          "|",
+          "Order"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8413933014354067
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Exp",
+          "|",
+          "Order"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8413238095238095
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Exp",
+          "|",
+          "Order"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8413238095238095
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Exp",
+          "|",
+          "Order"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.8463757575757577
+      },
+      {
+        "page_no": 5,
+        "headers": [
+          "Product Name",
+          "Pack",
+          "Op",
+          "Purchase",
+          "Sale",
+          "Closing",
+          "Closing",
+          "Exp",
+          "|",
+          "Order"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8455933014354068
+      },
+      {
+        "page_no": 6,
+        "headers": [
+          "Stock",
+          "Stock",
+          "Stock",
+          "Stock",
+          "Amount",
+          "Amount",
+          "|",
+          "|"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.7857683397683398
+      },
+      {
+        "page_no": 7,
+        "headers": [
+          "ACUVIN",
+          "TAB(THE",
+          "10'S",
+          "0.00",
+          "|"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.7134799999999999
+      },
+      {
+        "page_no": 8,
+        "headers": [
+          "NICHOLASH",
+          "NICHOLASH",
+          "OTF",
+          "OTF"
+        ],
+        "data_column_count_detected": 9,
+        "combined_confidence": 0.6705235294117647
+      },
+      {
+        "page_no": 9,
+        "headers": [
+          "STEMETIL",
+          "INJ.",
+          "ML",
+          "6937.20",
+          "3/28|"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.6883888198757765
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 6,
+        "reason": "column_count_mismatch: header=8 data=10 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=8 data=10 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 7,
+        "reason": "column_count_mismatch: header=5 data=9 diff=4",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=9 diff=4"
+          }
+        }
+      },
+      {
+        "page_no": 8,
+        "reason": "column_count_mismatch: header=4 data=9 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=4 data=9 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 9,
+        "reason": "column_count_mismatch: header=5 data=10 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=10 diff=5"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Product Name",
+      "Pack",
+      "Op",
+      "Purchase",
+      "Sale",
+      "Closing",
+      "Closing",
+      "Exp",
+      "|",
+      "Order"
+    ],
+    "data_column_count_detected": 10,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "pdf_path": "pdfs\\10016641_20260110_104609_WABB18_ProductCustomerWiseSale.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 149.10910034179688,
+      "y_max": 162.4490966796875,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=7"
+    },
+    {
+      "page_no": 1,
+      "y_min": 99.21939086914062,
+      "y_max": 112.55938720703125,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=7"
+    },
+    {
+      "page_no": 2,
+      "y_min": 99.21939086914062,
+      "y_max": 112.55938720703125,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=4"
+    },
+    {
+      "page_no": 3,
+      "y_min": 99.21939086914062,
+      "y_max": 112.55938720703125,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=7"
+    },
+    {
+      "page_no": 4,
+      "y_min": 99.21939086914062,
+      "y_max": 112.55938720703125,
+      "confidence": 0.9,
+      "reason": "header_keywords=4 tokens=7"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 3,
+      "headers": [
+        "Customer",
+        "Station",
+        "Quantity",
+        "Free Quantity",
+        "Quantity",
+        "Sales",
+        "Amount"
+      ],
+      "combined_confidence": 0.8106634304719671,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8571428571428571,
+      "data_validation_score": 0.7711742952169781,
+      "data_column_count_detected": 7
+    },
+    {
+      "page_no": 4,
+      "headers": [
+        "Customer",
+        "Station",
+        "Quantity",
+        "Free Quantity",
+        "Quantity",
+        "Sales",
+        "Amount"
+      ],
+      "combined_confidence": 0.8073537051184111,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8571428571428571,
+      "data_validation_score": 0.7546256684491979,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Customer",
+    "Station",
+    "Quantity",
+    "Free Quantity",
+    "Quantity",
+    "Sales",
+    "Amount"
+  ],
+  "confidence": 0.860663430471967,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8571428571428571,
+    "data_validation_score": 0.7711742952169781,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "voted_headers": [
+      "Customer",
+      "Station",
+      "Quantity",
+      "Free Quantity",
+      "Quantity",
+      "Sales",
+      "Amount"
+    ],
+    "per_page": [
+      [
+        "Customer",
+        "Station",
+        "Quantity",
+        "Free Quantity",
+        "Quantity",
+        "Sales",
+        "Amount"
+      ],
+      [
+        "Customer",
+        "Station",
+        "Quantity",
+        "Free Quantity",
+        "Quantity",
+        "Sales",
+        "Amount"
+      ]
+    ],
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Customer",
+          "Station",
+          "Quantity",
+          "Free Quantity",
+          "Quantity",
+          "Sales",
+          "Amount"
+        ],
+        "data_column_count_detected": 5,
+        "combined_confidence": 0.8123061224489796
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Customer",
+          "Station",
+          "Quantity",
+          "Free Quantity",
+          "Quantity",
+          "Sales",
+          "Amount"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8094239795918368
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Customer",
+          "Station",
+          "Quantity",
+          "Free Quantity",
+          "Quantity",
+          "Sales",
+          "Amount"
+        ],
+        "data_column_count_detected": 4,
+        "combined_confidence": 0.8116107142857143
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Customer",
+          "Station",
+          "Quantity",
+          "Free Quantity",
+          "Quantity",
+          "Sales",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8106634304719671
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Customer",
+          "Station",
+          "Quantity",
+          "Free Quantity",
+          "Quantity",
+          "Sales",
+          "Amount"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8073537051184111
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=7 data=5 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=5 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=7 data=4 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=4 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=7 data=4 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=4 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Customer",
+      "Station",
+      "Quantity",
+      "Free Quantity",
+      "Quantity",
+      "Sales",
+      "Amount"
+    ],
+    "data_column_count_detected": 7,
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": []
+  }
+}

@@ -1,0 +1,122 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                                                                                                                                ) Tj
+T* (                                   SOL PHARMA                                                                                                                                                         ) Tj
+T* (                                                                                                                                                                                                                ) Tj
+T* (                               PALAKKAD. - 678001                                                                                                                                                     ) Tj
+T* (                                                                                                                                                                                                                ) Tj
+T* (Stock & Sales Report From 01/11/2025 To 30/11/2025                                                                                                                                                   ) Tj
+T* (Company Name : ABBOTT MULTI THERAPY - .                                                                                                                                                                         ) Tj
+T* (================================================================================================================================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur PFree  PurRet       Sep   Oct      Sale     SFree OthFr SRet    Repl CurStk    StkVal OrdQt OrdFr  Pend.Ord    SalVal Exp Age     Rate Last PDate  Pcode ) Tj
+T* (================================================================================================================================================================================================================) Tj
+T* (1   BASITON FORTE WITH BIOTIN 15`S       15         -     -       -        11     2         3         -     -    -       -     12    468.60     -     -         0    124.96   -   6    39.05 18/08/2025    369 ) Tj
+T* (2   DURAJOINT GM NEW TAB      10`S       11         -     -       -         0     0         1         -     -    -       -     10   2795.30     -     -         0    310.59   -  23   279.53 02/06/2025    810 ) Tj
+T* (3   ESOGA-RD 10 CAPS          10 CAP     26        20     -       -        12    22         2         -     -    -       -     44   4808.76     -     -       -10    233.15   -  11   109.29 06/11/2025    895 ) Tj
+T* (4   KENACORT 10 MG INJ        1 ML        0         -     -       -         0     0         -         -     -    -       -      0         -     -     -         -      0.00   Y 268     0.00          -   1174 ) Tj
+T* (5   KENACORT 40 MG INJ        1 ML       64        34     2       -        24    51        39         2     -    -       -     59   7852.14     -     -       -28   6024.95   -  21   145.41 26/11/2025   1175 ) Tj
+T* (6   KENACORT 4MG TAB          15`S       20         -     -       -         0     0         -         -     -    -       -     20   2270.60     -     -         -      0.00   Y 268   113.53 30/06/2025   2379 ) Tj
+T* (7   KENACORT HEXA             1`S         0         -     -       -         9     0         -         -     -    -       -      0         -     -     -        30      0.00   -  80   352.86 03/05/2025   2586 ) Tj
+T* (8   KENACORT ORAL PASTE 7.5 G 7.5 GM     10       150     -       -        42    93        69         -     -    -       -     91  10628.80    12     -       -35   8675.93   -   -   116.80 26/11/2025   1176 ) Tj
+T* (9   KENAKORT 4MG TAB 10`S     1           0         -     -       -         0     0         -         -     -    -       -      0         -     -     -        20      0.00   Y 268    93.83          -   1177 ) Tj
+T* (10  LIMCEE ORANGE 15 TAB      15`S      499       400     -       1       479   401       475         -     -    -       -    423   7157.16   290     -       400   8657.77   -   -    16.92 26/11/2025   1239 ) Tj
+T* (11  MONTI-FX TAB              10`S       30         -     -       -         3     2         5         -     -    -       -     25   4698.50     -     -         0   1014.86   -   4   187.94 30/08/2025   1390 ) Tj
+T* (12  SETGI CAPS                10`S       10         -     -       -         0     0         -         -     -    -       -     10   1092.90     -     -         0      0.00   Y 268   109.29 30/06/2025   1876 ) Tj
+T* (13  TOSSEX DMR SYP 100 ML     100 ML      0         -     -       -         0     0         -         -     -    -       -      0         -     -     -         -      0.00   Y 196    90.06          -   2122 ) Tj
+T* (14  TOSSEX NEW 100 ML         100 ML     42       100     -       -        55    50        43         -     -    -       -     99  16398.36     -     -        40   8167.66   -   -   165.64 26/11/2025   2123 ) Tj
+T* (----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                               727       704     2       1       635   621       637         2     -    -       -    793         -     -     -         -         -   -   -        -          -      - ) Tj
+T* (----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:    40558.84 Purc.Value: :    47981.94 Sales Value::    33209.87                                                                                                                                    ) Tj
+T* (Cl.Stk Val:     58171.12 Pur.RetVal ::       16.92 SalRet Val: :        0.00                                                                                                                                    ) Tj
+T* (Oct Sal:        38647.00 Sep Sal:    :    33720.00 NetSal\(GVal\):    33209.87                                                                                                                                  ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:        0.00                                                                                                                                    ) Tj
+T* (                                                                                                                                                                                                                ) Tj
+T* (                                       *** END OF REPORT ***                                                                                                                                                    ) Tj
+T* (                                                                                                                                                                                                                ) Tj
+ET
+endstream
+endobj
+9 0 obj
+3105
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 1100 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000003671 00000 n
+0000003750 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000003648 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+3843
+%%EOF

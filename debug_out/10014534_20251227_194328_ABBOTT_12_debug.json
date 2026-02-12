@@ -1,0 +1,252 @@
+{
+  "pdf_path": "pdfs\\10014534_20251227_194328_ABBOTT 12.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 48.39398193359375,
+      "y_max": 62.6939811706543,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    },
+    {
+      "page_no": 1,
+      "y_min": 132.39398193359375,
+      "y_max": 146.69398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 2,
+      "y_min": 100.89398193359375,
+      "y_max": 115.19398498535156,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=4"
+    },
+    {
+      "page_no": 3,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    },
+    {
+      "page_no": 4,
+      "y_min": 58.89398193359375,
+      "y_max": 73.19398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=2"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "4A-127,Lg,Dawa",
+        "BAZAR",
+        "RNT",
+        "MARG,INDORE",
+        "(M.P.)",
+        "PIN",
+        "Product Code"
+      ],
+      "combined_confidence": 0.26497129518474055,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.86,
+      "semantic_score": 0.6571428571428571,
+      "data_validation_score": 0.6927136187808457,
+      "data_column_count_detected": 8
+    }
+  ],
+  "final_selected_header": [
+    "4A-127,Lg,Dawa",
+    "BAZAR",
+    "RNT",
+    "MARG,INDORE",
+    "(M.P.)",
+    "PIN",
+    "Product Code"
+  ],
+  "confidence": 0.26497129518474055,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.86,
+    "semantic_score": 0.6571428571428571,
+    "data_validation_score": 0.6927136187808457,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "4A-127,LG,DAWA",
+      "BAZAR",
+      "RNT",
+      "MARG,INDORE",
+      "(M.P.)",
+      "PIN",
+      "CODE"
+    ],
+    "normalized": [
+      "4A-127,Lg,Dawa",
+      "BAZAR",
+      "RNT",
+      "MARG,INDORE",
+      "(M.P.)",
+      "PIN",
+      "Product Code"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "452001"
+    ],
+    "data_column_count_detected": 8,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=8"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.26497129518474055,
+      "evidence_scores": {
+        "keyword_score": 0.5,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6927136187808457,
+        "lexical_purity_score": 0.88,
+        "multi_page_presence_score": 0.2
+      },
+      "evidence_total": 0.6376784046952114,
+      "evidence_before_penalties": 0.6376784046952114
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "4A-127,Lg,Dawa",
+          "BAZAR",
+          "RNT",
+          "MARG,INDORE",
+          "(M.P.)",
+          "PIN",
+          "Product Code"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7649712951847406
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Stock",
+          "Stock",
+          "&",
+          "Sales",
+          "Sales",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7207333333333334
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Stock",
+          "&",
+          "&",
+          "Sales",
+          "ANALYSIS"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.71162
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7513469646632438
+      },
+      {
+        "page_no": 4,
+        "headers": [
+          "Product Name",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "DESCRIPTION",
+          "Op",
+          "Op",
+          "RECEIPT",
+          "RECEIPT",
+          "ISSUE",
+          "ISSUE",
+          "Closing"
+        ],
+        "data_column_count_detected": 8,
+        "combined_confidence": 0.7511641873278238
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=6 data=8 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=6 data=8 diff=2"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=5 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=8 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=11 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=8 diff=3"
+          }
+        }
+      },
+      {
+        "page_no": 4,
+        "reason": "column_count_mismatch: header=11 data=8 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=11 data=8 diff=3"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "4A-127,Lg,Dawa",
+      "BAZAR",
+      "RNT",
+      "MARG,INDORE",
+      "(M.P.)",
+      "PIN",
+      "Product Code"
+    ]
+  }
+}

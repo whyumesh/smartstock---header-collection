@@ -1,0 +1,255 @@
+{
+  "pdf_path": "pdfs\\10016614_20260102_190903_REPORT_7D414YJQB.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 111.73800659179688,
+      "y_max": 123.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=13"
+    },
+    {
+      "page_no": 2,
+      "y_min": 69.73797607421875,
+      "y_max": 81.43797302246094,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=12"
+    },
+    {
+      "page_no": 3,
+      "y_min": 80.23800659179688,
+      "y_max": 91.93800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "DIGENE",
+        "GEL",
+        "MINT",
+        "200Ml",
+        "-50",
+        "-5577.25",
+        "13385.52",
+        "4927.04",
+        "-9",
+        "-1003.91"
+      ],
+      "combined_confidence": 0.1579511241446725,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.6,
+      "data_validation_score": 0.7397556207233627,
+      "data_column_count_detected": 11
+    }
+  ],
+  "final_selected_header": [
+    "DIGENE",
+    "GEL",
+    "MINT",
+    "200Ml",
+    "-50",
+    "-5577.25",
+    "13385.52",
+    "4927.04",
+    "-9",
+    "-1003.91"
+  ],
+  "confidence": 0.1579511241446725,
+  "confidence_breakdown": {
+    "visual_score": 0.6,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.6,
+    "data_validation_score": 0.7397556207233627,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "DIGENE",
+      "GEL",
+      "MINT",
+      "200ML",
+      "-50",
+      "-5577.25",
+      "13385.52",
+      "4927.04",
+      "-9",
+      "-1003.91"
+    ],
+    "normalized": [
+      "DIGENE",
+      "GEL",
+      "MINT",
+      "200Ml",
+      "-50",
+      "-5577.25",
+      "13385.52",
+      "4927.04",
+      "-9",
+      "-1003.91"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "120",
+      "79",
+      "0"
+    ],
+    "data_column_count_detected": 11,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=10 data=11"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.1579511241446725,
+      "evidence_scores": {
+        "keyword_score": 0.1,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.7397556207233627,
+        "lexical_purity_score": 0.64,
+        "multi_page_presence_score": 0.25
+      },
+      "evidence_total": 0.5184389051808407,
+      "evidence_before_penalties": 0.5184389051808407
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8456470588235294
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "DIGENE",
+          "GEL",
+          "MINT",
+          "200Ml",
+          "-50",
+          "-5577.25",
+          "13385.52",
+          "4927.04",
+          "-9",
+          "-1003.91"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.7079511241446725
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "GANATON",
+          "OD",
+          "10'S",
+          "648.80",
+          "0.00",
+          "0.00",
+          "648.80"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.6987320728291317
+      },
+      {
+        "page_no": 3,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 11,
+        "combined_confidence": 0.8456470588235294
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 2,
+        "reason": "column_count_mismatch: header=7 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=7 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 3,
+        "reason": "column_count_mismatch: header=17 data=11 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=11 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "DIGENE",
+      "GEL",
+      "MINT",
+      "200Ml",
+      "-50",
+      "-5577.25",
+      "13385.52",
+      "4927.04",
+      "-9",
+      "-1003.91"
+    ]
+  }
+}

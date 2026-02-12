@@ -1,0 +1,192 @@
+{
+  "pdf_path": "pdfs\\10033295_20260104_185102_Sara Pharma DUPHALAC Dec 2025.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 184.29367065429688,
+      "y_max": 196.39735412597656,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=5"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "SUPPLIER",
+        "SUPPLIER",
+        "Product Name",
+        "Product Name",
+        "Product Name",
+        "Product Name",
+        "Op",
+        "Purchase",
+        "Purchase",
+        "SAL(Q+F)",
+        "(Q+F)"
+      ],
+      "combined_confidence": 0.27763636363636357,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.84,
+      "semantic_score": 0.8272727272727273,
+      "data_validation_score": 0.610909090909091,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "SUPPLIER",
+    "SUPPLIER",
+    "Product Name",
+    "Product Name",
+    "Product Name",
+    "Product Name",
+    "Op",
+    "Purchase",
+    "Purchase",
+    "SAL(Q+F)",
+    "(Q+F)"
+  ],
+  "confidence": 0.27763636363636357,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.84,
+    "semantic_score": 0.8272727272727273,
+    "data_validation_score": 0.610909090909091,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "SUPPLIER",
+      "SUPPLIER",
+      "NAME",
+      "NAME",
+      "PRODUCT",
+      "NAME",
+      "OPENING",
+      "PUR(Q+F)",
+      "PUR(Q+F)",
+      "SAL(Q+F)",
+      "(Q+F)"
+    ],
+    "normalized": [
+      "SUPPLIER",
+      "SUPPLIER",
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Op",
+      "Purchase",
+      "Purchase",
+      "SAL(Q+F)",
+      "(Q+F)"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "PRODUCT",
+          "NAME"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [
+      {
+        "split": "SUPPLIER",
+        "into": "SUPPLIER",
+        "interval_idx": 0
+      },
+      {
+        "split": "SUPPLIER",
+        "into": "SUPPLIER",
+        "interval_idx": 1
+      },
+      {
+        "split": "NAME",
+        "into": "NAME",
+        "interval_idx": 1
+      },
+      {
+        "split": "NAME",
+        "into": "NAME",
+        "interval_idx": 2
+      },
+      {
+        "split": "Product Name",
+        "into": "PRODUCT",
+        "interval_idx": 3
+      },
+      {
+        "split": "Product Name",
+        "into": "NAME",
+        "interval_idx": 4
+      },
+      {
+        "split": "PUR(Q+F)",
+        "into": "PUR(Q+F)",
+        "interval_idx": 6
+      },
+      {
+        "split": "PUR(Q+F)",
+        "into": "PUR(Q+F)",
+        "interval_idx": 7
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=11 data=10"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.27763636363636357,
+      "evidence_scores": {
+        "keyword_score": 0.7333333333333333,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.610909090909091,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.7735606060606061,
+      "evidence_before_penalties": 0.7735606060606061
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "SUPPLIER",
+          "SUPPLIER",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Op",
+          "Purchase",
+          "Purchase",
+          "SAL(Q+F)",
+          "(Q+F)"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.8276363636363636
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "SUPPLIER",
+      "SUPPLIER",
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Product Name",
+      "Op",
+      "Purchase",
+      "Purchase",
+      "SAL(Q+F)",
+      "(Q+F)"
+    ]
+  }
+}

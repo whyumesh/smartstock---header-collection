@@ -1,0 +1,418 @@
+{
+  "pdf_path": "pdfsamples\\10000281_20251211_142858_51823601.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 86.61199951171875,
+      "y_max": 97.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 1,
+      "y_min": 86.61199951171875,
+      "y_max": 97.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    },
+    {
+      "page_no": 2,
+      "y_min": 86.61199951171875,
+      "y_max": 97.85299682617188,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Pack",
+        "LstSL",
+        "LstSL",
+        "Op",
+        "Op",
+        "Recd.",
+        "Recd.",
+        "Sales",
+        "Sales",
+        "Cl",
+        "Cl",
+        "Order",
+        "Order",
+        "Pend",
+        "Pend",
+        "LstMove"
+      ],
+      "combined_confidence": 0.27243421052631567,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9868421052631579,
+      "data_validation_score": 0.600328947368421,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 1,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Pack",
+        "LstSL",
+        "LstSL",
+        "Op",
+        "Op",
+        "Recd.",
+        "Recd.",
+        "Sales",
+        "Sales",
+        "Cl",
+        "Cl",
+        "Order",
+        "Order",
+        "Pend",
+        "Pend",
+        "LstMove",
+        "LstMove"
+      ],
+      "combined_confidence": 0.2732430340557275,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9875,
+      "data_validation_score": 0.6037151702786377,
+      "data_column_count_detected": 12
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "Product Name",
+        "Product Name",
+        "Pack",
+        "Pack",
+        "LstSL",
+        "LstSL",
+        "Op",
+        "Op",
+        "Recd.",
+        "Recd.",
+        "Sales",
+        "Sales",
+        "Cl",
+        "Cl",
+        "Order",
+        "Order",
+        "Pend",
+        "Pend",
+        "LstMove"
+      ],
+      "combined_confidence": 0.2749458204334364,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.9868421052631579,
+      "data_validation_score": 0.6128869969040247,
+      "data_column_count_detected": 12
+    }
+  ],
+  "final_selected_header": [
+    "Product Name",
+    "Product Name",
+    "Pack",
+    "Pack",
+    "LstSL",
+    "LstSL",
+    "Op",
+    "Op",
+    "Recd.",
+    "Recd.",
+    "Sales",
+    "Sales",
+    "Cl",
+    "Cl",
+    "Order",
+    "Order",
+    "Pend",
+    "Pend",
+    "LstMove"
+  ],
+  "confidence": 0.2749458204334364,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.9868421052631579,
+    "data_validation_score": 0.6128869969040247,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Product",
+      "Name",
+      "Pack",
+      "Pack",
+      "LstSL",
+      "LstSL",
+      "Open",
+      "Open",
+      "Recd.",
+      "Recd.",
+      "Sales",
+      "Sales",
+      "Close",
+      "Close",
+      "Order",
+      "Order",
+      "Pend",
+      "Pend",
+      "LstMove"
+    ],
+    "normalized": [
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Pack",
+      "LstSL",
+      "LstSL",
+      "Op",
+      "Op",
+      "Recd.",
+      "Recd.",
+      "Sales",
+      "Sales",
+      "Cl",
+      "Cl",
+      "Order",
+      "Order",
+      "Pend",
+      "Pend",
+      "LstMove"
+    ],
+    "merge_operations_performed": [
+      {
+        "merged": [
+          "Product",
+          "Name"
+        ],
+        "into": "Product Name"
+      }
+    ],
+    "split_operations_performed": [
+      {
+        "split": "Product Name",
+        "into": "Product",
+        "interval_idx": 0
+      },
+      {
+        "split": "Product Name",
+        "into": "Name",
+        "interval_idx": 1
+      },
+      {
+        "split": "Pack",
+        "into": "Pack",
+        "interval_idx": 3
+      },
+      {
+        "split": "Pack",
+        "into": "Pack",
+        "interval_idx": 4
+      },
+      {
+        "split": "LstSL",
+        "into": "LstSL",
+        "interval_idx": 4
+      },
+      {
+        "split": "LstSL",
+        "into": "LstSL",
+        "interval_idx": 5
+      },
+      {
+        "split": "Open",
+        "into": "Open",
+        "interval_idx": 5
+      },
+      {
+        "split": "Open",
+        "into": "Open",
+        "interval_idx": 6
+      },
+      {
+        "split": "Recd.",
+        "into": "Recd.",
+        "interval_idx": 6
+      },
+      {
+        "split": "Recd.",
+        "into": "Recd.",
+        "interval_idx": 7
+      },
+      {
+        "split": "Sales",
+        "into": "Sales",
+        "interval_idx": 7
+      },
+      {
+        "split": "Sales",
+        "into": "Sales",
+        "interval_idx": 8
+      },
+      {
+        "split": "Close",
+        "into": "Close",
+        "interval_idx": 8
+      },
+      {
+        "split": "Close",
+        "into": "Close",
+        "interval_idx": 9
+      },
+      {
+        "split": "Order",
+        "into": "Order",
+        "interval_idx": 9
+      },
+      {
+        "split": "Order",
+        "into": "Order",
+        "interval_idx": 10
+      },
+      {
+        "split": "Pend",
+        "into": "Pend",
+        "interval_idx": 10
+      },
+      {
+        "split": "Pend",
+        "into": "Pend",
+        "interval_idx": 11
+      }
+    ],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 12,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok_header_ge_data: header=19 data=12"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "data_type_mismatch_penalty": 0.4
+      },
+      "adjusted_confidence": 0.2749458204334364,
+      "evidence_scores": {
+        "keyword_score": 1.0,
+        "column_alignment_score": 0.0,
+        "data_validation_score": 0.6128869969040247,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.5865550825593395,
+      "evidence_before_penalties": 0.5865550825593395
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "LstSL",
+          "LstSL",
+          "Op",
+          "Op",
+          "Recd.",
+          "Recd.",
+          "Sales",
+          "Sales",
+          "Cl",
+          "Cl",
+          "Order",
+          "Order",
+          "Pend",
+          "Pend",
+          "LstMove"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8224342105263157
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "LstSL",
+          "LstSL",
+          "Op",
+          "Op",
+          "Recd.",
+          "Recd.",
+          "Sales",
+          "Sales",
+          "Cl",
+          "Cl",
+          "Order",
+          "Order",
+          "Pend",
+          "Pend",
+          "LstMove",
+          "LstMove"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8232430340557275
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "LstSL",
+          "LstSL",
+          "Op",
+          "Op",
+          "Recd.",
+          "Recd.",
+          "Sales",
+          "Sales",
+          "Cl",
+          "Cl",
+          "Order",
+          "Order",
+          "Pend",
+          "Pend",
+          "LstMove"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8249458204334364
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Product Name",
+      "Product Name",
+      "Pack",
+      "Pack",
+      "LstSL",
+      "LstSL",
+      "Op",
+      "Op",
+      "Recd.",
+      "Recd.",
+      "Sales",
+      "Sales",
+      "Cl",
+      "Cl",
+      "Order",
+      "Order",
+      "Pend",
+      "Pend",
+      "LstMove"
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "pdf_path": "pdfs\\10013418_20251219_125456_Abbott statement Nov'25.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 90.39398193359375,
+      "y_max": 104.69398498535156,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=3"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 0,
+      "headers": [
+        "Stock",
+        "&",
+        "Sales",
+        "ANALYSIS",
+        "(Abbott",
+        "IND)",
+        "-"
+      ],
+      "combined_confidence": 0.5442467532467532,
+      "visual_score": 0.92,
+      "reconstruction_score": 0.8799999999999999,
+      "semantic_score": 0.6857142857142857,
+      "data_validation_score": 0.7855194805194804,
+      "data_column_count_detected": 7
+    }
+  ],
+  "final_selected_header": [
+    "Stock",
+    "&",
+    "Sales",
+    "ANALYSIS",
+    "(Abbott",
+    "IND)",
+    "-"
+  ],
+  "confidence": 0.5442467532467532,
+  "confidence_breakdown": {
+    "visual_score": 0.92,
+    "reconstruction_score": 0.8799999999999999,
+    "semantic_score": 0.6857142857142857,
+    "data_validation_score": 0.7855194805194804,
+    "consensus_score": 1.0
+  },
+  "debug": {
+    "reconstructed": [
+      "STOCK",
+      "&",
+      "SALES",
+      "ANALYSIS",
+      "(ABBOTT",
+      "IND)",
+      "-"
+    ],
+    "normalized": [
+      "Stock",
+      "&",
+      "Sales",
+      "ANALYSIS",
+      "(Abbott",
+      "IND)",
+      "-"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "01-11-2025",
+      "30-11-2025"
+    ],
+    "data_column_count_detected": 7,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=7 data=7"
+      },
+      "penalty_breakdown": {
+        "noise_word_penalty": 0.3
+      },
+      "adjusted_confidence": 0.5442467532467532,
+      "evidence_scores": {
+        "keyword_score": 0.6,
+        "column_alignment_score": 1.0,
+        "data_validation_score": 0.7855194805194804,
+        "lexical_purity_score": 0.92,
+        "multi_page_presence_score": 1.0
+      },
+      "evidence_total": 0.8343798701298701,
+      "evidence_before_penalties": 0.8343798701298701
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Stock",
+          "&",
+          "Sales",
+          "ANALYSIS",
+          "(Abbott",
+          "IND)",
+          "-"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.8442467532467531
+      }
+    ],
+    "rejected_candidates_reason": [],
+    "final_header_columns": [
+      "Stock",
+      "&",
+      "Sales",
+      "ANALYSIS",
+      "(Abbott",
+      "IND)",
+      "-"
+    ]
+  }
+}

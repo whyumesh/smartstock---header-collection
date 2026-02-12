@@ -1,0 +1,11 @@
+{
+  "pdf_path": "pdfs\\10024564_20260102_110331_02-01-26, 10_56 AM Microsoft Lens.pdf",
+  "header_zone_detected": null,
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_words"
+  }
+}

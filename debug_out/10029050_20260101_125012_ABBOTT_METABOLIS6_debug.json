@@ -1,0 +1,65 @@
+{
+  "pdf_path": "pdfs\\10029050_20260101_125012_ABBOTT METABOLIS6.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 97.632080078125,
+      "y_max": 103.05783081054688,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "PenOr",
+          "PenOr",
+          "Ord",
+          "Ord",
+          "Product Name",
+          "Product Name",
+          "Product Name",
+          "Pack",
+          "Pack",
+          "Op",
+          "Op",
+          "Rcpt",
+          "Rcpt",
+          "Sales",
+          "Sales",
+          "Free Quantity",
+          "Free Quantity",
+          "Amount",
+          "Amount",
+          "Cl",
+          "Cl",
+          "StkVl(Cst)",
+          "StkVl(Cst)",
+          "Age",
+          "Exp"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8136694444444444
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=25 data=17 diff=8",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=25 data=17 diff=8"
+          }
+        }
+      }
+    ]
+  }
+}

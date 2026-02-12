@@ -1,0 +1,212 @@
+{
+  "pdf_path": "pdfs\\10000889_20251203_101306_ABBOTT INDIA.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 132.73800659179688,
+      "y_max": 144.43800354003906,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=9"
+    },
+    {
+      "page_no": 1,
+      "y_min": 185.23800659179688,
+      "y_max": 196.93800354003906,
+      "confidence": 0.7,
+      "reason": "header_keywords=2 tokens=14"
+    },
+    {
+      "page_no": 2,
+      "y_min": 17.23797607421875,
+      "y_max": 28.937976837158203,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 2,
+      "headers": [
+        "ZOLFRESH",
+        "10Mg",
+        "TAB",
+        "15Tab",
+        "3337.95",
+        "-",
+        "0.00",
+        "2950.47",
+        "392.70"
+      ],
+      "combined_confidence": 0.10944444444444446,
+      "visual_score": 0.5,
+      "reconstruction_score": 0.96,
+      "semantic_score": 0.5888888888888889,
+      "data_validation_score": 0.6333333333333333,
+      "data_column_count_detected": 10
+    }
+  ],
+  "final_selected_header": [
+    "ZOLFRESH",
+    "10Mg",
+    "TAB",
+    "15Tab",
+    "3337.95",
+    "-",
+    "0.00",
+    "2950.47",
+    "392.70"
+  ],
+  "confidence": 0.10944444444444446,
+  "confidence_breakdown": {
+    "visual_score": 0.5,
+    "reconstruction_score": 0.96,
+    "semantic_score": 0.5888888888888889,
+    "data_validation_score": 0.6333333333333333,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "ZOLFRESH",
+      "10MG",
+      "TAB",
+      "15TAB",
+      "3337.95",
+      "-",
+      "0.00",
+      "2950.47",
+      "392.70"
+    ],
+    "normalized": [
+      "ZOLFRESH",
+      "10Mg",
+      "TAB",
+      "15Tab",
+      "3337.95",
+      "-",
+      "0.00",
+      "2950.47",
+      "392.70"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [
+      "34",
+      "30",
+      "4",
+      "4"
+    ],
+    "data_column_count_detected": 10,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "column_count_ok: header=9 data=10"
+      },
+      "penalty_breakdown": {
+        "merged_column_penalty": 0.15,
+        "noise_word_penalty": 0.4
+      },
+      "adjusted_confidence": 0.10944444444444446,
+      "evidence_scores": {
+        "keyword_score": 0.0,
+        "column_alignment_score": 0.75,
+        "data_validation_score": 0.6333333333333333,
+        "lexical_purity_score": 0.52,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.45716666666666667,
+      "evidence_before_penalties": 0.45716666666666667
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.8381176470588235
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "PROTHIADINE",
+          "50Mg",
+          "TAB",
+          "15Tab",
+          "2074.80",
+          "-",
+          "0.00",
+          "-",
+          "0.00",
+          "2074.80"
+        ],
+        "data_column_count_detected": 12,
+        "combined_confidence": 0.7266748422630003
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "ZOLFRESH",
+          "10Mg",
+          "TAB",
+          "15Tab",
+          "3337.95",
+          "-",
+          "0.00",
+          "2950.47",
+          "392.70"
+        ],
+        "data_column_count_detected": 10,
+        "combined_confidence": 0.6594444444444445
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=12 diff=5",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=12 diff=5"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=10 data=12 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=10 data=12 diff=2"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "ZOLFRESH",
+      "10Mg",
+      "TAB",
+      "15Tab",
+      "3337.95",
+      "-",
+      "0.00",
+      "2950.47",
+      "392.70"
+    ]
+  }
+}

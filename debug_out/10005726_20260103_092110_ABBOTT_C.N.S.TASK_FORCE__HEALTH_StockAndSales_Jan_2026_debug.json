@@ -1,0 +1,57 @@
+{
+  "pdf_path": "pdfs\\10005726_20260103_092110_ABBOTT(C.N.S.TASK FORCE) HEALTH_StockAndSales_Jan_2026.pdf",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 95.71025085449219,
+      "y_max": 103.47339630126953,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=11"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Tran",
+          "Recd.",
+          "Quantity",
+          "Quantity",
+          "Amount",
+          "Amount",
+          "Quantity"
+        ],
+        "data_column_count_detected": 20,
+        "combined_confidence": 0.9089915966386555
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=17 data=20 diff=3",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=17 data=20 diff=3"
+          }
+        }
+      }
+    ]
+  }
+}

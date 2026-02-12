@@ -1,0 +1,209 @@
+{
+  "pdf_path": "pdfs\\10034695_20260102_180104_MAXIMA.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 261.0958251953125,
+      "y_max": 273.101806640625,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=8"
+    },
+    {
+      "page_no": 1,
+      "y_min": 203.2689666748047,
+      "y_max": 215.2749786376953,
+      "confidence": 0.9,
+      "reason": "header_keywords=8 tokens=10"
+    },
+    {
+      "page_no": 2,
+      "y_min": 134.9540252685547,
+      "y_max": 146.9600372314453,
+      "confidence": 0.6,
+      "reason": "header_keywords=1 tokens=11"
+    }
+  ],
+  "raw_header_candidates": [
+    {
+      "page_no": 1,
+      "headers": [
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Quantity",
+        "Balance",
+        "Rate"
+      ],
+      "combined_confidence": 0.5680000000000001,
+      "visual_score": 0.9,
+      "reconstruction_score": 0.8999999999999999,
+      "semantic_score": 0.96,
+      "data_validation_score": 0.38,
+      "data_column_count_detected": 0
+    },
+    {
+      "page_no": 2,
+      "headers": [
+        "GRAND",
+        "Tot"
+      ],
+      "combined_confidence": 0.28500000000000003,
+      "visual_score": 0.6,
+      "reconstruction_score": 0.9199999999999999,
+      "semantic_score": 0.7749999999999999,
+      "data_validation_score": 0.5,
+      "data_column_count_detected": 0
+    }
+  ],
+  "final_selected_header": [
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Quantity",
+    "Balance",
+    "Rate"
+  ],
+  "confidence": 0.5680000000000001,
+  "confidence_breakdown": {
+    "visual_score": 0.9,
+    "reconstruction_score": 0.8999999999999999,
+    "semantic_score": 0.96,
+    "data_validation_score": 0.38,
+    "consensus_score": 0.5
+  },
+  "debug": {
+    "reconstructed": [
+      "Qty.",
+      "Qty.",
+      "Qty",
+      "Qty",
+      "Qty.",
+      "Qty.",
+      "Qty",
+      "Qty",
+      "Balance",
+      "Price"
+    ],
+    "normalized": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Balance",
+      "Rate"
+    ],
+    "merge_operations_performed": [],
+    "split_operations_performed": [],
+    "noise_tokens_removed": [],
+    "data_column_count_detected": 0,
+    "precision_evidence": {
+      "column_count_gate": {
+        "passed": true,
+        "reason": "no_data_to_compare"
+      },
+      "penalty_breakdown": {
+        "data_type_mismatch_penalty": 0.2
+      },
+      "adjusted_confidence": 0.5680000000000001,
+      "evidence_scores": {
+        "keyword_score": 0.9,
+        "column_alignment_score": 0.5,
+        "data_validation_score": 0.38,
+        "lexical_purity_score": 1.0,
+        "multi_page_presence_score": 0.3333333333333333
+      },
+      "evidence_total": 0.6283333333333333,
+      "evidence_before_penalties": 0.6283333333333333
+    },
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Balance",
+          "Rate"
+        ],
+        "data_column_count_detected": 13,
+        "combined_confidence": 0.8405789473684211
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Quantity",
+          "Balance",
+          "Rate"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.768
+      },
+      {
+        "page_no": 2,
+        "headers": [
+          "GRAND",
+          "Tot"
+        ],
+        "data_column_count_detected": 0,
+        "combined_confidence": 0.685
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=19 data=13 diff=6",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=19 data=13 diff=6"
+          }
+        }
+      }
+    ],
+    "final_header_columns": [
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Quantity",
+      "Balance",
+      "Rate"
+    ]
+  }
+}

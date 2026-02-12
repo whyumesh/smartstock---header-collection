@@ -1,0 +1,98 @@
+{
+  "pdf_path": "pdfs\\10012705_20260101_194822_REPORT_7D316D99X.PDF",
+  "header_zone_detected": [
+    {
+      "page_no": 0,
+      "y_min": 133.21798706054688,
+      "y_max": 141.0179901123047,
+      "confidence": 0.92,
+      "reason": "above_first_data_row_keywords=13"
+    },
+    {
+      "page_no": 1,
+      "y_min": 28.218017578125,
+      "y_max": 36.01801681518555,
+      "confidence": 0.5,
+      "reason": "largest_font_top"
+    }
+  ],
+  "raw_header_candidates": null,
+  "final_selected_header": null,
+  "confidence": 0.0,
+  "confidence_breakdown": {},
+  "debug": {
+    "reason": "no_header_candidates",
+    "candidate_header_rows": [
+      {
+        "page_no": 0,
+        "headers": [
+          "Product Name",
+          "Description",
+          "Op",
+          "Op",
+          "Sales",
+          "Sales",
+          "Sale",
+          "Sale",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Sales",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Purchase",
+          "Other",
+          "Other",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Closing",
+          "Expiry Date",
+          "Expiry Date",
+          "Expiry Date"
+        ],
+        "data_column_count_detected": 17,
+        "combined_confidence": 0.8431491072645496
+      },
+      {
+        "page_no": 1,
+        "headers": [
+          "ABBOTT",
+          "HEALTHCARE",
+          "PVT",
+          "HYDERABA",
+          "1829.00"
+        ],
+        "data_column_count_detected": 7,
+        "combined_confidence": 0.6568571428571429
+      }
+    ],
+    "rejected_candidates_reason": [
+      {
+        "page_no": 0,
+        "reason": "column_count_mismatch: header=29 data=17 diff=12",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=29 data=17 diff=12"
+          }
+        }
+      },
+      {
+        "page_no": 1,
+        "reason": "column_count_mismatch: header=5 data=7 diff=2",
+        "evidence_debug": {
+          "column_count_gate": {
+            "passed": false,
+            "reason": "column_count_mismatch: header=5 data=7 diff=2"
+          }
+        }
+      }
+    ]
+  }
+}
