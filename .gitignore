@@ -1,0 +1,25 @@
+# PDFs and Excel outputs (do not commit)
+pdfs/
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# Generated / debug output
+debug_out/
+debug_pdfsamples/
+analysis_out/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
